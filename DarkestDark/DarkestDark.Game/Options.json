@@ -1,0 +1,12 @@
+﻿[
+	{
+		"Name": "gloop",	
+		"Content": "This is much text.",
+		"Destination": "floop"
+	},
+	{
+		"Name": "floop",	
+		"Content": "This is so much text.",
+		"Destination": "gloop"
+	}
+]
