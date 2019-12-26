@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DarkestDark.CLI", "DarkestDark.CLI\DarkestDark.CLI.csproj", "{62B8052C-9ECB-482F-AA62-3473D9D229BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DarkestDark.CLI", "DarkestDark.CLI\DarkestDark.CLI.csproj", "{62B8052C-9ECB-482F-AA62-3473D9D229BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DarkestDark.Game", "DarkestDark.Game\DarkestDark.Game.csproj", "{054C0385-0F36-4B01-8117-09E782B62CD7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DarkestDark.Game", "DarkestDark.Game\DarkestDark.Game.csproj", "{054C0385-0F36-4B01-8117-09E782B62CD7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

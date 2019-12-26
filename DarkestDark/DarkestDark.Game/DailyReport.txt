@@ -1,0 +1,22 @@
+﻿-------
+Day 1:
+-------
+0. Visual stuio needed a big update. 
+
+1. I erased the submodule i made of the git.wiki
+
+2. I did git pull and got the Darkest dark project.
+
+3. I edited some text scripts (Not code).
+
+4. ERROR: Build didnt run.
+
+5. Errorlog said i need to get Newtonsoft json reader to run build.
+
+6. Google foo gave me instrusctions on how to get it through visual stuio interface.
+
+7. Newtonsoft installed successfully.
+
+8. try run build again. ERROR:  No compatible framework version available. log suggests:  installing Microsoft.NETCore.app, version 2.2.0
+
+## Thats all iv got for tonight. but 1st commit is now official! :D 
