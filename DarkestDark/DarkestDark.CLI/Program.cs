@@ -6,7 +6,7 @@ namespace DarkestDark.CLI
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("-=DARKEST DARK=- \n You are a badass inquisitor staning before a dark mansion. \n It is your duty to vanquish whatever evil lurks inside!" +
+            Console.WriteLine("-=DARKEST DARK=- \n You are a badass inquisitor standing before a dark mansion. \n It is your duty to vanquish whatever evil lurks inside!" +
                 "\n What do you do? \n 1. Open the door carefully \n 2.Kick down the door!" );
             var choice = Console.ReadLine();
             switch (choice)

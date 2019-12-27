@@ -1,4 +1,18 @@
-﻿-------
+﻿------
+Day 2:
+------
+0. I going to try and solve the issue from yesterday. the NETcore app thingy!
+
+1. So iv contacted master and he guided me on how to uodate the NET core stuff. Then we set the project to fit a specific version.
+
+2. Now shit works so i can move on.
+
+3. Iv decided to start writing documentation.
+
+4. So iv started an FRD from scratch.
+
+5. Time to git...
+-------
 Day 1:
 -------
 0. Visual stuio needed a big update. 
