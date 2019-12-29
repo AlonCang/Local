@@ -1,4 +1,16 @@
 ﻿------
+Day 4:
+------
+1. Did some ASCII art on Program.cs
+
+2. Expanded on the current code with another iteration of "switch".
+
+3. Reviwed State machine code from the examples of older lessons.
+
+4. Added goto startment with label to Program.cs
+
+5. Lets git.
+------
 Day 3:
 ------
 SATURADAY. So today i am a piece of shit and am not doing anything.
