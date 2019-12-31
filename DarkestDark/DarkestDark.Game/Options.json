@@ -1,12 +1,12 @@
 ﻿[
 	{
-		"Name": "gloop",	
+		"Name": "Option01",	
 		"Content": "This is much text.",
-		"Destination": "floop"
+		"Destination": "Destionation01"
 	},
 	{
-		"Name": "floop",	
+		"Name": "Option02",	
 		"Content": "This is so much text.",
-		"Destination": "gloop"
+		"Destination": "Destination02"
 	}
 ]

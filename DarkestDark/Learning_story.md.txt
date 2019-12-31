@@ -1,0 +1,180 @@
+__The purpose of this exercise is to look back at how i learned to play a video game and then deduce methodology
+for my study of programing.__ 
+
+# How i learned Mordhau
+
+## Lesson01 -  Introduction.
+
+* So i started by doing the built in tutorial to get a hang of the basic mechanics.
+	There wasnt much included in the tutorial, litterally just a quick touch on every single mechanic in the game:
+	
+	### About the game.
+	
+	Mordhau is a Real time PvP melee combat game. there are some ranged options but they are not the focus of the game.
+	This game is about dueling 1v1 and large scale battles. 
+	
+	#### Available Game Modes:
+	
+	* Duels: 1v1 fight practice. Win most duels to win game.
+	* Team battle: 10v10 rounds where each player has only 1 life.
+	* FrontLine: 32v32 mass skirmish. Control map points to make enemy team lose tickets faster.
+	* Invasion: 32v32 Objective based mass skirmish. Complete map objectives to win game.
+	* Battle royal: Free for all where each player has only 1 life.
+	* Horde: Play vs AI for practice. Defeat 21 waves to win game.
+	* Competitive: 1v1 duels with ranking system.
+	
+	### Movement.
+	
+	* You use the WASD keys to move around.
+	* You use the mouse to look around.
+	* There is a small arrow on the crosshair that moves with the mouse, the direction the arrow is pointing shows the direction from which your next attack will come.
+	  There are 7 directions of attack: Top left/right, Middle left/right, Low left/right and center (stab).
+	* Sprint: Hold SHIFT to sprint.
+	* Crouch: Hold Ctrl to crouch. Could possibly dodge an attack.
+	* Body manipulation: Looking up/down/left/right will change your positioning and even dodge attacks. 
+	* Footwork: Stepping in/out of fighting range during a fight.
+	* Positioning: Being aware of the fight around you. Locating good opportunities and avoiding getting caught "out of position".
+	
+	### Combat.
+	
+	* There is a Health bar: When Health = 0 you die and go to respawn.
+	* There is a Stamina bar: When Stamina = 0 you get disarmed + move slowly. 
+	* Swing to attack: Deal damage on impact. Taking damage during swing will cancel swing. A missed swing reduces stamina.
+	* Stab to attack: Deal damage on impact. Taking damage during stab will cancel stab. A missed stab reduces stamina.
+	* Kick to kick: Deal little damage + reduce enemy stamina. A missed kick reduces stamina. Kicking an enemy who holds a shield will stagger enemy for 1 sec.
+	* Block: block any attack that comes in for 0.5 seconds, cooldown = 1 seconds. You can block multiple attacks. You can quickly block after each successful block.
+	* Parry: If you attack during a succesful block, you willl launch a quick regular swing + taking damage during a parry does not stop the parry swing.
+	* Chamber: Using a mirrored attack on enemy attack will "slap" the attack away and launch a quick mirror attack. Costs more stamina than parry. 
+	* Morph: Your swing can morph into a stab and vise versa (to confuse enemy block timing).
+	* Clash: two perfectly timed attacks will "slide" off of each other and both launch a quick followup attack.
+	* Feint: Cancells an attack you just started. costs some stamina (also to confuse enemy block timing).
+    * Accel atk: You can use body manipulation to "lean into an attack", making the swing faster.
+	* Drag atk: You can use body manipulation to "lean away from an attack", making the attack slower.
+	
+	
+* __That was a lot to take in so i went into duels mode just to get a feel for the game.
+  Got shreked about 10 times and went to watch some videos about the game.
+  Went into FrontLine mode and got shreked about 30 times.__
+
+  Need to rest.
+
+
+## Lesson02 - Making a plan.
+
+  ### I needed a plan.
+ 
+  * So i decided to focus on mastering the basics. Just attacking and blocking + parry.
+	And that was all that i did for about 20 days of grind.
+	
+  * Then i started using Morphs in my fights. Took a while to get used to.
+	
+  * Then I started practicing on incorporating some Chambers into my fights.
+    After grinding that for another 10 days of grind i felt comfortable enough to try something new.
+	
+  * I started practicing adding feints into my fights.
+    After 10 more days of grind i started feeling confortable using feints.
+	
+  * I started using kicks but mostly against shield users as there are hardly any other options against them. 
+  
+  * By this point i have already incoporated accels and drags into my fights.
+  
+  * I am currently trying to incorporate Croucing into my fights.
+  
+  * I continued watching good players on my spare time to learn from them how to fight better.
+  
+  * I kept reading into specific weapons and tactics to broaden my understanding of the meta.
+  
+  
+ ## Lesson03 - Get in the flow.
+
+ ### Put it all together.
+	
+  __After my initial grind period was over i could now focus on gaining "Cruise mode".
+  I started playing without much focus. Just getting my muscle memory to take over while letting my brain slide away.
+  This means that i am not invested in the game, simply experiencing it with a calm mind until it becomes a second nature.
+  I am still at this point in my learning. At this point i am considered a slightly above average player.
+  This is due to my interest in learning the game.
+  From this point mastery is simply a matter of further practice and dedication.
+  Maybe one day i will be considered a very good player.__
+ 
+ 
+	
+# How i will learn programing.
+
+__I will now attempt to use a similar methodology for learning programming__
+
+## Lesson01 -  Introduction.
+
+__Lets see if i can break programming down like i did Mordhau__
+
+ ### About programming:
+ 
+ * So after reviewing general information i have decided to start by learning C# as my first programming language.
+   At this point all i know is that C# is a very well supported language that allows for a wide range to things
+  that you can do with it. Also using it will cement the founding ideas of programing for me.
+
+* It turns out that the field i am studying is far more immense when it comes to getting gud at it. There is literally an    infinite amount of information to get through. A plan is needed. 
+
+
+### Gathering data:
+
+* So i collected info about the field and have started cataloging my findings.
+ 
+## Conecpts in programing:
+__This list is very generic and lacks a lot of information. If its relevant i may continue to add to this file.__
+#### Math
+* The foundations of the natural sciences. The theoretical rules of engagement with the universe.
+* Theoretical mathematics.
+* Applied mathematics.
+* Lambda calculus.
+* Binary
+* Matrixes.
+* Graphs and graph theory
+
+#### Computer science
+
+* Hardware.
+* Software.
+* transistors.
+* Logic gates.
+* Modules.
+* Infrastructure.
+* Internet, servers & web. Cloud & big data
+* Simulated machines.
+
+#### Code
+
+* Code syntax & script rules.
+* Development environment (Visual studio).
+* Debugging.
+
+#### Auxiliary concepts, languages and programs
+
+* Command line console.
+* Bash.
+* git and all of its glory.
+* Data & database architecure.
+* Linux OS.
+* Stack overflow.
+* Google foo.
+* AI.
+ 
+
+### Lesson02 - Making a plan
+
+__So after collecting and cataloging all this info i need to make a plan so that i wont get lost in this endless pit of jargon and technical skills__
+
+* Getting the basics. I dabbled in each of the topics mentioned so as to get the lay of the land.
+* I also spend 18 onths working as a manual QA engineer in order to gain some field experience in the high tech world.
+* I decided to split my daily studying to different "classes".
+* __Renshu:__ I will drill things that i already know for the sake of embedding them in my brain.
+* __Shugio:__ I will spend time learning about new things.
+* __Project:__ I will invest time in advancing the Darkest Dark game.
+* __Meditation:__ I will reflect on all these things and improve the internelization of concepts.
+* __Time with Sensei:__ I will take any chance i have to be in senseis presence. I must cherish this time and make use of it.
+
+
+### Lesson03 - Getting in the flow.
+
+__Now that a plan is formed i seek to make this my lifestyle. code should in the least fill up 50% of my waking hours.__
+__Its time to GIT PUMPED. With time I assume that i will fall into the "flow" or into "cruise mode" where ill be breathing code casually as if it was never an issue. This will take time. It took me about 4 months to get into the flow of mordhau. Lets see how long it will take with programing.__
