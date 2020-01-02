@@ -1,4 +1,10 @@
-﻿
+﻿Thursday 02/01/2020:
+--------------------
+1. Practiced sorting algo's.
+2. Purchased an online c# course from Udemy. I need structure learning. I will add it to my current studies.
+3. I have spoken to my therapist about our conversation. He agrees with your insight and explained it to me in terms i could understand. Thank you for your wisdom and patience with me.
+
+
 Day 4:
 ------
 1. Did some ASCII art on Program.cs
