@@ -1,4 +1,8 @@
-﻿Thursday 02/01/2020:
+﻿Friday 03/01/2020:
+------------------
+Was involved with family all day. Am piece of shit and did no code.
+
+Thursday 02/01/2020:
 --------------------
 1. Practiced sorting algo's.
 2. Purchased an online c# course from Udemy. I need structure learning. I will add it to my current studies.
