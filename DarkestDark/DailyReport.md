@@ -1,4 +1,16 @@
-﻿Friday 03/01/2020:
+﻿Sunday 05/01/2020:
+------------------
+1. Finished 5 1st lessons of C# udemy course.
+2. Updated code with new class locations with its own json file.
+3. Had an insightful meditation.
+4. Overcame a panic attack during studying, then continued on to finish task by refocusing mind. 
+
+
+Saturday 04/01/2020:
+--------------------
+Am piece of shit. Did not git at all. SHAME!
+
+Friday 03/01/2020:
 ------------------
 Was involved with family all day. Am piece of shit and did no code.
 
