@@ -1,4 +1,15 @@
-﻿Sunday 05/01/2020:
+﻿Monday 06/01/2020:
+------------------
+1. Finished 5 more lessons of C# undemy course.
+2. Reviwed the state machine code and parsed the program tree.
+	Encountered issues when comparing it with my code.
+	1. Data structure on DarkestDark is still too primitive. Needs enhancement.
+	2. Json translation not incorporated to original state machine process.
+
+Have decided to rebuild data structure of darkest dark to fit the state machine flow + integrate json translation.
+Will require assistance tomorrow when have brain power to deal with.
+
+Sunday 05/01/2020:
 ------------------
 1. Finished 5 1st lessons of C# udemy course.
 2. Updated code with new class locations with its own json file.
