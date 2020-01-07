@@ -1,4 +1,11 @@
-﻿Monday 06/01/2020:
+﻿Teusday 07/01/2020:
+-------------------
+1. Finished another 5 lessons from udemy course.
+2. Added 3 classes to the DarkestDark project: State, Transition, StateRunner.
+3. Encountered bug in StateRunner. Please review comments on code.
+4. Data structure issues from yesterday still not addressed.
+
+Monday 06/01/2020:
 ------------------
 1. Finished 5 more lessons of C# undemy course.
 2. Reviwed the state machine code and parsed the program tree.
