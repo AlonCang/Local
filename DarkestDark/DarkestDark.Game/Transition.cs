@@ -4,28 +4,23 @@ using System.Text;
 
 namespace DarkestDark.Game
 {
-    public class Transition
-    {
-        // These are the class fields
-        public string Name;
-        public string Text;
-        public State Source;
-        public State Target;
+    /// <summary>
+    /// Transition represents Edges of the State Graph.
+    /// </summary>
+    public class Transition 
+    {        
+        public string Name;        
+        public string TargetName;
 
-        // This is a class method that recieves arguments that match those fields and assigns them all to those fields.
-        // It also adds these new saved values to Options file.
-        public Transition(string name, string text, State source, State target)
+        public Transition(string name, string targetName)
         {
-            Name = name;
-            Text = text;
-            Source = source;
-            Target = target;
-            Source.Options.Add(this);
+            Name = name;        
+            TargetName = targetName;            
         }
 
         public override string ToString()
         {
-            return $"{Name} to {Target.Name}";
+            return "{" + $"\"Name\": \"{Name}\", \"TargetName\": \"{TargetName}\"" + "}";
         }
     }
 }

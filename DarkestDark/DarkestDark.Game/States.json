@@ -1,0 +1,10 @@
+﻿[
+  {
+    "Name": "testState01",
+    "Transitions": [ "git gud", "git shat" ]
+  },
+  {
+    "Name": "testState02",
+    "Transitions": [ "smack", "git smacked" ]
+  }
+]

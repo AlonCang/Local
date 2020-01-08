@@ -1,0 +1,19 @@
+﻿[
+  {
+    "Name": "git gud",
+    "TargetName": "testState01"
+  },
+  {
+    "Name": "git shat",
+    "TargetName": "testState02"
+  },
+  {
+    "Name": "smack",
+    "TargetName": "testState01"
+  },
+  {
+    "Name": "git smacked",
+    "TargetName": "testState02"
+  }
+
+]

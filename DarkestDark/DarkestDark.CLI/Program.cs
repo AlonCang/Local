@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DarkestDark.Game;
+using System;
 
 namespace DarkestDark.CLI
 {
@@ -7,6 +8,10 @@ namespace DarkestDark.CLI
     {
         static void Main(string[] args)
         {
+            StateGraph.LoadStateGraph(
+                @"D:\Projects\Students\Alon_Tsang\Local\DarkestDark\DarkestDark.Game\States.json",
+                @"D:\Projects\Students\Alon_Tsang\Local\DarkestDark\DarkestDark.Game\Transitions.json");
+
         start1:;
             Console.WriteLine("==============================================================");
             Console.WriteLine("=======================-=DARKEST DARK=-======================= " +
