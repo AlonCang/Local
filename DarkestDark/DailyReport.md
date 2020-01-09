@@ -1,4 +1,18 @@
-﻿Teusday 07/01/2020:
+﻿Thursday 09/01/2020:
+--------------------
+1. Finished another 5 lessons from udemy course.
+2. Reviewed masters code.
+3. Did some tinkering to no avail.
+4. Cried to master. got advice.
+5. Attempted to follow advise to no avail.
+6. Will persist tomorrow.
+
+Wednesday 08/01/2020:
+---------------------
+1. Finished another 5 lessons from udemy course.
+2. Visited master for a study session.
+
+Teusday 07/01/2020:
 -------------------
 1. Finished another 5 lessons from udemy course.
 2. Added 3 classes to the DarkestDark project: State, Transition, StateRunner.

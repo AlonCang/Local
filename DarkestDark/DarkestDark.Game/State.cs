@@ -10,7 +10,6 @@ namespace DarkestDark.Game
 {
     public class State
     {
-        // I dont understand why is it that "trasition" is placed inside the <List>. 
         public string Name;
         public List<string> Transitions = new List<string>();
 
