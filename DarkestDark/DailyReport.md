@@ -1,4 +1,17 @@
-﻿Thursday 09/01/2020:
+﻿Sunday 12/01/2020:
+------------------
+1. Finished more udemy lessons. Halfway through beginners course.
+2. worked with master on Darkest Dark class instantiation.
+3. Brain is of dieded. But much prevail. Level up is imminent. 
+
+Saturday 11/01/2020:
+Did nothing. Ass broke.
+
+Friday 10/01/2020:
+------------------
+Did nothing. time broke.
+
+Thursday 09/01/2020:
 --------------------
 1. Finished another 5 lessons from udemy course.
 2. Reviewed masters code.
