@@ -1,10 +1,10 @@
 ﻿[
   {
-    "Name": "testState01",
-    "Transitions": [ "git gud", "git shat" ]
+    "Name": "Outside",
+    "Transitions": [ "open door", "kick door" ]
   },
   {
-    "Name": "testState02",
-    "Transitions": [ "smack", "git smacked" ]
+    "Name": "Inside",
+    "Transitions": [ "leave quietly", "leave dramatically" ]
   }
 ]

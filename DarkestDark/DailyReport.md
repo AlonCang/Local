@@ -1,4 +1,11 @@
-﻿Sunday 12/01/2020:
+﻿Monday: 13/01/2020:
+-------------------
+1. More udemy course lessons.
+2. Some udemy course practice assignments. Solving simple problems with code.
+3. reviewed yesterdays code. Man classes are crazy. And you said its a very simple exmaple... JESUS.
+4. Played a bit with the data members to see that i truely got the idea. also i fixed the funny var name you placed instead of "transitions".
+
+Sunday 12/01/2020:
 ------------------
 1. Finished more udemy lessons. Halfway through beginners course.
 2. worked with master on Darkest Dark class instantiation.

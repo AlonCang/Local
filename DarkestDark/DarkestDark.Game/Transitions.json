@@ -1,19 +1,19 @@
 ﻿[
   {
-    "Name": "git gud",
-    "TargetName": "testState01"
+    "Name": "open door",
+    "TargetName": "Inside"
   },
   {
-    "Name": "git shat",
-    "TargetName": "testState02"
+    "Name": "kick door",
+    "TargetName": "Inside"
   },
   {
-    "Name": "smack",
-    "TargetName": "testState01"
+    "Name": "leave quietly",
+    "TargetName": "Outside"
   },
   {
-    "Name": "git smacked",
-    "TargetName": "testState02"
+    "Name": "leave dramatically",
+    "TargetName": "Outside"
   }
 
 ]

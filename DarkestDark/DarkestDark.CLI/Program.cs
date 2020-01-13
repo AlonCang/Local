@@ -15,9 +15,9 @@ namespace DarkestDark.CLI
             foreach (var state in stateGraph.States.Values)
             {
                 Console.WriteLine(state.Name);
-                foreach (var tstr in state.Transitions)
+                foreach (var transition in state.Transitions)
                 {
-                    Console.WriteLine(" -> " + tstr + " : " + stateGraph.Transitions[tstr].TargetName);
+                    Console.WriteLine(" -> " + transition + " : " + stateGraph.Transitions[transition].TargetName);
                 }
             }
         }
