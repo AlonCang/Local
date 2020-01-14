@@ -1,19 +1,26 @@
 ﻿[
   {
     "Name": "open door",
-    "TargetName": "Inside"
+    "TargetName": "Entrance hall"
   },
   {
     "Name": "kick door",
-    "TargetName": "Inside"
+    "TargetName": "Entrance hall"
   },
   {
-    "Name": "leave quietly",
-    "TargetName": "Outside"
+    "Name": "Go to kitchen",
+    "TargetName": "Kitchen"
   },
   {
-    "Name": "leave dramatically",
+    "Name": "Go to living room",
+    "TargetName": "Living Room"
+  },
+  {
+    "Name": "Go back to entrance hall",
+    "TargetName": "Entrance Hall"
+  },
+  {
+    "Name": "Leave building",
     "TargetName": "Outside"
   }
-
 ]

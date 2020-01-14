@@ -1,4 +1,12 @@
-﻿Monday: 13/01/2020:
+﻿Teusday 14/01/2020:
+-------------------
+1. More udemy course lessons. Doing code excercises.
+2. Added more states and transitions. Would like to learn how to make states with more than 2 options.
+	I mean how to edit the json data conversion to include more arguments.
+3. Attempted to make a StateRunner class. Failed after a number of attempts.
+	Need further assistance.  
+
+Monday: 13/01/2020:
 -------------------
 1. More udemy course lessons.
 2. Some udemy course practice assignments. Solving simple problems with code.

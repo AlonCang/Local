@@ -4,7 +4,15 @@
     "Transitions": [ "open door", "kick door" ]
   },
   {
-    "Name": "Inside",
-    "Transitions": [ "leave quietly", "leave dramatically" ]
+    "Name": "Entrance Hall",
+    "Transitions": [ "Go to kitchen", "Go to living room" ]
+  },
+  {
+    "Name": "Kitchen",
+    "Transitions": [ "Go back to entrance hall", "Leave building" ]
+  },
+  {
+    "Name": "Living Room",
+    "Transitions": [ "Go back to entrance hall", "Leave building" ]
   }
 ]
