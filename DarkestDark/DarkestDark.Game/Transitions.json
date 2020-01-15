@@ -22,5 +22,9 @@
   {
     "Name": "Leave building",
     "TargetName": "Outside"
+  },
+  {
+    "Name": "Die",
+    "TargetName": "Kitchen"
   }
 ]

@@ -17,10 +17,16 @@ namespace DarkestDark.Game
         }
 
         public override string ToString()
-        {       
-            return "{" + $"\"Name\": \"{Name}\", " +
-                $"\"Transitions\": [ {string.Join(", ", Transitions.Select(t => $"\"{t}\""))} ]" + 
-                "}";
+        {
+            var result = "{" + $"\"Name\": \"{Name}\", ";
+            result += "\"Transitions\": [";
+            foreach (var t in Transitions)
+            {
+                result += $" \"{t}\",";
+            }
+            result = result.Substring(0, result.Length - 1);
+            result += " ] }";
+            return result;
         }
     }
 }

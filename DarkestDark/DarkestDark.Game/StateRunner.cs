@@ -17,31 +17,29 @@ namespace DarkestDark.Game
 {
     public class StateRunner
     {
+        public StateGraph Graph;
         public State CurrentState;
 
-        public StateRunner(State initialState)
+        public StateRunner(StateGraph graph, string initial)
         {
-            CurrentState = initialState;
+            Graph = graph;
+            CurrentState = graph.States[initial];
         }
 
-        public static StateRunner DisplayCurrentState(string statesPath, string transitionsPath)
+        public string GetCurrentState()
         {
-            var statesJson = File.ReadAllText(statesPath);
-            var states = JsonConvert.DeserializeObject<List<State>>(statesJson);
-            var transitionsJson = File.ReadAllText(transitionsPath);
-            var transitions = JsonConvert.DeserializeObject<List<Transition>>(transitionsJson);
+            return CurrentState.Name;
+        }
 
-            public Dictionary = new Dictionary<string states, string transitions>();
+        public List<string> GetCurrentTransitions()
+        {
+            return CurrentState.Transitions;
+        }
 
-            foreach (var state in states)
-            {
-                result.States[state.Name] = state;
-            }
-            foreach (var transition in transitions)
-            {
-                result.Transitions[transition.Name] = transition;
-            }
-            return result;
+        public void PerformTransition(string tn)
+        {
+            var targetState = Graph.Transitions[tn].TargetName;
+            CurrentState = Graph.States[targetState];
         }
     }
 }
