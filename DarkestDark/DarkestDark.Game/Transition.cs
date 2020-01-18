@@ -9,18 +9,20 @@ namespace DarkestDark.Game
     /// </summary>
     public class Transition 
     {        
-        public string Name;        
+        public string Name;
+        public string Text;
         public string TargetName;
 
-        public Transition(string name, string targetName)
+        public Transition(string name, string text, string targetName)
         {
-            Name = name;        
+            Name = name;
+            Text = text;
             TargetName = targetName;            
         }
 
         public override string ToString()
         {
-            return "{" + $"\"Name\": \"{Name}\", \"TargetName\": \"{TargetName}\"" + "}";
+            return "{" + $"\"Name\": \"{Name}\", \"Text\": \"{Text}\", \"TargetName\": \"{TargetName}\"" + "}";
         }
     }
 }

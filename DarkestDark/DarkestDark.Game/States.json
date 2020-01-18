@@ -1,18 +1,27 @@
 ﻿[
   {
     "Name": "Outside",
+    "Text": "You are outside of a big evil mansion. What do you do?",
     "Transitions": [ "open door", "kick door", "Die" ]
   },
   {
     "Name": "Entrance Hall",
+    "Text": "You are in the Entrance hall",
     "Transitions": [ "Go to kitchen", "Go to living room" ]
   },
   {
     "Name": "Kitchen",
+    "Text": "You are in the Kitchen",
     "Transitions": [ "Go back to entrance hall", "Leave building" ]
   },
   {
     "Name": "Living Room",
+    "Text": "You are in the Living room",
     "Transitions": [ "Go back to entrance hall", "Leave building" ]
+  },
+  {
+    "Name": "Death",
+    "Text": "You are now dead",
+    "Transitions": [ "Start over", "Stay dead" ]
   }
 ]

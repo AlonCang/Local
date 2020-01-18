@@ -1,4 +1,25 @@
-﻿Teusday 14/01/2020:
+﻿Saturday 18/01/2020:
+--------------------
+1. Reviewed masters code and teachings.
+2. Updated data structure with a new field "Text".
+3. Instanciated a stateRunner.
+4. Updated Program.cs with some manual simulation of the app.
+5. Need further abstraction now.  
+
+Friday 17/01/2020:
+------------------
+1. Technical difficulties with updating code.
+
+Thursday 16/01/2020:
+--------------------
+1. Busy day. No code.
+
+Wednesday 15/01/2020:
+---------------------
+1. More udemy course lessons. Doing code excercises.
+2. Visited master for a study session.
+
+Teusday 14/01/2020:
 -------------------
 1. More udemy course lessons. Doing code excercises.
 2. Added more states and transitions. Would like to learn how to make states with more than 2 options.

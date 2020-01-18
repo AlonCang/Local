@@ -1,30 +1,52 @@
 ﻿[
   {
     "Name": "open door",
-    "TargetName": "Entrance hall"
+    "Text": "You opened the door and stepped inside",
+    "TargetName": "Entrance Hall"
   },
   {
     "Name": "kick door",
-    "TargetName": "Entrance hall"
+    "Text": "You kicked down the door. you stepped inside",
+    "TargetName": "Entrance Hall"
   },
   {
     "Name": "Go to kitchen",
+    "Text": "You proceed to the kitchen",
     "TargetName": "Kitchen"
   },
   {
     "Name": "Go to living room",
+    "Text": "You proceed to the living room",
     "TargetName": "Living Room"
   },
   {
     "Name": "Go back to entrance hall",
+    "Text": "You proceed to the entrance hall",
     "TargetName": "Entrance Hall"
   },
   {
     "Name": "Leave building",
+    "Text": "You go outside",
+    "TargetName": "Outside"
+  },
+  {
+    "Name": "Start over",
+    "Text": "You have decided to become alive again",
+    "TargetName": "Outside"
+  },
+  {
+    "Name": "Stay dead",
+    "Text": "You dont care anymore",
+    "TargetName": "Death"
+  },
+  {
+    "Name": "Leave building",
+    "Text": "You go outside",
     "TargetName": "Outside"
   },
   {
     "Name": "Die",
-    "TargetName": "Kitchen"
+    "Text": "You decide to pass away for now",
+    "TargetName": "Death"
   }
 ]
