@@ -1,4 +1,11 @@
-﻿Saturday 18/01/2020:
+﻿Sunday 19/01/2020:
+------------------
+1. 5 more Umerdy lessons.
+2. reviewed my own code and tried to figure out a loop for the staterunner.
+   I know im supposed to utilize the functions master ha built into the statrunner.cs but the specifics elud me.
+3. Must grind my gears further! 
+
+Saturday 18/01/2020:
 --------------------
 1. Reviewed masters code and teachings.
 2. Updated data structure with a new field "Text".
