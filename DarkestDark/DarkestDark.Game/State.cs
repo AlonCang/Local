@@ -21,7 +21,7 @@ namespace DarkestDark.Game
         public override string ToString()
         {
             var result = "{" + $"\"Name\": \"{Name}\", ";
-            result += " " + $"\"Text\": \"{Text}\", ";
+            result += $"\"Text\": \"{Text}\", ";
             result += "\"Transitions\": [";
             foreach (var t in Transitions)
             {

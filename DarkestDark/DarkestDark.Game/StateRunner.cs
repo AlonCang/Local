@@ -29,10 +29,12 @@ namespace DarkestDark.Game
             return CurrentState.Transitions;
         }
 
-        public void PerformTransition(string transition)
+        public string PerformTransition(string transition)
         {
-            var targetState = Graph.Transitions[transition].TargetName;
+            Transition tobj = Graph.Transitions[transition];
+            var targetState = tobj.TargetName;
             CurrentState = Graph.States[targetState];
+            return tobj.Text;
         }
     }
 }
