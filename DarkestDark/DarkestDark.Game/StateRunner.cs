@@ -12,6 +12,7 @@ namespace DarkestDark.Game
     {
         public StateGraph Graph;
         public State CurrentState;
+        public bool IsGameOver;
 
         public StateRunner(StateGraph graph, string initial)
         {
@@ -21,7 +22,8 @@ namespace DarkestDark.Game
 
         public string GetCurrentState()
         {
-            return CurrentState.Name;
+            return $"[{CurrentState.Name}]\n" +
+                $"{CurrentState.Text}";
         }
 
         public List<string> GetCurrentTransitions()
@@ -31,10 +33,19 @@ namespace DarkestDark.Game
 
         public string PerformTransition(string transition)
         {
-            Transition tobj = Graph.Transitions[transition];
-            var targetState = tobj.TargetName;
-            CurrentState = Graph.States[targetState];
-            return tobj.Text;
+            if (Graph.Transitions.ContainsKey(transition))
+            {
+                Transition tobj = Graph.Transitions[transition];
+                var targetState = tobj.TargetName;
+                CurrentState = Graph.States[targetState];
+                if (tobj.Text == "quit")
+                {
+                    IsGameOver = true;
+                    return "Game is now over... Bitch...";
+                }
+                return tobj.Text;
+            }
+            return "Bad input. Try again";
         }
     }
 }

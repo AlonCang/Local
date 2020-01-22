@@ -36,7 +36,7 @@
   },
   {
     "Name": "Stay dead",
-    "Text": "You dont care anymore",
+    "Text": "quit",
     "TargetName": "Death"
   },
   {
