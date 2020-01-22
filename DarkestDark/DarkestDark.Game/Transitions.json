@@ -32,6 +32,7 @@
   {
     "Name": "Start over",
     "Text": "You have decided to become alive again",
+    "Items": [ "Skeleton Key" ],
     "TargetName": "Outside"
   },
   {
@@ -47,6 +48,12 @@
   {
     "Name": "Die",
     "Text": "You decide to pass away for now",
+    "TargetName": "Death"
+  },
+  {
+    "Name": "Secret room",
+    "Conditions": [ "Skeleton Key" ],
+    "Text": "You opened the secret door and stepped inside",
     "TargetName": "Death"
   }
 ]

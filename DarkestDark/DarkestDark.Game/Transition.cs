@@ -7,22 +7,35 @@ namespace DarkestDark.Game
     /// <summary>
     /// Transition represents Edges of the State Graph.
     /// </summary>
-    public class Transition 
-    {        
+    public class Transition
+    {
         public string Name;
         public string Text;
+        public List<string> Conditions;
+        public List<string> Items;
         public string TargetName;
-
-        public Transition(string name, string text, string targetName)
+        
+        public bool IsLegal(List<string> items)
         {
-            Name = name;
-            Text = text;
-            TargetName = targetName;            
+            if (Conditions != null)
+            {
+                foreach (var cond in Conditions)
+                {
+                    if (!items.Contains(cond))
+                    {
+                        return false;
+                    }
+                }
+            }
+            return true;
         }
 
         public override string ToString()
         {
-            return "{" + $"\"Name\": \"{Name}\", \"Text\": \"{Text}\", \"TargetName\": \"{TargetName}\"" + "}";
+            return "{" + $"\"Name\": \"{Name}\", " +
+                $"\"Text\": \"{Text}\", " +
+                $"\"Items\": [\"{string.Join(", ", Items)}\"], " +
+                $"\"TargetName\": \"{TargetName}\"" + "}";
         }
     }
 }

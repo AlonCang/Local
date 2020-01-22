@@ -17,7 +17,7 @@
   {
     "Name": "Living Room",
     "Text": "You are in the Living room",
-    "Transitions": [ "Go back to entrance hall", "Leave building" ]
+    "Transitions": [ "Go back to entrance hall", "Leave building", "Secret room" ]
   },
   {
     "Name": "Death",
