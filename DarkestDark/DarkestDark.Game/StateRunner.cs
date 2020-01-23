@@ -13,13 +13,13 @@ namespace DarkestDark.Game
         public StateGraph Graph;
         public State CurrentState;
         public bool IsGameOver;
-        public List<string> Items;
+        public Dictionary<string, int> Items;
 
         public StateRunner(StateGraph graph, string initial)
         {
             Graph = graph;
             CurrentState = graph.States[initial];
-            Items = new List<string>();
+            Items = new Dictionary<string, int>();
         }
 
         public string GetCurrentState()
@@ -61,8 +61,14 @@ namespace DarkestDark.Game
                 }
                 if (tobj.Items != null)
                 {
-                    Items.AddRange(tobj.Items);
-                    Items = Items.Distinct().ToList();
+                    foreach (var item in tobj.Items)
+                    {
+                        if (!Items.ContainsKey(item.Key))
+                        {
+                            Items[item.Key] = 0;
+                        }
+                        Items[item.Key] += item.Value;
+                    }                    
                 }
                 return tobj.Text;
             }

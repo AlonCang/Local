@@ -7,6 +7,7 @@
   {
     "Name": "kick door",
     "Text": "You kicked down the door. you stepped inside",
+    "Items":  {"Splinter": 3 },
     "TargetName": "Entrance Hall"
   },
   {
@@ -32,7 +33,7 @@
   {
     "Name": "Start over",
     "Text": "You have decided to become alive again",
-    "Items": [ "Skeleton Key" ],
+    "Items": { "Skeleton Key": 0 },
     "TargetName": "Outside"
   },
   {
@@ -52,7 +53,7 @@
   },
   {
     "Name": "Secret room",
-    "Conditions": [ "Skeleton Key" ],
+    "Conditions": { "Skeleton Key": 0 },
     "Text": "You opened the secret door and stepped inside",
     "TargetName": "Death"
   }

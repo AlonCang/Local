@@ -11,20 +11,21 @@ namespace DarkestDark.Game
     {
         public string Name;
         public string Text;
-        public List<string> Conditions;
-        public List<string> Items;
+        public Dictionary<string, int> Conditions;
+        public Dictionary<string, int> Items;
         public string TargetName;
-        
-        public bool IsLegal(List<string> items)
+
+        public bool IsLegal(Dictionary<string, int> items)
         {
             if (Conditions != null)
             {
                 foreach (var cond in Conditions)
                 {
-                    if (!items.Contains(cond))
+                    if (!items.ContainsKey(cond.Key))
                     {
                         return false;
                     }
+                    return items[cond.Key] >= cond.Value;
                 }
             }
             return true;
