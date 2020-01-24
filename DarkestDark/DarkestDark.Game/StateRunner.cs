@@ -24,8 +24,8 @@ namespace DarkestDark.Game
 
         public string GetCurrentState()
         {
-            return $"[{CurrentState.Name} with ({string.Join(", ", Items)})]\n" +
-                $"{CurrentState.Text}";
+            return "-------------------------------------------------------------------------\n" + $"[{CurrentState.Name} || INVENTORY: ({string.Join(", ", Items)})]\n" + "-------------------------------------------------------------------------\n" +
+                $"{CurrentState.Text}\n" + "-------------------------------------------------------------------------";
         }
 
         public List<string> GetCurrentTransitions()
