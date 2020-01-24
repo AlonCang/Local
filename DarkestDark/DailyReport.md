@@ -1,6 +1,34 @@
-﻿Sunday 19/01/2020:
+﻿Friday 24/01/2020:
 ------------------
-1. 5 more Umerdy lessons.
+1. Reviewed masters code.
+2. Sent my previous failed merge to the git stash to be forgotten by the ages.
+3. Sifted through my old projects for the Darkest Dark flavor and strucutre files.
+4. Implemented into the data structure in the json files.
+5. Encountered a number of bugs and some unpolished page layout issues.
+	-= BUG: When approaching the iron gate without having the key. Choosing to LEAVE ROOM ends up opening the gate anyway. Could not trace back the reason.
+6. GIT COMMIT -m + GIT PUSH!
+
+Thursday 23/01/2020:
+--------------------
+1. No code today. I suck.
+
+Wednesday 22/01/2020:
+---------------------
+1. Reviewed code and tried to improve stuff.
+2. commit failed because i had to perform a pull first.
+3. Visited master for a study session.
+
+Teusday 21/01/2020:
+-------------------
+1. A bit of Udemy but not much else.
+
+Monday 20/01/2020:
+------------------
+1. No code today. I suck.
+
+Sunday 19/01/2020:
+------------------
+1. 5 more Udemy lessons.
 2. reviewed my own code and tried to figure out a loop for the staterunner.
    I know im supposed to utilize the functions master ha built into the statrunner.cs but the specifics elud me.
 3. Must grind my gears further! 

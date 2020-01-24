@@ -1,27 +1,82 @@
 ﻿[
   {
     "Name": "Outside",
-    "Text": "You are outside of a big evil mansion. What do you do?",
-    "Transitions": [ "open door", "kick door", "Die" ]
+    "Text": "You are a badass holy inquisitor, here to banish evil. You carry with you a crossbow, a holy cross, a vial of holy water and a vial of flammable oil. Other than your wits these are your only weapons. You stand before the main entrance to the cursed dungeon where evil lurks. The large wooden door before you seems old and rotten. What do you do??",
+    "Transitions": [ "open the door slowly.", "kick down the door!" ]
   },
   {
     "Name": "Entrance Hall",
-    "Text": "You are in the Entrance hall",
-    "Transitions": [ "Go to kitchen", "Go to living room" ]
+    "Text": "Beyond the door is a circular wide room. The air is moldy and the floor is covered with dust. There are 3 doors leading away from the hall. What do you do?",
+    "Transitions": [ "Left door.", "Middle door.", "Right door." ]
+  },
+  {
+    "Name": "Entrance Hall2",
+    "Text": "You return to the entrance hall. What do you do?",
+    "Transitions": [ "Left door.", "Middle door.", "Right door." ]
   },
   {
     "Name": "Kitchen",
-    "Text": "You are in the Kitchen",
-    "Transitions": [ "Go back to entrance hall", "Leave building" ]
+    "Text": "You walk into what used to be a marvelous kitchen. Cobwebs and dust cover every part of the room. On the floor before you lies a corpse, chained to the large stone stove. The corpse is shriveled from decay and is… mumbling… What do you do?",
+    "Transitions": [ "Kneel next to the zombie and listen.", "Destroy this creature and relieve him from his torment." ]
   },
   {
-    "Name": "Living Room",
-    "Text": "You are in the Living room",
-    "Transitions": [ "Go back to entrance hall", "Leave building", "Secret room" ]
+    "Name": "Kitchen2",
+    "Text": "You return to the kitchen. the ashes remain on the floor. What do you do?",
+    "Transitions": [ "Search the ashes.", "Leave room." ]
   },
   {
-    "Name": "Death",
-    "Text": "You are now dead",
-    "Transitions": [ "Start over", "Stay dead" ]
+    "Name": "Living room",
+    "Text": "The old wooden door is barely hanging by one bent hinge, you push it ever so slightly and it falls flat on the chamber floor producing a loud THUD raisinga cloud of dust that fills the air. As soon as you take one step, the dust fog forms into a ghastly image releasing a foul scream and charging at you with horrid intent! What do you do?!",
+    "Transitions": [ "Hold your holy cross firmly before the ghast and recite a banishment prayer!", "Stand your ground. There is nothing to fear. God is on your side." ]
+  },
+  {
+    "Name": "Zombie destroyed",
+    "Text": "The zombie collapses into ashe. What do you do?",
+    "Transitions": [ "Search the ashes.", "Leave room." ]
+  },
+  {
+    "Name": "Find ring",
+    "Text": "You swipe the ashes with your boot and find what seems to be an engagement ring. It looks very valuable.",
+    "Transitions": [ "Leave room." ]
+  },
+  {
+    "Name": "Zombie Conversation",
+    "Text": "As you come closer to the zombie his mumbles become clearer: “Mistress… Im sorry. I tried to run away… I shouldn’t have tried to run away”. He has two bite marks on his neck. What do you do?",
+    "Transitions": [ "Destroy this creature and relieve him from his torment.", "Ask why he tried to run away." ]
+  },
+  {
+    "Name": "Closet room",
+    "Text": "The smell of wet leather fills the air. Before you are a few vacant coat hangers and a rotting wooden closet. What do you do?",
+    "Transitions": [ "Search the closet.", "Leave room." ]
+  },
+  {
+    "Name": "Iron gate",
+    "Text": "The iron gate is locked. Behind it is a flight of stairs leading down. What do you do?",
+    "Transitions": [ "Try the key.", "Leave room." ]
+  },
+  {
+    "Name": "Iron gate2",
+    "Text": "Now that the gate is open you can press on or search this floor some more. What do you do?",
+    "Transitions": [ "Go down the stairs.", "Leave room." ]
+  },
+  {
+    "Name": "Ring story",
+    "Text": "The mistress is looking for a groom! She must not find one! i have the ring! She must never find the ring! What do you do?",
+    "Transitions": [ "Destroy this creature and relieve him from his torment.", "Ask for the ring." ]
+  },
+  {
+    "Name": "Get ring",
+    "Text": "The zombie slowly reaches for his own abdomen and forces his hand inside, pushing through the soft and rotten flesh. He then pulls it out and hands you an adorned wedding ring.",
+    "Transitions": [ "Leave room." ]
+  },
+  {
+    "Name": "Ghast destroyed",
+    "Text": "As soon as you raise the cross the ghast darts away from its light. You continue reciting prayer as you advance at the ever shrinking cloud of evil. As you finish the prayer the cross lets out a blinding light, the ghast shrieks and vanishes into thin air. What do you do?",
+    "Transitions": [ "Move towards the iron gate at the far end of the room.", "Leave room." ]
+  },
+  {
+    "Name": "Ghast illusion",
+    "Text": "The ghast charges at you yet you stand firmly, staring into its glowing eyes. As it reaches you it disperses into thin air. Nothing but an illusion. What do you do?",
+    "Transitions": [ "Move towards the iron gate at the far end of the room.", "Leave room." ]
   }
 ]

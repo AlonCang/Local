@@ -1,60 +1,93 @@
 ﻿[
   {
-    "Name": "open door",
+    "Name": "open the door slowly.",
     "Text": "You opened the door and stepped inside",
     "TargetName": "Entrance Hall"
   },
   {
-    "Name": "kick door",
+    "Name": "kick down the door!",
     "Text": "You kicked down the door. you stepped inside",
-    "Items":  {"Splinter": 3 },
     "TargetName": "Entrance Hall"
   },
   {
-    "Name": "Go to kitchen",
-    "Text": "You proceed to the kitchen",
+    "Name": "Left door.",
+    "Text": "You enter what looks like a closet room",
+    "TargetName": "Closet room"
+  },
+  {
+    "Name": "Middle door.",
+    "Text": "You enter what looks like a closet room",
+    "TargetName": "Living room"
+  },
+  {
+    "Name": "Right door.",
+    "Text": "The door seems to be stuck, a quick yank of the handle loosens the hinges and the door swings open.",
     "TargetName": "Kitchen"
   },
   {
-    "Name": "Go to living room",
-    "Text": "You proceed to the living room",
-    "TargetName": "Living Room"
-  },
-  {
-    "Name": "Go back to entrance hall",
+    "Name": "Leave room.",
     "Text": "You proceed to the entrance hall",
-    "TargetName": "Entrance Hall"
+    "TargetName": "Entrance Hall2"
   },
   {
-    "Name": "Leave building",
-    "Text": "You go outside",
+    "Name": "Search the closet.",
+    "Text": "As you open the closet a cloud of moths fly out, a few stinking leather coats hang on frail hooks. You search the pockets and eventually find a KEY. There doesnt seem to be anything else of interest here so you return to the entrance hall",
+    "Items": { "Key": 1 },
+    "TargetName": "Entrance Hall2"
+  },
+  {
+    "Name": "Kneel next to the zombie and listen.",
+    "Text": "Holding your breath from the stench you step forward.",
+    "TargetName": "Zombie Conversation"
+  },
+  {
+    "Name": "Ask why he tried to run away.",
+    "Text": "As you speak to the zombie he suddenly erupts into a terrible growl.",
+    "TargetName": "Ring story"
+  },
+  {
+    "Name": "Ask for the ring.",
+    "Text": "You sternly ask the zombie for the ring.",
+    "Items": { "Ring": 1 },
+    "TargetName": "Get ring"
+  },
+  {
+    "Name": "Search the ashes.",
+    "Text": "There seems to be something in the zombies remains.",
+    "Items": { "Ring": 1 },
+    "TargetName": "Find ring"
+  },
+  {
+    "Name": "Destroy this creature and relieve him from his torment.",
+    "Text": "Standing over the mumbling undead, you recite a funeral prayer.",
+    "TargetName": "Zombie destroyed"
+  },
+  {
+    "Name": "Hold your holy cross firmly before the ghast and recite a banishment prayer!",
+    "Text": "",
+    "Items": { "Ghast defeated": 1 },
+    "TargetName": "Ghast destroyed"
+  },
+  {
+    "Name": "Stand your ground. There is nothing to fear. God is on your side.",
+    "Text": "",
+    "Items": { "Ghast defeated": 1 },
+    "TargetName": "Ghast illusion"
+  },
+  {
+    "Name": "Move towards the iron gate at the far end of the room.",
+    "Text": "You cross the decaying furniture to towards the gate.",
+    "TargetName": "Iron gate"
+  },
+  {
+    "Name": "Try the key.",
+    "Conditions": { "Key": 1 },
+    "Text": "The key fits and the gate opens with a slow heavy groan, the sound of its rusty hinges echos down the stairs. What do you do?",
+    "TargetName": "Iron gate2"
+  },
+  {
+    "Name": "Go down the stairs.",
+    "Text": "THIS LEADS TO THE NEXT LEVEL WHICH WILL NOT BECONSTRUCTED UNTIL FURTHER NOTICE. You can either type quit or continue testing.",
     "TargetName": "Outside"
-  },
-  {
-    "Name": "Start over",
-    "Text": "You have decided to become alive again",
-    "Items": { "Skeleton Key": 0 },
-    "TargetName": "Outside"
-  },
-  {
-    "Name": "Stay dead",
-    "Text": "quit",
-    "TargetName": "Death"
-  },
-  {
-    "Name": "Leave building",
-    "Text": "You go outside",
-    "TargetName": "Outside"
-  },
-  {
-    "Name": "Die",
-    "Text": "You decide to pass away for now",
-    "TargetName": "Death"
-  },
-  {
-    "Name": "Secret room",
-    "Conditions": { "Skeleton Key": 0 },
-    "Text": "You opened the secret door and stepped inside",
-    "TargetName": "Death"
   }
 ]
