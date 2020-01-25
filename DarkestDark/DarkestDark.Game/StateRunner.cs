@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using Newtonsoft.Json;
@@ -47,7 +47,7 @@ namespace DarkestDark.Game
                 && index > 0 
                 && index <= CurrentState.Transitions.Count)
             {
-                transition = CurrentState.Transitions[index-1];
+                transition = GetCurrentTransitions()[index-1];
             }
             if (Graph.Transitions.ContainsKey(transition))
             {
