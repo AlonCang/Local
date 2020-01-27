@@ -1,4 +1,19 @@
-﻿Friday 24/01/2020:
+﻿Monday 27/01/2020:
+------------------
+1. Git pull to review masters bug fix.
+2. Bug is indeed fixed. Cant really tell what changed in staterunner. How do i compare versions?
+3. I would like to introduce a built in mechanic for revisited rooms. So that completed scenes will not repeat themselves. How is design?
+4. Behold the code for my attempts.
+
+Sunday 26/01/2020:
+------------------
+1. No code. I is not well in body.
+
+Saturday 25/01/2020:
+--------------------
+1. No code today. Life is bitch.
+
+Friday 24/01/2020:
 ------------------
 1. Reviewed masters code.
 2. Sent my previous failed merge to the git stash to be forgotten by the ages.
