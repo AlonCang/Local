@@ -10,20 +10,39 @@ namespace DarkestDark.Game
         public Dictionary<string, State> States = new Dictionary<string, State>();
         public Dictionary<string, Transition> Transitions = new Dictionary<string, Transition>();
 
-        public static StateGraph LoadStateGraph(string statesPath, string transitionsPath)
+        private void AddStates(string statesPath)
         {
             var statesJson = File.ReadAllText(statesPath);
             var states = JsonConvert.DeserializeObject<List<State>>(statesJson);
-            var transitionsJson = File.ReadAllText(transitionsPath);
-            var transitions = JsonConvert.DeserializeObject<List<Transition>>(transitionsJson);
-            StateGraph result = new StateGraph();
             foreach (var state in states)
             {
-                result.States[state.Name] = state;
+                States[state.Name] = state;
             }
+
+        }
+        private void AddTransitions(string transitionsPath)
+        {
+            var transitionsJson = File.ReadAllText(transitionsPath);
+            var transitions = JsonConvert.DeserializeObject<List<Transition>>(transitionsJson);
             foreach (var transition in transitions)
             {
-                result.Transitions[transition.Name] = transition;
+                Transitions[transition.Name] = transition;
+            }
+        }
+
+        public static StateGraph LoadStateGraph(string statesDirPath, string transitionsDirPath)
+        {
+            StateGraph result = new StateGraph();
+            var statePaths = Directory.EnumerateFiles(statesDirPath, "*.json", SearchOption.AllDirectories);
+            foreach (var statePath in statePaths)
+            {
+                result.AddStates(statePath);
+            }
+
+            var transitionPaths = Directory.EnumerateFiles(transitionsDirPath, "*.json", SearchOption.AllDirectories);
+            foreach (var transitionPath in transitionPaths)
+            {
+                result.AddTransitions(transitionPath);
             }
             return result;
         }

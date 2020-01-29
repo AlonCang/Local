@@ -13,15 +13,15 @@ namespace DarkestDark.CLI
             if (args.Contains("Debug"))
             {
                 stateGraph = StateGraph.LoadStateGraph(
-                    @"..\..\..\..\DarkestDark.Game\MiniStates.json",
-                    @"..\..\..\..\DarkestDark.Game\MiniTransitions.json");
+                    @"..\..\..\..\DarkestDark.Data\Mini\States",
+                    @"..\..\..\..\DarkestDark.Data\Mini\Transitions");
                 runner = new StateRunner(stateGraph, "A");
             }
             else
             {
                 stateGraph = StateGraph.LoadStateGraph(
-                    @"..\..\..\..\DarkestDark.Game\States.json",
-                    @"..\..\..\..\DarkestDark.Game\Transitions.json");
+                    @"..\..\..\..\DarkestDark.Data\DarkestDark\States",
+                    @"..\..\..\..\DarkestDark.Data\DarkestDark\Transitions");
                 runner = new StateRunner(stateGraph, "Outside");
             }
             // Instantiate a state runner and set its initial state. 

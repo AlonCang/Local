@@ -10,21 +10,6 @@
     "TargetName": "Entrance Hall"
   },
   {
-    "Name": "Left door.",
-    "Text": "You enter what looks like a closet room",
-    "TargetName": "Closet room"
-  },
-  {
-    "Name": "Middle door.",
-    "Text": "You enter what looks like a closet room",
-    "TargetName": "Living room"
-  },
-  {
-    "Name": "Right door.",
-    "Text": "The door seems to be stuck, a quick yank of the handle loosens the hinges and the door swings open.",
-    "TargetName": "Kitchen"
-  },
-  {
     "Name": "Leave room.",
     "Text": "You proceed to the entrance hall",
     "TargetName": "Entrance Hall2"

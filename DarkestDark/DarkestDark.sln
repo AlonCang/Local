@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DarkestDark.CLI", "DarkestD
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DarkestDark.Game", "DarkestDark.Game\DarkestDark.Game.csproj", "{054C0385-0F36-4B01-8117-09E782B62CD7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DarkestDark.Data", "DarkestDark.Data\DarkestDark.Data.csproj", "{77135EF8-0E83-4664-B30F-9702D5DE2163}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{054C0385-0F36-4B01-8117-09E782B62CD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{054C0385-0F36-4B01-8117-09E782B62CD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{054C0385-0F36-4B01-8117-09E782B62CD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77135EF8-0E83-4664-B30F-9702D5DE2163}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77135EF8-0E83-4664-B30F-9702D5DE2163}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77135EF8-0E83-4664-B30F-9702D5DE2163}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77135EF8-0E83-4664-B30F-9702D5DE2163}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

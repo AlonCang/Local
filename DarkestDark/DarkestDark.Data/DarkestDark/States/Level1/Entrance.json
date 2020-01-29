@@ -1,0 +1,17 @@
+﻿[
+  {
+    "Name": "Outside",
+    "Text": "You are a badass holy inquisitor, here to banish evil. You carry with you a crossbow, a holy cross, a vial of holy water and a vial of flammable oil. Other than your wits these are your only weapons. You stand before the main entrance to the cursed dungeon where evil lurks. The large wooden door before you seems old and rotten. What do you do??",
+    "Transitions": [ "open the door slowly.", "kick down the door!" ]
+  },
+  {
+    "Name": "Entrance Hall",
+    "Text": "Beyond the door is a circular wide room. The air is moldy and the floor is covered with dust. There are 3 doors leading away from the hall. What do you do?",
+    "Transitions": [ "Left door.", "Middle door.", "Right door." ]
+  },
+  {
+    "Name": "Entrance Hall2",
+    "Text": "You return to the entrance hall. What do you do?",
+    "Transitions": [ "Left door.", "Middle door.", "Right door.", "Kitchen." ]
+  }
+]

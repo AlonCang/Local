@@ -20,6 +20,7 @@ namespace DarkestDark.Game
             Graph = graph;
             CurrentState = graph.States[initial];
             Items = new Dictionary<string, int>();
+            Items.Add(initial, 0);
         }
 
         public string GetCurrentState()
@@ -44,17 +45,22 @@ namespace DarkestDark.Game
         public string PerformTransition(string transition)
         {
             var legalTransitions = GetCurrentTransitions();
-            if (int.TryParse(transition, out int index) 
-                && index > 0 
+            if (int.TryParse(transition, out int index)
+                && index > 0
                 && index <= legalTransitions.Count)
             {
-                transition = legalTransitions[index-1];
+                transition = legalTransitions[index - 1];
             }
             if (Graph.Transitions.ContainsKey(transition))
             {
                 Transition tobj = Graph.Transitions[transition];
                 var targetState = tobj.TargetName;
                 CurrentState = Graph.States[targetState];
+                if (!Items.ContainsKey(targetState))
+                {
+                    Items.Add(targetState, 0);
+                }
+
                 if (tobj.Text == "quit")
                 {
                     IsGameOver = true;
@@ -69,7 +75,7 @@ namespace DarkestDark.Game
                             Items[item.Key] = 0;
                         }
                         Items[item.Key] += item.Value;
-                    }                    
+                    }
                 }
                 return tobj.Text;
             }

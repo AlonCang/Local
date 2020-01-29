@@ -1,8 +1,7 @@
 {
   "profiles": {
     "DarkestDark.CLI": {
-      "commandName": "Project",
-      "commandLineArgs": "Debug"
+      "commandName": "Project"
     }
   }
 }
