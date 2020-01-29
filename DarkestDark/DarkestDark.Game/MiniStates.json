@@ -1,17 +1,17 @@
 ﻿[
   {
-    "Name": "Entrance Hall2",
-    "Text": "You return to the entrance hall. What do you do?",
-    "Transitions": [ "Left door.", "Middle door.", "Right door." ]
+    "Name": "A",
+    "Text": "aaaaaaaaaaaaaaa",
+    "Transitions": [ "b", "bb" ]
   },
   {
-    "Name": "Iron gate",
-    "Text": "The iron gate is locked. Behind it is a flight of stairs leading down. What do you do?",
-    "Transitions": [ "Try the key.", "Leave room." ]
+    "Name": "B",
+    "Text": "bbbbbbbbbbbbb",
+    "Transitions": [ "a", "x" ]
   },
   {
-    "Name": "Iron gate2",
-    "Text": "Now that the gate is open you can press on or search this floor some more. What do you do?",
-    "Transitions": [ "Go down the stairs.", "Leave room." ]
+    "Name": "BB",
+    "Text": "2bbbbbbbbbbbbb",
+    "Transitions": [ "a" ]
   }
 ]

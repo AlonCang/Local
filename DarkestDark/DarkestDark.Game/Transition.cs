@@ -23,11 +23,25 @@ namespace DarkestDark.Game
             {
                 foreach (var cond in Conditions)
                 {
-                    if (!items.ContainsKey(cond.Key))
+                    bool isNeg = cond.Key.Contains('~');
+                    if(isNeg)
                     {
-                        return false;
+                        var key = cond.Key.Substring(1);
+                        if (!items.ContainsKey(key))
+                        {
+                            return true;
+                        }
+                        return items[key] < cond.Value;
                     }
-                    return items[cond.Key] >= cond.Value;
+                    else
+                    {
+                        if (!items.ContainsKey(cond.Key))
+                        {
+                            return false;
+                        }
+                        return items[cond.Key] >= cond.Value;
+                    }
+                    
                 }
             }
             return true;

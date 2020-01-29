@@ -15,7 +15,7 @@ namespace DarkestDark.CLI
                 stateGraph = StateGraph.LoadStateGraph(
                     @"..\..\..\..\DarkestDark.Game\MiniStates.json",
                     @"..\..\..\..\DarkestDark.Game\MiniTransitions.json");
-                runner = new StateRunner(stateGraph, "Iron gate");
+                runner = new StateRunner(stateGraph, "A");
             }
             else
             {

@@ -1,18 +1,26 @@
 ﻿[
   {
-    "Name": "Leave room.",
-    "Text": "You proceed to the entrance hall",
-    "TargetName": "Entrance Hall2"
+    "Name": "a",
+    "Text": "a",
+    "TargetName": "A"
   },
   {
-    "Name": "Try the key.",
-    "Conditions": { "Key": 1 },
-    "Text": "The key fits and the gate opens with a slow heavy groan, the sound of its rusty hinges echos down the stairs. What do you do?",
-    "TargetName": "Iron gate2"
+    "Name": "b",
+    "Text": "b",
+    "TargetName": "B",
+    "Conditions": {"~X": 0 }
+
   },
   {
-    "Name": "Go down the stairs.",
-    "Text": "THIS LEADS TO THE NEXT LEVEL WHICH WILL NOT BECONSTRUCTED UNTIL FURTHER NOTICE. You can either type quit or continue testing.",
-    "TargetName": "Outside"
+    "Name": "bb",
+    "Text": "bb",
+    "TargetName": "BB",
+    "Conditions": { "X": 0 }
+  },
+  {
+    "Name": "x",
+    "Text": "x",
+    "TargetName": "A",
+    "Items": { "X": 0 }
   }
 ]
