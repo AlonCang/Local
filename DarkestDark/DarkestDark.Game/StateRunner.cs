@@ -43,11 +43,12 @@ namespace DarkestDark.Game
 
         public string PerformTransition(string transition)
         {
+            var legalTransitions = GetCurrentTransitions();
             if (int.TryParse(transition, out int index) 
                 && index > 0 
-                && index <= CurrentState.Transitions.Count)
+                && index <= legalTransitions.Count)
             {
-                transition = GetCurrentTransitions()[index-1];
+                transition = legalTransitions[index-1];
             }
             if (Graph.Transitions.ContainsKey(transition))
             {
