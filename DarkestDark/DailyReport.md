@@ -1,4 +1,63 @@
-﻿Monday 27/01/2020:
+﻿Monday 10/02/2020:
+------------------------
+1. Reviewed previous commits from master.
+2. Attempted to edit json file "Hall". Now bug occurs. 
+3. Attempting to understand new data structure. So far not much. Will need masters wisdom. 
+
+Sunday 09/02/2020:
+------------------------
+1. I am become puddle. Spent the day collecting the shards of self.
+2. Am ok now. Pressing forward.
+
+Saturday 08/02/2020:
+------------------------
+1. A different friend in need
+
+Friday 07/02/2020:
+------------------------
+1. A friend in need.
+
+Thursday 06/02/2020:
+------------------------
+1. Death due to indigestion
+
+Wednesday 05/02/2020:
+------------------------
+1. Visited master for a study session.
+
+Teusday 04/02/2020:
+------------------------
+1. Death due to domestic dispute
+
+Monday 03/02/2020:
+------------------------
+1. Death due to domestic dispute
+
+Sunday 02/02/2020:
+------------------------
+1. FACTORIO IS WIFE!
+
+Saturday 01/02/2020:
+------------------------
+1. FACTORIO IS LIFE!
+
+Friday 31/01/2020:
+------------------------
+1. FACTORIO IS LOVE.
+
+Thursday 30/01/2020:
+------------------------
+1. Got factorio
+
+Wednesday 29/01/2020:
+------------------------
+1. Visited master for a study session.
+
+Teusday 28/01/2020:
+------------------------
+SHITE!
+
+Monday 27/01/2020:
 ------------------
 1. Git pull to review masters bug fix.
 2. Bug is indeed fixed. Cant really tell what changed in staterunner. How do i compare versions?

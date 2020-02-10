@@ -2,11 +2,25 @@
   {
     "Name": "Left door.",
     "Text": "You enter what looks like a closet room",
+    "Conditions": { "~Closet room": 0 },
+    "TargetName": "Closet room"
+  },
+  {
+    "Name": "Closet room",
+    "Text": "You return to the closet room",
+    "Conditions": { "Closet room": 0 },
     "TargetName": "Closet room"
   },
   {
     "Name": "Middle door.",
     "Text": "You enter what looks like a closet room",
+    "Conditions": { "~Living room": 0 },
+    "TargetName": "Living room"
+  },
+  {
+    "Name": "Living door.",
+    "Text": "You enter what looks like a closet room",
+    "Conditions": { "Living room": 0 },
     "TargetName": "Living room"
   },
   {
@@ -18,7 +32,7 @@
   {
     "Name": "Kitchen.",
     "Text": "You are back in the kitchen.",
-    "Conditions": {"Kitchen": 0},
+    "Conditions": { "Kitchen": 0 },
     "TargetName": "Kitchen"
   }
 ]
