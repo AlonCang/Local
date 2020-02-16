@@ -7,11 +7,11 @@
   {
     "Name": "Entrance Hall",
     "Text": "Beyond the door is a circular wide room. The air is moldy and the floor is covered with dust. There are 3 doors leading away from the hall. What do you do?",
-    "Transitions": [ "Left door.", "Middle door.", "Right door." ]
+    "Transitions": [ "Left door", "Closet room", "Middle door", "Living room", "Right door", "Kitchen" ]
   },
   {
     "Name": "Entrance Hall2",
     "Text": "You return to the entrance hall. What do you do?",
-    "Transitions": [ "Left door.", "Middle door.", "Right door.", "Kitchen." ]
+    "Transitions": [ "Left door", "Closet room", "Middle door", "Living room", "Right door", "Kitchen" ]
   }
 ]

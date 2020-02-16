@@ -30,11 +30,6 @@
     "Transitions": [ "Destroy this creature and relieve him from his torment.", "Ask why he tried to run away." ]
   },
   {
-    "Name": "Closet room",
-    "Text": "The smell of wet leather fills the air. Before you are a few vacant coat hangers and a rotting wooden closet. What do you do?",
-    "Transitions": [ "Search the closet.", "Leave room." ]
-  },
-  {
     "Name": "Iron gate",
     "Text": "The iron gate is locked. Behind it is a flight of stairs leading down. What do you do?",
     "Transitions": [ "Try the key.", "Leave room." ]

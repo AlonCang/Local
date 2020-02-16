@@ -1,0 +1,7 @@
+﻿[
+  {
+    "Name": "Closet room",
+    "Text": "The smell of wet leather fills the air. Before you are a few vacant coat hangers and a rotting wooden closet. What do you do?",
+    "Transitions": [ "Search the closet.", "Leave room." ]
+  }
+]

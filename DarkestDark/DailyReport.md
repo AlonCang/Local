@@ -1,4 +1,35 @@
-﻿Monday 10/02/2020:
+﻿Sunday 16/02/2020:
+-----------------------
+1. Factorio late game is annoying but im getting the hang of. Need to clear many bugs away from uranium ore so i can go nuclear.
+2. Applied the fx you showed me to the code. Added another json file for the closet room.
+3. I tried setting a condition on the "Search the closet" transition so it would only appear when item "Key" = 0. But it didnt work. I reverted it to avoid bugs.
+4. Git push!
+5. Its time i started digging into lambda multiplication.
+
+Saturday 15/02/2020:
+-------------------------
+1. Spent all day with family.
+
+Friday 14/02/2020:
+---------------------
+1. Factorio late game is a lot to take in.
+2. More lambda practice.
+
+Thursday 13/02/2020:
+-------------------------
+1. Relationships are hard. No code.
+2. Practiced parsing lambda expressions. 
+
+Wednesday 12/02/2020:
+----------------------------
+1. Visited master for a study session.
+
+Teusday 11/02/2020:
+------------------------
+1. No code. Only death.
+
+
+Monday 10/02/2020:
 ------------------------
 1. Reviewed previous commits from master.
 2. Attempted to edit json file "Hall". Now bug occurs. 

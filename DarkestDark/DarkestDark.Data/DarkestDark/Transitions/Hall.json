@@ -1,6 +1,6 @@
 ﻿[
   {
-    "Name": "Left door.",
+    "Name": "Left door",
     "Text": "You enter what looks like a closet room",
     "Conditions": { "~Closet room": 0 },
     "TargetName": "Closet room"
@@ -12,25 +12,25 @@
     "TargetName": "Closet room"
   },
   {
-    "Name": "Middle door.",
-    "Text": "You enter what looks like a closet room",
+    "Name": "Middle door",
+    "Text": "You enter the living room",
     "Conditions": { "~Living room": 0 },
     "TargetName": "Living room"
   },
   {
-    "Name": "Living door.",
-    "Text": "You enter what looks like a closet room",
+    "Name": "Living room",
+    "Text": "You return to the living room",
     "Conditions": { "Living room": 0 },
     "TargetName": "Living room"
   },
   {
-    "Name": "Right door.",
+    "Name": "Right door",
     "Text": "The door seems to be stuck, a quick yank of the handle loosens the hinges and the door swings open.",
     "Conditions": { "~Kitchen": 0 },
     "TargetName": "Kitchen"
   },
   {
-    "Name": "Kitchen.",
+    "Name": "Kitchen",
     "Text": "You are back in the kitchen.",
     "Conditions": { "Kitchen": 0 },
     "TargetName": "Kitchen"
