@@ -20,8 +20,10 @@
   {
     "Name": "Living room",
     "Text": "You return to the living room",
-    "Conditions": { "Living room": 0 },
-    "TargetName": "Living room"
+    "Conditions": {
+      "Ghast defeated": 1
+    },
+    "TargetName": "Living room2"
   },
   {
     "Name": "Right door",

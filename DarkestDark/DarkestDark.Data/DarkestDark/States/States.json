@@ -8,12 +8,7 @@
     "Name": "Kitchen2",
     "Text": "You return to the kitchen. the ashes remain on the floor. What do you do?",
     "Transitions": [ "Search the ashes.", "Leave room." ]
-  },
-  {
-    "Name": "Living room",
-    "Text": "The old wooden door is barely hanging by one bent hinge, you push it ever so slightly and it falls flat on the chamber floor producing a loud THUD raisinga cloud of dust that fills the air. As soon as you take one step, the dust fog forms into a ghastly image releasing a foul scream and charging at you with horrid intent! What do you do?!",
-    "Transitions": [ "Hold your holy cross firmly before the ghast and recite a banishment prayer!", "Stand your ground. There is nothing to fear. God is on your side." ]
-  },
+  },  
   {
     "Name": "Zombie destroyed",
     "Text": "The zombie collapses into ashe. What do you do?",
@@ -30,16 +25,6 @@
     "Transitions": [ "Destroy this creature and relieve him from his torment.", "Ask why he tried to run away." ]
   },
   {
-    "Name": "Iron gate",
-    "Text": "The iron gate is locked. Behind it is a flight of stairs leading down. What do you do?",
-    "Transitions": [ "Try the key.", "Leave room." ]
-  },
-  {
-    "Name": "Iron gate2",
-    "Text": "Now that the gate is open you can press on or search this floor some more. What do you do?",
-    "Transitions": [ "Go down the stairs.", "Leave room." ]
-  },
-  {
     "Name": "Ring story",
     "Text": "The mistress is looking for a groom! She must not find one! i have the ring! She must never find the ring! What do you do?",
     "Transitions": [ "Destroy this creature and relieve him from his torment.", "Ask for the ring." ]
@@ -48,15 +33,5 @@
     "Name": "Get ring",
     "Text": "The zombie slowly reaches for his own abdomen and forces his hand inside, pushing through the soft and rotten flesh. He then pulls it out and hands you an adorned wedding ring.",
     "Transitions": [ "Leave room." ]
-  },
-  {
-    "Name": "Ghast destroyed",
-    "Text": "As soon as you raise the cross the ghast darts away from its light. You continue reciting prayer as you advance at the ever shrinking cloud of evil. As you finish the prayer the cross lets out a blinding light, the ghast shrieks and vanishes into thin air. What do you do?",
-    "Transitions": [ "Move towards the iron gate at the far end of the room.", "Leave room." ]
-  },
-  {
-    "Name": "Ghast illusion",
-    "Text": "The ghast charges at you yet you stand firmly, staring into its glowing eyes. As it reaches you it disperses into thin air. Nothing but an illusion. What do you do?",
-    "Transitions": [ "Move towards the iron gate at the far end of the room.", "Leave room." ]
   }
 ]

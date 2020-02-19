@@ -1,0 +1,32 @@
+[
+  {
+    "Name": "Iron gate",
+    "Text": "The iron gate is locked. Behind it is a flight of stairs leading down. What do you do?",
+    "Transitions": [ "Try the key.", "Leave room." ]
+  },
+  {
+    "Name": "Iron gate2",
+    "Text": "Now that the gate is open you can press on or search this floor some more. What do you do?",
+    "Transitions": [ "Go down the stairs.", "Leave room." ]
+  },
+  {
+    "Name": "Living room",
+    "Text": "The old wooden door is barely hanging by one bent hinge, you push it ever so slightly and it falls flat on the chamber floor producing a loud THUD raisinga cloud of dust that fills the air. As soon as you take one step, the dust fog forms into a ghastly image releasing a foul scream and charging at you with horrid intent! What do you do?!",
+    "Transitions": [ "Hold your holy cross firmly before the ghast and recite a banishment prayer!", "Stand your ground. There is nothing to fear. God is on your side." ]
+  },
+  {
+    "Name": "Living room2",
+    "Text": "You have returned to the living room.",
+    "Transitions": [ "Move towards the iron gate at the far end of the room.", "Leave room." ]
+  },
+  {
+    "Name": "Ghast destroyed",
+    "Text": "As soon as you raise the cross the ghast darts away from its light. You continue reciting prayer as you advance at the ever shrinking cloud of evil. As you finish the prayer the cross lets out a blinding light, the ghast shrieks and vanishes into thin air. What do you do?",
+    "Transitions": [ "Move towards the iron gate at the far end of the room.", "Leave room." ]
+  },
+  {
+    "Name": "Ghast illusion",
+    "Text": "The ghast charges at you yet you stand firmly, staring into its glowing eyes. As it reaches you it disperses into thin air. Nothing but an illusion. What do you do?",
+    "Transitions": [ "Move towards the iron gate at the far end of the room.", "Leave room." ]
+  }
+]
