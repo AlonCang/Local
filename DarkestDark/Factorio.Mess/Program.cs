@@ -1,27 +1,28 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Factorio.Mess
 {
-    public class Buildings
+    public class Builder
     {
-        public static Building BuildCoalDrill()
+        public Building BuildCoalDrill()
         {
             return new CoalDrill();
         }
 
-        public static Building BuildIronDrill()
+        public Building BuildIronDrill()
         {
             return new IronDrill();
         }
     }
-    public class Mining
+    public class Miner
     {
-        public static Resource MineCoal()
+        public Resource MineCoal()
         {
             return new Coal();
         }
 
-        public static Resource MineIron()
+        public Resource MineIron()
         {
             return new Iron();
         }
@@ -30,31 +31,44 @@ namespace Factorio.Mess
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("This is mining simulator. Drill for resources or build a drill?\n" +
-                "1. Drill manually like bitch\n" +
-                "2. Build drill like boss");
-            var c = Console.ReadLine();
-            if (c == "2")
+            Miner miner = new Miner();
+            Builder builder = new Builder();
+            var buildings = new Dictionary<Building, int>();
+            var resources = new Dictionary<Resource, int>();
+
+            while (true)
             {
-                Console.WriteLine("Would you like to build a coal or an iron drill?\n" +
-                    "1. Coal drill \n" +
-                    "2. Iron drill");
-                var c2 = Console.ReadLine();
-                if (c2 == "2")
+                Console.WriteLine("This is mining simulator. Drill for resources or build a drill?\n" +
+                    "1. Drill manually like bitch\n" +
+                    "2. Build drill like boss");
+                var c = Console.ReadLine();
+                if (c == "2")
                 {
-                    var result2 = Buildings.BuildIronDrill();
-                    Console.WriteLine($"You no have 1 {result2.Name}");
+                    Console.WriteLine("Would you like to build a coal or an iron drill?\n" +
+                        "1. Coal drill \n" +
+                        "2. Iron drill");
+                    var c2 = Console.ReadLine();
+                    if (c2 == "2")
+                    {
+                        var result2 = builder.BuildIronDrill();
+                        Console.WriteLine($"You no have 1 {result2.Name}");
+                    }
+                    else
+                    {
+                        var result2 = builder.BuildCoalDrill();
+                        Console.WriteLine($"You no have 1 {result2.Name}");
+                    }
                 }
                 else
                 {
-                    var result2 = Buildings.BuildCoalDrill();
-                    Console.WriteLine($"You no have 1 {result2.Name}");
+                    var result = miner.MineCoal();
+                    if (!resources.ContainsKey(result))
+                    {
+                        resources.Add(result, 0);
+                    }
+                    resources[result]++;
+                    Console.WriteLine($"You now have {resources[result]} {result.Name}");
                 }
-            }
-            else
-            {
-                var result = Mining.MineCoal();
-                Console.WriteLine($"You now have 1 {result.Name}");
             }
         }
     }
@@ -65,6 +79,20 @@ namespace Factorio.Mess
         public Resource(string name)
         {
             this.Name = name;
+        }
+
+        public override int GetHashCode()
+        {
+            return Name.GetHashCode();
+        }
+
+        public override bool Equals(object obj)
+        {
+            if (obj is Resource res)
+            {
+                return Name.Equals(res.Name);
+            }
+            return false;
         }
     }
 
@@ -85,6 +113,15 @@ namespace Factorio.Mess
         public Building(string name)
         {
             this.Name = name;
+        }
+
+        public override int GetHashCode()
+        {
+            return Name.GetHashCode();
+        }
+        public override bool Equals(object obj)
+        {
+            return Name.Equals(obj);
         }
     }
 
