@@ -1,5 +1,10 @@
 ﻿[
   {
+    "Name": "Main Menu",
+    "Text": "Main Menu",
+    "Transitions": [ "START GAME" ]
+  },
+  {
     "Name": "Kitchen",
     "Text": "You walk into what used to be a marvelous kitchen. Cobwebs and dust cover every part of the room. On the floor before you lies a corpse, chained to the large stone stove. The corpse is shriveled from decay and is… mumbling… What do you do?",
     "Transitions": [ "Kneel next to the zombie and listen.", "Destroy this creature and relieve him from his torment." ]
@@ -8,7 +13,7 @@
     "Name": "Kitchen2",
     "Text": "You return to the kitchen. the ashes remain on the floor. What do you do?",
     "Transitions": [ "Search the ashes.", "Leave room." ]
-  },  
+  },
   {
     "Name": "Zombie destroyed",
     "Text": "The zombie collapses into ashe. What do you do?",

@@ -22,7 +22,7 @@ namespace DarkestDark.CLI
                 stateGraph = StateGraph.LoadStateGraph(
                     @"..\..\..\..\DarkestDark.Data\DarkestDark\States",
                     @"..\..\..\..\DarkestDark.Data\DarkestDark\Transitions");
-                runner = new StateRunner(stateGraph, "Outside");
+                runner = new StateRunner(stateGraph, "Main Menu");
             }
             // Instantiate a state runner and set its initial state. 
             new Repl().Loop(runner);

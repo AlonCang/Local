@@ -1,5 +1,10 @@
 ﻿[
   {
+    "Name": "START GAME",
+    "Text": "START GAME",
+    "TargetName": "Outside"
+  },
+  {
     "Name": "open the door slowly.",
     "Text": "You opened the door and stepped inside",
     "TargetName": "Entrance Hall"

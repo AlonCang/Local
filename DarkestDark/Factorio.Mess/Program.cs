@@ -51,12 +51,21 @@ namespace Factorio.Mess
                     if (c2 == "2")
                     {
                         var result2 = builder.BuildIronDrill();
-                        Console.WriteLine($"You no have 1 {result2.Name}");
+                        if (!buildings.ContainsKey(result2))
+                        {
+                            buildings.Add(result2, 0);
+                        }
+                        buildings[result2]++;
+                        Console.WriteLine($"You now have {buildings[result2]} {result2.Name}");
                     }
                     else
                     {
                         var result2 = builder.BuildCoalDrill();
-                        Console.WriteLine($"You no have 1 {result2.Name}");
+                        if (!buildings.ContainsKey(result2))
+                        {
+                            buildings.Add(result2, 0);
+                        }
+                        Console.WriteLine($"You no have {buildings[result2]} {result2.Name}");
                     }
                 }
                 else
