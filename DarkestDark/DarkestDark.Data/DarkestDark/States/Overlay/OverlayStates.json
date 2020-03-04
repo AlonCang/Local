@@ -1,10 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DarkestDark.Data.DarkestDark.States.Overlay
-{
-    class OverlayStates
-    {
-    }
-}
+[
+  {
+    "Name": "Nothing",
+    "Text": "",
+    "Transitions": [ "'I' for inventory" ]
+  },
+  {
+    "Name": "Inventory",
+    "Text": "",
+    "Transitions": [ "'Q' to close" ]
+  }
+]

@@ -35,6 +35,8 @@ namespace Factorio.Mess
             Builder builder = new Builder();
             var buildings = new Dictionary<Building, int>();
             var resources = new Dictionary<Resource, int>();
+            object a = new Coal();
+            object b = new Coal();
 
             while (true)
             {
@@ -48,25 +50,21 @@ namespace Factorio.Mess
                         "1. Coal drill \n" +
                         "2. Iron drill");
                     var c2 = Console.ReadLine();
+                    Building result2;
                     if (c2 == "2")
                     {
-                        var result2 = builder.BuildIronDrill();
-                        if (!buildings.ContainsKey(result2))
-                        {
-                            buildings.Add(result2, 0);
-                        }
-                        buildings[result2]++;
-                        Console.WriteLine($"You now have {buildings[result2]} {result2.Name}");
+                        result2 = builder.BuildIronDrill();
                     }
                     else
                     {
-                        var result2 = builder.BuildCoalDrill();
-                        if (!buildings.ContainsKey(result2))
-                        {
-                            buildings.Add(result2, 0);
-                        }
-                        Console.WriteLine($"You no have {buildings[result2]} {result2.Name}");
+                        result2 = builder.BuildCoalDrill();
                     }
+                    if (!buildings.ContainsKey(result2))
+                    {
+                        buildings.Add(result2, 0);
+                    }
+                    buildings[result2]++;
+                    Console.WriteLine($"You now have {buildings[result2]} {result2.Name}");
                 }
                 else
                 {
@@ -82,10 +80,10 @@ namespace Factorio.Mess
         }
     }
 
-    public abstract class Resource
+    public abstract class NamedKey
     {
         public string Name;
-        public Resource(string name)
+        public NamedKey(string name)
         {
             this.Name = name;
         }
@@ -97,12 +95,17 @@ namespace Factorio.Mess
 
         public override bool Equals(object obj)
         {
-            if (obj is Resource res)
+            if (obj is NamedKey nk)
             {
-                return Name.Equals(res.Name);
+                return Name.Equals(nk.Name);
             }
             return false;
         }
+    }
+
+    public abstract class Resource : NamedKey
+    {
+        public Resource(string name) : base(name) { }
     }
 
     public class Coal : Resource
@@ -115,23 +118,9 @@ namespace Factorio.Mess
         public Iron() : base(nameof(Iron)) { }
     }
 
-    public abstract class Building
+    public abstract class Building : NamedKey
     {
-        public string Name;
-
-        public Building(string name)
-        {
-            this.Name = name;
-        }
-
-        public override int GetHashCode()
-        {
-            return Name.GetHashCode();
-        }
-        public override bool Equals(object obj)
-        {
-            return Name.Equals(obj);
-        }
+        public Building(string name) : base(name) { }
     }
 
     public class CoalDrill : Building

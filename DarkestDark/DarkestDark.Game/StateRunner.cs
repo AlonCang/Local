@@ -25,8 +25,11 @@ namespace DarkestDark.Game
 
         public string GetCurrentState()
         {
-            return "-------------------------------------------------------------------------\n" + $"[{CurrentState.Name} || INVENTORY: ({string.Join(", ", Items)})]\n" + "-------------------------------------------------------------------------\n" +
-                $"{CurrentState.Text}\n" + "-------------------------------------------------------------------------";
+            return "-------------------------------------------------------------------------\n" + 
+                $"[{CurrentState.Name} || INVENTORY: ({string.Join(", ", Items)})]\n" + 
+                "-------------------------------------------------------------------------\n" +
+                $"{CurrentState.Text}\n" + 
+                "-------------------------------------------------------------------------";
         }
 
         public List<string> GetCurrentTransitions()
@@ -43,14 +46,7 @@ namespace DarkestDark.Game
         }
 
         public string PerformTransition(string transition)
-        {
-            var legalTransitions = GetCurrentTransitions();
-            if (int.TryParse(transition, out int index)
-                && index > 0
-                && index <= legalTransitions.Count)
-            {
-                transition = legalTransitions[index - 1];
-            }
+        {            
             if (Graph.Transitions.ContainsKey(transition))
             {
                 Transition tobj = Graph.Transitions[transition];
@@ -66,6 +62,7 @@ namespace DarkestDark.Game
                     IsGameOver = true;
                     return "Game is now over... Bitch...";
                 }
+
                 if (tobj.Items != null)
                 {
                     foreach (var item in tobj.Items)
@@ -81,6 +78,31 @@ namespace DarkestDark.Game
             }
             return "Bad input. Try again";
         }
+
+        public string IndexToTransition(string indexString)
+        {
+            var legalTransitions = GetCurrentTransitions();
+            if (int.TryParse(indexString, out int index)
+                            && index > 0 && index <= legalTransitions.Count)
+            {
+                return legalTransitions[index - 1];
+            }
+            return indexString;
+        }
+
+        public string KeyToTransition(string keyString)
+        {
+            var legalTransitions = GetCurrentTransitions();
+            foreach (var transition in legalTransitions)
+            {
+                if (transition.Contains($"'{keyString.ToUpper()}'"))
+                {
+                    return transition;
+                }
+            }
+            return keyString;
+        }
+
     }
 }
 

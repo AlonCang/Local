@@ -7,10 +7,14 @@ namespace DarkestDark.CLI
 {
     public class Repl
     {
-        public void Loop(StateRunner stateRunner)
+        public void Loop(StateRunner stateRunner, StateRunner overlayRunner)
         {
             while (!stateRunner.IsGameOver)
             {
+                foreach (var option in overlayRunner.GetCurrentTransitions())
+                {
+                    Console.WriteLine(option);
+                }
                 Console.WriteLine(stateRunner.GetCurrentState());
                 int i = 1;
                 foreach (var option in stateRunner.GetCurrentTransitions())
@@ -23,10 +27,21 @@ namespace DarkestDark.CLI
                 {
                     break;
                 }
+
                 Console.Clear();
                 Console.WriteLine($"> {choice}");
-                string transition = stateRunner.PerformTransition(choice);
-                Console.WriteLine(transition);
+
+                var overlayChoice = overlayRunner.KeyToTransition(choice);
+                if (choice != overlayChoice)
+                {
+                    overlayRunner.PerformTransition(overlayChoice);
+                }
+                else
+                {
+                    choice = stateRunner.IndexToTransition(choice);
+                    string transitionResultText = stateRunner.PerformTransition(choice);
+                    Console.WriteLine(transitionResultText);
+                }
             }
         }
     }

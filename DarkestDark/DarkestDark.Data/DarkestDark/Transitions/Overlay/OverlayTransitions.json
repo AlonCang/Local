@@ -1,0 +1,12 @@
+[
+  {
+    "Name": "'I' for inventory",
+    "Text": "You have this stuff in your bag",
+    "TargetName": "Inventory"
+  },
+  {
+    "Name": "'Q' to close",
+    "Text": "",
+    "TargetName": "Nothing"
+  }
+]
