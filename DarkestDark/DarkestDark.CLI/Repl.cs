@@ -9,6 +9,7 @@ namespace DarkestDark.CLI
     {
         public void Loop(StateRunner stateRunner, StateRunner overlayRunner)
         {
+            overlayRunner.Items = stateRunner.Items;
             while (!stateRunner.IsGameOver)
             {
                 foreach (var option in overlayRunner.GetCurrentTransitions())
@@ -30,7 +31,6 @@ namespace DarkestDark.CLI
 
                 Console.Clear();
                 Console.WriteLine($"> {choice}");
-
                 var overlayChoice = overlayRunner.KeyToTransition(choice);
                 if (choice != overlayChoice)
                 {
@@ -42,6 +42,8 @@ namespace DarkestDark.CLI
                     string transitionResultText = stateRunner.PerformTransition(choice);
                     Console.WriteLine(transitionResultText);
                 }
+                Console.WriteLine(overlayRunner.Items.Count);
+
             }
         }
     }
