@@ -6,7 +6,7 @@
   },
   {
     "Name": "Inventory",
-    "Text": "",
+    "Text": "This is your inventory",
     "Transitions": [ "'Q' to close" ]
   }
 ]

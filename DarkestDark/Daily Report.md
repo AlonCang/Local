@@ -1,3 +1,15 @@
+Wednesday 11/03/2020:
+----------------------------
+1. Pulled the last commit and reviewed.
+2. Located all the pieces involved with the inventory.
+3. Played around until i got more familiar.
+4. I thought i had a plan but when i fired it up nothing happened. Nothing broke but nothing changed.
+5. On Repl.cs : I tried using a double IF loop to set conditions for the CurrentOverlayState to trigger and print the Inventory text.
+6. If that would have succeeded i would then advance to making it print CurrentOverlayState.Items
+7. But try as i might i couldnt get it to work.   
+
+SOME MORE TIME PASSED
+
 Teusday 02/03/2020:
 ------------------------
 1. Restored the daily report file.

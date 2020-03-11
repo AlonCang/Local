@@ -6,7 +6,7 @@
   },
   {
     "Name": "'Q' to close",
-    "Text": "",
+    "Text": "Bag is now closed",
     "TargetName": "Nothing"
   }
 ]
