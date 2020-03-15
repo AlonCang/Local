@@ -9,7 +9,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DarkestDark.Game", "Darkest
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DarkestDark.Data", "DarkestDark.Data\DarkestDark.Data.csproj", "{77135EF8-0E83-4664-B30F-9702D5DE2163}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factorio.Mess", "Factorio.Mess\Factorio.Mess.csproj", "{38ECA70B-3A93-4DC2-8E46-1D6AE0633CAA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factorio.Mess", "Factorio.Mess\Factorio.Mess.csproj", "{38ECA70B-3A93-4DC2-8E46-1D6AE0633CAA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{384BC95C-E1FF-4F72-8138-6A3EA3A59F06}"
+	ProjectSection(SolutionItems) = preProject
+		Notes.md = Notes.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
