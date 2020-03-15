@@ -1,3 +1,12 @@
+Sunday 15/03/2020:
+-----------------------
+1. Working on FactorioMess project because im stuck on the main one.
+2. I want to implement a timer in the game so that drills will make resources every fe seconds.
+3. Spent 2 hours trying to follow tutorials on how to use timers in c#. 
+4. None of the tutorials i followed actually orked. Their code isnt working on my machine and i dont know why? Versions maybe?
+5. I also tried implementing a 3rd option that prints out the reasources. But it only prints out the number of resource types and not the number of resources contained.
+6. Hlp plox.
+
 Wednesday 11/03/2020:
 ----------------------------
 1. Pulled the last commit and reviewed.

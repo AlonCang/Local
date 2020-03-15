@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Timers;
+
 
 namespace Factorio.Mess
 {
@@ -31,24 +33,30 @@ namespace Factorio.Mess
     {
         static void Main(string[] args)
         {
+            Timer timer = new Timer(1000);
+          //  timer.Elapsed += Timer_Elapsed;
+            timer.Start();
             Miner miner = new Miner();
             Builder builder = new Builder();
             var buildings = new Dictionary<Building, int>();
             var resources = new Dictionary<Resource, int>();
             object a = new Coal();
             object b = new Coal();
+            
 
             while (true)
             {
+                Console.WriteLine(DateTime.Now);
                 Console.WriteLine("This is mining simulator. Drill for resources or build a drill?\n" +
                     "1. Drill manually like bitch\n" +
-                    "2. Build drill like boss");
+                    "2. Build drill like boss \n" +
+                    "3. View Resources");
                 var c = Console.ReadLine();
                 if (c == "2")
                 {
                     Console.WriteLine("Would you like to build a coal or an iron drill?\n" +
                         "1. Coal drill \n" +
-                        "2. Iron drill");
+                        "2. Iron drill");  
                     var c2 = Console.ReadLine();
                     Building result2;
                     if (c2 == "2")
@@ -66,7 +74,7 @@ namespace Factorio.Mess
                     buildings[result2]++;
                     Console.WriteLine($"You now have {buildings[result2]} {result2.Name}");
                 }
-                else
+                if (c == "1")
                 {
                     var result = miner.MineCoal();
                     if (!resources.ContainsKey(result))
@@ -75,6 +83,11 @@ namespace Factorio.Mess
                     }
                     resources[result]++;
                     Console.WriteLine($"You now have {resources[result]} {result.Name}");
+                }
+                else
+                {
+                    Console.WriteLine($"You now have: \n" +
+                         $"Resources: {resources.Values.Count}");
                 }
             }
         }
