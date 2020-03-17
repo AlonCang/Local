@@ -15,6 +15,11 @@ namespace DarkestDark.CLI
                 foreach (var option in overlayRunner.GetCurrentTransitions())
                 {
                     Console.WriteLine(overlayRunner.CurrentState.Text);
+                    if (overlayRunner.CurrentState.Name == "Inventory")
+                    {
+                    Console.WriteLine($"INVENTORY: ({ string.Join(", ", stateRunner.Items)})");
+
+                    }
                     Console.WriteLine(option);
                 }
                 Console.WriteLine(stateRunner.GetCurrentState());

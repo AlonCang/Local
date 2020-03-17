@@ -33,9 +33,8 @@ namespace Factorio.Mess
     {
         static void Main(string[] args)
         {
-            Timer timer = new Timer(1000);
-          //  timer.Elapsed += Timer_Elapsed;
-            timer.Start();
+            // Im making a counter so i could keep track of the number of loops
+            int loopCounter = 0;
             Miner miner = new Miner();
             Builder builder = new Builder();
             var buildings = new Dictionary<Building, int>();
@@ -46,7 +45,9 @@ namespace Factorio.Mess
 
             while (true)
             {
-                Console.WriteLine(DateTime.Now);
+                
+                loopCounter++;
+                Console.WriteLine($"Loop Number: {loopCounter}");
                 Console.WriteLine("This is mining simulator. Drill for resources or build a drill?\n" +
                     "1. Drill manually like bitch\n" +
                     "2. Build drill like boss \n" +
@@ -86,8 +87,12 @@ namespace Factorio.Mess
                 }
                 else
                 {
+                    // I cant get this shit to work. I give up for now. Need help. 
                     Console.WriteLine($"You now have: \n" +
-                         $"Resources: {resources.Values.Count}");
+                         $"Resources: \n" +
+                         $"- Coal: {resources[Coal.Value.Count]} \n" +
+                         $"- Iron: {resources[Iron.Value.Count]}");
+                    Console.ReadKey();
                 }
             }
         }
@@ -115,6 +120,7 @@ namespace Factorio.Mess
             return false;
         }
     }
+
 
     public abstract class Resource : NamedKey
     {

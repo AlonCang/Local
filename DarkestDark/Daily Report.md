@@ -1,3 +1,24 @@
+Teusday 17/03/2020:
+------------------------
+1. Reviewed new code and notes.
+2. Fine i wont be messing with time.
+3. Im setting a loop counter for the factorio.mess so i could keep track of the number of loops in each run (Instead of timer).
+4. Currently there is a bug with the 3rd option (View Resources). when you choose to mine for coal it adds 1 coal AND 1 iron. Ill try to fix that.
+5. Nope that wasnt the issue... Im just not printing the right stuff. I need to get the 3rd option to acutally print the number of each resource... hmmm....
+6. I tried 6 different things. Couldnt none of them to work:
+	- I tried making an inventory class that holds the current number of each resource. But i couldnt get it to work.
+	- I tried doign something similar with a function but had syntax / context issues.
+	- I tried playing with the CW output but couldnt get it to print what i want.
+	- I tried to overhaul the class structure so that resources.... nvm i dont know what i was trying to do there... Just a mess. UNDO!
+	- I tried writing a resource printer function that just keeps track of the contents of the resources dictionary and prints them. Failed again.
+	- I tried changing the return from the MineCoal() + MineIron() functions so that instead of returning a new resource, it would add +1 to the value of that resource in the resources dictionary. Coudnt get it to work. BAH!
+
+7. moving back to DarkestDark. Need to make the inventory there work properly...
+8. Ok. I think i got it. Now it prints what i want.
+9. Just need to remove the stuff that is no longer necessary, but ill wait for our meeting before i remove stuff.
+10. Im really happy, it took way more thinking and proding to figure out the simple answer. But i think iv got it.
+
+ 
 Sunday 15/03/2020:
 -----------------------
 1. Working on FactorioMess project because im stuck on the main one.
