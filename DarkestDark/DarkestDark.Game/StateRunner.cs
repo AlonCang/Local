@@ -26,7 +26,7 @@ namespace DarkestDark.Game
         public string GetCurrentState()
         {
             return "-------------------------------------------------------------------------\n" + 
-                $"[{CurrentState.Name} || INVENTORY: ({string.Join(", ", Items)})]\n" + 
+                $"[{CurrentState.Name} ||\n" + 
                 "-------------------------------------------------------------------------\n" +
                 $"{CurrentState.Text}\n" + 
                 "-------------------------------------------------------------------------";

@@ -1,6 +1,7 @@
 ﻿using DarkestDark.Game;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace DarkestDark.CLI
@@ -17,8 +18,7 @@ namespace DarkestDark.CLI
                     Console.WriteLine(overlayRunner.CurrentState.Text);
                     if (overlayRunner.CurrentState.Name == "Inventory")
                     {
-                    Console.WriteLine($"INVENTORY: ({ string.Join(", ", stateRunner.Items)})");
-
+                        Console.WriteLine($"INVENTORY: ({ string.Join(", ", stateRunner.Items.Where(kvp => kvp.Value != 0))})");
                     }
                     Console.WriteLine(option);
                 }

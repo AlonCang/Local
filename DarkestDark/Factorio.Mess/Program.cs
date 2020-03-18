@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Timers;
 
 
@@ -33,19 +34,20 @@ namespace Factorio.Mess
     {
         static void Main(string[] args)
         {
-            // Im making a counter so i could keep track of the number of loops
+            // Variable Declaration Statement:
+            // <Type> <Name> = <ValueExpr>;
+            // <Type> <Name>;
             int loopCounter = 0;
             Miner miner = new Miner();
             Builder builder = new Builder();
-            var buildings = new Dictionary<Building, int>();
+            var buildings = new Dictionary<string, List<Building>>();
             var resources = new Dictionary<Resource, int>();
             object a = new Coal();
             object b = new Coal();
-            
 
             while (true)
             {
-                
+
                 loopCounter++;
                 Console.WriteLine($"Loop Number: {loopCounter}");
                 Console.WriteLine("This is mining simulator. Drill for resources or build a drill?\n" +
@@ -57,7 +59,7 @@ namespace Factorio.Mess
                 {
                     Console.WriteLine("Would you like to build a coal or an iron drill?\n" +
                         "1. Coal drill \n" +
-                        "2. Iron drill");  
+                        "2. Iron drill");
                     var c2 = Console.ReadLine();
                     Building result2;
                     if (c2 == "2")
@@ -68,32 +70,37 @@ namespace Factorio.Mess
                     {
                         result2 = builder.BuildCoalDrill();
                     }
-                    if (!buildings.ContainsKey(result2))
+                    if (!buildings.ContainsKey(result2.Name))
                     {
-                        buildings.Add(result2, 0);
+                        buildings.Add(result2.Name, new List<Building>());
                     }
-                    buildings[result2]++;
-                    Console.WriteLine($"You now have {buildings[result2]} {result2.Name}");
+                    buildings[result2.Name].Add(result2);
+                    Console.WriteLine($"You now have {buildings[result2.Name].Count} {result2.Name}");
                 }
-                if (c == "1")
+                else if (c == "1")
                 {
                     var result = miner.MineCoal();
                     if (!resources.ContainsKey(result))
                     {
                         resources.Add(result, 0);
                     }
-                    resources[result]++;
+                    resources[result] ++;
                     Console.WriteLine($"You now have {resources[result]} {result.Name}");
                 }
                 else
                 {
-                    // I cant get this shit to work. I give up for now. Need help. 
-                    Console.WriteLine($"You now have: \n" +
-                         $"Resources: \n" +
-                         $"- Coal: {resources[Coal.Value.Count]} \n" +
-                         $"- Iron: {resources[Iron.Value.Count]}");
+                    Console.WriteLine("You now have: \nResources: \n");
+                    foreach (var resource in resources)
+                    {
+                        Console.WriteLine($"{resource.Key.Name}: {resource.Value}");
+                    }
+                    foreach (var building in buildings)
+                    {
+                        Console.WriteLine($"{building.Key}: {building.Value.Count}");
+                    }
                     Console.ReadKey();
                 }
+
             }
         }
     }
@@ -139,7 +146,12 @@ namespace Factorio.Mess
 
     public abstract class Building : NamedKey
     {
-        public Building(string name) : base(name) { }
+        public DateTime BuildTime;
+
+        public Building(string name) : base(name)
+        {
+            BuildTime = DateTime.Now;
+        }
     }
 
     public class CoalDrill : Building
@@ -150,6 +162,19 @@ namespace Factorio.Mess
         {
             return new Coal();
         }
+
+        public int TotalMined()
+        {
+            var now = DateTime.Now;
+            var timePassed = now - BuildTime;
+            return (int)timePassed.TotalSeconds;
+        }
+
+        // HW: Implement a function that returns the amount mined since the last time the function was called.
+        // Take into account the first time the func is called (what should happen then?)
+        //public int MinedSoFar()
+        //{
+        //}
     }
 
     public class IronDrill : Building
