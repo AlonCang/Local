@@ -1,3 +1,31 @@
+Thursday 23/03/2020:
+-------------------------
+1. Organize the factorio.mess project to files - DONE
+2. New DarkestDark inventory fixes work great. Next thing is making it so that /// items.kvp.value -1 /// when used.
+3. Reviewed time related code on factorio.mess, have yet to implement the MinedSoFar() function.
+4. Reviwed the Exercise program.cs file. Was able to read it and sort of understand it in general. But the mechanical operations are still very confusing. Ill have to work on it more to get anywhere.
+5. Journal will have to wait. Simply because FUCK.
+6. Furnace will have to wait because FUCK.
+7. GAME OF LIFE can be removed from this list until more FUCKs have been delivered from Spain.
+8. Writing a calculator seems like an awesome little project that absolutely should do. Soon. But it is not this day.
+9. Read about recusion functions in C#. Had to also learn about factorials since i have never heard of them before. Now i know why there was a ! buttom on my school calculator. 
+
+
+Wednesday 18/03/2020:
+-----------------------------
+HOMEWORK:
+1. Practice "Where()" by reading about arrays and lists in C# and trying different IEnumerables
+2. "Select()" is like where but instead of filtering members, it changes their data type and makes a new list containing the new members
+3. Apply some inventory usage to verify functionality.
+4. Develope Journal feature.
+5. Factorio mess: Go over the time settings.
+6. Check Program.cs and follow instructions.
+7. Develope Furnace.
+8. Organize the project to files.
+9. Take another look at GAME OF LIFE. 
+10. Try writing a console calculator (TIP: Make the calculator in prefix notation "+ 1213423")
+11. READ ABOUT RECURION FUNCTION 
+
 Teusday 17/03/2020:
 ------------------------
 1. Reviewed new code and notes.
@@ -16,9 +44,7 @@ Teusday 17/03/2020:
 7. moving back to DarkestDark. Need to make the inventory there work properly...
 8. Ok. I think i got it. Now it prints what i want.
 9. Just need to remove the stuff that is no longer necessary, but ill wait for our meeting before i remove stuff.
-10. Im really happy, it took way more thinking and proding to figure out the simple answer. But i think iv got it.
-
- 
+10. Im really happy, it took way more thinking and proding to figure out the simple answer 
 Sunday 15/03/2020:
 -----------------------
 1. Working on FactorioMess project because im stuck on the main one.

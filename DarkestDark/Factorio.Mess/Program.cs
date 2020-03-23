@@ -6,30 +6,6 @@ using System.Timers;
 
 namespace Factorio.Mess
 {
-    public class Builder
-    {
-        public Building BuildCoalDrill()
-        {
-            return new CoalDrill();
-        }
-
-        public Building BuildIronDrill()
-        {
-            return new IronDrill();
-        }
-    }
-    public class Miner
-    {
-        public Resource MineCoal()
-        {
-            return new Coal();
-        }
-
-        public Resource MineIron()
-        {
-            return new Iron();
-        }
-    }
     class Program
     {
         static void Main(string[] args)
@@ -102,88 +78,6 @@ namespace Factorio.Mess
                 }
 
             }
-        }
-    }
-
-    public abstract class NamedKey
-    {
-        public string Name;
-        public NamedKey(string name)
-        {
-            this.Name = name;
-        }
-
-        public override int GetHashCode()
-        {
-            return Name.GetHashCode();
-        }
-
-        public override bool Equals(object obj)
-        {
-            if (obj is NamedKey nk)
-            {
-                return Name.Equals(nk.Name);
-            }
-            return false;
-        }
-    }
-
-
-    public abstract class Resource : NamedKey
-    {
-        public Resource(string name) : base(name) { }
-    }
-
-    public class Coal : Resource
-    {
-        public Coal() : base(nameof(Coal)) { }
-    }
-
-    public class Iron : Resource
-    {
-        public Iron() : base(nameof(Iron)) { }
-    }
-
-    public abstract class Building : NamedKey
-    {
-        public DateTime BuildTime;
-
-        public Building(string name) : base(name)
-        {
-            BuildTime = DateTime.Now;
-        }
-    }
-
-    public class CoalDrill : Building
-    {
-        public CoalDrill() : base("Coal Drill") { }
-
-        public Coal Mine()
-        {
-            return new Coal();
-        }
-
-        public int TotalMined()
-        {
-            var now = DateTime.Now;
-            var timePassed = now - BuildTime;
-            return (int)timePassed.TotalSeconds;
-        }
-
-        // HW: Implement a function that returns the amount mined since the last time the function was called.
-        // Take into account the first time the func is called (what should happen then?)
-        //public int MinedSoFar()
-        //{
-        //}
-    }
-
-    public class IronDrill : Building
-    {
-        public IronDrill() : base("Iron Drill") { }
-
-        public Iron Mine()
-        {
-            return new Iron();
         }
     }
 }
