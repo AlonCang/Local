@@ -1,9 +1,18 @@
-Thursday 23/03/2020:
+Teusday 24/03/2020:
+------------------------
+1. DarkestDark: I want to make it so that when an item is used, its kvp value goes down by 1 int.
+	- So i think i need to set a condition that if transition requires an item, when that transition is chosen it makes the value of the item go down by 1
+	- Now to locate where that thing happens in the code.
+	- Turns out it was alreay implemente and i just had to learn it.
+2. Made a journal state. It works exactly like the inventory. Ill make a tweaked version of the items being added for the journal entries.
+3. Factorio.Mess: Added the furnace and its required supplements. It should work now but i cant test it since im faultering with the else if bullshit to get it done in game.
+	
+Monday 23/03/2020:
 -------------------------
 1. Organize the factorio.mess project to files - DONE
 2. New DarkestDark inventory fixes work great. Next thing is making it so that /// items.kvp.value -1 /// when used.
 3. Reviewed time related code on factorio.mess, have yet to implement the MinedSoFar() function.
-4. Reviwed the Exercise program.cs file. Was able to read it and sort of understand it in general. But the mechanical operations are still very confusing. Ill have to work on it more to get anywhere.
+4. Reviewed the Exercise program.cs file. Was able to read it and sort of understand it in general. But the mechanical operations are still very confusing. Ill have to work on it more to get anywhere.
 5. Journal will have to wait. Simply because FUCK.
 6. Furnace will have to wait because FUCK.
 7. GAME OF LIFE can be removed from this list until more FUCKs have been delivered from Spain.

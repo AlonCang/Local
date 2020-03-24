@@ -21,7 +21,7 @@
     "Name": "Living room",
     "Text": "You return to the living room",
     "Conditions": {
-      "Ghast defeated": 1
+      "Ghast defeated": 0
     },
     "TargetName": "Living room2"
   },

@@ -2,11 +2,16 @@
   {
     "Name": "Nothing",
     "Text": "",
-    "Transitions": [ "'I' for inventory" ]
+    "Transitions": [ "'I' for inventory", "'J' for journal" ]
   },
   {
     "Name": "Inventory",
-    "Text": "[This is your inventory]: ",
+    "Text": "",
+    "Transitions": [ "'Q' to close" ]
+  },
+  {
+    "Name": "Journal",
+    "Text": "",
     "Transitions": [ "'Q' to close" ]
   }
 ]

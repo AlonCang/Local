@@ -26,16 +26,17 @@ namespace Factorio.Mess
 
                 loopCounter++;
                 Console.WriteLine($"Loop Number: {loopCounter}");
-                Console.WriteLine("This is mining simulator. Drill for resources or build a drill?\n" +
+                Console.WriteLine("This is mining simulator. Drill for resources or build a something?\n" +
                     "1. Drill manually like bitch\n" +
-                    "2. Build drill like boss \n" +
+                    "2. Build like boss \n" +
                     "3. View Resources");
                 var c = Console.ReadLine();
                 if (c == "2")
                 {
-                    Console.WriteLine("Would you like to build a coal or an iron drill?\n" +
+                    Console.WriteLine("What would you like to build?\n" +
                         "1. Coal drill \n" +
-                        "2. Iron drill");
+                        "2. Iron drill \n" +
+                        "3. Smelting furnace");
                     var c2 = Console.ReadLine();
                     Building result2;
                     if (c2 == "2")

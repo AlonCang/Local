@@ -63,13 +63,13 @@
   {
     "Name": "Hold your holy cross firmly before the ghast and recite a banishment prayer!",
     "Text": "",
-    "Items": { "Ghast defeated": 1 },
+    "Items": { "Ghast defeated": 0 },
     "TargetName": "Ghast destroyed"
   },
   {
     "Name": "Stand your ground. There is nothing to fear. God is on your side.",
     "Text": "",
-    "Items": { "Ghast defeated": 1 },
+    "Items": { "Ghast defeated": 0 },
     "TargetName": "Ghast illusion"
   },
   {
@@ -80,6 +80,7 @@
   {
     "Name": "Try the key.",
     "Conditions": { "Key": 1 },
+    "Items":  { "Key":  -1},
     "Text": "The key fits and the gate opens with a slow heavy groan, the sound of its rusty hinges echos down the stairs. What do you do?",
     "TargetName": "Iron gate2"
   },

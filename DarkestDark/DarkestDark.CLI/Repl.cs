@@ -18,7 +18,7 @@ namespace DarkestDark.CLI
                     Console.WriteLine(overlayRunner.CurrentState.Text);
                     if (overlayRunner.CurrentState.Name == "Inventory")
                     {
-                        Console.WriteLine($"INVENTORY: ({ string.Join(", ", stateRunner.Items.Where(kvp => kvp.Value != 0))})");
+                        Console.WriteLine($"INVENTORY: \n({ string.Join("\n ", stateRunner.Items.Where(kvp => kvp.Value != 0))})");
                     }
                     Console.WriteLine(option);
                 }

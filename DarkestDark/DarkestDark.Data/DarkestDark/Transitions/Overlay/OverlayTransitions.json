@@ -5,6 +5,11 @@
     "TargetName": "Inventory"
   },
   {
+    "Name": "'J' for journal",
+    "Text": "You have these entries in your journal",
+    "TargetName": "Journal"
+  },
+  {
     "Name": "'Q' to close",
     "Text": "Bag is now closed",
     "TargetName": "Nothing"

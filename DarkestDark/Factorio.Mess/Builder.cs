@@ -15,5 +15,10 @@ namespace Factorio.Mess
         {
             return new IronDrill();
         }
+
+        public Building BuildSmeltingFurnace()
+        {
+            return new Smelter();
+        }
     }
 }
