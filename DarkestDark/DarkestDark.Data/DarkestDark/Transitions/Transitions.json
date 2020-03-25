@@ -8,18 +8,48 @@
       "Flammable Oil": 1,
       "Crossbow Bolts": 5,
       "Holy Cross": 1
-    }, 
+    },
     "TargetName": "Outside"
   },
   {
     "Name": "open the door slowly.",
     "Text": "You opened the door and stepped inside",
-    "TargetName": "Entrance Hall"
+    "TargetName": "Entrance Hall",
+    "Conditions": {
+      "~@@OpenX": 0
+    },
+    "Items": {
+      "@OpenSlowly": 1,
+      "@@OpenX": 1
+    }
   },
   {
     "Name": "kick down the door!",
     "Text": "You kicked down the door. you stepped inside",
-    "TargetName": "Entrance Hall"
+    "TargetName": "Entrance Hall",
+    "Conditions": {
+      "~@@OpenX": 0
+    },
+    "Items": {
+      "@OpenKickly": 1,
+      "@@OpenX": 1
+    }
+  },
+  {
+    "Name": "open the door slowly. ",
+    "Text": "You opened the door and stepped inside",
+    "TargetName": "Entrance Hall",
+    "Conditions": {
+      "@@OpenX": 1
+    }
+  },
+  {
+    "Name": "kick down the door! ",
+    "Text": "You kicked down the door. you stepped inside",
+    "TargetName": "Entrance Hall",
+    "Conditions": {
+      "@@OpenX": 1
+    }
   },
   {
     "Name": "Leave room.",
@@ -80,7 +110,7 @@
   {
     "Name": "Try the key.",
     "Conditions": { "Key": 1 },
-    "Items":  { "Key":  -1},
+    "Items": { "Key": -1 },
     "Text": "The key fits and the gate opens with a slow heavy groan, the sound of its rusty hinges echos down the stairs. What do you do?",
     "TargetName": "Iron gate2"
   },
