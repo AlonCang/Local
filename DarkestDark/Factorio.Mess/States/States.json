@@ -1,0 +1,23 @@
+[
+  {
+    "Name": "Main Menu",
+    "Text": "",
+    "Transitions": [ "START GAME" ]
+  },
+  {
+    "Name": "Main Screen",
+    "Text": "Mine manually or build structure?",
+    "Transitions": [ "Mine manually", "Build structure" ]
+  },
+  {
+    "Name": "Mine Screen",
+    "Text": "Which resource?",
+    "Transitions": [ "Mine Coal", "Mine Iron" ]
+  },
+  {
+    "Name": "Build Screen",
+    "Text": "Which building?",
+    "Transitions": [ "Build Coal Drill", "Build Iron Drill" ]
+  }
+
+]

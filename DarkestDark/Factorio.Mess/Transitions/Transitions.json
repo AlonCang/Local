@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "START GAME",
+    "Text": "",
+    "TargetName": "Main Screen"
+  },
+  {
+    "Name": "Mine manually",
+    "Text": "",
+    "TargetName": "Mine Screen"
+  },
+  {
+    "Name": "Build structure",
+    "Text": "",
+    "TargetName": "Build Screen"
+  }
+]

@@ -18,7 +18,15 @@ namespace DarkestDark.CLI
                     Console.WriteLine(overlayRunner.CurrentState.Text);
                     if (overlayRunner.CurrentState.Name == "Inventory")
                     {
-                        Console.WriteLine($"INVENTORY: \n({ string.Join("\n ", stateRunner.Items.Where(kvp => kvp.Value != 0))})");
+                        var actualItems = stateRunner.Items.Where(kvp => kvp.Value != 0);
+                        var itemsWithDescriptions = actualItems.Select(kvp => $"{kvp.Key}: {kvp.Value} - {stateRunner.Graph.States.GetValueOrDefault(kvp.Key, new State("", "")).Text}");
+                        Console.WriteLine($"INVENTORY: \n({ string.Join("\n ", itemsWithDescriptions)})");
+                    }
+                    else if (overlayRunner.CurrentState.Name == "Journal")
+                    {
+                        string journal = string.Join("\n ", 
+                            stateRunner.Items.Where(kvp => kvp.Key.StartsWith("@")).Select(kvp => kvp.Key.Substring(1)));
+                        Console.WriteLine($"JOURNAL: \n({journal})");
                     }
                     Console.WriteLine(option);
                 }

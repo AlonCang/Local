@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Timers;
+using DarkestDark.Game;
 
 
 namespace Factorio.Mess
@@ -10,6 +11,13 @@ namespace Factorio.Mess
     {
         static void Main(string[] args)
         {
+            StateGraph stateGraph;
+            StateRunner runner;
+
+            stateGraph = StateGraph.LoadStateGraph(
+                    @"..\..\..\..\Factorio.Mess\States",
+                    @"..\..\..\..\Factorio.Mess\Transitions");
+            runner = new StateRunner(stateGraph, "Main Menu");
             // Variable Declaration Statement:
             // <Type> <Name> = <ValueExpr>;
             // <Type> <Name>;
@@ -21,6 +29,7 @@ namespace Factorio.Mess
             object a = new Coal();
             object b = new Coal();
 
+            new Repl().Loop(runner);
             while (true)
             {
 
@@ -42,6 +51,10 @@ namespace Factorio.Mess
                     if (c2 == "2")
                     {
                         result2 = builder.BuildIronDrill();
+                    }
+                    else if (c2 == "3")
+                    {
+                        result2 = builder.BuildSmeltingFurnace();
                     }
                     else
                     {
