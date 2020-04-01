@@ -4,8 +4,7 @@ using System.Text;
 
 namespace Factorio.Mess
 {
-    public class Iron : Resource
+    class Recipe
     {
-        public Iron() : base(nameof(Iron)) { }
     }
 }
