@@ -1,9 +1,57 @@
+Thursday 02/04/2020:
+-------------------------
+Factorio.Mess:
+1. Made my attempt at making the  static function for Recipe.cs. 
+	- Broke down the code step by step.
+	- Used Json reading functions from StateGraph.cs as reference for my code.
+	- Encountered bugs that i couldn't resolve. (Please check Factorio.Mess Recipe.cs)
+	
+ Darkest Dark:
+1. Created some fluf text for the existing items in the inventory.
+	- There is a bug. While opening the inventory all texts for items are printed next to them. Except for "Holy Water" which gets no text printed. 
+	   I cant tell why though. No error is mentioned and the code isnt different for this perticular item.
+	- How do i make a state for each item? Or more accurately, WHERE do i put those ItemStates? Do i make a new file? do i put them in States.Json? does it matter?
+	- Do i need to make any updates to the machine in order for this to work or can i simply use it as is?
+
+2. Added a couple of journal items.
+	- How do i make it so that the journal will be printed like the inventory? Shouldi just copy the code? 
+	   
+WISDOM:
+------------
+Remember wisdom for life. Whenever you try to make anything in code, try to think what would be the most minimal way that it could be represented in code
+and then work from there. Add any missing pieces in order to most accurately represent the thing that you want to do. WISDOM
+
+Wednesday 01/04/2020:
+----------------------------
+HW for Thursday. Give success or questions. Like Readstategraph but readrecipes[].
+1. Write a static function for Recipe.cs that receives a path to a file and returns a list of recipes.
+2. Fill up the DarkestDark data that is missing. 
+
+ANYTHING IS BETTER THAN NOTHING!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Wednesday 24/03/2020:
+-----------------------------
+HW leftovers:
+1. Practice where() and select()
+2. Verify journal functionality and keep developing.
+3. We talked about recursion
+4. Figure out how nathan built the journal and apply it in the game via new data.
+5. Use the same conditions + items structure to develope the next feature (Moral progress).
+6. When pulling the git from nathan, stash my own files if needed, then pull, then "pop" the stash. Might get conflict.
+7. We now have a state machine in Factorio.Mess
+8. Organize the DarkestDark states and transitions into orderly files. 
+9. DD: Develope text for items (The same can be done for journal items):
+		- 1. State Per Item
+		- 2. Transition to Item per Item
+			- 2.1 Condition: Have Item
+		- 3. Transition to Inventory (from item)
+
 Teusday 24/03/2020:
 ------------------------
 1. DarkestDark: I want to make it so that when an item is used, its kvp value goes down by 1 int.
 	- So i think i need to set a condition that if transition requires an item, when that transition is chosen it makes the value of the item go down by 1
 	- Now to locate where that thing happens in the code.
-	- Turns out it was alreay implemente and i just had to learn it.
+	- Turns out it was alreay implemented and i just had to learn it.
 2. Made a journal state. It works exactly like the inventory. Ill make a tweaked version of the items being added for the journal entries.
 3. Factorio.Mess: Added the furnace and its required supplements. It should work now but i cant test it since im faultering with the else if bullshit to get it done in game.
 	

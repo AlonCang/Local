@@ -33,8 +33,8 @@
   {
     "Name": "Search the closet.",
     "Text": "As you open the closet a cloud of moths fly out, a few stinking leather coats hang on frail hooks. You search the pockets and eventually find a KEY. There doesnt seem to be anything else of interest here so you return to the entrance hall",
-    "Conditions": { "~Key": 1 },
-    "Items": { "Key": 1 },
+    "Conditions": { "~Key": 1, "~@FoundKey":  0 },
+    "Items": { "Key": 1, "@FoundKey": 0 },
     "TargetName": "Entrance Hall2"
   },
   {
@@ -50,13 +50,15 @@
   {
     "Name": "Ask for the ring.",
     "Text": "You sternly ask the zombie for the ring.",
-    "Items": { "Ring": 1 },
+    "Conditions": {"~@GotRing":  0 },
+    "Items": { "Ring": 1, "@GotRing": 0 },
     "TargetName": "Get ring"
   },
   {
     "Name": "Search the ashes.",
     "Text": "There seems to be something in the zombies remains.",
-    "Items": { "Ring": 1 },
+    "Conditions": {"~@GotRing":  0 },
+    "Items": { "Ring": 1, "@FoundRing": 0 },
     "TargetName": "Find ring"
   },
   {

@@ -1,10 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Factorio.Mess.Recipes
-{
-    class recipes
-    {
-    }
-}
+﻿[
+  {
+    "Name": "CoalDrill",
+    "Input": { "IronIngot": 1 },
+    "Output": { "CoalDrill": 1 }
+  },
+  {
+    "Name": "IronDrill",
+    "Input": { "IronIngot": 1 },
+    "Output": {"IronDrill": 1}
+  }
+]

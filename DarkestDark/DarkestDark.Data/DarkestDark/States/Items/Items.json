@@ -6,5 +6,25 @@
   {
     "Name": "Ring",
     "Text": "A golden ring, it looks important"
+  },
+  {
+    "Name": "Crossbow",
+    "Text": "Your trusty old evil slaying crossbow of bodacity"
+  },
+  {
+    "Name": "Holy Water",
+    "Text": "Blessed by the order, this potent fluid is devestating to satans servants"
+  },
+  {
+    "Name": "Flammable Oil",
+    "Text": "Fire... Fire kills everything"
+  },
+  {
+    "Name": "Holy Cross",
+    "Text": "Jesus shield is the best shield against evil"
+  },
+  {
+    "Name": "Crossbow Bolts",
+    "Text": "Just regular bolts. Without them the crossbow is useless"
   }
 ]
