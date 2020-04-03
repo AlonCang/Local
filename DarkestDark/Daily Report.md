@@ -1,3 +1,16 @@
+Friday 03/04/2020:
+---------------------
+1. Reviewed the 2 commits that sensei made.
+	- Checked line by line and followed the functionality.
+	- Those are a lot of tweaks, but im glad i was in the right direction.
+	- Lel "w" != "W" :P
+	- some marked code pieces (on github) are actually unchanged. Did you erase and remake them?
+	- I saw that you removed a white space on Reple.cs line 27. I thought that C# is not white space sensitive. Or is it just for cleaner looking code?
+	- I see that making the List<Recipe> takes the required functionality from the stategraph.cs. It only really nees to hold the data itself ithout further stuff.
+	- And yes now the LoadRecipes function works as intended. So smooth, so clean. 
+	
+2. Ill take on the journal and item sates tomorrow. 
+
 Thursday 02/04/2020:
 -------------------------
 Factorio.Mess:
@@ -16,6 +29,7 @@ Factorio.Mess:
 2. Added a couple of journal items.
 	- How do i make it so that the journal will be printed like the inventory? Shouldi just copy the code? 
 	   
+3. did a tiny bit of formatting on how things are printed.
 WISDOM:
 ------------
 Remember wisdom for life. Whenever you try to make anything in code, try to think what would be the most minimal way that it could be represented in code
