@@ -1,0 +1,49 @@
+﻿[
+  {
+    "Name": "Key",
+    "Text": "",
+    "Conditions": { "~Key": 1 },
+    "TargetName": "Key"
+  },
+  {
+    "Name": "Ring",
+    "Text": "",
+    "Conditions": { "~Ring": 1 },
+    "TargetName": "Ring"
+  },
+  {
+    "Name": "Crossbow",
+    "Text": "",
+    "Conditions": { "~Crossbow": 1 },
+    "TargetName": "Crossbow"
+  },
+  {
+    "Name": "Holy Water",
+    "Text": "",
+    "Conditions": { "~Holy Water": 1 },
+    "TargetName": "Holy Water"
+  },
+  {
+    "Name": "Holy Cross",
+    "Text": "",
+    "Conditions": { "~Holy Cross": 1 },
+    "TargetName": "Holy Cross"
+  },
+  {
+    "Name": "Flammable Oil",
+    "Text": "",
+    "Conditions": { "~Flammable Oil": 1 },
+    "TargetName": "Flammable Oil"
+  },
+  {
+    "Name": "Crossbow Bolts",
+    "Text": "",
+    "Conditions": { "~Crossbow Bolts": 1 },
+    "TargetName": "Crossbow Bolts"
+  },
+  {
+    "Name": "Inventory",
+    "Text": "",
+    "TargetName": "Inventory"
+  }
+]

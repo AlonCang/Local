@@ -1,0 +1,9 @@
+﻿[
+  {
+    "Name": "Search the closet.",
+    "Text": "As you open the closet a cloud of moths fly out, a few stinking leather coats hang on frail hooks. You search the pockets and eventually find a KEY. There doesnt seem to be anything else of interest here so you return to the entrance hall",
+    "Conditions": { "~Key": 1, "~@FoundKey":  0 },
+    "Items": { "Key": 1, "@FoundKey": 0 },
+    "TargetName": "Entrance Hall2"
+  },
+]

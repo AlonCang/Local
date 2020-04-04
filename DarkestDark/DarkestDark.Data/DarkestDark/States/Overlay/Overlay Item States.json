@@ -1,0 +1,37 @@
+﻿[
+  {
+    "Name": "Key",
+    "Text": "For every key there is a matching lock, now just need to find it",
+    "Transitions": [ "Inventory" ]
+  },
+  {
+    "Name": "Ring",
+    "Text": "This ring looks important, there must be more to it than meets the eye",
+    "Transitions": [ "Inventory" ]
+  },
+  {
+    "Name": "Crossbow",
+    "Text": "This bad boy has gotten you out of darker darks in the past",
+    "Transitions": [ "Inventory" ]
+  },
+  {
+    "Name": "Holy water",
+    "Text": "Heals the wounded, Melts the evil",
+    "Transitions": [ "Inventory" ]
+  },
+  {
+    "Name": "Holy Cross",
+    "Text": "Jesus died on one of those, so i guess this is cool",
+    "Transitions": [ "Inventory" ]
+  },
+  {
+    "Name": "Flammable Oil",
+    "Text": "If all else fails, set it on fire",
+    "Transitions": [ "Inventory" ]
+  },
+  {
+    "Name": "Crossbow Bolts",
+    "Text": "These things are expensive, but the church is very wealthy. Use them",
+    "Transitions": [ "Inventory" ]
+  }
+]

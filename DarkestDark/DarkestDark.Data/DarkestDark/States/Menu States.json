@@ -1,0 +1,7 @@
+﻿[
+  {
+    "Name": "Main Menu",
+    "Text": "Main Menu",
+    "Transitions": [ "START GAME" ]
+  }
+]

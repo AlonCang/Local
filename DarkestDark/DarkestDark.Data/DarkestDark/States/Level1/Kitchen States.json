@@ -1,0 +1,37 @@
+﻿[
+  {
+    "Name": "Kitchen",
+    "Text": "You walk into what used to be a marvelous kitchen. Cobwebs and dust cover every part of the room. On the floor before you lies a corpse, chained to the large stone stove. The corpse is shriveled from decay and is… mumbling… What do you do?",
+    "Transitions": [ "Kneel next to the zombie and listen.", "Destroy this creature and relieve him from his torment." ]
+  },
+  {
+    "Name": "Kitchen2",
+    "Text": "You return to the kitchen. the ashes remain on the floor. What do you do?",
+    "Transitions": [ "Search the ashes.", "Leave room." ]
+  },
+  {
+    "Name": "Zombie destroyed",
+    "Text": "The zombie collapses into ashe. What do you do?",
+    "Transitions": [ "Search the ashes.", "Leave room." ]
+  },
+  {
+    "Name": "Find ring",
+    "Text": "You swipe the ashes with your boot and find what seems to be an engagement ring. It looks very valuable.",
+    "Transitions": [ "Leave room." ]
+  },
+  {
+    "Name": "Zombie Conversation",
+    "Text": "As you come closer to the zombie his mumbles become clearer: “Mistress… Im sorry. I tried to run away… I shouldn’t have tried to run away”. He has two bite marks on his neck. What do you do?",
+    "Transitions": [ "Destroy this creature and relieve him from his torment.", "Ask why he tried to run away." ]
+  },
+  {
+    "Name": "Ring story",
+    "Text": "The mistress is looking for a groom! She must not find one! i have the ring! She must never find the ring! What do you do?",
+    "Transitions": [ "Destroy this creature and relieve him from his torment.", "Ask for the ring." ]
+  },
+  {
+    "Name": "Get ring",
+    "Text": "The zombie slowly reaches for his own abdomen and forces his hand inside, pushing through the soft and rotten flesh. He then pulls it out and hands you an adorned wedding ring.",
+    "Transitions": [ "Leave room." ]
+  }
+]

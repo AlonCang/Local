@@ -7,7 +7,7 @@
   {
     "Name": "Inventory",
     "Text": "",
-    "Transitions": [ "'Q' to close" ]
+    "Transitions": [ "'Q' to close", "Key", "Ring", "Crossbow", "Holy Water", "Flammable Oil", "Holy Cross", "Crossbow Bolts" ]
   },
   {
     "Name": "Journal",

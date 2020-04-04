@@ -1,0 +1,16 @@
+﻿[
+  {
+    "Name": "open the door slowly.",
+    "Text": "You opened the door and stepped inside",
+    "Conditions": { "~@openslowly": 0 },
+    "Items": { "@openslowly": 0 },
+    "TargetName": "Entrance Hall"
+  },
+  {
+    "Name": "kick down the door!",
+    "Text": "You kicked down the door. you stepped inside",
+    "Conditions": { "~@openkickly": 0 },
+    "Items": { "@openkickly": 0 },
+    "TargetName": "Entrance Hall"
+  }
+]

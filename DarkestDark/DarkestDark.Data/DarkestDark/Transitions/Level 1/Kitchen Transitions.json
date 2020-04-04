@@ -1,0 +1,31 @@
+﻿[
+  {
+    "Name": "Kneel next to the zombie and listen.",
+    "Text": "Holding your breath from the stench you step forward.",
+    "TargetName": "Zombie Conversation"
+  },
+  {
+    "Name": "Ask why he tried to run away.",
+    "Text": "As you speak to the zombie he suddenly erupts into a terrible growl.",
+    "TargetName": "Ring story"
+  },
+  {
+    "Name": "Ask for the ring.",
+    "Text": "You sternly ask the zombie for the ring.",
+    "Conditions": {"~@GotRing":  0 },
+    "Items": { "Ring": 1, "@GotRing": 0 },
+    "TargetName": "Get ring"
+  },
+  {
+    "Name": "Search the ashes.",
+    "Text": "There seems to be something in the zombies remains.",
+    "Conditions": {"~@GotRing":  0 },
+    "Items": { "Ring": 1, "@FoundRing": 0 },
+    "TargetName": "Find ring"
+  },
+  {
+    "Name": "Destroy this creature and relieve him from his torment.",
+    "Text": "Standing over the mumbling undead, you recite a funeral prayer.",
+    "TargetName": "Zombie destroyed"
+  },
+]

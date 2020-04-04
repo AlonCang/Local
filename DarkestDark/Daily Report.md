@@ -1,3 +1,26 @@
+Saturday 04/04/2020:
+------------------------
+Darkest Dark:
+1. Organised the states and transition into files for better project navigation.
+2. Item states plan and proccess:
+	- So i think i will make an Overlay Items file for overlay item states and a file for overlay item transitions.
+	- This way i can make them without changing anything in the current items file. Lets see how this works out.
+	- Already iv encountered issues. The "Inventory" state needs to contain transitions to all available items.
+	- Also those transitions should only be printed if the item value == 0. So i need to set a condition. Lets hope this works.
+	- Ok iv managed to make a working item state. Only "Issue" currently is that in order for it to be available comfortably, i need to make it belong to the inventory state.
+	- So ill start with that and then we will fix the formatting later.
+	- Ok soooo..... Good news it works.
+	- Bad news its a fucking mess. Shit is getting multi printed even when not wanted.
+	- There are too many systems working simultaniously. I cant get my head around it right now. But im digging this.
+	- I had to get through a bunch of bugs to get this to work but all in all it wasn't impossible.
+	- So iv reviewed the Repl.cs and i think that in order to get things printed correctly i will need:
+			- Steal the printing protocol for the regular states and their transitions and put it into the overlay.
+			- Make it so that each item get a number printed before it just like the regular transitions.
+			- Make it so that when inventory is open then regular transitions are not accessible (to prevent a number meaning 2 different transitions "regular/overlay")
+			- I think there wont be a need anymore for the kvp thingy that prints the item text in the inventory since thats what the item state is for.
+			- Ill be honest, im scared of messing around with Reple.cs on this level since i dont really know whta im doing. ould be happy to get a review for my plan before i go fiddling around.
+			- When all of this is working i will pretty much copy paste it for the journal since the functionality is almost identical.
+
 Friday 03/04/2020:
 ---------------------
 1. Reviewed the 2 commits that sensei made.

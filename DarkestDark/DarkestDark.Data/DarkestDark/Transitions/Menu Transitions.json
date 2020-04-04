@@ -1,0 +1,19 @@
+﻿[
+  {
+    "Name": "START GAME",
+    "Text": "START GAME",
+    "Items": {
+      "Crossbow": 1,
+      "Holy Water": 1,
+      "Flammable Oil": 1,
+      "Crossbow Bolts": 5,
+      "Holy Cross": 1
+    },
+    "TargetName": "Outside"
+  },
+  {
+    "Name": "Leave room.",
+    "Text": "You proceed to the entrance hall",
+    "TargetName": "Entrance Hall2"
+  }
+]
