@@ -1,3 +1,15 @@
+Sunday: 05/04/2020:
+-----------------------
+1. Tried to figure out the problem from yesterday.
+2. Cried to master.
+3. Got advice and broke down the code line by line in a seperate document.
+	- Tried on paper. Made a mess,
+	- Tried making a google doc flowchart. Made a mess.
+	- Tried paper again. Made less of a mess. But i have found out what i dont get.
+	PROBLEM: In Repl.cs: Perform transition() is too complicated for me. So many ifs and stuff. I cant figure out how the output of this
+					   thing even looks. 
+	QUESTION: How does the outout of this thing works? I get everything except for way "choice" is handled and returned from performtransition().
+	
 Saturday 04/04/2020:
 ------------------------
 Darkest Dark:
