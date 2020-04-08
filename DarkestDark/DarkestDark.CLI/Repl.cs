@@ -13,22 +13,30 @@ namespace DarkestDark.CLI
             overlayRunner.Items = stateRunner.Items;
             while (!stateRunner.IsGameOver)
             {
+                var printed = "";
+                if (overlayRunner.CurrentState.Name == "Inventory")
+                {
+                    var actualItems = stateRunner.Items.Where(kvp => kvp.Value != 0);
+                    var itemsWithDescriptions = actualItems.Select(kvp => $"{kvp.Key}: {kvp.Value} - {stateRunner.Graph.States.GetValueOrDefault(kvp.Key, new State("DefaultName", "DefaultText")).Text}");
+                    var inventory = string.Join("\n ", itemsWithDescriptions);
+                    Console.WriteLine($"INVENTORY: \n {inventory}");
+                    printed = inventory;
+                }
+                else if (overlayRunner.CurrentState.Name == "Journal")
+                {
+                    var journalEntries = stateRunner.Items.Where(kvp => kvp.Key.StartsWith("@"));
+                    string journal = string.Join("\n ",
+                       journalEntries.Select(kvp => kvp.Key.Substring(1)));
+                    Console.WriteLine($"JOURNAL: \n{journal}");
+                    printed = journal;
+                }
+                Console.WriteLine(overlayRunner.CurrentState.Text);
                 foreach (var option in overlayRunner.GetCurrentTransitions())
                 {
-                    Console.WriteLine(overlayRunner.CurrentState.Text);
-                    if (overlayRunner.CurrentState.Name == "Inventory")
+                    if (!printed.Contains(option))
                     {
-                        var actualItems = stateRunner.Items.Where(kvp => kvp.Value != 0);
-                        var itemsWithDescriptions = actualItems.Select(kvp => $"{kvp.Key}: {kvp.Value} - {stateRunner.Graph.States.GetValueOrDefault(kvp.Key, new State("", "")).Text}");
-                        Console.WriteLine($"INVENTORY: \n {string.Join("\n ", itemsWithDescriptions)}");
+                        Console.WriteLine(option);
                     }
-                    else if (overlayRunner.CurrentState.Name == "Journal")
-                    {
-                        string journal = string.Join("\n ",
-                            stateRunner.Items.Where(kvp => kvp.Key.StartsWith("@")).Select(kvp => kvp.Key.Substring(1)));
-                        Console.WriteLine($"JOURNAL: \n{journal}");
-                    }
-                    Console.WriteLine(option);
                 }
                 Console.WriteLine(stateRunner.GetCurrentState());
                 int i = 1;

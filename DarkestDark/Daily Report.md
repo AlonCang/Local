@@ -1,3 +1,17 @@
+Teusday: 07/04/2020:
+------------------------
+Homework:
+1. Break down the following classes:
+	- State.cs
+	- Transition.cs
+	- StateRunner.cs
+	- StateGraph.cs
+	
+
+Monday 06/04/2020:
+------------------------
+1. Sent sensei the code breakdown of Repl.cs
+
 Sunday: 05/04/2020:
 -----------------------
 1. Tried to figure out the problem from yesterday.
