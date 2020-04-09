@@ -6,7 +6,7 @@
 		a string called Text
 		a list of strings called "Transitions"
 
-		a `State` that receives a string called name and a `string` called `text`. They each get assigned to strign variables.
+		a `State` that receives a `string` called `name` and a `string` called `text`. They each get assigned to string variables.
 		
 		ToString()
 			a string variable called result is assigned the value of a string which contains `Name` and `Text`

@@ -1,4 +1,17 @@
-Teusday: 07/04/2020:
+Thursday 09/04/2020:
+-------------------------
+1. Added Transition breakdown file - With Questions
+2. Added StateRunner breakdown file
+3. Added StatGraph breakdown file - ith commentary
+4. Wondering if i should start focusing on QA automation or keep on focusing on general programing. 
+
+
+Wedneday 08/04/2020:
+---------------------------
+1. Added State breakdown file
+2. SEDER PESAH ONLINE!!! 
+
+Teusday 07/04/2020:
 ------------------------
 Homework:
 1. Break down the following classes:
