@@ -7,6 +7,7 @@
 		a list of strings called "Transitions"
 
 		a `State` that receives a `string` called `name` and a `string` called `text`. They each get assigned to string variables.
+		**This is called a Constructor, it is a function.**
 		
 		ToString()
 			a string variable called result is assigned the value of a string which contains `Name` and `Text`
@@ -17,6 +18,8 @@
 			remove 1 character from the end of the expression saved into `result`
 			add a bit more string content to `result`
 			return `result`
+		**This method only exists so you have an example of how to go over all of the members and print them in some format.**
+		**In reality this code is basically equivalent to `JsonConvert.Serialize(state)` for some instance `state`**
 
 
 
