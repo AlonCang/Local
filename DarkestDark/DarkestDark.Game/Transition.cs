@@ -21,8 +21,7 @@ namespace DarkestDark.Game
             {
                 foreach (var cond in Conditions)
                 {
-                    bool isNeg = cond.Key.Contains('~');
-                    if(isNeg)
+                    if (cond.Key.Contains('~'))
                     {
                         var key = cond.Key.Substring(1);
                         if (!items.ContainsKey(key))

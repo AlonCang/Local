@@ -2,7 +2,7 @@ Thursday 09/04/2020:
 -------------------------
 1. Added Transition breakdown file - With Questions
 2. Added StateRunner breakdown file
-3. Added StatGraph breakdown file - ith commentary
+3. Added StatGraph breakdown file - With commentary
 4. Wondering if i should start focusing on QA automation or keep on focusing on general programing. 
 
 

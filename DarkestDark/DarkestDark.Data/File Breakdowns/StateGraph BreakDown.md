@@ -51,6 +51,6 @@
 I think i get it. Sort of. Its all just boxes with sockets in boxes with sockets that keep trading their contents down a production line that uses
 boxes with sockets from other places in the factory.
 
-in macro its easy to simplify.
+in macro its easy to simplify and explain.
 in micro its causing my brain to bleed over the specifics that end up running smoothly like a swiss watch.
 Humbling to say the least.
