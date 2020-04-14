@@ -25,9 +25,10 @@ namespace DarkestDark.CLI
                 else if (overlayRunner.CurrentState.Name == "Journal")
                 {
                     var journalEntries = stateRunner.Items.Where(kvp => kvp.Key.StartsWith("@"));
-                    string journal = string.Join("\n ",
-                       journalEntries.Select(kvp => kvp.Key.Substring(1)));
-                    Console.WriteLine($"JOURNAL: \n{journal}");
+                    journalEntries.Select(kvp => kvp.Key.Substring(1));
+                    var entriesWithDescriptions = journalEntries.Select(kvp => $"- {kvp.Key}: {stateRunner.Graph.States.GetValueOrDefault(kvp.Key, new State("DefaultName", "DefaultText")).Text}");
+                    string journal = string.Join("\n ", entriesWithDescriptions);
+                    Console.WriteLine($"JOURNAL: \n {journal}");
                     printed = journal;
                 }
                 Console.WriteLine(overlayRunner.CurrentState.Text);

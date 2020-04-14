@@ -1,3 +1,12 @@
+Teusday 14/04/2020:
+------------------------
+1. Make the journal print like the inventory:
+	- Technically like you said i can sort of copy the printing protocol from inventory.
+	- HOWEVER! Inventory is using Select() to access the string, int kvp.
+	- Journal is a string, string (name + text). So i dont think i can use Select() for this. Ill see what i can do.
+	- Commiting changes hoping master wll help
+	
+
 Thursday 09/04/2020:
 -------------------------
 1. Added Transition breakdown file - With Questions
