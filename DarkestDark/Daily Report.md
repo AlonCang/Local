@@ -5,7 +5,8 @@ Teusday 14/04/2020:
 	- HOWEVER! Inventory is using Select() to access the string, int kvp.
 	- Journal is a string, string (name + text). So i dont think i can use Select() for this. Ill see what i can do.
 	- Commiting changes hoping master wll help
-	
+		- rewrite the journal code so it would be broken down to step by step using foreeach loops
+		- Do the same for inventory
 
 Thursday 09/04/2020:
 -------------------------
