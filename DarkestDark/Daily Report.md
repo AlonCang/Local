@@ -1,3 +1,9 @@
+Wednesday 15/04/2020:
+----------------------------
+1. Added some journal entries to the data.
+2. Rewrote inventory with a foreach loop and it works!
+3. Now lesson shall begin, more shall be done today. 
+
 Teusday 14/04/2020:
 ------------------------
 1. Make the journal print like the inventory:

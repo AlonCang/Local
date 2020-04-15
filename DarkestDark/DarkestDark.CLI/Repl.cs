@@ -16,9 +16,24 @@ namespace DarkestDark.CLI
                 var printed = "";
                 if (overlayRunner.CurrentState.Name == "Inventory")
                 {
-                    var actualItems = stateRunner.Items.Where(kvp => kvp.Value != 0);
-                    var itemsWithDescriptions = actualItems.Select<KeyValuePair<string, int>, string>(kvp => $"{kvp.Key}: {kvp.Value} - {stateRunner.Graph.States.GetValueOrDefault(kvp.Key, new State("DefaultName", "DefaultText")).Text}");
-                    var inventory = string.Join("\n ", itemsWithDescriptions);
+                    var inventory = "";
+                    State defaultState = new State("DefaultName", "DefaultText");
+                    foreach (var item in stateRunner.Items)
+                    {
+                        if (item.Value == 0)
+                        {
+                            continue;
+                        }
+                        var itemName = item.Key;
+                        var itemamount = item.Value;
+                        var itemText = stateRunner.Graph.States.GetValueOrDefault(itemName, defaultState).Text;
+                        inventory += $" - {itemName}: {itemamount}| - {itemText} \n";
+
+                    }
+                    // Old code version. does pretty much the same as the foreach above it
+                    // var actualItems = stateRunner.Items.Where(kvp => kvp.Value != 0);
+                    // var itemsWithDescriptions = actualItems.Select<KeyValuePair<string, int>, string>(kvp => $"{kvp.Key}: {kvp.Value} - {stateRunner.Graph.States.GetValueOrDefault(kvp.Key, new State("DefaultName", "DefaultText")).Text}");
+                    // var inventory = string.Join("\n ", itemsWithDescriptions);
                     Console.WriteLine($"INVENTORY: \n {inventory}");
                     printed = inventory;
                 }

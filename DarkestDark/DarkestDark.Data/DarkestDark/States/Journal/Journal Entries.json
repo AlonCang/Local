@@ -1,10 +1,22 @@
 ﻿[
   {
-    "Name": "openslowly",
-    "Text": "You have open the door slowly, caution is wise"
+    "Name": "OpenSlowly",
+    "Text": "I have opened the door slowly, caution is wise"
   },
   {
-    "Name": "openkickly",
-    "Text": "You have kicked down the door. A man of god could not be expected show kindness to the property of evil"
+    "Name": "OpenWithKick",
+    "Text": "I have kicked down the door. A man of god could not be expected to show kindness to evil's property."
+  },
+  {
+    "Name": "FoundKey",
+    "Text": "I have found this key in the closet room. Not a very good hiding place."
+  },
+  {
+    "Name": "GotRing",
+    "Text": "Why must mistress never get this ring? This must be related to the curse."
+  },
+  {
+    "Name": "FoundRing",
+    "Text": "I'v found this ring in the zombies ashes."
   }
 ]
