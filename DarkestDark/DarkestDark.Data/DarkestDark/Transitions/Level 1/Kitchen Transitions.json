@@ -7,6 +7,7 @@
   {
     "Name": "Ask why he tried to run away.",
     "Text": "As you speak to the zombie he suddenly erupts into a terrible growl.",
+    "Conditions": { "@OpenSlowly": 0 },
     "TargetName": "Ring story"
   },
   {

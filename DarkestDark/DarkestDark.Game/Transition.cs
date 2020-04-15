@@ -26,29 +26,21 @@ namespace DarkestDark.Game
                         var key = cond.Key.Substring(1);
                         if (!items.ContainsKey(key))
                         {
-                            return true;
+                            return true; //Meaning: Yes you have NOT aquired this item to satisfy condition.
                         }
-                        return items[key] < cond.Value;
+                        return items[key] < cond.Value; //Meaning: If this returns 'false' then YES you have enough of this item
                     }
                     else
                     {
                         if (!items.ContainsKey(cond.Key))
                         {
-                            return false;
+                            return false; //Meaning: If you do not have this item return false.
                         }
-                        return items[cond.Key] >= cond.Value;
+                        return items[cond.Key] >= cond.Value; //Meaning: If you have enough of this item to satisfy condition return true.
                     }                    
                 }
             }
             return true;
-        }
-
-        public override string ToString()
-        {
-            return "{" + $"\"Name\": \"{Name}\", " +
-                $"\"Text\": \"{Text}\", " +
-                $"\"Items\": [\"{string.Join(", ", Items)}\"], " +
-                $"\"TargetName\": \"{TargetName}\"" + "}";
         }
     }
 }

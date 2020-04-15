@@ -3,6 +3,13 @@ Wednesday 15/04/2020:
 1. Added some journal entries to the data.
 2. Rewrote inventory with a foreach loop and it works!
 3. Now lesson shall begin, more shall be done today. 
+HOMEWORK:
+4. Moral System: 
+		- Map the 1st level for moral paths using the conditions + items system.
+5. For now the MAP FEATURE is not relevant simply because its too needlessly complicated to make in a console app. 
+6. Build level 2 using the current system.
+WISDOM: If i get confused it means i probably havent read the code correctly.
+7. did some code declattering
 
 Teusday 14/04/2020:
 ------------------------
