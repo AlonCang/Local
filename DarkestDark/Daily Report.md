@@ -1,3 +1,10 @@
+Thursday 16/04/2020:
+-------------------------
+1. Started adding level 2 data.
+	- Encountered a bug. Since the combat is simply choices. when choosing to use a weapon you get transitioned into the inventory but on the regular staterunner (not overlay).
+	- I think this is because we made those item states + transitions that we ended up not using. I think i can remove them without issue, but ill get to it later.
+	- So iv been at it for a few hours. Thats good enough for now. Gonna push.
+
 Wednesday 15/04/2020:
 ----------------------------
 1. Added some journal entries to the data.

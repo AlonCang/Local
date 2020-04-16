@@ -1,0 +1,12 @@
+﻿[
+  {
+    "Name": "Library",
+    "Text": "You enter a vast library. a dozen rows of bookshelves bend under the weight of hundreds of old tomes. A writing desk is pressed against the wall on the far end of the room.",
+    "Transitions": [ "Search the writing desk", "Go back to the hall" ]
+  },
+  {
+    "Name": "Writing Desk",
+    "Text": "A few ink pads, vials and a feather. A few empty scrolls and... a scibble of a clock. The hands point at 3:15. There doesn't seem to be anything else of interest here.",
+    "Transitions": [ "Go back to the hall" ]
+  }
+]

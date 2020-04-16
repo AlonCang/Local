@@ -1,0 +1,17 @@
+﻿[
+  {
+    "Name": "Laboratory",
+    "Text": "As you enter the room it seems different. This room has seen recent use. A number of pipes and cauldrons are placed on burning coals. A chemistry apparatus next to the door is boiling strange fuilds. This is a laboratory.",
+    "Transitions": [ "Chemistry apparatus", "Little lock box", "Go back to the hall" ]
+  },
+  {
+    "Name": "Chemistry apparatus",
+    "Text": "On the main stone table there is an elaborate chemistry apparatus. Various glass pipes dripping along and mixing slowly. What do you do?",
+    "Transitions": [ "Make nitroglycerin", "Little lock box", "Go back to the hall" ]
+  },
+  {
+    "Name": "Lock box",
+    "Text": "You notice a small lock box sitting on a table. You rattle it and hear somehting inside. You smash the box open using the stock of your crossow. Inside is a beautifully cut ruby the size of your fist.",
+    "Transitions": [ "Chemistry apparatus", "Go back to the hall" ]
+  }
+]

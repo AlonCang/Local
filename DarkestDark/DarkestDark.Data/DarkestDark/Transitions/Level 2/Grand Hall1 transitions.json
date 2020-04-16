@@ -1,0 +1,52 @@
+﻿[
+  {
+    "Name": "Speak with the ghoul",
+    "Text": "You bow gracefully before the ghoul and he bows back.",
+    "TargetName": "Ghoul Conversation1"
+  },
+  {
+    "Name": "Attack the ghoul",
+    "Text": "",
+    "TargetName": "Ghoul Fight"
+  },
+  {
+    "Name": "Ask about mistress",
+    "Text": "",
+    "TargetName": "Ghoul Conversation2"
+  },
+  {
+    "Name": "Ask about other possible residents",
+    "Text": "",
+    "TargetName": "Ghoul Conversation2"
+  },
+  {
+    "Name": "Ask to meet mistress",
+    "Text": "Ah, if you are to meet mistress then you must be presentable. The ghoul exposes his rotten fangs. And by that i mean DEAD!",
+    "TargetName": "Ghoul Fight"
+  },
+  {
+    "Name": "Holy cross",
+    "Text": "",
+    "TargetName": "Ghoul Fight: Holy cross"
+  },
+  {
+    "Name": "Crossbow",
+    "Text": "",
+    "TargetName": "Ghoul Fight: Crossbow"
+  },
+  {
+    "Name": "Holy water",
+    "Text": "",
+    "TargetName": "Ghoul Fight: Holy water"
+  },
+  {
+    "Name": "Burn with oil",
+    "Text": "",
+    "TargetName": "Ghoul Fight: Flammable oil"
+  },
+  {
+    "Name": "Examine the hall",
+    "Text": "Now that this is done with, you look around.",
+    "TargetName": "Grand Hall2"
+  }
+]

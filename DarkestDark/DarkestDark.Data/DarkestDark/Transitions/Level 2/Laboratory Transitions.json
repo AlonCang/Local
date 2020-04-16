@@ -1,0 +1,17 @@
+﻿[
+  {
+    "Name": "Chemistry apparatus",
+    "Text": "",
+    "TargetName": "Chemistry apparatus"
+  },
+  {
+    "Name": "Little lock box",
+    "Text": "",
+    "TargetName": "Lock box"
+  },
+  {
+    "Name": "Make nitroglycerin",
+    "Text": "You turn a couple of valves and the fluids flow faster, filling up the end vial. You recognise the smell. This is nitroglycerin. You pocket the vial.",
+    "TargetName": "Laboratory"
+  }
+]

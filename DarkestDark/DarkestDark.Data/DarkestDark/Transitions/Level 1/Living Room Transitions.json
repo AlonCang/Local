@@ -26,7 +26,7 @@
   },
   {
     "Name": "Go down the stairs.",
-    "Text": "THIS LEADS TO THE NEXT LEVEL WHICH WILL NOT BECONSTRUCTED UNTIL FURTHER NOTICE. You can either type quit or continue testing.",
-    "TargetName": "Outside"
+    "Text": "",
+    "TargetName": "Grand Hall1"
   }
 ]

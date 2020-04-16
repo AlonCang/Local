@@ -1,0 +1,57 @@
+﻿[
+  {
+    "Name": "Door 1",
+    "Text": "",
+    "TargetName": "Dining room"
+  },
+  {
+    "Name": "Dining room",
+    "Text": "",
+    "TargetName": "Dining room"
+  },
+  {
+    "Name": "Door 2",
+    "Text": "",
+    "TargetName": "Library"
+  },
+  {
+    "Name": "Library",
+    "Text": "",
+    "TargetName": "Library"
+  },
+  {
+    "Name": "Door 3",
+    "Text": "",
+    "TargetName": "Laboratory"
+  },
+  {
+    "Name": "Laboratory",
+    "Text": "",
+    "TargetName": "Laboratory"
+  },
+  {
+    "Name": "Door 4",
+    "Text": "",
+    "TargetName": "Bedroom"
+  },
+  {
+    "Name": "Bedroom",
+    "Text": "",
+    "TargetName": "Bedroom"
+  },
+  {
+    "Name": "Examine clock",
+    "Text": "You turn to look at the clock.",
+    "TargetName": "Grandfather clock"
+  },
+  {
+    "Name": "Look away from the clock",
+    "Text": "",
+    "TargetName": "Grand Hall3"
+  },
+  {
+    "Name": "Move clock hands to 3:15",
+    "Text": "You move the clock hands with your fingers.",
+    "TargetName": "Clock hands moved"
+  }
+]

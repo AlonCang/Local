@@ -1,0 +1,42 @@
+﻿[
+    {
+        "Name": "Grand Hall1",
+        "Text": "You descend down the stairs into a grande hall. Before you stands a well dressed ghoul. He is busy sweeping the floor when he lifts his gaze and notices you. His croaking voice mutters: 'ah, a visitor. What do you do?",
+        "Transitions": [ "Speak with the ghoul", "Attack the ghoul" ]
+    },
+    {
+        "Name": "Ghoul Conversation1",
+        "Text": "The ghoul speaks again: 'good evening sir. How may i be of service?'",
+        "Transitions": [ "Ask about mistress", "Ask about other possible residents" ]
+    },
+    {
+        "Name": "Ghoul Conversation2",
+        "Text": "",
+        "Transitions": [ "Ask to meet mistress", "Ask about other possible residents" ]
+    },
+    {
+        "Name": "Ghoul Fight",
+        "Text": "Choose weapon:",
+        "Transitions": [ "Holy cross", "Crossbow", "Holy water", "Burn with oil" ]
+    },
+    {
+        "Name": "Ghoul Fight: Crossbow",
+        "Text": "",
+        "Transitions": [ "Examine the hall" ]
+    },
+    {
+        "Name": "Ghoul Fight: Holy water",
+        "Text": "",
+        "Transitions": [ "Examine the hall" ]
+    },
+    {
+        "Name": "Ghoul Fight: Flammable oil",
+        "Text": "",
+        "Transitions": [ "Examine the hall" ]
+    },
+    {
+        "Name": "Ghoul Fight: Holy cross",
+        "Text": "",
+        "Transitions": [ "Examine the hall" ]
+    }
+]

@@ -1,0 +1,12 @@
+﻿[
+  {
+    "Name": "Search the writing desk",
+    "Text": "You approach the desk and begin searching.",
+    "TargetName": "Writing Desk"
+  },
+  {
+    "Name": "Go back to the hall",
+    "Text": "",
+    "TargetName": "Grand Hall3"
+  }
+]

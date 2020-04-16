@@ -4,4 +4,12 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="DarkestDark\States\Level2\Grand Hall1 states.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Include="DarkestDark\States\Level2\Grand Hall1 States.json" />
+  </ItemGroup>
+
 </Project>

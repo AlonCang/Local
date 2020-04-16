@@ -1,0 +1,22 @@
+﻿[
+  {
+    "Name": "Grand Hall2",
+    "Text": "4 doors lead away from the chamber, there is a old grandfather clock standing on the left. What do you do?",
+    "Transitions": [ "Door 1", "Dining room", "Door 2", "Library", "Door 3", "Laboratory", "Door 4", "Bedroom", "Examine clock" ]
+  },
+  {
+    "Name": "Grand Hall3",
+    "Text": "You return to the grand hall. What do you do?",
+    "Transitions": [ "Door 1", "Dining room", "Door 2", "Library", "Door 3", "Laboratory", "Door 4", "Bedroom", "Examine clock" ]
+  },
+  {
+    "Name": "Grandfather clock",
+    "Text": "The old wooden clock is covered with dust. Its mechanism seems to have gone silent many years ago.",
+    "Transitions": [ "Move clock hands to 3:15", "Look away from the clock" ]
+  },
+  {
+    "Name": "Clock hands moved",
+    "Text": "As the mechanism clicks into place you hear a rubmbling of stone echoing from one of the rooms.",
+    "Transitions": [ "Look away from the clock" ]
+  }
+]
