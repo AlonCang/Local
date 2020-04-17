@@ -1,3 +1,11 @@
+Friday 17/04/2020:
+----------------------
+1. Added more level 2 data:
+	- Almost completed adding all states and transitions.
+	- No items or journal entries made yet.
+	- Shadow conversation needs more work.
+	- Gargoyle fight needs more work.
+
 Thursday 16/04/2020:
 -------------------------
 1. Started adding level 2 data.

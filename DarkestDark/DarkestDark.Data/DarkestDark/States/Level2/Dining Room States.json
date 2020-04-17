@@ -1,0 +1,37 @@
+﻿[
+  {
+    "Name": "Dinning Room",
+    "Text": "You enter the dining room. A long marble table runs the length of the decorated chamber. Carved wooden chairs sorround the table on both sides.",
+    "Transitions": [ "Examine table", "Hidden door", "Examine the hall" ]
+  },
+  {
+    "Name": "Dinning Room2",
+    "Text": "Dinning room, now what do you do?",
+    "Transitions": [ "Examine table", "Hidden door", "Examine the hall" ]
+  },
+  {
+    "Name": "Hidden path",
+    "Text": "Dare you open the door?",
+    "Transitions": [ "Open the door", "Examine the hall" ]
+  },
+  {
+    "Name": "Treasure room",
+    "Text": "The door opens to reveal a treasure room. A large iron chest is chained to the floor. A heavy lock seals the chest. As you examine the lock the shadows around you form into a fiend made of black. 'WHERE IS MY RING?!!' he shrieks loudly.",
+    "Transitions": [ "Attack shadow", "Robert is that you?" ]
+  },
+  {
+    "Name": "Shadow conversation",
+    "Text": "Yes it is I! What of it?",
+    "Transitions": [ "What do you know of mistress?", "Why are you guarding this chest?", "You mean this ring?", "Can i have whatever is in the chest then?", "Give ring", "Attack shadow" ]
+  },
+  {
+    "Name": "Shadow fight",
+    "Text": "What weapon will you use to dispatch this fiend?",
+    "Transitions": [ "Shine holy cross", "Throw holy water", "Set on fire with oil", "Shoot him with the crossbow", "Blast him with the nitroglycerin!" ]
+  },
+  {
+    "Name": "Shadow defeated",
+    "Text": "The fiend is now gone. Nothing else to do here.",
+    "Transitions": [ "Examine the hall" ]
+  }
+]

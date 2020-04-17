@@ -2,12 +2,12 @@
   {
     "Name": "Grand Hall2",
     "Text": "4 doors lead away from the chamber, there is a old grandfather clock standing on the left. What do you do?",
-    "Transitions": [ "Door 1", "Dining room", "Door 2", "Library", "Door 3", "Laboratory", "Door 4", "Bedroom", "Examine clock" ]
+    "Transitions": [ "Door 1", "Dinning Room", "Door 2", "Library", "Door 3", "Laboratory", "Door 4", "Bedroom", "Examine clock" ]
   },
   {
     "Name": "Grand Hall3",
     "Text": "You return to the grand hall. What do you do?",
-    "Transitions": [ "Door 1", "Dining room", "Door 2", "Library", "Door 3", "Laboratory", "Door 4", "Bedroom", "Examine clock" ]
+    "Transitions": [ "Door 1", "Dinning Room", "Door 2", "Library", "Door 3", "Laboratory", "Door 4", "Bedroom", "Examine clock" ]
   },
   {
     "Name": "Grandfather clock",

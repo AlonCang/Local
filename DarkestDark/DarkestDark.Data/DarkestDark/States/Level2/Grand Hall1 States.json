@@ -12,12 +12,12 @@
     {
         "Name": "Ghoul Conversation2",
         "Text": "",
-        "Transitions": [ "Ask to meet mistress", "Ask about other possible residents" ]
+        "Transitions": [ "Ask to meet mistress", "Ask about mistress", "Ask about other possible residents" ]
     },
     {
         "Name": "Ghoul Fight",
         "Text": "Choose weapon:",
-        "Transitions": [ "Holy cross", "Crossbow", "Holy water", "Burn with oil" ]
+        "Transitions": [ "Use holy cross", "Use crossbow", "Use holy water", "Burn with oil" ]
     },
     {
         "Name": "Ghoul Fight: Crossbow",

@@ -25,17 +25,17 @@
     "TargetName": "Ghoul Fight"
   },
   {
-    "Name": "Holy cross",
+    "Name": "Use holy cross",
     "Text": "",
     "TargetName": "Ghoul Fight: Holy cross"
   },
   {
-    "Name": "Crossbow",
+    "Name": "Use crossbow",
     "Text": "",
     "TargetName": "Ghoul Fight: Crossbow"
   },
   {
-    "Name": "Holy water",
+    "Name": "Use holy water",
     "Text": "",
     "TargetName": "Ghoul Fight: Holy water"
   },

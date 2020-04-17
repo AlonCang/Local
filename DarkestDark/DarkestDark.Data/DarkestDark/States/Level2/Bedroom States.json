@@ -1,0 +1,32 @@
+﻿[
+  {
+    "Name": "Bedroom",
+    "Text": "You enter a lavish bedroom, but instead of a bed there is a large and beautiful coffin. A vampire must certainly live here, the velvet lining on the coffin makes you certain. A towering mirror is attached to the wall. What do you do?",
+    "Transitions": [ "Examine mirror", "Examine the hall" ]
+  },
+  {
+    "Name": "Mirror1",
+    "Text": "You come closer to the mirror. A number of demonic faces decorate the frame. All of them are holding different gems in their mouths. On of them is missing a gem. What do you do?",
+    "Transitions": [ "Tap on the mirror", "Place gem in the open socket", "Examine the hall" ]
+  },
+  {
+    "Name": "Mirror2",
+    "Text": "What do you do?",
+    "Transitions": [ "Break mirror", "Place gem in the open socket", "Examine the hall" ]
+  },
+  {
+    "Name": "Statue room1",
+    "Text": "You go through the passage and enter an oval room filled with statues. At the far end there is a large statue of a gargoyle. As you approach the gargoyle, his eyes light up in green flames and he issues a warning: 'Only the head of the estate may pass'. What do you do?",
+    "Transitions": [ "Present robert's head", "Attack gargoyle", "Examine The hall" ]
+  },
+  {
+    "Name": "Gargoyle fight1",
+    "Text": "You have only a fraction of a second to repond!  What do you do?",
+    "Transitions": [ "Shoot him!", "Stop him with the holy cross!", "Splash him with holy water!", "Burn him with the oil!", "Blow him up with the nitroglycerin!" ]
+  },
+  {
+    "Name": "Gargoyle fight2",
+    "Text": "What do you do?",
+    "Transitions": [ "Shoot him!", "Stop him with the holy cross!", "Splash him with holy water!", "Burn him with the oil!", "Blow him up with the nitroglycerin!" ]
+  }
+]

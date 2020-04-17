@@ -1,0 +1,77 @@
+﻿[
+  {
+    "Name": "Examine table",
+    "Text": "After observing the table from all sides you decide to take a look underneath. You lift the silken table cloth to find an inscription carved into one of the legs 'Fortunes close. Masked by time'.",
+    "TargetName": "Dinning Room2"
+  },
+  {
+    "Name": "Hidden door",
+    "Text": "The clock mechanism seems to have revealed a hidden door. Perhaps it will lead to something of worth.",
+    "TargetName": "Hidden path"
+  },
+  {
+    "Name": "Open the door",
+    "Text": "",
+    "TargetName": "Treasure room"
+  },
+  {
+    "Name": "Attack shadow",
+    "Text": "The shadow wails an echowing shriek!",
+    "TargetName": "Shadow fight"
+  },
+  {
+    "Name": "Robert is that you?",
+    "Text": "",
+    "TargetName": "Shadow conversation"
+  },
+  {
+    "Name": "What do you know of mistress?",
+    "Text": "She is a temptress! I used to own this estate, yet she has played me for a fool! I loved her and vowed to marry her, but then i found out what she was... i refused to marry her! Nay 'IT'! So i was cursed into this abbysmal state! I need my ring!",
+    "TargetName": "Shadow conversation"
+  },
+  {
+    "Name": "Why are you guarding this chest?",
+    "Text": "My wedding ring is inside, it is the key to my salvation! None can have it but me! I shall not let you take my ring!",
+    "TargetName": "Shadow conversation"
+  },
+  {
+    "Name": "You mean this ring?",
+    "Text": "You present the ring.",
+    "TargetName": "Shadow conversation"
+  },
+  {
+    "Name": "Can i have whatever is in the chest then?",
+    "Text": "She fooled me again! I thought the ring was in the chest! Nevermind... Yes have the chest! Now give me the ring!",
+    "TargetName": "Shadow conversation"
+  },
+  {
+    "Name": "Give ring",
+    "Text": "The ring floats gently from your hand and robert swirls around it. with a sharp glow he vanishes, leaving behind a few fading sparks. You open the chest and find a stack of gold coins and a mummified head. A note attached to the head reads 'ROBERT'. You return to the dinning room.",
+    "TargetName": "Dinning Room2"
+  },
+  {
+    "Name": "Shine holy cross",
+    "Text": "",
+    "TargetName": "Shadow defeated"
+  },
+  {
+    "Name": "Shoot him with the crossbow",
+    "Text": "",
+    "TargetName": "Shadow defeated"
+  },
+  {
+    "Name": "Throw holy water",
+    "Text": "",
+    "TargetName": "Shadow defeated"
+  },
+  {
+    "Name": "Set on fire with oil",
+    "Text": "",
+    "TargetName": "Shadow defeated"
+  },
+  {
+    "Name": "Blast him with the nitroglycerin!",
+    "Text": "You jump back out of the room as you toss the vial of nitroglycerin inside. A loud explosion sends debris and smoke flying out through the door. As you look inside the shadow is gone, but the chest and its contents have been destroyed.",
+    "TargetName": "Shadow defeated"
+  }
+]
