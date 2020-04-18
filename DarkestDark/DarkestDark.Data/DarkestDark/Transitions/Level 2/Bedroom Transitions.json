@@ -33,5 +33,55 @@
     "Name": "Go down",
     "Text": "THIS OPTION LEADS TO THE 3RD AND FINAL LEVEL. IT WONT BE BUILT UNTIL THE 2ND LEVEL IS COMPLETE",
     "TargetName": "Outside"
+  },
+  {
+    "Name": "Shoot him!",
+    "Text": "Without hesitation you bring up the loaded crossbow and shoot the gargoyle directly in the eye. The bolt breaks against the stone eye and the gargoyles charge is unhindered. With a hard stone fist he sends you flying against a wall.",
+    "TargetName": "Gargoyle fight3"
+  },
+  {
+    "Name": "Stop him with the holy cross!",
+    "Text": "You raise your cross against the gargoyle and begin to recite prayer. The stone creature does not even flinch and proceeds to slam his rock arm into you in a sweeping motion. The blow sends you flying back and crashing to the floor. The cross is broken. What do you do?",
+    "TargetName": "Gargoyle fight3"
+  },
+  {
+    "Name": "Splash him with holy water!",
+    "Text": "You retreat to make some space between you and the monster, then throw the vial of holy water. The vial breaks against the stone skin of the gargoyle yet seems to have no effect. The attack continues!",
+    "TargetName": "Gargoyle fight3"
+  },
+  {
+    "Name": "Burn him with the oil!",
+    "Text": "You throw the oil vial at the gargoyle and dive out of the way as he charges forward. You get up quickly and send a few glowing sparks from your flint. The gargoyle catches fire yet does not slow down.",
+    "TargetName": "Gargoyle fight3"
+  },
+  {
+    "Name": "Blow him up with the nitroglycerin!",
+    "Text": "You toss the vial of nitroglycerin and duck for cover as a large explosion sends debris in all directions.",
+    "TargetName": "Outside"
+  },
+  {
+    "Name": "Retreat to the grand hall",
+    "Text": "You flee from the beast into the grande hall. The gargoyle gives chase, smashing his way through every passage to small to fit his size. What do you do?",
+    "TargetName": "Gargoyle fight4"
+  },
+  {
+    "Name": "Run to the library",
+    "Text": "You dart into the library and dive behind a book shelf. The gargoyle roars as it topples all the bookshelves with one great heave. You barely avoid getting trapped under the collapsing tomes. What do you do?",
+    "TargetName": "Gargoyle fight4"
+  },
+  {
+    "Name": "Run to the laboratory",
+    "Text": "Running into the laboratory you narrowly avoid another stone fist. The gargoyle looses ballance and crashes into a cauldron, sending sparks of fire in every direction. The gargoyle, covered in flames rears for another attack.",
+    "TargetName": "Gargoyle laboratory"
+  },
+  {
+    "Name": "Run to the dinning room",
+    "Text": "You rush into the dining room, jump onto the marble table and continue to try and put as much distance between you and the hulking beast. You turn back just as the gargoyle enters the room and slams the table. The blow sends you flying in the air like a catapult. You fly over the gargoyles head and manage to land in a diving roll and escape back to the grande hall. What do you do?",
+    "TargetName": "Gargoyle fight4"
+  },
+  {
+    "Name": "Bait the gargoyle",
+    "Text": "You position yourself behind the chemistry apparatus. The gargoyle shakes the room with a mighty roar and charges straight at you. Just at the right time you leap out of the way as the gargoyle collides with the nitro filled glass. A large explosion catches you mid air and slams you against the wall.",
+    "TargetName": "Gargoyle destroyed"
   }
 ]

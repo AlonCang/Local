@@ -17,7 +17,7 @@
   {
     "Name": "Statue room1",
     "Text": "You go through the passage and enter an oval room filled with statues. At the far end there is a large statue of a gargoyle. As you approach the gargoyle, his eyes light up in green flames and he issues a warning: 'Only the head of the estate may pass'. What do you do?",
-    "Transitions": [ "Present robert's head", "Attack gargoyle", "Examine The hall" ]
+    "Transitions": [ "Present robert's head", "Attack gargoyle", "Examine the hall" ]
   },
   {
     "Name": "Gargoyle fight1",
@@ -28,5 +28,35 @@
     "Name": "Gargoyle fight2",
     "Text": "What do you do?",
     "Transitions": [ "Shoot him!", "Stop him with the holy cross!", "Splash him with holy water!", "Burn him with the oil!", "Blow him up with the nitroglycerin!" ]
+  },
+  {
+    "Name": "Gargoyle fight3",
+    "Text": "What do you do?",
+    "Transitions": [ "Shoot him!", "Stop him with the holy cross!", "Splash him with holy water!", "Burn him with the oil!", "Blow him up with the nitroglycerin!", "Retreat to the grand hall" ]
+  },
+  {
+    "Name": "Gargoyle fight4",
+    "Text": "What do you do?",
+    "Transitions": [ "Run to the library", "Run to the laboratory", "Run to the dinning room" ]
+  },
+  {
+    "Name": "Gargoyle laboratory",
+    "Text": "What do you do?",
+    "Transitions": [ "Bait the gargoyle" ]
+  },
+  {
+    "Name": "Stone archway",
+    "Text": "Do you descend through the stone arch?",
+    "Transitions": [ "Go down", "Examine the hall" ]
+  },
+  {
+    "Name": "Gargoyle defeated",
+    "Text": "When the dust settles, where the gargoyle once was there but a pile of rubble. The path is cleared.",
+    "Transitions": [ "Go down", "Examine the hall" ]
+  },
+  {
+    "Name": "Gargoyle destroyed",
+    "Text": "Standing back up you prepare for another attack but as the smoke settles the only thing left of the gargoyle are nothing more than scattered rocks. When you go to the statue room, where the gargoly once stood you can see a stone arch with stairs leading down.",
+    "Transitions": [ "Go down", "Examine the hall" ]
   }
 ]

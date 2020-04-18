@@ -22,27 +22,27 @@
   {
     "Name": "Robert is that you?",
     "Text": "",
-    "TargetName": "Shadow conversation"
+    "TargetName": "Shadow conversation1"
   },
   {
     "Name": "What do you know of mistress?",
     "Text": "She is a temptress! I used to own this estate, yet she has played me for a fool! I loved her and vowed to marry her, but then i found out what she was... i refused to marry her! Nay 'IT'! So i was cursed into this abbysmal state! I need my ring!",
-    "TargetName": "Shadow conversation"
+    "TargetName": "Shadow conversation2"
   },
   {
     "Name": "Why are you guarding this chest?",
     "Text": "My wedding ring is inside, it is the key to my salvation! None can have it but me! I shall not let you take my ring!",
-    "TargetName": "Shadow conversation"
+    "TargetName": "Shadow conversation2"
   },
   {
     "Name": "You mean this ring?",
     "Text": "You present the ring.",
-    "TargetName": "Shadow conversation"
+    "TargetName": "Shadow conversation3"
   },
   {
     "Name": "Can i have whatever is in the chest then?",
     "Text": "She fooled me again! I thought the ring was in the chest! Nevermind... Yes have the chest! Now give me the ring!",
-    "TargetName": "Shadow conversation"
+    "TargetName": "Shadow conversation4"
   },
   {
     "Name": "Give ring",
@@ -50,23 +50,28 @@
     "TargetName": "Dinning Room2"
   },
   {
+    "Name": "No!",
+    "Text": "The shadow wails an echowing shriek!",
+    "TargetName": "Shadow fight"
+  },
+  {
     "Name": "Shine holy cross",
-    "Text": "",
+    "Text": "You hold the cross forward and recite prayer. The cross glows ever brighter as the shadow shrieks and shrinks away until there is nothing but breeming light. The Chest is yours for the taking. You open the chest and find a stack of gold coins and a mummified head. A note attached to the head reads 'Robert'",
     "TargetName": "Shadow defeated"
   },
   {
     "Name": "Shoot him with the crossbow",
-    "Text": "",
-    "TargetName": "Shadow defeated"
+    "Text": "You aim quickly and shoot a bolt at the menacing shadow. The bolt goes through him and gets lodged in the treasure chest. The shadow then flies right through you! A cold pain hits your lungs as you turn to face the shadow once more.",
+    "TargetName": "Shadow fight"
   },
   {
     "Name": "Throw holy water",
-    "Text": "",
-    "TargetName": "Shadow defeated"
+    "Text": "You splash the water at the shadow only for it to pass through him and spread on the floor. The shadow flies through you leaving an echoing ring in your ears. You grow dizzy.",
+    "TargetName": "Shadow fight"
   },
   {
     "Name": "Set on fire with oil",
-    "Text": "",
+    "Text": "You quickly pour the oil in a wide arch between you and the shadow. As the evil shade charges forward you ignite the oil with your flint. The shadow shrieks and burns before you. When the flames die out you open the chest and find a stack of gold coins and a mummified head. A note attached to the head reads 'Robert'.",
     "TargetName": "Shadow defeated"
   },
   {

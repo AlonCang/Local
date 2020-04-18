@@ -1,3 +1,10 @@
+Saturday 18/04/2020:
+-------------------------
+1. Finished adding level 2 states and transitions.
+	- Still nee to fill out the text for many of the states / transitions.
+	- Tomorrow i will start flagging for items (visited rooms, inventory items & journal entries).
+	- OMG! I'v been planning this project for so long and its now finally starting to take shape. Im excited. :D 
+
 Friday 17/04/2020:
 ----------------------
 1. Added more level 2 data:

@@ -20,9 +20,24 @@
     "Transitions": [ "Attack shadow", "Robert is that you?" ]
   },
   {
-    "Name": "Shadow conversation",
+    "Name": "Shadow conversation1",
     "Text": "Yes it is I! What of it?",
-    "Transitions": [ "What do you know of mistress?", "Why are you guarding this chest?", "You mean this ring?", "Can i have whatever is in the chest then?", "Give ring", "Attack shadow" ]
+    "Transitions": [ "What do you know of mistress?", "Why are you guarding this chest?", "Attack shadow" ]
+  },
+  {
+    "Name": "Shadow conversation2",
+    "Text": "What else do you ask the shadow?",
+    "Transitions": [ "What do you know of mistress?", "Why are you guarding this chest?", "You mean this ring?", "Attack shadow" ]
+  },
+  {
+    "Name": "Shadow conversation3",
+    "Text": "YES! YES! This is the one! I must have it! GIVE IT TO ME!",
+    "Transitions": [ "Can i have whatever is in the chest then?", "Give ring", "No!" ]
+  },
+  {
+    "Name": "Shadow conversation4",
+    "Text": "What do you do?",
+    "Transitions": [ "Give ring", "Attack shadow" ]
   },
   {
     "Name": "Shadow fight",
