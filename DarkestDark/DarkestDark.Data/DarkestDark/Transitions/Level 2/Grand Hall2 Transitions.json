@@ -2,41 +2,49 @@
   {
     "Name": "Door 1",
     "Text": "",
+    "Conditions": { "~Dinning Room": 0 },
     "TargetName": "Dinning Room"
   },
   {
     "Name": "Dinning Room",
     "Text": "",
+    "Conditions": { "Dinning Room": 0 },
     "TargetName": "Dinning Room"
   },
   {
     "Name": "Door 2",
     "Text": "",
+    "Conditions": { "~Library": 0 },
     "TargetName": "Library"
   },
   {
     "Name": "Library",
     "Text": "",
+    "Conditions": { "Library": 0 },
     "TargetName": "Library"
   },
   {
     "Name": "Door 3",
     "Text": "",
+    "Conditions": { "~Laboratory": 0 },
     "TargetName": "Laboratory"
   },
   {
     "Name": "Laboratory",
     "Text": "",
+    "Conditions": { "Laboratory": 0 },
     "TargetName": "Laboratory"
   },
   {
     "Name": "Door 4",
     "Text": "",
+    "Conditions": { "~Bedroom": 0 },
     "TargetName": "Bedroom"
   },
   {
     "Name": "Bedroom",
     "Text": "",
+    "Conditions": { "Bedroom": 0 },
     "TargetName": "Bedroom"
   },
   {

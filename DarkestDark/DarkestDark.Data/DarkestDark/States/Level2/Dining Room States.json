@@ -1,7 +1,7 @@
 ﻿[
   {
     "Name": "Dinning Room",
-    "Text": "You enter the dining room. A long marble table runs the length of the decorated chamber. Carved wooden chairs sorround the table on both sides.",
+    "Text": "You enter the dinning room. A long marble table runs the length of the decorated chamber. Carved wooden chairs sorround the table on both sides.",
     "Transitions": [ "Examine table", "Hidden door", "Examine the hall" ]
   },
   {

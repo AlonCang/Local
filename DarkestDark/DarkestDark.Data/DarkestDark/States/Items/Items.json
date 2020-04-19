@@ -26,5 +26,25 @@
   {
     "Name": "Crossbow Bolts",
     "Text": "Just regular bolts. Without them the crossbow is useless"
+  },
+  {
+    "Name": "Clock scribble",
+    "Text": "The clock hands point at 3:15"
+  },
+  {
+    "Name": "Nitroglycerin",
+    "Text": "A highly sensitive explosive. Dont shake it too hard."
+  },
+  {
+    "Name": "Ruby",
+    "Text": "A well cut gem of impressive size."
+  },
+  {
+    "Name": "Gold Coins",
+    "Text": "Shiny. Valuable."
+  },
+  {
+    "Name": "Mummified Head",
+    "Text": "A well preserved head of a man. A note attached to it reads 'ROBERT'."
   }
 ]

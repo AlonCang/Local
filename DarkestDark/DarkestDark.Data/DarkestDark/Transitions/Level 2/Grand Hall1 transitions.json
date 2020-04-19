@@ -32,16 +32,19 @@
   {
     "Name": "Use crossbow",
     "Text": "",
+    "Items": { "Crossbow Bolts": -1 },
     "TargetName": "Ghoul Fight: Crossbow"
   },
   {
     "Name": "Use holy water",
     "Text": "",
+    "Items": { "Holy Water": -1 },
     "TargetName": "Ghoul Fight: Holy water"
   },
   {
     "Name": "Burn with oil",
     "Text": "",
+    "Items": { "Flammable Oil": -1 },
     "TargetName": "Ghoul Fight: Flammable oil"
   },
   {

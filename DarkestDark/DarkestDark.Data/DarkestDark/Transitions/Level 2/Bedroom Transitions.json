@@ -12,6 +12,7 @@
   {
     "Name": "Place gem in the open socket",
     "Text": "The gem fits perfectly into the socket. A rumbling of heavy cogs shifts the mirror to the side to reveal a large stone passage. A deemly lit room is ahead. You enter.",
+    "Items": { "Ruby": -1 },
     "TargetName": "Statue room1"
   },
   {
@@ -37,26 +38,31 @@
   {
     "Name": "Shoot him!",
     "Text": "Without hesitation you bring up the loaded crossbow and shoot the gargoyle directly in the eye. The bolt breaks against the stone eye and the gargoyles charge is unhindered. With a hard stone fist he sends you flying against a wall.",
+    "Items": { "Crossbow Bolts": -1 },
     "TargetName": "Gargoyle fight3"
   },
   {
     "Name": "Stop him with the holy cross!",
     "Text": "You raise your cross against the gargoyle and begin to recite prayer. The stone creature does not even flinch and proceeds to slam his rock arm into you in a sweeping motion. The blow sends you flying back and crashing to the floor. The cross is broken. What do you do?",
+    "Items": { "Holy Cross": -1 },
     "TargetName": "Gargoyle fight3"
   },
   {
     "Name": "Splash him with holy water!",
     "Text": "You retreat to make some space between you and the monster, then throw the vial of holy water. The vial breaks against the stone skin of the gargoyle yet seems to have no effect. The attack continues!",
+    "Items": { "Holy Water": -1 },
     "TargetName": "Gargoyle fight3"
   },
   {
     "Name": "Burn him with the oil!",
     "Text": "You throw the oil vial at the gargoyle and dive out of the way as he charges forward. You get up quickly and send a few glowing sparks from your flint. The gargoyle catches fire yet does not slow down.",
+    "Items": { "Flammable Oil": -1 },
     "TargetName": "Gargoyle fight3"
   },
   {
     "Name": "Blow him up with the nitroglycerin!",
     "Text": "You toss the vial of nitroglycerin and duck for cover as a large explosion sends debris in all directions.",
+    "Items": { "Nitroglycerin": -1 },
     "TargetName": "Outside"
   },
   {

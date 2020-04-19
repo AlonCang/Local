@@ -47,6 +47,7 @@
   {
     "Name": "Give ring",
     "Text": "The ring floats gently from your hand and robert swirls around it. with a sharp glow he vanishes, leaving behind a few fading sparks. You open the chest and find a stack of gold coins and a mummified head. A note attached to the head reads 'ROBERT'. You return to the dinning room.",
+    "Items": { "Ring": -1, "Gold Coins": 10, "Mummified Head":  1 },
     "TargetName": "Dinning Room2"
   },
   {
@@ -57,26 +58,31 @@
   {
     "Name": "Shine holy cross",
     "Text": "You hold the cross forward and recite prayer. The cross glows ever brighter as the shadow shrieks and shrinks away until there is nothing but breeming light. The Chest is yours for the taking. You open the chest and find a stack of gold coins and a mummified head. A note attached to the head reads 'Robert'",
+    "Items": { "Gold Coins": 10, "Mummified Head":  1 },
     "TargetName": "Shadow defeated"
   },
   {
     "Name": "Shoot him with the crossbow",
     "Text": "You aim quickly and shoot a bolt at the menacing shadow. The bolt goes through him and gets lodged in the treasure chest. The shadow then flies right through you! A cold pain hits your lungs as you turn to face the shadow once more.",
+    "Items": { "Crossbow Bolts": -1 },
     "TargetName": "Shadow fight"
   },
   {
     "Name": "Throw holy water",
     "Text": "You splash the water at the shadow only for it to pass through him and spread on the floor. The shadow flies through you leaving an echoing ring in your ears. You grow dizzy.",
+    "Items": { "Holy Water": -1 },
     "TargetName": "Shadow fight"
   },
   {
     "Name": "Set on fire with oil",
     "Text": "You quickly pour the oil in a wide arch between you and the shadow. As the evil shade charges forward you ignite the oil with your flint. The shadow shrieks and burns before you. When the flames die out you open the chest and find a stack of gold coins and a mummified head. A note attached to the head reads 'Robert'.",
+    "Items": { "Flammable Oil": -1, "Gold Coins": 10, "Mummified Head":  1 },
     "TargetName": "Shadow defeated"
   },
   {
     "Name": "Blast him with the nitroglycerin!",
     "Text": "You jump back out of the room as you toss the vial of nitroglycerin inside. A loud explosion sends debris and smoke flying out through the door. As you look inside the shadow is gone, but the chest and its contents have been destroyed.",
+    "Items": { "Nitroglycerin": -1 },
     "TargetName": "Shadow defeated"
   }
 ]
