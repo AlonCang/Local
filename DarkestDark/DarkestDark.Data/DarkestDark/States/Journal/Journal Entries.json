@@ -18,5 +18,109 @@
   {
     "Name": "FoundRing",
     "Text": "I'v found this ring in the zombies ashes."
+  },
+  {
+    "Name": "ZombieStory",
+    "Text": "The zombie told me about a 'mistress'. Seems like there are dark forces at play here."
+  },
+  {
+    "Name": "StoodMyGround",
+    "Text": "Iv encountered an illusion in the living room. Probably meant to ward off the simple folk."
+  },
+  {
+    "Name": "GhastDestroyed",
+    "Text": "Iv destroyed the ghast in the living room. I should anticipate encountering more minions."
+  },
+  {
+    "Name": "GateOpened",
+    "Text": "The key fit the locked gate. I sense negligence."
+  },
+  {
+    "Name": "TheButler",
+    "Text": "It seems that 'Mistress' keeps ghouls as butlers. And she is 'down below'. How do i get there?"
+  },
+  {
+    "Name": "AnotherServant",
+    "Text": "I should find out more about this 'Robert'."
+  },
+  {
+    "Name": "GhoulDestroyed",
+    "Text": "Another cursed soul put to rest."
+  },
+  {
+    "Name": "TreasureHint",
+    "Text": "Iv found an inscription on the dinner table. It reads: 'Fortunes close. Masked by time'."
+  },
+  {
+    "Name": "BrokenClock",
+    "Text": "The large clock seems to be broken."
+  },
+  {
+    "Name": "ClockScribble",
+    "Text": "Could it be this simple? Might as well try it."
+  },
+  {
+    "Name": "ClockHandsMoved",
+    "Text": "I think the clock triggered a mechanism. Maybe something moved around somewhere?"
+  },
+  {
+    "Name": "IvFoundRobert",
+    "Text": "Iv found roberts ghost."
+  },
+  {
+    "Name": "UnholyMistress",
+    "Text": "Robert claims to have been the rightful owner of the estate. He referred to mistress as “it”. She seems to have unholy powers. I should not underestimate her."
+  },
+  {
+    "Name": "IHaveBanishedRobert",
+    "Text": "Robert is no more."
+  },
+  {
+    "Name": "ShadowDestroyed",
+    "Text": "I have banished the evil shadow back from whence it came."
+  },
+  {
+    "Name": "IHaveReleasedRobert",
+    "Text": "Robert seems to have been a victim. His death must be related to the curse. He is now free from his torment."
+  },
+  {
+    "Name": "ShadowBlownUp",
+    "Text": "Its good to know that ghosts are vulnerable to explosions. Shame for the chest though."
+  },
+  {
+    "Name": "ShadowDamage",
+    "Text": "The shadow hurt me. I should be ore careful."
+  },
+  {
+    "Name": "RobertsHead",
+    "Text": "I have found poor Roberts head. But i cant help but wonder, where is the rest of him?"
+  },
+  {
+    "Name": "Nitroglycerine",
+    "Text": "Iv used the apparatus in the laboratory to make a vial of nitroglycerine. This is a very potent chemical. I should be careful when using it."
+  },
+  {
+    "Name": "LargeRuby",
+    "Text": "I have found a valuable gem."
+  },
+  {
+    "Name": "GemInMirror",
+    "Text": "So thats what the gem was for."
+  },
+  {
+    "Name": "BrokenMirror",
+    "Text": "Brute force is always an option."
+  },
+  {
+    "Name": "TheGargoyleLetMePass",
+    "Text": "Im glad that i kept Roberts head, i would not want to fight that gargoyle. I hate gargoyles."
+  },
+  {
+    "Name": "GargoyleDamage",
+    "Text": "Damn those stone fists hurt. I hate gargoyles."
+  },
+  {
+    "Name": "GargoyleDestroyed",
+    "Text": "What a beast. If mistress is at least this tough... Looks like i have my work set for me."
   }
 ]
