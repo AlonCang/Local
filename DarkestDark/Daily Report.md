@@ -1,3 +1,12 @@
+Teusday 21/04/2020:
+------------------------
+1. All level 1 + 2 journal entries now exist in Journal Entries.json
+	- I will do the flagging tomorrow. Have been sick most of the day.
+
+Monday 20/04/2020:
+------------------------
+1. Spent the whole day with family. Holocaust eve brings people together... through ZOOM. crazy times.
+
 Sunday 19/04/2020:
 -----------------------
 1. Added some items:
@@ -5,7 +14,7 @@ Sunday 19/04/2020:
 		- Inventory items have been placed all around the level
 		- items.json has been updated with every new item.
 		- All fight choices now cost items when chosen.
-		- Tomorrow ill add journal entries and conditions. I expect that bug you mentioned to happen as soon as i set for more than 1 condition. Ill try and tackle it hen it occurs. If i cant handle it ill contact you.
+		- Tomorrow ill add journal entries and conditions. I expect that bug you mentioned to happen as soon as i set for more than 1 condition. Ill try and tackle it when it occurs. If i cant handle it ill contact you.
 		- This is all coming out so nicely. Also i just realised while working on the data in the past few days that this sort of was my job in my last company. I did very little QA and a lot of data wiring. Only this time i like what im working on.
 		
 
