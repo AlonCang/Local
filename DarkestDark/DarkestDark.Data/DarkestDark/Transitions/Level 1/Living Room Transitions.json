@@ -9,7 +9,7 @@
     "Name": "Stand your ground. There is nothing to fear. God is on your side.",
     "Text": "",
     "Conditions": { "@OpenSlowly": 0 },
-    "Items": { "Ghast defeated": 0 },
+    "Items": { "Ghast defeated": 0, "@StoodMyGround":  0 },
     "TargetName": "Ghast illusion"
   },
   {
