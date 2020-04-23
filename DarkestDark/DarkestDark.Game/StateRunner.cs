@@ -50,6 +50,11 @@ namespace DarkestDark.Game
             if (Graph.Transitions.ContainsKey(transition))
             {
                 Transition tobj = Graph.Transitions[transition];
+                if (tobj.Text == "quit")
+                {
+                    IsGameOver = true;
+                    return "Game is now over.";
+                }
                 var targetState = tobj.TargetName;
                 CurrentState = Graph.States[targetState];
                 if (!Items.ContainsKey(targetState))
@@ -57,11 +62,6 @@ namespace DarkestDark.Game
                     Items.Add(targetState, 0);
                 }
 
-                if (tobj.Text == "quit")
-                {
-                    IsGameOver = true;
-                    return "Game is now over... Bitch...";
-                }
 
                 if (tobj.Items != null)
                 {
@@ -103,6 +103,22 @@ namespace DarkestDark.Game
             return keyString;
         }
 
+        public string BuildInventory()
+        {
+            State defaultState = new State("DefaultName", "DefaultText");
+            var inventory = "";
+            foreach (var item in Items)
+            {
+                if (item.Value == 0)
+                {
+                    continue;
+                }
+                var itemName = item.Key;
+                var itemText = Graph.States.GetValueOrDefault(itemName, defaultState).Text;
+                inventory += $" - {itemName}: {item.Value}| - {itemText} \n";
+            }
+            return inventory;
+        }
     }
 }
 

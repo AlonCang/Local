@@ -50,6 +50,7 @@
   {
     "Name": "Examine clock",
     "Text": "You turn to look at the clock.",
+    "Items": {"@BrokenClock":  0},
     "TargetName": "Grandfather clock"
   },
   {
@@ -60,6 +61,7 @@
   {
     "Name": "Move clock hands to 3:15",
     "Text": "You move the clock hands with your fingers.",
+    "Items": { "@ClockHandsMoved": 0 },
     "TargetName": "Clock hands moved"
   }
 ]

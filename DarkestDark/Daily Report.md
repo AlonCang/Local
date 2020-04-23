@@ -1,3 +1,18 @@
+Thursday 23/04/2020:
+-------------------------
+1. Placed journal entries on their corresponding transitions.
+	- I have encountered an issue where the same transition could give 2 different journal entries when only one should be given based on a codition.
+	- I need to think on how to extend the conditions system so it would fix this issue.
+		- EXAMPLE: When the player finds ROBERTS HEAD, he should get a different journal entry depending or not if he has spoken to the ghoul about ROBERT.
+		- My 1st guess is to go look at how the Conditions are currently working and then see how i extend the Items system to include the relevant code.
+		- Its not very important at the moment since its not a must. But its nice to keep it in my head as an option.
+		
+2. Placing journal entry conditions on transitions. Got my work cutout for me. 
+Wednesday 22/04/2020:
+----------------------------
+1. StateRunner.cs now has a new function called "BuildInventory". 
+	- Its the same code copied from Repl.cs. Which now calls on this function in order to work the inventory.
+
 Teusday 21/04/2020:
 ------------------------
 1. All level 1 + 2 journal entries now exist in Journal Entries.json

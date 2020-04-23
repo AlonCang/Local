@@ -2,6 +2,7 @@
   {
     "Name": "Speak with the ghoul",
     "Text": "You bow gracefully before the ghoul and he bows back.",
+    "Conditions": {"@ZombieStory":  0},
     "TargetName": "Ghoul Conversation1"
   },
   {
@@ -12,11 +13,13 @@
   {
     "Name": "Ask about mistress",
     "Text": "",
+    "Items": { "@TheButler":  0 },
     "TargetName": "Ghoul Conversation2"
   },
   {
     "Name": "Ask about other possible residents",
     "Text": "",
+    "Items": { "@AnotherServant": 0 },
     "TargetName": "Ghoul Conversation2"
   },
   {
@@ -27,24 +30,27 @@
   {
     "Name": "Use holy cross",
     "Text": "",
+    "Items": { "@GhoulDestroyed": 0 },
     "TargetName": "Ghoul Fight: Holy cross"
   },
   {
     "Name": "Use crossbow",
     "Text": "",
-    "Items": { "Crossbow Bolts": -1 },
+    "Items": { "Crossbow Bolts": -1, "@GhoulDestroyed": 0 },
     "TargetName": "Ghoul Fight: Crossbow"
   },
   {
     "Name": "Use holy water",
     "Text": "",
-    "Items": { "Holy Water": -1 },
+    "Conditions": {"Holy Water": 1 },
+    "Items": { "Holy Water": -1, "@GhoulDestroyed": 0 },
     "TargetName": "Ghoul Fight: Holy water"
   },
   {
     "Name": "Burn with oil",
     "Text": "",
-    "Items": { "Flammable Oil": -1 },
+    "Conditions": { "Flammable Oil": 1 },
+    "Items": { "Flammable Oil": -1, "@GhoulDestroyed": 0 },
     "TargetName": "Ghoul Fight: Flammable oil"
   },
   {

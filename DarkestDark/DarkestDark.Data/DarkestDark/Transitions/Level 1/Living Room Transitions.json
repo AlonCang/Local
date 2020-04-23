@@ -20,7 +20,7 @@
   {
     "Name": "Try the key.",
     "Conditions": { "Key": 1 },
-    "Items": { "Key": -1 },
+    "Items": { "Key": -1, "@GateOpened":  0 },
     "Text": "The key fits and the gate opens with a slow heavy groan, the sound of its rusty hinges echos down the stairs. What do you do?",
     "TargetName": "Iron gate2"
   },

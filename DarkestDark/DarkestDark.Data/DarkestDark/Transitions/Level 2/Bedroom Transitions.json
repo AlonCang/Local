@@ -12,12 +12,14 @@
   {
     "Name": "Place gem in the open socket",
     "Text": "The gem fits perfectly into the socket. A rumbling of heavy cogs shifts the mirror to the side to reveal a large stone passage. A deemly lit room is ahead. You enter.",
-    "Items": { "Ruby": -1 },
+    "Conditions": { "@LargeRuby": 0 },
+    "Items": { "Ruby": -1, "@GemInMirror": 0 },
     "TargetName": "Statue room1"
   },
   {
     "Name": "Break mirror",
     "Text": "You kick the mirror with all your strength! Large shards of glass fly into the the dark room beyond as the remaining pieces fall to the floor and shatter loudly. A roar is heard from the darkness as a hulking stone gargoyle barrels towards you!",
+    "Items": { "@BrokenMirror": 0 },
     "TargetName": "Gargoyle fight1"
   },
   {
@@ -28,6 +30,8 @@
   {
     "Name": "Present robert's head",
     "Text": "Assuming the gargoyle might reffer to robert, you present the mummified head. The gargoyle bows and then gets up and moves to the side, revealing a stone archway and a staircase leading down.",
+    "Conditions": {"@RobertsHead": 0},
+    "Items": { "@TheGargoyleLetMePass": 0 },
     "TargetName": "Stone archway"
   },
   {
@@ -38,31 +42,34 @@
   {
     "Name": "Shoot him!",
     "Text": "Without hesitation you bring up the loaded crossbow and shoot the gargoyle directly in the eye. The bolt breaks against the stone eye and the gargoyles charge is unhindered. With a hard stone fist he sends you flying against a wall.",
-    "Items": { "Crossbow Bolts": -1 },
+    "Items": { "Crossbow Bolts": -1, "@GargoyleDamage": 0 },
     "TargetName": "Gargoyle fight3"
   },
   {
     "Name": "Stop him with the holy cross!",
     "Text": "You raise your cross against the gargoyle and begin to recite prayer. The stone creature does not even flinch and proceeds to slam his rock arm into you in a sweeping motion. The blow sends you flying back and crashing to the floor. The cross is broken. What do you do?",
-    "Items": { "Holy Cross": -1 },
+    "Items": { "Holy Cross": -1, "@GargoyleDamage": 0 },
     "TargetName": "Gargoyle fight3"
   },
   {
     "Name": "Splash him with holy water!",
     "Text": "You retreat to make some space between you and the monster, then throw the vial of holy water. The vial breaks against the stone skin of the gargoyle yet seems to have no effect. The attack continues!",
-    "Items": { "Holy Water": -1 },
+    "Conditions": {"Holy Water": 1 },
+    "Items": { "Holy Water": -1, "@GargoyleDamage": 0 },
     "TargetName": "Gargoyle fight3"
   },
   {
     "Name": "Burn him with the oil!",
     "Text": "You throw the oil vial at the gargoyle and dive out of the way as he charges forward. You get up quickly and send a few glowing sparks from your flint. The gargoyle catches fire yet does not slow down.",
-    "Items": { "Flammable Oil": -1 },
+    "Conditions": { "Flammable Oil": 1 },
+    "Items": { "Flammable Oil": -1, "@GargoyleDamage": 0 },
     "TargetName": "Gargoyle fight3"
   },
   {
     "Name": "Blow him up with the nitroglycerin!",
     "Text": "You toss the vial of nitroglycerin and duck for cover as a large explosion sends debris in all directions.",
-    "Items": { "Nitroglycerin": -1 },
+    "@Conditions": { "Nitroglycerin": 1 },
+    "Items": { "Nitroglycerin": -1, "@GargoyleDestroyed": 0 },
     "TargetName": "Outside"
   },
   {
@@ -88,6 +95,7 @@
   {
     "Name": "Bait the gargoyle",
     "Text": "You position yourself behind the chemistry apparatus. The gargoyle shakes the room with a mighty roar and charges straight at you. Just at the right time you leap out of the way as the gargoyle collides with the nitro filled glass. A large explosion catches you mid air and slams you against the wall.",
+    "Items": { "@GargoyleDestroyed": 0 },
     "TargetName": "Gargoyle destroyed"
   }
 ]

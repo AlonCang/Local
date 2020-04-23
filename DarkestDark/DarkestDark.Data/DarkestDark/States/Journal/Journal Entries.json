@@ -24,6 +24,10 @@
     "Text": "The zombie told me about a 'mistress'. Seems like there are dark forces at play here."
   },
   {
+    "Name": "ZombieDestroyed",
+    "Text": "The zombie iv found in the kitchen has been destroyed."
+  },
+  {
     "Name": "StoodMyGround",
     "Text": "Iv encountered an illusion in the living room. Probably meant to ward off the simple folk."
   },
@@ -90,6 +94,10 @@
   {
     "Name": "ShadowDamage",
     "Text": "The shadow hurt me. I should be ore careful."
+  },
+  {
+    "Name": "SeveredHead",
+    "Text": "I guess this 'ROBERT' person was of some importance."
   },
   {
     "Name": "RobertsHead",

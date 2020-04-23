@@ -12,6 +12,6 @@
   {
     "Name": "Entrance Hall2",
     "Text": "You return to the entrance hall. What do you do?",
-    "Transitions": [ "Left door", "Closet room", "Middle door", "Living room", "Right door", "Kitchen" ]
+    "Transitions": [ "Left door", "Closet room", "Middle door", "Living room", "Right door", "Kitchen", "End1" ]
   }
 ]

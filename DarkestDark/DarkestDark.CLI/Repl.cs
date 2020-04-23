@@ -17,17 +17,7 @@ namespace DarkestDark.CLI
                 var printed = "";
                 if (overlayRunner.CurrentState.Name == "Inventory")
                 {
-                    var inventory = "";
-                    foreach (var item in stateRunner.Items)
-                    {
-                        if (item.Value == 0)
-                        {
-                            continue;
-                        }
-                        var itemName = item.Key;
-                        var itemText = stateRunner.Graph.States.GetValueOrDefault(itemName, defaultState).Text;
-                        inventory += $" - {itemName}: {item.Value}| - {itemText} \n";
-                    }
+                    var inventory = stateRunner.BuildInventory();
                     Console.WriteLine($"INVENTORY: \n {inventory}");
                     printed = inventory;
                 }
@@ -82,6 +72,8 @@ namespace DarkestDark.CLI
                     Console.WriteLine(transitionResultText);
                 }
             }
+            Console.WriteLine(stateRunner.BuildInventory());
+
         }
     }
 }

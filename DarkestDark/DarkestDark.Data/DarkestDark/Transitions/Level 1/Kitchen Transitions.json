@@ -28,6 +28,7 @@
   {
     "Name": "Destroy this creature and relieve him from his torment.",
     "Text": "Standing over the mumbling undead, you recite a funeral prayer.",
+    "Items": { "@ZombieDestroyed": 0 },
     "TargetName": "Zombie destroyed"
   },
 ]

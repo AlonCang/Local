@@ -2,11 +2,13 @@
   {
     "Name": "Examine table",
     "Text": "After observing the table from all sides you decide to take a look underneath. You lift the silken table cloth to find an inscription carved into one of the legs 'Fortunes close. Masked by time'.",
+    "Items": {"@TreasureHint": 0},
     "TargetName": "Dinning Room2"
   },
   {
     "Name": "Hidden door",
     "Text": "The clock mechanism seems to have revealed a hidden door. Perhaps it will lead to something of worth.",
+    "Conditions": { "@ClockHandsMoved": 0 },
     "TargetName": "Hidden path"
   },
   {
@@ -22,11 +24,14 @@
   {
     "Name": "Robert is that you?",
     "Text": "",
+    "Conditions": { "@AnotherServant": 0 },
+    "Items": { "@IvFoundRobert": 0 },
     "TargetName": "Shadow conversation1"
   },
   {
     "Name": "What do you know of mistress?",
     "Text": "She is a temptress! I used to own this estate, yet she has played me for a fool! I loved her and vowed to marry her, but then i found out what she was... i refused to marry her! Nay 'IT'! So i was cursed into this abbysmal state! I need my ring!",
+    "Items": { "@UnholyMistress": 0 },
     "TargetName": "Shadow conversation2"
   },
   {
@@ -37,6 +42,7 @@
   {
     "Name": "You mean this ring?",
     "Text": "You present the ring.",
+    "Conditions": { "Ring": 1 },
     "TargetName": "Shadow conversation3"
   },
   {
@@ -47,42 +53,46 @@
   {
     "Name": "Give ring",
     "Text": "The ring floats gently from your hand and robert swirls around it. with a sharp glow he vanishes, leaving behind a few fading sparks. You open the chest and find a stack of gold coins and a mummified head. A note attached to the head reads 'ROBERT'. You return to the dinning room.",
-    "Items": { "Ring": -1, "Gold Coins": 10, "Mummified Head":  1 },
+    "Items": { "Ring": -1, "Gold Coins": 10, "Mummified Head":  1, "@IHaveReleasedRobert":  0 },
     "TargetName": "Dinning Room2"
   },
   {
     "Name": "No!",
     "Text": "The shadow wails an echowing shriek!",
+    "Items": { "@IHaveBanishedRobert": 0 },
     "TargetName": "Shadow fight"
   },
   {
     "Name": "Shine holy cross",
     "Text": "You hold the cross forward and recite prayer. The cross glows ever brighter as the shadow shrieks and shrinks away until there is nothing but breeming light. The Chest is yours for the taking. You open the chest and find a stack of gold coins and a mummified head. A note attached to the head reads 'Robert'",
-    "Items": { "Gold Coins": 10, "Mummified Head":  1 },
+    "Items": { "Gold Coins": 10, "Mummified Head":  1, "@ShadowDestroyed": 0, "@RobertsHead": 0 },
     "TargetName": "Shadow defeated"
   },
   {
     "Name": "Shoot him with the crossbow",
     "Text": "You aim quickly and shoot a bolt at the menacing shadow. The bolt goes through him and gets lodged in the treasure chest. The shadow then flies right through you! A cold pain hits your lungs as you turn to face the shadow once more.",
-    "Items": { "Crossbow Bolts": -1 },
+    "Items": { "Crossbow Bolts": -1, "@ShadowDamage": 0 },
     "TargetName": "Shadow fight"
   },
   {
     "Name": "Throw holy water",
     "Text": "You splash the water at the shadow only for it to pass through him and spread on the floor. The shadow flies through you leaving an echoing ring in your ears. You grow dizzy.",
-    "Items": { "Holy Water": -1 },
+    "Conditions": {"Holy Water": 1 },
+    "Items": { "Holy Water": -1, "@ShadowDamage": 0 },
     "TargetName": "Shadow fight"
   },
   {
     "Name": "Set on fire with oil",
     "Text": "You quickly pour the oil in a wide arch between you and the shadow. As the evil shade charges forward you ignite the oil with your flint. The shadow shrieks and burns before you. When the flames die out you open the chest and find a stack of gold coins and a mummified head. A note attached to the head reads 'Robert'.",
-    "Items": { "Flammable Oil": -1, "Gold Coins": 10, "Mummified Head":  1 },
+    "Conditions": { "Flammable Oil": 1 },
+    "Items": { "Flammable Oil": -1, "Gold Coins": 10, "Mummified Head":  1, "@ShadowDestroyed": 0, "@RobertsHead": 0 },
     "TargetName": "Shadow defeated"
   },
   {
     "Name": "Blast him with the nitroglycerin!",
     "Text": "You jump back out of the room as you toss the vial of nitroglycerin inside. A loud explosion sends debris and smoke flying out through the door. As you look inside the shadow is gone, but the chest and its contents have been destroyed.",
-    "Items": { "Nitroglycerin": -1 },
+    "Conditions": { "Nitroglycerin": 1 },
+    "Items": { "Nitroglycerin": -1, "@ShadowBlownUp": 0 },
     "TargetName": "Shadow defeated"
   }
 ]
