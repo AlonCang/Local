@@ -1,3 +1,42 @@
+Friday 24/04/2020:
+-------------------
+1. Tried coming up with new features for the program.
+	- Anything that i came up with i ended up discarding because none of it was essential for the program.
+	- I think that at some point i "COULD" develope conditions for items:
+		- This could be an addition to the current conditions system or an entirely new function.
+		- It could be a function that receives a transition, checks for the existence of an item or a journal entry (also item i know).
+		  Then depending on the result it will grant the player an item/journal entry from a list, or both.. i dont know.
+		- Somehow i feel that this is already how the system works anyway. 
+		- My assumption was to upgrade the 'PerformTransition' function. But after reading it i dont think that this is the right place.
+
+2. I had a mental breakdown.
+	- I has become doubt.
+	- Recalibrated my brain.
+	- CONCLUSION: 
+			- DarkestDark has pretty much completed its functional requirements. I will not focus on developing anything new for it.
+			- I will continue filling out the minimal data required in order to move on to the next phase.
+			- NEXT PHASE: Use DarkestDark as a test subject in order to learn Test automation.
+			- QUESTION: Correct me if im wrong but it seems that test automation is rather expensive. Does that mean that only large companies can afford it?
+					- If so does that mean that my lack of official training (and older age) would be a sever detriment to my ability to get hired?
+					- Are there even jobs for people like me in Israel?
+					- Should i start looking for work online in other countries?
+					- Will i be able to feed myself after my parents can no longer support me and the world descends into chaos?
+					- Why is it that suicide is back on the list of legal transitions? :P
+					- TOPKEK! Depressed humor is not funny! Use energy to improve self not hate self.
+			
+3. I have spent some time reading about test automation. Was not surprised to find that it is an entire field of study in itself with its	
+	own methodologies, theories, programs, markets etc.
+	- I will start some sort of online course to supplement sensei's teachings as sensei cannot be expected to teach me giant blocks of technical info.
+
+4. REQUEST:
+		- In these times of confusion. I would like to ask you for guidance. Is this indeed the time to transition away from learning general coding?
+		- Am i again straying away from the correct path due to emotional imbalance? 
+		- Career advise plox :( 
+		
+5. No more work for today. Most of my energy was spent in study and banter with self.
+	- Thats ok though. Not all work results in lines of code.
+	- Onwards to somesort of victory... some day... i hope...
+
 Thursday 23/04/2020:
 -------------------------
 1. Placed journal entries on their corresponding transitions.
@@ -7,7 +46,8 @@ Thursday 23/04/2020:
 		- My 1st guess is to go look at how the Conditions are currently working and then see how i extend the Items system to include the relevant code.
 		- Its not very important at the moment since its not a must. But its nice to keep it in my head as an option.
 		
-2. Placing journal entry conditions on transitions. Got my work cutout for me. 
+2. Placing journal entry conditions on transitions. Got my work cut out for me. 
+
 Wednesday 22/04/2020:
 ----------------------------
 1. StateRunner.cs now has a new function called "BuildInventory". 

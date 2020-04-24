@@ -72,7 +72,7 @@ namespace DarkestDark.CLI
                     Console.WriteLine(transitionResultText);
                 }
             }
-            Console.WriteLine(stateRunner.BuildInventory());
+            Console.WriteLine("This is how much loot you have left:" + stateRunner.BuildInventory());
 
         }
     }
