@@ -1,0 +1,83 @@
+﻿[
+  {
+    "Name": "Approach the imps",
+    "Text": "",
+    "TargetName": "Imp Encounter"
+  },
+  {
+    "Name": "Offer them a gold coin",
+    "Text": "",
+    "TargetName": "Imp Encounter1"
+  },
+  {
+    "Name": "Destroy the foul beasts!",
+    "Text": "",
+    "TargetName": "Imp Fight"
+  },
+  {
+    "Name": "Have a look around the temple.",
+    "Text": "",
+    "TargetName": "Imp Encounter"
+  },
+  {
+    "Name": "Advance through the decorated door.",
+    "Text": "",
+    "TargetName": "Inner cloister"
+  },
+  {
+    "Name": "Perhaps the imps know something about the headless corpse.",
+    "Text": "",
+    "TargetName": "Imp Encounter2"
+  },
+  {
+    "Name": "Examine altar",
+    "Text": "",
+    "TargetName": "Dark altar"
+  },
+  {
+    "Name": "Examine upside down cross",
+    "Text": "",
+    "TargetName": "Dark altar"
+  },
+  {
+    "Name": "Go back up to the statue room",
+    "Text": "",
+    "TargetName": "Statue room2"
+  },
+  {
+    "Name": "Ask about mistress",
+    "Text": "",
+    "TargetName": "Imp Encounter3"
+  },
+  {
+    "Name": "Ask about the curse",
+    "Text": "",
+    "TargetName": "Imp Encounter4"
+  },
+  {
+    "Name": "Use the cross on them",
+    "Text": "",
+    "TargetName": "Imp Encounter4"
+  },
+  {
+    "Name": "Shoot them",
+    "Text": "",
+    "TargetName": "Imp Encounter4"
+  },
+  {
+    "Name": "Use holy water on them",
+    "Text": "",
+    "TargetName": "Imp Encounter4"
+  },
+  {
+    "Name": "Burn them with fire",
+    "Text": "",
+    "TargetName": "Imp Encounter4"
+  },
+  {
+    "Name": "Blow them up with nitro!",
+    "Text": "",
+    "TargetName": "Imp Encounter4"
+  }
+
+]

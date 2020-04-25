@@ -1,3 +1,14 @@
+Saturday 25/04/2020:
+------------------------
+1. Added the 1st scene of the final level.
+		- States and transidions have been added.
+		- Still need to place items and journal entries.
+		- Also i need to place the whole final scene.
+
+2. Starting my  testing automation course.
+				- 1st 3 lessons completed. Those were just the overview.
+				- Looks like this course will be using a free program called "Selenium". My google search claims this is a very poopular tool ith good credits. Thats what google says.
+
 Friday 24/04/2020:
 -------------------
 1. Tried coming up with new features for the program.

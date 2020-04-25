@@ -1,0 +1,57 @@
+﻿[
+  {
+    "Name": "Temple Room1",
+    "Text": "The stairs open to a large hall. In the center is a dark altar, a headless body rots on top. Several pillars sorround the altar and at the far end are large stone steps leading up to a decorated door, a few burning brassiers light the room. Scattered on the steps are several demonic imps, biding their time. Probably 'guar dogs'",
+    "Transitions": [ "Approach the imps" ]
+  },
+  {
+    "Name": "Temple Room2",
+    "Text": "The burning brassiers cast flickering shadows on the walls. Above the door is an upsidedown cross. This is definitely an evil temple.",
+    "Transitions": [ "Examine altar", "Examine upside down cross", "Advance through the decorated door.", "Go back up to the statue room", "Perhaps the imps know something about the headless corpse." ]
+  },
+  {
+    "Name": "Imp Encounter1",
+    "Text": "As you come closer the imps all band together to face you. They are cowardly creatures, full of greed and sin. What do you do?",
+    "Transitions": [ "Offer them a gold coin", "Destroy the foul beasts!" ]
+  },
+  {
+    "Name": "Imp Encounter2",
+    "Text": "You play with a few gold coins in your hand. The sound attracts the imps. You point at the altar and ask:'Who is that?'. One imps steps forward. 'Is master! Lord of place! IS CURSED! LIKE PLACE!'. You toss the coin to the imp. He catches it and skitters away. What do you do?",
+    "Transitions": [ "Ask about mistress", "Have a look around the temple.", "Destroy the foul beasts!" ]
+  },
+  {
+    "Name": "Imp Encounter3",
+    "Text": "You toss another coin to one of the imps: 'Is your mistress behind this door?'. 'YES!' They all squeal. Enviously oggling the imp who caught the coin'.",
+    "Transitions": [ "Ask about the curse", "Have a look around the temple.", "Destroy the foul beasts!" ]
+  },
+  {
+    "Name": "Imp Encounter4",
+    "Text": "You come closer and hand an imp a coin: 'You said something about a curse?'. 'YES! Mistress put curse on master! Put it on she self! Put on whole place!'. You pocket the remaining coins as the imps fight amongst themselves for the gold. What do you do?",
+    "Transitions": [ "Have a look around the temple.", "Destroy the foul beasts!" ]
+  },
+  {
+    "Name": "Imp conversation1",
+    "Text": "You pull out a gold coin. You have caught their attention. Their eyes follow the coin as you throw it at their feet. They cautiously come closer and examine the coin together as they huddle behind a pillar. Passage seems safe. What do you do?",
+    "Transitions": [ "Have a look around the temple.", "Advance through the decorated door.", "Perhaps the imps know something about the headless corpse.", "Destroy the foul beasts!" ]
+  },
+  {
+    "Name": "Dark altar",
+    "Text": "The bricks around the altar are darkened with old blood. The headless corpse is shriveled and dry. Judging by the cut of the neck, this body seems to belong to the head you have found. This is what happened to robert!",
+    "Transitions": [ "Have a look around the temple.", "Advance through the decorated door.", "Perhaps the imps know something about the headless corpse." ]
+  },
+  {
+    "Name": "Upside down cross",
+    "Text": "Such an unholy symbol! You destroy this affront to your lord without hesitation!",
+    "Transitions": [ "Have a look around the temple.", "Advance through the decorated door.", "Perhaps the imps know something about the headless corpse." ]
+  },
+  {
+    "Name": "Imp Fight",
+    "Text": "How do you choose to dispatch these vermin?",
+    "Transitions": [ "Use the cross on them", "Shoot them", "Use holy water on them", "Burn them with fire", "Blow them up with nitro!" ]
+  },
+  {
+    "Name": "Imps destroyed",
+    "Text": "They dead.",
+    "Transitions": [ "Have a look around the temple.", "Advance through the decorated door." ]
+  }
+]

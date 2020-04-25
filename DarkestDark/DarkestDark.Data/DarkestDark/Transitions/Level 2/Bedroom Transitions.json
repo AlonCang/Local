@@ -37,7 +37,7 @@
   {
     "Name": "Go down",
     "Text": "THIS OPTION LEADS TO THE 3RD AND FINAL LEVEL. IT WONT BE BUILT UNTIL THE 2ND LEVEL IS COMPLETE",
-    "TargetName": "Outside"
+    "TargetName": "Temple Room1"
   },
   {
     "Name": "Shoot him!",
@@ -70,7 +70,7 @@
     "Text": "You toss the vial of nitroglycerin and duck for cover as a large explosion sends debris in all directions.",
     "@Conditions": { "Nitroglycerin": 1 },
     "Items": { "Nitroglycerin": -1, "@GargoyleDestroyed": 0 },
-    "TargetName": "Outside"
+    "TargetName": "Gargoyle destroyed"
   },
   {
     "Name": "Retreat to the grand hall",

@@ -20,6 +20,11 @@
     "Transitions": [ "Present robert's head", "Attack gargoyle", "Examine the hall" ]
   },
   {
+    "Name": "Statue room2",
+    "Text": "You are back in the statue room. What do you do?",
+    "Transitions": [ "" ]
+  },
+  {
     "Name": "Gargoyle fight1",
     "Text": "You have only a fraction of a second to repond!  What do you do?",
     "Transitions": [ "Shoot him!", "Stop him with the holy cross!", "Splash him with holy water!", "Burn him with the oil!", "Blow him up with the nitroglycerin!" ]
