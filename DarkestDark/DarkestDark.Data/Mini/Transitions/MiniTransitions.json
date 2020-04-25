@@ -1,26 +1,41 @@
 ﻿[
   {
-    "Name": "a",
-    "Text": "a",
-    "TargetName": "A"
+    "Name": "to ???1",
+    "Text": "You Enter Room",
+    "Conditions": { "~Room1": 0 },
+    "TargetName": "Room1"
   },
   {
-    "Name": "b",
-    "Text": "b",
-    "TargetName": "B",
-    "Conditions": {"~X": 0 }
-
+    "Name": "to ???2",
+    "Text": "You Enter Bath",
+    "Conditions": { "~Bath1": 0 },
+    "TargetName": "Bath1"
   },
   {
-    "Name": "bb",
-    "Text": "bb",
-    "TargetName": "BB",
-    "Conditions": { "X": 0 }
+    "Name": "to Room",
+    "Text": "You Enter Room",
+    "Conditions": { "": 0 },
+    "TargetName": "Room1"
   },
   {
-    "Name": "x",
-    "Text": "x",
-    "TargetName": "A",
-    "Items": { "X": 0 }
+    "Name": "to Bath",
+    "Text": "You Enter Bath",
+    "Conditions": { "Bath2": 0 },
+    "TargetName": "Bath1"
+  },
+  {
+    "Name": "to Room2",
+    "Text": "You return to Room",
+    "TargetName": "Room2"
+  },
+  {
+    "Name": "to Bath2",
+    "Text": "You return to Bath",
+    "TargetName": "Bath2"
+  },
+  {
+    "Name": "to Hall2",
+    "Text": "You return to the hall",
+    "TargetName": "Hall2"
   }
 ]

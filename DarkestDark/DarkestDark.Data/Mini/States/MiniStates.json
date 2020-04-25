@@ -1,17 +1,33 @@
 ﻿[
+  { "Name": "Nothing" },
   {
-    "Name": "A",
-    "Text": "aaaaaaaaaaaaaaa",
-    "Transitions": [ "b", "bb" ]
+    "Name": "Hall1",
+    "Text": "Welcome To Hall",
+    "Transitions": [ "to Room", "to Bath", "to ???1", "to ???2" ]
   },
   {
-    "Name": "B",
-    "Text": "bbbbbbbbbbbbb",
-    "Transitions": [ "a", "x" ]
+    "Name": "Hall2",
+    "Text": "Returned to Hall",
+    "Transitions": [ "to Room", "to Bath", "to ???1", "to ???2" ]
   },
   {
-    "Name": "BB",
-    "Text": "2bbbbbbbbbbbbb",
-    "Transitions": [ "a" ]
+    "Name": "Room1",
+    "Text": "Welcome To Room",
+    "Transitions": [ "to Hall2" ]
+  },
+  {
+    "Name": "Room2",
+    "Text": "Returned to Room",
+    "Transitions": [ "to Hall2" ]
+  },
+  {
+    "Name": "Bath1",
+    "Text": "Welcome To Bath",
+    "Transitions": [ "to Hall2" ]
+  },
+  {
+    "Name": "Bath2",
+    "Text": "Returned to Room",
+    "Transitions": [ "to Hall2" ]
   }
 ]
