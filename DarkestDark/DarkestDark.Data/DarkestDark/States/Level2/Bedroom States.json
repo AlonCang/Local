@@ -17,7 +17,7 @@
   {
     "Name": "Statue room1",
     "Text": "You go through the passage and enter an oval room filled with statues. At the far end there is a large statue of a gargoyle. As you approach the gargoyle, his eyes light up in green flames and he issues a warning: 'Only the head of the estate may pass'. What do you do?",
-    "Transitions": [ "Present robert's head", "Attack gargoyle", "Examine the hall" ]
+    "Transitions": [ "Present Robert's head", "Attack gargoyle", "Examine the hall" ]
   },
   {
     "Name": "Statue room2",

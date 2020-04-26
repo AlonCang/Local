@@ -2,12 +2,12 @@
   {
     "Name": "Approach the imps",
     "Text": "",
-    "TargetName": "Imp Encounter"
+    "TargetName": "Imp Encounter1"
   },
   {
     "Name": "Offer them a gold coin",
-    "Text": "",
-    "TargetName": "Imp Encounter1"
+    "Text": "You pull out a gold coin. You have caught their attention. Their eyes follow the coin as you throw it at their feet. They cautiously come closer and examine the coin together as they huddle behind a pillar. Passage seems safe. What do you do?",
+    "TargetName": "Temple Room2"
   },
   {
     "Name": "Destroy the foul beasts!",
@@ -17,7 +17,7 @@
   {
     "Name": "Have a look around the temple.",
     "Text": "",
-    "TargetName": "Imp Encounter"
+    "TargetName": "Temple Room2"
   },
   {
     "Name": "Advance through the decorated door.",
@@ -45,7 +45,7 @@
     "TargetName": "Statue room2"
   },
   {
-    "Name": "Ask about mistress",
+    "Name": "Ask them about mistress",
     "Text": "",
     "TargetName": "Imp Encounter3"
   },

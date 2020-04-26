@@ -1,0 +1,27 @@
+﻿[
+  {
+    "Name": "Mistress defeated but the curse remains",
+    "Text": "You stand triumphant! Evil has been held back this day. But for how long? The towns people welcome you as their champion. But shortly after you leave, terrors return to stalk the night.",
+    "Transitions": [ "" ]
+  },
+  {
+    "Name": "Mistress is defeated and the curse is lifted",
+    "Text": "The battle is won. The estate has been cleansed of all unholy beings. You spend some time performing rites of purification until the curse is lifted. As you leave the estate its as if the air itself is easier to breath. The smell of rot and decay is no longer as pungent. Gods light shines down uppon you, for you have performed a great service this day.",
+    "Transitions": [ "" ]
+  },
+  {
+    "Name": "The curse has been lifted and mistress has been put to rest.",
+    "Text": "",
+    "Transitions": [ "" ]
+  },
+  {
+    "Name": "Mistress is defeated and the curse is lifted",
+    "Text": "The battle is won. The estate has been cleansed of all unholy beings. You spend some time performing rites of purification until the curse is lifted. As you leave the estate its as if the air itself is easier to breath. The smell of rot and decay is no longer as pungent. Gods light shines down uppon you, for you have performed a great service this day.",
+    "Transitions": [ "" ]
+  },
+  {
+    "Name": "Become the groom",
+    "Text": "In what seems like an instant yet an eternity, mistress drinks the life from your body and time stops. You have never been so happy. As long as you have each others love... Nothing else matters. THE END",
+    "Transitions": [ "" ]
+  }
+]

@@ -1,0 +1,22 @@
+﻿[
+  {
+    "Name": "You must move beyond your grief.I shall lift the curse and let you live",
+    "Text": "You lower your weapons and approach her slowly. 'Let me release you, child. The demise of this estate has become legend, all know of your pain, why else would I be here?' Mistress seems to be listening carefully. You come ever closer and kneel before her, holding her cold and dead hand. 'With your permission and penance I can redeem your soul so you could finally find rest. I will stay here and hear your confessions for as long as it would take. And with time you will be able to meet Robert again in heaven.' For a moment she seems frozen in thought. Her face a blank expression. Eventually she nods in agreement.",
+    "TargetName": "The curse has been lifted and mistress has been put to rest."
+  },
+  {
+    "Name": "I can annul your contract with satan.I shall lift the curse but you must die",
+    "Text": "",
+    "TargetName": "Final battle"
+  },
+  {
+    "Name": "Your words are true. Perhaps i could stay and rule with you? I shall be your groom",
+    "Text": "Mistress inspects you with with harsh eyes. 'Why? Why would you do this?' You smile cunningly yet softely, tracing your gaze over her beautiful face. 'A beautiful woman who suffers so much for love... Even god cannot turn a blind eye.' Her eyes narrow with suspicion. 'Do you understand what you are asking for?' 'I do indeed, I pledge myself to you mistress.' you remove your protective leather collar and present your neck to her.",
+    "TargetName": "Become the groom"
+  },
+  {
+    "Name": "VANQUISH EVIL!!!!",
+    "Text": "You stand tall before the vampress and declare: 'Servant of satan. Your time in this world has come to an end!'",
+    "TargetName": "Final battle"
+  }
+]

@@ -12,12 +12,13 @@ namespace DarkestDark.CLI
             StateRunner runner;
             StateRunner overlayRunner = null;
 
+            args = new string[] { "Debug" };
             if (args.Contains("Debug"))
             {
                 stateGraph = StateGraph.LoadStateGraph(
                     @"..\..\..\..\DarkestDark.Data\Mini\States",
                     @"..\..\..\..\DarkestDark.Data\Mini\Transitions");
-                runner = new StateRunner(stateGraph, "A");
+                runner = new StateRunner(stateGraph, "Hall1");
                 overlayRunner = new StateRunner(stateGraph, "Nothing");
             }
             else

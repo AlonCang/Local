@@ -2,6 +2,61 @@
   {
     "Name": "Inner cloister",
     "Text": "You walk up the stone steps towards the decorated door. the source of this evil lurks so closely. You push the heavy iron door and enter the inner cloister. The room is smaller than the temple but is full of lavish items and beautiful paintings. various pagan emblems are hanging from the walls. In the center of the room, on a royal throne sits mistress. A lofty smirk curves on her decaying face. 'Welome... Holy man..'",
-    "Transitions": [ "" ]
+    "Transitions": [ "Mistress" ]
+  },
+  {
+    "Name": "Mistress",
+    "Text": "Her long black hair is perfectly brushed, yellow slit eyes softly glow as she measures you. A tight velvet dress clings to her frail stature. Her beauty is unquesitonable, But you know better than to lower your guard before a vampire.",
+    "Transitions": [ "Speak with mistress", "Fight mistress" ]
+  },
+  {
+    "Name": "Final battle",
+    "Text": "Mistress accepts your challenge and stands up from her seat. She begins levitating in the air as the shadows around her get darker.",
+    "Transitions": [ "Use the cross on her!", "Burn her with fire!", "Shoot her!", "Melt her with holy water!", "Throw nitroglycerin!" ]
+  },
+  {
+    "Name": "Cross light",
+    "Text": "You raise the cross before mistress as its glow creates sharp silhouettes on the walls. Mistress hisses showing her rotten fangs, her eyes grow wide and dark. She vanishes into the darkness.",
+    "Transitions": [ "Ready yourself for a surprise attack" ]
+  },
+  {
+    "Name": "Aim for the heart",
+    "Text": "You take the initiative and aim for her heart! She extends her hand to block the bolt yet it pierces through her, sending a jet of blood in the air. She vanishes and the bolt continues its trajectory into the wall.",
+    "Transitions": [ "Ready yourself for a surprise attack" ]
+  },
+  {
+    "Name": "Ready and guarded",
+    "Text": "You take the initiative and aim for her heart! She extends her hand to block the bolt yet it pierces through her, sending a jet of blood in the air. She vanishes and the bolt continues its trajectory into the wall.",
+    "Transitions": [ "Ready yourself for a surprise attack" ]
+  },
+  {
+    "Name": "Mistress burning",
+    "Text": "As soon as you pull out the vial of oil, mistress disappears into thin air. You pour the oil in a circle around you and hold out the flint. Time seems to slow down as to stand still, listening. Mistress appears behind you letting out an ear shattering scream! Without hesitaiton you light the oil and mistress catches fire. Her screams grow louder as she tries to fight the flames. Her dead flesh burns quickley until there is nothing but ashes.",
+    "Transitions": [ "Mistress defeated but the curse remains", "Mistress is defeated and the curse is lifted" ]
+  },
+  {
+    "Name": "Mistress melting",
+    "Text": "Mistress lunges at you, her fangs glinting in the candle fire. You splash the holy water in her direction and soak her abdomen. She falls to the floor as her midsection quickly melts away. She cries in agony as she uses her arms to try and crawl away.",
+    "Transitions": [ "Mistress defeated but the curse remains", "Mistress is defeated and the curse is lifted" ]
+  },
+  {
+    "Name": "Mistress exploding",
+    "Text": "Before she has a chance to react you throw the vial of nitroglycerin at the floor beneath her and dive for safety.The explosion shakes the walls and echoes in your ears. When the smoke settles you find mistress torn to pieces. Her limbs crawl slowly on the floor trying to unite once more. What do you do?",
+    "Transitions": [ "Mistress defeated but the curse remains", "Mistress is defeated and the curse is lifted" ]
+  },
+  {
+    "Name": "Mistress conversation1",
+    "Text": "You bow gracefully while maintaining eye contact. Mistress nods politely. 'I assume you slaughtered my minions on your way here? 'They have all been dealt with.' 'Yet you stand before me looking for answers. What is it then?'",
+    "Transitions": [ "Mention zombie in kitchen", "Speak about Robert", "What do you hope to acheive?", "I have been told that this place is cursed" ]
+  },
+  {
+    "Name": "Mistress conversation2",
+    "Text": "What else do you ask?",
+    "Transitions": [ "Mention zombie in kitchen", "Speak about Robert", "What do you hope to acheive?", "I have been told that this place is cursed", "Reach decision", "Fight mistress" ]
+  },
+  {
+    "Name": "Reach decision",
+    "Text": "You think carefully on all that you have learned of this place and its demons. What do you do?",
+    "Transitions": [ "You must move beyond your grief.I shall lift the curse and let you live", "I can annul your contract with satan.I shall lift the curse but you must die", "Your words are true. Perhaps i could stay and rule with you? I shall be your groom", "VANQUISH EVIL!!!!" ]
   }
 ]

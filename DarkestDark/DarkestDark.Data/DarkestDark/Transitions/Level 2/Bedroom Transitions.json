@@ -28,9 +28,9 @@
     "TargetName": "Gargoyle fight2"
   },
   {
-    "Name": "Present robert's head",
+    "Name": "Present Robert's head",
     "Text": "Assuming the gargoyle might reffer to robert, you present the mummified head. The gargoyle bows and then gets up and moves to the side, revealing a stone archway and a staircase leading down.",
-    "Conditions": {"@RobertsHead": 0},
+    "Conditions": {"Mummified Head": 1},
     "Items": { "@TheGargoyleLetMePass": 0 },
     "TargetName": "Stone archway"
   },

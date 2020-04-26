@@ -17,7 +17,7 @@
   {
     "Name": "Imp Encounter2",
     "Text": "You play with a few gold coins in your hand. The sound attracts the imps. You point at the altar and ask:'Who is that?'. One imps steps forward. 'Is master! Lord of place! IS CURSED! LIKE PLACE!'. You toss the coin to the imp. He catches it and skitters away. What do you do?",
-    "Transitions": [ "Ask about mistress", "Have a look around the temple.", "Destroy the foul beasts!" ]
+    "Transitions": [ "Ask them about mistress", "Have a look around the temple.", "Destroy the foul beasts!" ]
   },
   {
     "Name": "Imp Encounter3",

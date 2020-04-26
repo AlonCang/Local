@@ -1,3 +1,72 @@
 ﻿[
-
+  {
+    "Name": "Mistress",
+    "Text": "",
+    "TargetName": "Mistress"
+  },
+  {
+    "Name": "Fight mistress",
+    "Text": "You stand tall before the vampress and declare: 'Servant of satan. Your time in this world has come to an end!'",
+    "TargetName": "Final battle"
+  },
+  {
+    "Name": "Use the cross on her!",
+    "Text": "",
+    "TargetName": "Cross light"
+  },
+  {
+    "Name": "Burn her with fire!",
+    "Text": "",
+    "TargetName": "Mistress burning"
+  },
+  {
+    "Name": "Shoot her!",
+    "Text": "",
+    "TargetName": "Aim for the heart"
+  },
+  {
+    "Name": "Melt her with holy water!",
+    "Text": "",
+    "TargetName": "Mistress melting"
+  },
+  {
+    "Name": "Throw nitroglycerin!",
+    "Text": "",
+    "TargetName": "Mistress exploding"
+  },
+  {
+    "Name": "Ready yourself for a surprise attack",
+    "Text": "",
+    "TargetName": "Ready and guarded"
+  },
+  {
+    "Name": "Speak with mistress",
+    "Text": "",
+    "TargetName": "Mistress conversation1"
+  },
+  {
+    "Name": "Mention zombie in kitchen",
+    "Text": "Her smirk is replaced with disgust. 'A good servant turned traitor! Nothing sickens me more... He tried to escape with my ring. I punished him for that. He hid it well though, i never managed to find it. Thus I am marooned in this eternal torment.'",
+    "TargetName": "Mistress conversation2"
+  },
+  {
+    "Name": "Speak about Robert",
+    "Text": "My beloved husband to be. If only he could see that my love was true.. But he rejected me at the altar! So Iv shown him my pain.. ON MY ALTAR! I condemned his soul and all that is his to damnation! Of course.. I was his as well. I knew this.",
+    "TargetName": "Mistress conversation2"
+  },
+  {
+    "Name": "What do you hope to acheive?",
+    "Text": "An eternity of suffering! I am content with my share in the world. I have bonded my fate with satan and hence i cannot die! And as long as my covenant stands true, Robert and all that is his will suffer!",
+    "TargetName": "Mistress conversation2"
+  },
+  {
+    "Name": "I have been told that this place is cursed",
+    "Text": "The devil himself was our pastor! My beloved and I shall be together forever! Even if we are slain by the likes of you we shall return time and again to repeat the cycle! Such was the price we paid for my dear roberts rejection... Have you ever been so betrayed?",
+    "TargetName": "Mistress conversation2"
+  },
+  {
+    "Name": "Reach decision",
+    "Text": "",
+    "TargetName": "Reach decision"
+  }
 ]

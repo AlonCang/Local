@@ -1,7 +1,26 @@
+Sunday 26/04/2020:
+-----------------------
+1. Have added the final boss scene to the level 3 data.
+		- Still needs a lot of fixes with the wiring.
+		- Also i havent done any of the items & conditions for this level at all.
+		- While doing a bit of test play i noticed other problems and did some small issue fixes with previous level wiring.
+		- Moving on to my homework.
+		
+2. HOMEWORK: Get the mini to work as intended.
+		- I have only just remembered that i should have performed a git pull before starting my work.
+		- hmmmm..... Maybe i can do the anal and inferior thing, and manually copy all of the changes from your last commit. 
+		- So that when i perform my push i wont get a conflict. worth a try. if only to teach me why this sucks.
+		- And then my desire to never have to do this again will fuel my need to learn how to do it with git.
+		- Ok i believe i managed to manually recreate what you made. Now i willl do a commit.
+		- Then i will actually work on my homework and do another commit.			
+		
+3, Testing Automation course:
+		- 
+
 Saturday 25/04/2020:
 ------------------------
 1. Added the 1st scene of the final level.
-		- States and transidions have been added.
+		- States and transitions have been added.
 		- Still need to place items and journal entries.
 		- Also i need to place the whole final scene.
 
