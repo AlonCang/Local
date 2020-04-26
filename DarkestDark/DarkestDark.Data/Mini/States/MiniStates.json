@@ -9,11 +9,10 @@
     "Name": "Hall2",
     "Text": "Returned to Hall",
     "Transitions": [ "to Room", "to Bath", "to ???1", "to ???2" ]
-
   },
   {
     "Name": "Room1",
-    "Text": "Welcome to Room",
+    "Text": "Welcome To Room",
     "Transitions": [ "to Hall2" ]
   },
   {
@@ -23,7 +22,7 @@
   },
   {
     "Name": "Bath1",
-    "Text": "Welcome to Bath",
+    "Text": "Welcome To Bath",
     "Transitions": [ "to Hall2" ]
   },
   {
