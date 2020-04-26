@@ -8,7 +8,7 @@
   {
     "Name": "Hall2",
     "Text": "Returned to Hall",
-    "Transitions": [ "to Room", "to Bath", "to ???1", "to ???2" ]
+    "Transitions": [ "to Room", "to Bath", "to ???1", "to ???2", "Spend gold", "Need journal entry" ]
   },
   {
     "Name": "Room1",
@@ -29,5 +29,15 @@
     "Name": "Bath2",
     "Text": "Returned to Bath",
     "Transitions": [ "to Hall2" ]
+  },
+  {
+    "Name": "Hall3",
+    "Text": "You have paid your way through",
+    "Transitions": [ "to Room", "to Bath", "to ???1", "to ???2", "Spend gold", "Need journal entry" ]
+  },
+  {
+    "Name": "Hall4",
+    "Text": "You have shown you know stuff",
+    "Transitions": [ "to Room", "to Bath", "to ???1", "to ???2", "Spend gold", "Need journal entry" ]
   }
 ]

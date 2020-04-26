@@ -12,10 +12,22 @@ Sunday 26/04/2020:
 		- So that when i perform my push i wont get a conflict. worth a try. if only to teach me why this sucks.
 		- And then my desire to never have to do this again will fuel my need to learn how to do it with git.
 		- Ok i believe i managed to manually recreate what you made. Now i willl do a commit.
-		- Then i will actually work on my homework and do another commit.			
+		- Then i will actually work on my homework and do another commit.		
+		- Ok that didnt work. My push was rejected. Contacting sensei.
+		
+2.1 ACTUAL HOMEWORK:
+		- Recreate the smallest possible complex data structure that simulates the issues i encountered on level 3
+		- Issues include: Revisiting a room, Transition name changed after visiting a state, Entering a scene with/without required items/journal entries, looping in/out complex conversations.
+		- If the single structure becomes too complex or doesnt solve all issues, then create a second mini data set.
+		- The purpose of this drill is to practice trouble shooting via ISOLATION and MINIMAL recreation of the problem. 
+		
+2.2 I did homework:
+		- I made a data set that resembles the issue i had met.
+		- I dont think i have managed to satisfy all of the parameters but i think we have something to work with. 
+		- I will add on this further when im not harassed by surprise visitors.
 		
 3, Testing Automation course:
-		- 
+		- Will wait for tomorrow. Damn visitors.
 
 Saturday 25/04/2020:
 ------------------------
