@@ -1,3 +1,21 @@
+Monday 27/04/2020:
+------------------------
+1. Homework:
+		- Have expanded on the mini data in order to closer replicate the problem
+		- Have written a bit about the problem and its complexity.
+		- Made a new md file for that.
+		
+2. I have an idea for  a new feature -> I want to make a function that unlocks special journal entries. Like an "achievement unlocked" kinda thing. 
+		- Those special entries will be the ones deciding the avilable endings.
+		- This will simplify the end game wiring substancially. I think...
+
+Please review my ideas give me feedback.
+
+3. I have added some conditions to the temple room transitions.
+
+4. Testing Automation course:
+		- did a couple more lesson. These were about downloading the course programs and setting them up.
+
 Sunday 26/04/2020:
 -----------------------
 1. Have added the final boss scene to the level 3 data.

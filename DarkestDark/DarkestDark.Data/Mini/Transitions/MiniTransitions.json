@@ -10,8 +10,15 @@
     "Name": "to ???2",
     "Text": "You Enter Bath",
     "Conditions": { "~Bath1": 0 },
-    "Items": {"Gold Coins": 5},
+    "Items": { "Gold Coins": 5 },
     "TargetName": "Bath1"
+  },
+  {
+    "Name": "to ???3",
+    "Text": "You Enter toilet",
+    "Conditions": { "~OutHouse1": 0 },
+    "Items": { "Holy Cross": 1 },
+    "TargetName": "OutHouse1"
   },
   {
     "Name": "to Room",
@@ -24,6 +31,12 @@
     "Text": "You Enter Bath",
     "Conditions": { "Bath2": 0 },
     "TargetName": "Bath1"
+  },
+  {
+    "Name": "to OutHouse",
+    "Text": "You Enter toilet",
+    "Conditions": { "OutHouse1": 0 },
+    "TargetName": "OutHouse2"
   },
   {
     "Name": "to Room2",
@@ -51,7 +64,12 @@
     "Name": "Need journal entry",
     "Text": "If you got here it means you have the required knowledge",
     "Conditions": { "@StoodMyGround": 0 },
-    "Items": { "Gold Coins": -1 },
     "TargetName": "Hall4"
+  },
+  {
+    "Name": "Trap Door",
+    "Text": "You can see this because to have knowledge",
+    "Conditions": { "@StoodMyGround": 0 },
+    "TargetName": "Sewage"
   }
 ]

@@ -3,12 +3,12 @@
   {
     "Name": "Hall1",
     "Text": "Welcome To Hall",
-    "Transitions": [ "to Room", "to Bath", "to ???1", "to ???2" ]
+    "Transitions": [ "to Room", "to Bath", "to OutHouse", "to ???1", "to ???2", "to ???3" ]
   },
   {
     "Name": "Hall2",
     "Text": "Returned to Hall",
-    "Transitions": [ "to Room", "to Bath", "to ???1", "to ???2", "Spend gold", "Need journal entry" ]
+    "Transitions": [ "to Room", "to Bath", "to ???1", "to OutHouse", "to ???2", "to ???3", "Spend gold", "Need journal entry" ]
   },
   {
     "Name": "Room1",
@@ -29,6 +29,21 @@
     "Name": "Bath2",
     "Text": "Returned to Bath",
     "Transitions": [ "to Hall2" ]
+  },
+  {
+    "Name": "OutHouse1",
+    "Text": "Welcome to toilet",
+    "Transitions": [ "to Hall2" ]
+  },
+  {
+    "Name": "OutHouse2",
+    "Text": "Returned to toilet",
+    "Transitions": [ "to Hall2", "Trap Door" ]
+  },
+  {
+    "Name": "Sewage",
+    "Text": "You went into the sewage",
+    "Transitions": [ "to OutHouse", "Trap Door" ]
   },
   {
     "Name": "Hall3",
