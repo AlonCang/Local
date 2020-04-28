@@ -36,8 +36,8 @@
   },
   {
     "Name": "Dark altar",
-    "Text": "The bricks around the altar are darkened with old blood. The headless corpse is shriveled and dry. Judging by the cut of the neck, this body seems to belong to the head you have found. This is what happened to robert!",
-    "Transitions": [ "Have a look around the temple.", "Advance through the decorated door.", "Perhaps the imps know something about the headless corpse." ]
+    "Text": "The bricks around the altar are darkened with old blood. The headless corpse is shriveled and dry.",
+    "Transitions": [ "Have a look around the temple.", "Advance through the decorated door.", "Perhaps the imps know something about the headless corpse.", "This must be Roberts body" ]
   },
   {
     "Name": "Upside down cross",

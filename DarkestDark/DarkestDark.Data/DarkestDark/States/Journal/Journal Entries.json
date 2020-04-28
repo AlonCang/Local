@@ -130,5 +130,13 @@
   {
     "Name": "GargoyleDestroyed",
     "Text": "What a beast. If mistress is at least this tough... Looks like i have my work set for me."
+  },
+  {
+    "Name": "EvilCrossDestroyed",
+    "Text": "I have destroyed this affront to our lord."
+  },
+  {
+    "Name": "ImpsDestroyed",
+    "Text": "I have destroyed each and very one of the imps."
   }
 ]

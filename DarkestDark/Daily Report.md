@@ -1,3 +1,32 @@
+Teusday 28/04/2020:
+------------------------
+1. HOMEWORK:
+		- Added a new md file that contains the rundown of how the game should behave.
+		- Please give feedback if again i misunderstood the drill
+		- Or maybe just didnt do good enough job.
+		
+2.  Data:
+		- Added some items and conditions to the imps encountered
+		
+3. Testing automation course:
+		- Reached lesson 11 out of 71/
+		- Last few lessons were about google foo, debugging practices and ballancing ego / learning / frustration and asking for help. 
+
+HOMEWORK: Write the playthrough of mini test run.
+-----------
+FORMAT: 
+-----------
+You see a man.
+1. Ask about X
+
+> 1
+----
+The man says x is 1
+You see the same man.
+1. Ask about X
+2. Ask About Y
+
+
 Monday 27/04/2020:
 ------------------------
 1. Homework:

@@ -37,3 +37,4 @@ While were at it we can make a "CombatState" subclass so i wont have to
 make each individual fight manually from top to bottom. But this is very
 superfluous. I guess it would lead to a good old "Battle transition"
 where combat is its own instance. But im getting ahead of myself. 
+
