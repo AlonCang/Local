@@ -8,7 +8,7 @@
     "Name": "Offer them a gold coin",
     "Text": "You pull out a gold coin. You have caught their attention. Their eyes follow the coin as you throw it at their feet. They cautiously come closer and examine the coin together as they huddle behind a pillar. Passage seems safe. What do you do?",
     "Conditions": { "Gold Coins": 1 },
-    "Items": { "Gold Coins":  -1 },
+    "Items": { "Gold Coins": -1,"@ImpsBribed": 0, "@IvFoundRobertsBody":  0 },
     "TargetName": "Temple Room2"
   },
   {
@@ -29,7 +29,7 @@
   {
     "Name": "Perhaps the imps know something about the headless corpse.",
     "Text": "",
-    "Conditions": { "Gold Coins": 1 },
+    "Conditions": { "IvFoundRobert": 0 },
     "Items": { "Gold Coins": -1 },
     "TargetName": "Imp Encounter2"
   },
@@ -42,12 +42,13 @@
     "Name": "This must be Roberts body",
     "Text": "Judging by the cut of the neck, this seems to be Roberts body. He was sacrificial lamb in a devilish ritual. This must be connected to the curse!",
     "Conditions": { "IvFoundRobert": 0 },
+    "Items": { "@IvFoundRobertsBody": 0 },
     "TargetName": "Dark altar"
   },
   {
     "Name": "Examine upside down cross",
     "Text": "",
-    "Items": { "@EvilCrossDestroyed":  0 },
+    "Items": { "@EvilCrossDestroyed": 0 },
     "TargetName": "Dark altar"
   },
   {
@@ -59,21 +60,27 @@
     "Name": "Ask them about mistress",
     "Text": "",
     "Conditions": { "Gold Coins": 1 },
-    "Items": { "Gold Coins": -1 },
+    "Items": {
+      "Gold Coins": -1,
+      "MistressIsClose": 0
+    },
     "TargetName": "Imp Encounter3"
   },
   {
     "Name": "Ask about the curse",
     "Text": "",
     "Conditions": { "Gold Coins": 1 },
-    "Items": { "Gold Coins": -1 },
+    "Items": {
+      "Gold Coins": -1,
+      "TheCurse": 0
+    },
     "TargetName": "Imp Encounter4"
   },
   {
     "Name": "Use the cross on them",
     "Text": "",
     "Conditions": { "Holy Cross": 1 },
-    "Items": { "@ImpsDestroyed":  0 },
+    "Items": { "@ImpsDestroyed": 0 },
     "TargetName": "Imp Encounter4"
   },
   {

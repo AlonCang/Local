@@ -138,5 +138,21 @@
   {
     "Name": "ImpsDestroyed",
     "Text": "I have destroyed each and very one of the imps."
+  },
+  {
+    "Name": "ImpsBribed",
+    "Text": "These simple creatures are easy to distract."
+  },
+  {
+    "Name": "IvFoundRobertsBody",
+    "Text": "It would appear that roberts death had a central role to play in the ritual for the curse which holds this place."
+  },
+  {
+    "Name": "MistressIsClose",
+    "Text": "Mistress is waiting behind the big decorated door."
+  },
+  {
+    "Name": "TheCurse",
+    "Text": "So mistress was the one to who placed the curse, also on herself. What madness is this?"
   }
 ]

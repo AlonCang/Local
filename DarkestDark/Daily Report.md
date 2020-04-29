@@ -1,3 +1,13 @@
+Wednesday 29/04/2020:
+----------------------------
+1. Added some more journal entries + items + conditions to the imp scene in level 3
+
+2. Testing automation course:
+		- Finished another 11 lessons.
+		- Those were a tutorial about VS and good coding practices / conventions.
+		- They pretty much said all of the stuff you have been driling into my head.
+		- So far so good. I really hope that now when im a level 3 wizard i will be able to blow through hmost of this course with ease.
+		
 Teusday 28/04/2020:
 ------------------------
 1. HOMEWORK:
