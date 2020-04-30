@@ -10,7 +10,7 @@ Thursday 30/04/2020:
 		- Did not yet implement transitions having themselves as a condition.
 
 3. Automation course:
-		- 
+		- Did 9 more lessons
 
 Wednesday 29/04/2020:
 ----------------------------
