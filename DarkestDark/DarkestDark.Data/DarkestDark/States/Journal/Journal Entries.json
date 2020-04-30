@@ -154,5 +154,21 @@
   {
     "Name": "TheCurse",
     "Text": "So mistress was the one to who placed the curse, also on herself. What madness is this?"
+  },
+  {
+    "Name": "MistressMotive",
+    "Text": "So this is the motive behind the murder. Shame, it looks like she really loved him."
+  },
+  {
+    "Name": "RealHero",
+    "Text": "The zombie is the kitchen did something brave and foolish. But thanks to him mistress was unable to complete the ritual."
+  },
+  {
+    "Name": "NihilismOfTheDamned",
+    "Text": "She is very hurt, yet seemes too content in her damnation. Could she be redeemed? Does she deserve forgiveness? Does she seek it? No time though..."
+  },
+  {
+    "Name": "NatureOfTheCurse",
+    "Text": "A cyclical curse grown from a soul bond with hell. I know just what ceremony will lift this curse."
   }
 ]

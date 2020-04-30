@@ -1,3 +1,17 @@
+Thursday 30/04/2020:
+-------------------------
+1. More data:
+		- Added some journal entries and placed them around the ending scene.
+
+2. Mini data:
+		- Started translating the mini rep into actual data.
+		- Its still giving me a headache. 
+		- I must be patient. There is much to do and much to learn.
+		- Did not yet implement transitions having themselves as a condition.
+
+3. Automation course:
+		- 
+
 Wednesday 29/04/2020:
 ----------------------------
 1. Added some more journal entries + items + conditions to the imp scene in level 3
@@ -7,7 +21,23 @@ Wednesday 29/04/2020:
 		- Those were a tutorial about VS and good coding practices / conventions.
 		- They pretty much said all of the stuff you have been driling into my head.
 		- So far so good. I really hope that now when im a level 3 wizard i will be able to blow through hmost of this course with ease.
-		
+
+3. Lesson:
+			- New functions:
+					- Any == OR
+					- All == AND
+			
+			- Transition.cs:
+					- Now transitions can have multiple conditions.
+					
+HOMEWORK:
+			- Still building data compiler.
+			- Continue working on mini data:
+						- Rundown - Complete
+						- Mini data - in progress: Currently apply that each transition has its own items as default conditions for itself.
+																This way transitions that have been used will no longer show.
+						- Minimal rep - Currently using the format sensei made.
+						
 Teusday 28/04/2020:
 ------------------------
 1. HOMEWORK:

@@ -47,21 +47,25 @@
   {
     "Name": "Mention zombie in kitchen",
     "Text": "Her smirk is replaced with disgust. 'A good servant turned traitor! Nothing sickens me more... He tried to escape with my ring. I punished him for that. He hid it well though, i never managed to find it. Thus I am marooned in this eternal torment.'",
+    "Items": { "@RealHero": 0 },
     "TargetName": "Mistress conversation2"
   },
   {
     "Name": "Speak about Robert",
     "Text": "My beloved husband to be. If only he could see that my love was true.. But he rejected me at the altar! So Iv shown him my pain.. ON MY ALTAR! I condemned his soul and all that is his to damnation! Of course.. I was his as well. I knew this.",
+    "Items": { "@MistressMotive": 0 },
     "TargetName": "Mistress conversation2"
   },
   {
     "Name": "What do you hope to acheive?",
     "Text": "An eternity of suffering! I am content with my share in the world. I have bonded my fate with satan and hence i cannot die! And as long as my covenant stands true, Robert and all that is his will suffer!",
+    "Items": { "@NihilismOfTheDamned": 0 },
     "TargetName": "Mistress conversation2"
   },
   {
     "Name": "I have been told that this place is cursed",
     "Text": "The devil himself was our pastor! My beloved and I shall be together forever! Even if we are slain by the likes of you we shall return time and again to repeat the cycle! Such was the price we paid for my dear roberts rejection... Have you ever been so betrayed?",
+    "Items": { "@NatureOfTheCurse": 0 },
     "TargetName": "Mistress conversation2"
   },
   {

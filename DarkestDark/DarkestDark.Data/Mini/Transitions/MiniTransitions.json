@@ -1,75 +1,160 @@
 ﻿[
   {
-    "Name": "to ???1",
-    "Text": "You Enter Room",
-    "Conditions": { "~Room1": 0 },
-    "Items": { "@StoodMyGround": 0 },
-    "TargetName": "Room1"
+    "Name": "To Room",
+    "Text": "",
+    "TargetState": "Room"
   },
   {
-    "Name": "to ???2",
-    "Text": "You Enter Bath",
-    "Conditions": { "~Bath1": 0 },
-    "Items": { "Gold Coins": 5 },
-    "TargetName": "Bath1"
+    "Name": "Speak with person",
+    "Text": "",
+    "Conditions": {
+      "~Person": 0,
+      "~KilledPerson": 0,
+      "~Speak with person": 0
+    },
+    "Items": { "Speak with person": 0, "Person": 0 },
+    "TargetName": "Room"
   },
   {
-    "Name": "to ???3",
-    "Text": "You Enter toilet",
-    "Conditions": { "~OutHouse1": 0 },
-    "Items": { "Holy Cross": 1 },
-    "TargetName": "OutHouse1"
+    "Name": "Look around room",
+    "Text": "",
+    "TargetName": "Room"
   },
   {
-    "Name": "to Room",
-    "Text": "You Enter Room",
-    "Conditions": { "": 0 },
-    "TargetName": "Room1"
+    "Name": "Leave room",
+    "Text": "quit",
+    "TargetName": "Room"
   },
   {
-    "Name": "to Bath",
-    "Text": "You Enter Bath",
-    "Conditions": { "Bath2": 0 },
-    "TargetName": "Bath1"
+    "Name": "Look at thing 1",
+    "Text": "",
+    "Conditions": { "~Look": 0 },
+    "Items": { "Thing 1": 0 },
+    "TargetName": "Room"
   },
   {
-    "Name": "to OutHouse",
-    "Text": "You Enter toilet",
-    "Conditions": { "OutHouse1": 0 },
-    "TargetName": "OutHouse2"
+    "Name": "Look at thing 2",
+    "Text": "",
+    "Conditions": { "~Look": 0 },
+    "Items": { "Thing 2": 0 },
+    "TargetName": "Room"
   },
   {
-    "Name": "to Room2",
-    "Text": "You return to Room",
-    "TargetName": "Room2"
+    "Name": "Speak about thing 1",
+    "Text": "",
+    "Conditions": { "Person": 0, "Thing 1": 0 },
+    "Items": { "Crown": 0 },
+    "TargetName": "Room"
   },
   {
-    "Name": "to Bath2",
-    "Text": "You return to Bath",
-    "TargetName": "Bath2"
+    "Name": "Speak about Crown",
+    "Text": "",
+    "Conditions": {
+      "Crown": 0
+    },
+    "Items": { "CrownGet": 0 },
+    "TargetName": "Room"
   },
   {
-    "Name": "to Hall2",
-    "Text": "You return to the hall",
-    "TargetName": "Hall2"
+    "Name": "Speak about Chainsaw",
+    "Text": "",
+    "Conditions": {
+      "Chainsaw": 0
+    },
+    "Items": { "ChainsawGet": 0 },
+    "TargetName": "Room"
   },
   {
-    "Name": "Spend gold",
-    "Text": "You have spent gold",
-    "Conditions": { "Gold Coins": 1 },
-    "Items": { "Gold Coins": -1 },
-    "TargetName": "Hall3"
+    "Name": "Ask for Crown",
+    "Text": "",
+    "Conditions": {
+      "CrownGet": 0
+    },
+    "Items": { "CrownRefused": 0 },
+    "TargetName": "Room"
   },
   {
-    "Name": "Need journal entry",
-    "Text": "If you got here it means you have the required knowledge",
-    "Conditions": { "@StoodMyGround": 0 },
-    "TargetName": "Hall4"
+    "Name": "Ask for Chainsaw",
+    "Text": "",
+    "Conditions": {
+      "ChainsawGet": 0
+    },
+    "Items": { "Chainsaw": 1 },
+    "TargetName": "Room"
   },
   {
-    "Name": "Trap Door",
-    "Text": "You can see this because to have knowledge",
-    "Conditions": { "@StoodMyGround": 0 },
-    "TargetName": "Sewage"
+    "Name": "Use Chainsaw and demand Crown",
+    "Text": "",
+    "Conditions": {
+      "~Crown": 1,
+      "Crown": 0,
+      "Chainsaw": 1
+    },
+    "Items": { "Crown": 1 },
+    "TargetName": "Room"
+  },
+  {
+    "Name": "Use Chainsaw to kill person",
+    "Text": "",
+    "Conditions": {
+      "Crown": 1,
+      "Chainsaw": 1
+    },
+    "Items": {
+      "Person": -1,
+      "KilledPerson": 0
+    },
+    "TargetName": "Room"
+  },
+  {
+    "Name": "Look at thing 3",
+    "Text": "",
+    "Conditions": {
+      "Crown": 1,
+      "Chainsaw": 1
+    },
+    "Items": {
+      "Thing 3": 0,
+    },
+    "TargetName": "Room"
+  },
+  {
+    "Name": "Speak about thing 3",
+    "Text": "",
+    "Conditions": {
+      "~AntiMatter": 0
+    },
+    "Items": {
+      "AntiMatter": 0
+    },
+    "TargetName": "Room"
+  },
+  {
+    "Name": "Speak about AntiMatter",
+    "Text": "",
+    "Conditions": {
+      "AntiMatter": 0
+    },
+    "Items": {
+      "AntiMatterGet": 0
+    },
+    "TargetName": "Room"
+  },
+  {
+    "Name": "Ask for AntiMatter",
+    "Text": "",
+    "Conditions": {
+      "AntiMatterGet": 0
+    },
+    "Items": {
+      "AntiMatterRefused": 0
+    },
+    "TargetName": "Room"
+  },
+  {
+    "Name": "Take Antimatter",
+    "Text": "",
+    "Conditions": { "KilledPerson": 0, "Antimatter": 0 },
+    "TargetState": "WinScreen"
   }
 ]

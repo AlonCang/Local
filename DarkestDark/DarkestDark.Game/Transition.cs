@@ -15,6 +15,28 @@ namespace DarkestDark.Game
         public Dictionary<string, int> Items;
         public string TargetName;
 
+        public bool Any(bool[] bools)
+        {
+            foreach (var b in bools)
+            {
+                if (b)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+        public bool All(bool[] bools)
+        {
+            foreach (var b in bools)
+            {
+                if (!b)
+                {
+                    return false;
+                }
+            }
+            return true;
+        }
         public bool IsLegal(Dictionary<string, int> items)
         {
             if (Conditions != null)
@@ -24,20 +46,25 @@ namespace DarkestDark.Game
                     if (cond.Key.Contains('~'))
                     {
                         var key = cond.Key.Substring(1);
-                        if (!items.ContainsKey(key))
+                        if (items.ContainsKey(key))
                         {
-                            return true; //Meaning: Yes you have NOT aquired this item to satisfy condition.
+                            if (items[key] >= cond.Value)
+                            {
+                                return false;
+                            }
                         }
-                        return items[key] < cond.Value; //Meaning: If this returns 'false' then YES you have enough of this item
                     }
                     else
                     {
                         if (!items.ContainsKey(cond.Key))
                         {
-                            return false; //Meaning: If you do not have this item return false.
+                            return false; 
                         }
-                        return items[cond.Key] >= cond.Value; //Meaning: If you have enough of this item to satisfy condition return true.
-                    }                    
+                        if (items[cond.Key] < cond.Value)
+                        {
+                            return false;
+                        }
+                    }
                 }
             }
             return true;

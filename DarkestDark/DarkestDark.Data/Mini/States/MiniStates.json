@@ -1,58 +1,57 @@
 ﻿[
-  { "Name": "Nothing" },
   {
-    "Name": "Hall1",
-    "Text": "Welcome To Hall",
-    "Transitions": [ "to Room", "to Bath", "to OutHouse", "to ???1", "to ???2", "to ???3" ]
+    "Name": "Nothing",
+    "Text": "Press 1 to enter Room",
+    "Transitions":["To Room"]
   },
   {
-    "Name": "Hall2",
-    "Text": "Returned to Hall",
-    "Transitions": [ "to Room", "to Bath", "to ???1", "to OutHouse", "to ???2", "to ???3", "Spend gold", "Need journal entry" ]
+    "Name": "Room",
+    "Text": "You stand in a room. There is a person. What do you do?",
+    "Transitions": [
+      "Speak with person",
+      "Look around room",
+      "Leave room"
+    ]
   },
   {
-    "Name": "Room1",
-    "Text": "Welcome To Room",
-    "Transitions": [ "to Hall2" ]
+    "Name": "Look",
+    "Text": "You stand in a room. There is a person. What do you do?",
+    "Transitions": [
+      "Look at thing 1",
+      "Look at thing 2",
+      "Look at thing 3",
+      "Speak with person",
+      "Leave Room"
+    ]
   },
   {
-    "Name": "Room2",
-    "Text": "Returned to Room",
-    "Transitions": [ "to Hall2" ]
+    "Name": "Person",
+    "Text": "You stand in a room. There is a person. What do you do?",
+    "Transitions": [
+      "Speak about thing 1",
+      "Speak about thing 2",
+      "Speak about thing 3",
+      "Speak about Crown",
+      "Speak about Chainsaw",
+      "Speak about Antimatter",
+      "Demand to speak about Antimatter",
+      "Demand Antimatter",
+      "Ask for Crown",
+      "Use Chainsaw and demand Crown",
+      "Ask for Chainsaw",
+      "Take Antimatter",
+      "Look around room",
+      "Leave Room"
+    ]
   },
   {
-    "Name": "Bath1",
-    "Text": "Welcome To Bath",
-    "Transitions": [ "to Hall2" ]
+    "Name": "PersonEnemy",
+    "Text": "Person is in his final form. He is now enemy. What do you do?",
+    "Transitions": [ "Kill Person", "Run Away" ]
   },
   {
-    "Name": "Bath2",
-    "Text": "Returned to Bath",
-    "Transitions": [ "to Hall2" ]
-  },
-  {
-    "Name": "OutHouse1",
-    "Text": "Welcome to toilet",
-    "Transitions": [ "to Hall2" ]
-  },
-  {
-    "Name": "OutHouse2",
-    "Text": "Returned to toilet",
-    "Transitions": [ "to Hall2", "Trap Door" ]
-  },
-  {
-    "Name": "Sewage",
-    "Text": "You went into the sewage",
-    "Transitions": [ "to OutHouse", "Trap Door" ]
-  },
-  {
-    "Name": "Hall3",
-    "Text": "You have paid your way through",
-    "Transitions": [ "to Room", "to Bath", "to ???1", "to ???2", "Spend gold", "Need journal entry" ]
-  },
-  {
-    "Name": "Hall4",
-    "Text": "You have shown you know stuff",
-    "Transitions": [ "to Room", "to Bath", "to ???1", "to ???2", "Spend gold", "Need journal entry" ]
+    "Name": "WinScreen",
+    "Text": "You now have Antimatter. Congrats. You finished the run.",
+    "Transitions": [ "" ]
   }
 ]

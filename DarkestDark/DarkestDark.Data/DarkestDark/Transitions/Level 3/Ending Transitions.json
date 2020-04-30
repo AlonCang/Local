@@ -2,6 +2,7 @@
   {
     "Name": "You must move beyond your grief.I shall lift the curse and let you live",
     "Text": "You lower your weapons and approach her slowly. 'Let me release you, child. The demise of this estate has become legend, all know of your pain, why else would I be here?' Mistress seems to be listening carefully. You come ever closer and kneel before her, holding her cold and dead hand. 'With your permission and penance I can redeem your soul so you could finally find rest. I will stay here and hear your confessions for as long as it would take. And with time you will be able to meet Robert again in heaven.' For a moment she seems frozen in thought. Her face a blank expression. Eventually she nods in agreement.",
+    "Conditions": { "GotRing": 0, "IHaveReleasedRobert": 0, "NatureOfTheCurse": 0 },
     "TargetName": "The curse has been lifted and mistress has been put to rest."
   },
   {
