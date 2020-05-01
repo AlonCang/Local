@@ -1,3 +1,9 @@
+Friday 01/05/2020:
+---------------------
+1. Due to unexpected circustances i have not had the time to make a proper.
+		- It however was on my mind throughout the day.
+		- Iv got plans... or mroe correctly... Thoughts of plans. I think...
+
 Thursday 30/04/2020:
 -------------------------
 1. More data:
