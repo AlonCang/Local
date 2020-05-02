@@ -15,7 +15,7 @@
   },
   {
     "Name": "Look",
-    "Text": "You stand in a room. There is a person. What do you do?",
+    "Text": "You look around the room. You see things. What do you do?",
     "Transitions": [
       "Look at thing 1",
       "Look at thing 2",
@@ -26,7 +26,7 @@
   },
   {
     "Name": "Person",
-    "Text": "You stand in a room. There is a person. What do you do?",
+    "Text": "You stand before person. What do you say?",
     "Transitions": [
       "Speak about thing 1",
       "Speak about thing 2",

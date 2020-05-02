@@ -5,20 +5,23 @@
     "TargetState": "Room"
   },
   {
+    "Name": "Leave Room",
+    "Text": "quit",
+    "TargetState": "Room"
+  },
+  {
     "Name": "Speak with person",
-    "Text": "",
+    "Text": "You turn to speak with the person",
     "Conditions": {
-      "~Person": 0,
-      "~KilledPerson": 0,
-      "~Speak with person": 0
+      "~KilledPerson": 0
     },
-    "Items": { "Speak with person": 0, "Person": 0 },
-    "TargetName": "Room"
+    "TargetName": "Person"
   },
   {
     "Name": "Look around room",
     "Text": "",
-    "TargetName": "Room"
+    "Items": { "Speak with person": -1},
+    "TargetName": "Look"
   },
   {
     "Name": "Leave room",
@@ -27,75 +30,105 @@
   },
   {
     "Name": "Look at thing 1",
-    "Text": "",
-    "Conditions": { "~Look": 0 },
-    "Items": { "Thing 1": 0 },
-    "TargetName": "Room"
+    "Text": "You see thing 1. Its very nice.",
+    "Conditions": { "Look": 0, "~Look at thing 1": 0 },
+    "Items": { "Thing 1": 0, "Look at thing 1": 0 },
+    "TargetName": "Look"
   },
   {
     "Name": "Look at thing 2",
-    "Text": "",
-    "Conditions": { "~Look": 0 },
-    "Items": { "Thing 2": 0 },
-    "TargetName": "Room"
+    "Text": "You look at thing 2. It looks cool.",
+    "Conditions": { "Look": 0, "~Look at thing 2": 0 },
+    "Items": { "Thing 2": 0,"Look at thing 2": 0 },
+    "TargetName": "Look"
   },
   {
     "Name": "Speak about thing 1",
-    "Text": "",
-    "Conditions": { "Person": 0, "Thing 1": 0 },
-    "Items": { "Crown": 0 },
-    "TargetName": "Room"
+    "Text": "Person agrees that thing1 is nice. Its called a Crown.",
+    "Conditions": {
+      "Person": 0,
+      "Thing 1": 0,
+      "~Speak about thing 1": 0
+    },
+    "Items": { "Crown": 0, "Speak about thing 1": 0 },
+    "TargetName": "Person"
+  },
+  {
+    "Name": "Speak about thing 2",
+    "Text": "Person agrees that thing1 is cool. Its called a Chainsaw.",
+    "Conditions": {
+      "Person": 0,
+      "Thing 2": 0,
+      "~Speak about thing 2": 0
+    },
+    "Items": { "Chainsaw": 0, "Speak about thing 2": 0 },
+    "TargetName": "Person"
   },
   {
     "Name": "Speak about Crown",
-    "Text": "",
+    "Text": "Person finds it funny that you like Crown so much.",
     "Conditions": {
-      "Crown": 0
+      "Crown": 0,
+      "~Speak about Crown": 0
     },
-    "Items": { "CrownGet": 0 },
-    "TargetName": "Room"
+    "Items": { "CrownGet": 0, "Speak about Crown": 0 },
+    "TargetName": "Person"
   },
   {
     "Name": "Speak about Chainsaw",
+    "Text": "Person thinks you are being a Chaisaw fanboy.",
+    "Conditions": {
+      "Chainsaw": 0,
+      "~Speak about Chainsaw": 0
+    },
+    "Items": { "ChainsawGet": 0, "Speak about Chainsaw": 0 },
+    "TargetName": "Person"
+  },
+  {
+    "Name": "Speak about Antimatter",
     "Text": "",
     "Conditions": {
-      "Chainsaw": 0
+      "Thing 3": 0,
+      "~Speak about Antimatter": 0
     },
-    "Items": { "ChainsawGet": 0 },
-    "TargetName": "Room"
+    "Items": { "ChainsawGet": 0, "Speak about Antimatter": 0 },
+    "TargetName": "Person"
   },
   {
     "Name": "Ask for Crown",
-    "Text": "",
+    "Text": "Person will not give you Crown",
     "Conditions": {
-      "CrownGet": 0
+      "CrownGet": 0,
+      "~Ask for Crown": 0
     },
-    "Items": { "CrownRefused": 0 },
-    "TargetName": "Room"
+    "Items": { "CrownRefused": 0, "Ask for Crown": 0 },
+    "TargetName": "Person"
   },
   {
     "Name": "Ask for Chainsaw",
-    "Text": "",
+    "Text": "Person is willing to give you Chainsaw.",
     "Conditions": {
-      "ChainsawGet": 0
+      "ChainsawGet": 0,
+      "~Ask for Chainsaw": 0
     },
-    "Items": { "Chainsaw": 1 },
-    "TargetName": "Room"
+    "Items": { "Chainsaw": 1, "Ask for Chainsaw": 0 },
+    "TargetName": "Person"
   },
   {
     "Name": "Use Chainsaw and demand Crown",
-    "Text": "",
+    "Text": "Person is scared and gives you Crown",
     "Conditions": {
       "~Crown": 1,
       "Crown": 0,
-      "Chainsaw": 1
+      "Chainsaw": 1,
+      "~Use Chainsaw and demand Crown": 0
     },
-    "Items": { "Crown": 1 },
-    "TargetName": "Room"
+    "Items": { "Crown": 1, "Use Chainsaw and demand Crown": 0 },
+    "TargetName": "Person"
   },
   {
     "Name": "Use Chainsaw to kill person",
-    "Text": "",
+    "Text": "Person dies horribly.",
     "Conditions": {
       "Crown": 1,
       "Chainsaw": 1
@@ -108,53 +141,95 @@
   },
   {
     "Name": "Look at thing 3",
-    "Text": "",
+    "Text": "You look at thing 3. It looks important.",
     "Conditions": {
       "Crown": 1,
-      "Chainsaw": 1
+      "Chainsaw": 1,
+      "~Look at thing 3": 0
     },
     "Items": {
       "Thing 3": 0,
+      "Look at thing 3": 0
     },
-    "TargetName": "Room"
+    "TargetName": "Look"
   },
   {
     "Name": "Speak about thing 3",
-    "Text": "",
+    "Text": "It is called Antimatter",
     "Conditions": {
-      "~AntiMatter": 0
+      "Thing 3": 0,
+      "~Speak about thing 3": 0
     },
     "Items": {
-      "AntiMatter": 0
+      "AntiMatterGet": 0,
+      "Speak about thing 3": 0
     },
-    "TargetName": "Room"
+    "TargetName": "Person"
   },
   {
     "Name": "Speak about AntiMatter",
-    "Text": "",
+    "Text": "Person refuses to speak about Antimatter",
     "Conditions": {
-      "AntiMatter": 0
+      "AntiMatterSpeakRefuse": 0,
+      "~Speak about AntiMatter": 0
     },
     "Items": {
-      "AntiMatterGet": 0
+      "AntiMatterGet": 0,
+      "Speak about AntiMatter": 0
     },
-    "TargetName": "Room"
+    "TargetName": "Person"
+  },
+  {
+    "Name": "Demand to speak about Antimatter",
+    "Text": "Person would rather die than speak about Antimatter",
+    "Conditions": {
+      "AntiMatterSpeakRefuse": 0,
+      "~Demand to speak about Antimatter": 0
+    },
+    "Items": {
+      "AntiMatterSpeakRefuse": 0,
+      "Demand to speak about Antimatter": 0
+    },
+    "TargetName": "Person"
   },
   {
     "Name": "Ask for AntiMatter",
-    "Text": "",
+    "Text": "Person will not give you Antimatter",
     "Conditions": {
-      "AntiMatterGet": 0
+      "AntiMatterGet": 0,
+      "~Ask for AntiMatter": 0
     },
     "Items": {
-      "AntiMatterRefused": 0
+      "AntiMatterRefused": 0,
+      "Ask for AntiMatter": 0
     },
-    "TargetName": "Room"
+    "TargetName": "Person"
+  },
+  {
+    "Name": "Demand Antimatter",
+    "Text": "Person would rather die than give you Antimatter",
+    "Conditions": {
+      "AntiMatterRefused": 0,
+      "~Demand Antimatter": 0
+    },
+    "Items": {
+      "AntiMatterRefused": 0,
+      "Demand Antimatter": 0
+    },
+    "TargetName": "Person"
   },
   {
     "Name": "Take Antimatter",
     "Text": "",
-    "Conditions": { "KilledPerson": 0, "Antimatter": 0 },
+    "Conditions": {
+      "KilledPerson": 0,
+      "Antimatter": 0
+    },
     "TargetState": "WinScreen"
+  },
+  {
+    "Name": "Run Away",
+    "Text": "quit",
+    "TargetState": "Room"
   }
 ]

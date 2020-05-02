@@ -26,8 +26,8 @@
   },
   {
     "Name": "Ready and guarded",
-    "Text": "You take the initiative and aim for her heart! She extends her hand to block the bolt yet it pierces through her, sending a jet of blood in the air. She vanishes and the bolt continues its trajectory into the wall.",
-    "Transitions": [ "Ready yourself for a surprise attack" ]
+    "Text": "You stand perfectly still, ready for the vampire to show her face again. After a few tense moments you hear a small gust of wind behind you. Mistress reappeares but you were ready! ",
+    "Transitions": [ "Use the cross on her!", "Burn her with fire!", "Shoot her!", "Melt her with holy water!", "Throw nitroglycerin!" ]
   },
   {
     "Name": "Mistress burning",

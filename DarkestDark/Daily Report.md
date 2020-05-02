@@ -1,3 +1,32 @@
+Saturday 02/05/2020:
+------------------------
+1. Mini data:
+		- Kept setting up the data. Got bug i couldnt fix:
+				- "Speak with person" mini transition becomes unavailable after its visited once. Even though i think i wired it so that visiting "Look around room" to make it available again.
+					I tried different stuff but i couldn't get it to become available again. One option is to have it not give itself as an item hence never being unavailable.
+				- Ok so i solved it by removing some of the conditions.
+				
+		- Other bugs:
+				- Ok iv encountered all sorts of unexpected behaviors. I have managed to resolve most of them by correcting the data setup.
+				- But now my mind is weary of this project. Shifting to DarkestDark.
+				
+				
+2. DarkestDark:
+		- Encountere many small bugs. Decided to log them first and then choose which ones to tackle:
+				- Revisited rooms still give the initial scene. Causing scenes to occur an infinite amount of times.
+				- Clock hands can be moved without finding the the clock scribble 1st.
+				- Destroying the imps leads back to a conversation with them. Check all imps fight transitions.
+				- "Maybe the imps know something about the headless course" is unavailable for some reason. check conditions.
+				- Cross is available during fights even after it is destroyed. Check conditions.
+				- There were a few more but i fixed them with little effort. Most of these look like they would be more or less easy.
+				- Its just work. Ill get to it.
+				
+				
+3. Testing automation course:
+		- Debugging basics:
+				- It was nice, having a step by step introduction to stuff that you tought me long ago and i didnt write down properly.
+				- Again your teachings are incredibly on point. Thank you sensei.
+
 Friday 01/05/2020:
 ---------------------
 1. Due to unexpected circustances i have not had the time to make a proper.
