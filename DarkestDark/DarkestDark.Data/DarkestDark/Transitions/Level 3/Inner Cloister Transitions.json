@@ -12,26 +12,35 @@
   {
     "Name": "Use the cross on her!",
     "Text": "",
+    "Conditions": { "Holy Cross": 1 },
     "TargetName": "Cross light"
   },
   {
     "Name": "Burn her with fire!",
     "Text": "",
+    "Conditions": { "Flammable Oil": 1 },
+    "Items": { "Flammable Oil": -1 },
     "TargetName": "Mistress burning"
   },
   {
     "Name": "Shoot her!",
     "Text": "",
+    "Conditions": { "Crossbow Bolts": 1 },
+    "Items": { "Crossbow Bolts": -1 },
     "TargetName": "Aim for the heart"
   },
   {
     "Name": "Melt her with holy water!",
     "Text": "",
+    "Conditions": { "Holy Water": 1 },
+    "Items": { "Holy Water": -1},
     "TargetName": "Mistress melting"
   },
   {
     "Name": "Throw nitroglycerin!",
     "Text": "",
+    "Conditions": { "Nitroglycerin": 1 },
+    "Items": { "Nitroglycerin": -1 },
     "TargetName": "Mistress exploding"
   },
   {
@@ -47,12 +56,14 @@
   {
     "Name": "Mention zombie in kitchen",
     "Text": "Her smirk is replaced with disgust. 'A good servant turned traitor! Nothing sickens me more... He tried to escape with my ring. I punished him for that. He hid it well though, i never managed to find it. Thus I am marooned in this eternal torment.'",
+    "Conditions": { "ZombieStory": 0 },
     "Items": { "@RealHero": 0 },
     "TargetName": "Mistress conversation2"
   },
   {
     "Name": "Speak about Robert",
     "Text": "My beloved husband to be. If only he could see that my love was true.. But he rejected me at the altar! So Iv shown him my pain.. ON MY ALTAR! I condemned his soul and all that is his to damnation! Of course.. I was his as well. I knew this.",
+    "Conditions": { "IvFoundRobert": 0 },
     "Items": { "@MistressMotive": 0 },
     "TargetName": "Mistress conversation2"
   },
@@ -65,6 +76,7 @@
   {
     "Name": "I have been told that this place is cursed",
     "Text": "The devil himself was our pastor! My beloved and I shall be together forever! Even if we are slain by the likes of you we shall return time and again to repeat the cycle! Such was the price we paid for my dear roberts rejection... Have you ever been so betrayed?",
+    "Conditions": { "TheCurse": 0 },
     "Items": { "@NatureOfTheCurse": 0 },
     "TargetName": "Mistress conversation2"
   },

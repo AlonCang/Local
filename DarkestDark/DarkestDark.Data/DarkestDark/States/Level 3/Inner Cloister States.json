@@ -37,12 +37,12 @@
   {
     "Name": "Mistress melting",
     "Text": "Mistress lunges at you, her fangs glinting in the candle fire. You splash the holy water in her direction and soak her abdomen. She falls to the floor as her midsection quickly melts away. She cries in agony as she uses her arms to try and crawl away.",
-    "Transitions": [ "Mistress defeated but the curse remains", "Mistress is defeated and the curse is lifted" ]
+    "Transitions": [ "Hold her down and perform a ritual to lift the curse.", "End her" ]
   },
   {
     "Name": "Mistress exploding",
     "Text": "Before she has a chance to react you throw the vial of nitroglycerin at the floor beneath her and dive for safety.The explosion shakes the walls and echoes in your ears. When the smoke settles you find mistress torn to pieces. Her limbs crawl slowly on the floor trying to unite once more. What do you do?",
-    "Transitions": [ "Mistress defeated but the curse remains", "Mistress is defeated and the curse is lifted" ]
+    "Transitions": [ "End her", "Hold her down and perform a ritual to lift the curse." ]
   },
   {
     "Name": "Mistress conversation1",

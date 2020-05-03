@@ -1,7 +1,7 @@
 ﻿[
   {
     "Name": "Nothing",
-    "Text": "Press 1 to enter Room",
+    "Text": "",
     "Transitions":["To Room"]
   },
   {
@@ -9,6 +9,7 @@
     "Text": "You stand in a room. There is a person. What do you do?",
     "Transitions": [
       "Speak with person",
+      "Talk with person",
       "Look around room",
       "Leave room"
     ]
@@ -25,7 +26,15 @@
     ]
   },
   {
-    "Name": "Person",
+    "Name": "Person1",
+    "Text": "You have nothing to talk about. What do you do?",
+    "Transitions": [
+      "Look around room",
+      "Leave room"
+    ]
+  },
+  {
+    "Name": "Person2",
     "Text": "You stand before person. What do you say?",
     "Transitions": [
       "Speak about thing 1",

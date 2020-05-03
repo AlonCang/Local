@@ -78,38 +78,55 @@
   },
   {
     "Name": "Use the cross on them",
-    "Text": "",
+    "Text": "The moment your cross begins to shine with holy light, the imps all start screaming with pain as they burst into flames. Within seconds they vanish back into the pits of hell!",
     "Conditions": { "Holy Cross": 1 },
     "Items": { "@ImpsDestroyed": 0 },
-    "TargetName": "Imp Encounter4"
+    "TargetName": "Temple Room2"
   },
   {
     "Name": "Shoot them",
-    "Text": "",
+    "Text": "The imps run around cowering as time and time again you reload the crossbow and shoot the damn vermins one by one until they are all vanquished.",
     "Conditions": { "Crossbow Bolts": 1 },
-    "Items": { "@ImpsDestroyed": 0 },
-    "TargetName": "Imp Encounter4"
+    "Items": { "@ImpsDestroyed": 0, "Crossbow Bolts": -5 },
+    "TargetName": "Temple Room2"
   },
   {
     "Name": "Use holy water on them",
-    "Text": "",
+    "Text": "You pour the contents of the vial in a puddle on the floor then proceed to grab the struggling imps one by one, then throw them at the puddle. The evil imps melt in agony.",
     "Conditions": { "Holy Water": 1 },
-    "Items": { "@ImpsDestroyed": 0 },
-    "TargetName": "Imp Encounter4"
+    "Items": { "@ImpsDestroyed": 0, "Holy Water": -1 },
+    "TargetName": "Temple Room2"
   },
   {
     "Name": "Burn them with fire",
-    "Text": "",
+    "Text": "You aproach the imps menacingly and they huddle together in fear. You pour the oil in a circle around them and ingite it. Quickly enough the flames drown out the shrieks of pain. The path is cleared.",
     "Conditions": { "Flammable Oil": 1 },
-    "Items": { "@ImpsDestroyed": 0 },
-    "TargetName": "Imp Encounter4"
+    "Items": {
+      "@ImpsDestroyed": 0,
+      "Flammable Oil": -1
+    },
+    "TargetName": "Temple Room2"
   },
   {
     "Name": "Blow them up with nitro!",
-    "Text": "",
+    "Text": "\"You place yourself saftely behind a pillar and then toss the vial of nitroglycerin at the imps. A loud explosion fills the temple up with smoke. As the view clears the imps are \"everywhere\". Two of the pillars have collapsed. The path is cleared.\"",
     "Conditions": { "Nitroglycerin": 1 },
-    "Items": { "@ImpsDestroyed": 0 },
-    "TargetName": "Imp Encounter4"
+    "Items": {
+      "@ImpsDestroyed": 0,
+      "Nitroglycerin": -1
+    },
+    "TargetName": "Temple Room2"
+  },
+  {
+    "Name": "Hold her down and perform a ritual to lift the curse.",
+    "Text": "",
+    "TargetName": "Mistress is defeated and the curse is lifted"
+  },
+  {
+    "Name": "End her",
+    "Text": "You place yourself saftely behind a pillar and then toss the vial of nitroglycerin at the imps. A loud explosion fills the temple up with smoke. As the view clears the imps are 'everywhere'. Two of the pillars have collapsed. The path is cleared.",
+    "Conditions": {},
+    "TargetName": "Mistress defeated but the curse remains"
   }
 
 ]

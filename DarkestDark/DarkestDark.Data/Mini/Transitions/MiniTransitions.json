@@ -10,17 +10,26 @@
     "TargetState": "Room"
   },
   {
-    "Name": "Speak with person",
+    "Name": "Talk with person",
     "Text": "You turn to speak with the person",
     "Conditions": {
       "~KilledPerson": 0
     },
-    "TargetName": "Person"
+    "TargetName": "Person1"
+  },
+  {
+    "Name": "Speak with person",
+    "Text": "You turn to speak with the person",
+    "Conditions": {
+      "~KilledPerson": 0,
+      "Thing 1": 0
+    },
+    "TargetName": "Person2"
   },
   {
     "Name": "Look around room",
     "Text": "",
-    "Items": { "Speak with person": -1},
+    "Items": { "Speak with person": -1 },
     "TargetName": "Look"
   },
   {
@@ -31,27 +40,42 @@
   {
     "Name": "Look at thing 1",
     "Text": "You see thing 1. Its very nice.",
-    "Conditions": { "Look": 0, "~Look at thing 1": 0 },
-    "Items": { "Thing 1": 0, "Look at thing 1": 0 },
+    "Conditions": {
+      "Look": 0,
+      "~Look at thing 1": 0
+    },
+    "Items": {
+      "Thing 1": 0,
+      "Look at thing 1": 0
+    },
     "TargetName": "Look"
   },
   {
     "Name": "Look at thing 2",
     "Text": "You look at thing 2. It looks cool.",
-    "Conditions": { "Look": 0, "~Look at thing 2": 0 },
-    "Items": { "Thing 2": 0,"Look at thing 2": 0 },
+    "Conditions": {
+      "Look": 0,
+      "~Look at thing 2": 0
+    },
+    "Items": {
+      "Thing 2": 0,
+      "Look at thing 2": 0
+    },
     "TargetName": "Look"
   },
   {
     "Name": "Speak about thing 1",
-    "Text": "Person agrees that thing1 is nice. Its called a Crown.",
+    "Text": "Person agrees that thing 1 is nice. Its called a Crown.",
     "Conditions": {
       "Person": 0,
       "Thing 1": 0,
       "~Speak about thing 1": 0
     },
-    "Items": { "Crown": 0, "Speak about thing 1": 0 },
-    "TargetName": "Person"
+    "Items": {
+      "Crown": 0,
+      "Speak about thing 1": 0
+    },
+    "TargetName": "Person2"
   },
   {
     "Name": "Speak about thing 2",
@@ -61,8 +85,11 @@
       "Thing 2": 0,
       "~Speak about thing 2": 0
     },
-    "Items": { "Chainsaw": 0, "Speak about thing 2": 0 },
-    "TargetName": "Person"
+    "Items": {
+      "Chainsaw": 0,
+      "Speak about thing 2": 0
+    },
+    "TargetName": "Person2"
   },
   {
     "Name": "Speak about Crown",
@@ -71,8 +98,11 @@
       "Crown": 0,
       "~Speak about Crown": 0
     },
-    "Items": { "CrownGet": 0, "Speak about Crown": 0 },
-    "TargetName": "Person"
+    "Items": {
+      "CrownGet": 0,
+      "Speak about Crown": 0
+    },
+    "TargetName": "Person2"
   },
   {
     "Name": "Speak about Chainsaw",
@@ -81,8 +111,11 @@
       "Chainsaw": 0,
       "~Speak about Chainsaw": 0
     },
-    "Items": { "ChainsawGet": 0, "Speak about Chainsaw": 0 },
-    "TargetName": "Person"
+    "Items": {
+      "ChainsawGet": 0,
+      "Speak about Chainsaw": 0
+    },
+    "TargetName": "Person2"
   },
   {
     "Name": "Speak about Antimatter",
@@ -91,8 +124,11 @@
       "Thing 3": 0,
       "~Speak about Antimatter": 0
     },
-    "Items": { "ChainsawGet": 0, "Speak about Antimatter": 0 },
-    "TargetName": "Person"
+    "Items": {
+      "ChainsawGet": 0,
+      "Speak about Antimatter": 0
+    },
+    "TargetName": "Person2"
   },
   {
     "Name": "Ask for Crown",
@@ -101,8 +137,11 @@
       "CrownGet": 0,
       "~Ask for Crown": 0
     },
-    "Items": { "CrownRefused": 0, "Ask for Crown": 0 },
-    "TargetName": "Person"
+    "Items": {
+      "CrownRefused": 0,
+      "Ask for Crown": 0
+    },
+    "TargetName": "Person2"
   },
   {
     "Name": "Ask for Chainsaw",
@@ -111,8 +150,11 @@
       "ChainsawGet": 0,
       "~Ask for Chainsaw": 0
     },
-    "Items": { "Chainsaw": 1, "Ask for Chainsaw": 0 },
-    "TargetName": "Person"
+    "Items": {
+      "Chainsaw": 1,
+      "Ask for Chainsaw": 0
+    },
+    "TargetName": "Person2"
   },
   {
     "Name": "Use Chainsaw and demand Crown",
@@ -123,8 +165,11 @@
       "Chainsaw": 1,
       "~Use Chainsaw and demand Crown": 0
     },
-    "Items": { "Crown": 1, "Use Chainsaw and demand Crown": 0 },
-    "TargetName": "Person"
+    "Items": {
+      "Crown": 1,
+      "Use Chainsaw and demand Crown": 0
+    },
+    "TargetName": "Person2"
   },
   {
     "Name": "Use Chainsaw to kill person",
@@ -161,36 +206,37 @@
       "~Speak about thing 3": 0
     },
     "Items": {
+      "Antimatter": 0,
       "AntiMatterGet": 0,
       "Speak about thing 3": 0
     },
-    "TargetName": "Person"
+    "TargetName": "Person2"
   },
   {
     "Name": "Speak about AntiMatter",
     "Text": "Person refuses to speak about Antimatter",
     "Conditions": {
-      "AntiMatterSpeakRefuse": 0,
+      "AntiMattere": 0,
       "~Speak about AntiMatter": 0
     },
     "Items": {
-      "AntiMatterGet": 0,
+      "AntiMatterSpeakRefuse": 0,
       "Speak about AntiMatter": 0
     },
-    "TargetName": "Person"
+    "TargetName": "Person2"
   },
   {
     "Name": "Demand to speak about Antimatter",
     "Text": "Person would rather die than speak about Antimatter",
     "Conditions": {
-      "AntiMatterSpeakRefuse": 0,
+      "AntiMatterSpeakRefuseAgain": 0,
       "~Demand to speak about Antimatter": 0
     },
     "Items": {
       "AntiMatterSpeakRefuse": 0,
       "Demand to speak about Antimatter": 0
     },
-    "TargetName": "Person"
+    "TargetName": "Person2"
   },
   {
     "Name": "Ask for AntiMatter",
@@ -203,7 +249,7 @@
       "AntiMatterRefused": 0,
       "Ask for AntiMatter": 0
     },
-    "TargetName": "Person"
+    "TargetName": "Person2"
   },
   {
     "Name": "Demand Antimatter",
@@ -216,7 +262,7 @@
       "AntiMatterRefused": 0,
       "Demand Antimatter": 0
     },
-    "TargetName": "Person"
+    "TargetName": "Person2"
   },
   {
     "Name": "Take Antimatter",

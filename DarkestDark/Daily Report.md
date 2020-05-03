@@ -1,3 +1,40 @@
+Sunday 03/05/2020:
+1.1 DarkestDark:
+		- Started fixing some issues. Just making sure that what we have is at least set up correctly.
+					- QUESTION:  Is there a free task management  software you would recommend? I feel the need to start having some sort of organized bug log.
+
+1.2 Bug Log:
+		Darkest Dark:
+								 - Revisited rooms still give the initial scene. Causing scenes to occur an infinite amount of times.
+								 - "Maybe the imps know something about the headless course" is unavailable for some reason. check conditions.
+								 - Cross is available during fights even after it is destroyed. Check conditions.
+				[Resolved] - Imp fight has a number of messed up target names. Fix those to the correct ones.
+				[Resolved] - Clock hands can be moved without finding the clock scribble 1st.
+				[Resolved] - no need for nitro in order to use nitro in gargoyle fight
+				[Resolved] - Mistress conversation1: No conditions for speaking about different things. Also the endings arent wired correctly.
+				[Resolved] - Mistress melting leads to a dead end. GBB!!!! GBB!!!
+				[Resolved] - "End her" transition crashes game.
+							 	 - During gargoyle fight: Its possible to know the names of the rooms even if you havent visited them yet.
+								 - Inventory: You can have negative items that get printed. if their value is lower than 0.
+							   	 - "I shall be your groom" transition crashes game.
+				[Resolved] - Its possible to throw nitro at mistress when you dont have nitro. check for more item conditions in mistress fight.
+				[Resolved] - Throwing nitro at mistress breaks the game.
+								 - Any endgame ends in a crash. Make a title screen that doesnt make the console screen jump away.
+
+
+2. Mini data:
+		Bug log:
+				[Resolved] - Speaking with person when you have nothing to speak of still leads to regular person screen.
+								 - "To Room" transition name is always printed. It should be hidden. Dont know if this is important or just annoying.
+				[Resolved] - Its possible to speak about antimatter before you know its name
+								 - After speak with person there are no more options. THIS ONE BROKE ME. Couldnt fix it.
+								 - After you speak about antimatter there are no more options.
+								 
+								 
+3. Testing automation course:
+		- Another lesson. This one was about VS shortcuts and stuff.
+		
+		
 Saturday 02/05/2020:
 ------------------------
 1. Mini data:

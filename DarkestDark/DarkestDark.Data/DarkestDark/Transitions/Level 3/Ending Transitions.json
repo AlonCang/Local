@@ -13,6 +13,7 @@
   {
     "Name": "Your words are true. Perhaps i could stay and rule with you? I shall be your groom",
     "Text": "Mistress inspects you with with harsh eyes. 'Why? Why would you do this?' You smile cunningly yet softely, tracing your gaze over her beautiful face. 'A beautiful woman who suffers so much for love... Even god cannot turn a blind eye.' Her eyes narrow with suspicion. 'Do you understand what you are asking for?' 'I do indeed, I pledge myself to you mistress.' you remove your protective leather collar and present your neck to her.",
+    "Conditions": { "Ring": 1, "ShadowDestroyed": 0 },
     "TargetName": "Become the groom"
   },
   {
