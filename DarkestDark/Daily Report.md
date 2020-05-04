@@ -1,3 +1,22 @@
+Monday 04/05/2020:
+------------------------
+1.  Darkest Dark: Bug log:
+[Resolved] - Cross is available during fights even after it is destroyed. Check conditions.
+[Resolved] - "Examine table" transition should no longer be available after being used.
+[Resolved] - "Hidden door" transition should no longer be available after being used.
+- "Move clock hands to 3:15" transition should no longer be available after being used.
+- "Make nitroglycerine" transition should no longer be available after being used.
+- "Search the writing desk" transition should no longer be available after being used.
+- "Little lockbox" transition should no longer be available after being used.
+- "Statue Room1" state does not show "Present roberts head" transition even when conditions are met. check conditions.
+- "Maybe the imps know something about the headless course" is unavailable for some reason. check conditions.
+- Revisited rooms still give the initial scene. Causing scenes to occur an infinite amount of times.
+- During gargoyle fight: Its possible to know the names of the rooms even if you havent visited them yet.
+- Inventory: You can have negative items that get printed. if their value is lower than 0.
+- Any endgame ends in a crash. Make a title screen that doesnt make the console screen jump away.
+- Revisited rooms still give the initial scene. Causing scenes to occur an infinite amount of times.
+
+
 Sunday 03/05/2020:
 1.1 DarkestDark:
 		- Started fixing some issues. Just making sure that what we have is at least set up correctly.

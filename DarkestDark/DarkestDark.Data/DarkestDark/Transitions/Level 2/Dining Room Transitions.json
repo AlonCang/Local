@@ -2,13 +2,15 @@
   {
     "Name": "Examine table",
     "Text": "After observing the table from all sides you decide to take a look underneath. You lift the silken table cloth to find an inscription carved into one of the legs 'Fortunes close. Masked by time'.",
-    "Items": {"@TreasureHint": 0},
+    "Conditions": { "~Examine table": 0 },
+    "Items": {"@TreasureHint": 0, "Examine table": 0 },
     "TargetName": "Dinning Room2"
   },
   {
     "Name": "Hidden door",
     "Text": "The clock mechanism seems to have revealed a hidden door. Perhaps it will lead to something of worth.",
-    "Conditions": { "@ClockHandsMoved": 0 },
+    "Conditions": { "@ClockHandsMoved": 0, "~Hidden door": 0  },
+    "Items": { "Hidden door": 0 },
     "TargetName": "Hidden path"
   },
   {
