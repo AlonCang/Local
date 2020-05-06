@@ -67,7 +67,7 @@
     "Name": "Speak about thing 1",
     "Text": "Person agrees that thing 1 is nice. Its called a Crown.",
     "Conditions": {
-      "Person": 0,
+      "Person2": 0,
       "Thing 1": 0,
       "~Speak about thing 1": 0
     },
@@ -81,7 +81,7 @@
     "Name": "Speak about thing 2",
     "Text": "Person agrees that thing1 is cool. Its called a Chainsaw.",
     "Conditions": {
-      "Person": 0,
+      "Person2": 0,
       "Thing 2": 0,
       "~Speak about thing 2": 0
     },
@@ -207,21 +207,21 @@
     },
     "Items": {
       "Antimatter": 0,
-      "AntiMatterGet": 0,
+      "AntimatterGet": 0,
       "Speak about thing 3": 0
     },
     "TargetName": "Person2"
   },
   {
-    "Name": "Speak about AntiMatter",
+    "Name": "Speak about Antimatter",
     "Text": "Person refuses to speak about Antimatter",
     "Conditions": {
-      "AntiMattere": 0,
-      "~Speak about AntiMatter": 0
+      "Antimatter": 0,
+      "~Speak about Antimatter": 0
     },
     "Items": {
-      "AntiMatterSpeakRefuse": 0,
-      "Speak about AntiMatter": 0
+      "AntimatterSpeakRefuse": 0,
+      "Speak about Antimatter": 0
     },
     "TargetName": "Person2"
   },
@@ -229,25 +229,25 @@
     "Name": "Demand to speak about Antimatter",
     "Text": "Person would rather die than speak about Antimatter",
     "Conditions": {
-      "AntiMatterSpeakRefuseAgain": 0,
+      "AntimatterSpeakRefuseAgain": 0,
       "~Demand to speak about Antimatter": 0
     },
     "Items": {
-      "AntiMatterSpeakRefuse": 0,
+      "AntimatterSpeakRefuse": 0,
       "Demand to speak about Antimatter": 0
     },
     "TargetName": "Person2"
   },
   {
-    "Name": "Ask for AntiMatter",
+    "Name": "Ask for Antimatter",
     "Text": "Person will not give you Antimatter",
     "Conditions": {
-      "AntiMatterGet": 0,
-      "~Ask for AntiMatter": 0
+      "AntimatterGet": 0,
+      "~Ask for Antimatter": 0
     },
     "Items": {
-      "AntiMatterRefused": 0,
-      "Ask for AntiMatter": 0
+      "AntimatterRefused": 0,
+      "Ask for Antimatter": 0
     },
     "TargetName": "Person2"
   },
@@ -255,11 +255,11 @@
     "Name": "Demand Antimatter",
     "Text": "Person would rather die than give you Antimatter",
     "Conditions": {
-      "AntiMatterRefused": 0,
+      "AntimatterRefused": 0,
       "~Demand Antimatter": 0
     },
     "Items": {
-      "AntiMatterRefused": 0,
+      "AntimatterRefused": 0,
       "Demand Antimatter": 0
     },
     "TargetName": "Person2"
@@ -268,14 +268,24 @@
     "Name": "Take Antimatter",
     "Text": "",
     "Conditions": {
-      "KilledPerson": 0,
-      "Antimatter": 0
+      "Antimatter": 0,
+      "KilledPerson": 0
     },
-    "TargetState": "WinScreen"
+    "TargetName": "WinScreen"
+  },
+  {
+    "Name": "Try to take Antimatter",
+    "Text": "",
+    "Conditions": {
+      "Antimatter": 0,
+      "~Try to take Antimatter": 0
+    },
+    "Items": { "Try to take Antimatter": 0 },
+    "TargetName": "PersonEnemy"
   },
   {
     "Name": "Run Away",
     "Text": "quit",
-    "TargetState": "Room"
+    "TargetName": "Room"
   }
 ]

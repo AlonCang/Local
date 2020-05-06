@@ -22,6 +22,8 @@
       "Look at thing 2",
       "Look at thing 3",
       "Speak with person",
+      "Try to take Antimatter",
+      "Take Antimatter",
       "Leave Room"
     ]
   },
@@ -48,6 +50,8 @@
       "Ask for Crown",
       "Use Chainsaw and demand Crown",
       "Ask for Chainsaw",
+      "Use Chainsaw to kill person",
+      "Try to take Antimatter",
       "Take Antimatter",
       "Look around room",
       "Leave Room"
@@ -56,11 +60,11 @@
   {
     "Name": "PersonEnemy",
     "Text": "Person is in his final form. He is now enemy. What do you do?",
-    "Transitions": [ "Kill Person", "Run Away" ]
+    "Transitions": [ "Use Chainsaw to kill person", "Run Away" ]
   },
   {
     "Name": "WinScreen",
     "Text": "You now have Antimatter. Congrats. You finished the run.",
-    "Transitions": [ "" ]
+    "Transitions": [  ]
   }
 ]

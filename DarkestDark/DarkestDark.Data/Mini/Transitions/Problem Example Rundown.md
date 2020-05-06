@@ -148,44 +148,44 @@ Person is still scared. What do you say?
 
 > 1
 ----------
-Person says that thing 3 is very important. Its called ANTIMATTER. 
+Person says that thing 3 is very important. Its called Antimatter. 
 What do you do?
 ----------
-1. Take ANTIMATTER
-2. Speak further about ANTIMATTER
+1. Take Antimatter
+2. Speak further about Antimatter
 3. Use CHAINSAW to kill person!
 4. Leave room
 
 > 2
 ----------
-Person says he would rather die than talk anymore about ANTIMATTER
+Person says he would rather die than talk anymore about Antimatter
 ----------
-1. Use CHAINSAW as weapon and demand ANTIMATTER
-2. Use CHAINSAW as weapon and demand to speak more of ANTIMATTER
+1. Use CHAINSAW as weapon and demand Antimatter
+2. Use CHAINSAW as weapon and demand to speak more of Antimatter
 3. Use CHAINSAW to kill person!
-4. Take ANTIMATTER
+4. Take Antimatter
 5. Leave room
 
 > 1
 ----------
-Person refuses to give ANTIMATTER
+Person refuses to give Antimatter
 ----------
-1. Use CHAINSAW as weapon and demand to speak more of ANTIMATTER
+1. Use CHAINSAW as weapon and demand to speak more of Antimatter
 2. Use CHAINSAW to kill person!
-3. Take ANTIMATTER
+3. Take Antimatter
 4. Leave room
 
 > 1
 ----------
-Person says he would rather die than talk anymore about ANTIMATTER
+Person says he would rather die than talk anymore about Antimatter
 ----------
 1. Use CHAINSAW to kill person!
-2. Take ANTIMATTER
+2. Take Antimatter
 3. Leave room
 
 > 2
 ----------
-Before you take ANTIMATTER, Person turns into enemy and attacks!
+Before you take Antimatter, Person turns into enemy and attacks!
 ----------
 1. Use CHAINSAW to kill person!
 2. Run away
@@ -194,12 +194,12 @@ Before you take ANTIMATTER, Person turns into enemy and attacks!
 ----------
 Person is killed in a nasty way. What now?
 ----------
-1. Take ANTIMATTER
+1. Take Antimatter
 2. Leave room
 
 > 1
 ----------
-You have ANTIMATTER. Horray for you.
+You have Antimatter. Horray for you.
 ----------
 1. Leave room
 

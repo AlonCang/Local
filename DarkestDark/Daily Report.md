@@ -20,6 +20,52 @@ Yet to resolve.  Or where i got stuck:
 		- This is of lesser importance.
 
 
+Lesson:
+
+- Think about writing a program that checks the data for errors:
+		- Checks that all targetstates have corresponding states.
+		- Checks that all transitions that belong to states exist.
+
+HOMEWORK:
+- Compiler:
+		- Try and write an excel file that represents the mini data.
+		- ADVICE: Focus on things that have been written more than once and try to "automate" them
+		- Try coming up 
+
+- Play around with Winforms. Bonus points if you manage to integrate mini data into it.
+
+- Play DDLC!!!!!! DONT READ ABOUT IT JUST PLAY.
+
+- UI:
+	- Start educating self in UI field of study.
+	- We wont deal with "UX" (User Experience).
+	- We will focus on infrastructure.
+
+Examples of UI:
+- WinForms
+- WPF (Windows Presentation Foundations) < - Will replace WinForms one day
+- XAML (Part of WPF) < - Markup Language
+
+Unity (Game Engine) UI:
+- Works with C#
+- Requires extensive experience with Unity
+- Unity is very buggy
+
+Unreal (Game Engine)
+- Works with C++ 
+- Node based programming
+- As devilish as Cubase
+
+Goddot (Game Engine)
+- Can install C# plugin
+- Editor is limited.
+- Is about as grand as photoshop
+
+Web UI:
+- works mainly with Html + css.
+- Blazor.
+- JAVA SCRIPT Recommended.
+
 Teusday 05/05/2020:
 ------------------------
 1. It was my anniversary with yaarit. Chose tofocus myself on that.
