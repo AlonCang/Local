@@ -12,7 +12,7 @@ namespace DarkestDark.CLI
             StateRunner runner;
             StateRunner overlayRunner = null;
 
-            args = new string[] { "Debug" };
+            args = new string[] { "" };
             if (args.Contains("Debug"))
             {
                 stateGraph = StateGraph.LoadStateGraph(

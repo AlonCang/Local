@@ -29,8 +29,14 @@
   {
     "Name": "Perhaps the imps know something about the headless corpse.",
     "Text": "",
-    "Conditions": { "IvFoundRobert": 0 },
-    "Items": { "Gold Coins": -1 },
+    "Conditions": {
+      "@IvFoundRobert": 0,
+      "~Perhaps the imps know something about the headless corpse.": 0
+    },
+    "Items": {
+      "Gold Coins": -1,
+      "Perhaps the imps know something about the headless corpse.": 0
+    },
     "TargetName": "Imp Encounter2"
   },
   {
@@ -41,14 +47,18 @@
   {
     "Name": "This must be Roberts body",
     "Text": "Judging by the cut of the neck, this seems to be Roberts body. He was sacrificial lamb in a devilish ritual. This must be connected to the curse!",
-    "Conditions": { "IvFoundRobert": 0 },
+    "Conditions": { "@IvFoundRobert": 0 },
     "Items": { "@IvFoundRobertsBody": 0 },
     "TargetName": "Dark altar"
   },
   {
     "Name": "Examine upside down cross",
-    "Text": "",
-    "Items": { "@EvilCrossDestroyed": 0 },
+    "Text": "Such an unholy symbol! You destroy this affront to your lord without hesitation!",
+    "Conditions": { "~Examine upside down cross": 0 },
+    "Items": {
+      "@EvilCrossDestroyed": 0,
+      "Examine upside down cross": 0
+    },
     "TargetName": "Dark altar"
   },
   {
@@ -62,7 +72,7 @@
     "Conditions": { "Gold Coins": 1 },
     "Items": {
       "Gold Coins": -1,
-      "MistressIsClose": 0
+      "@MistressIsClose": 0
     },
     "TargetName": "Imp Encounter3"
   },
@@ -72,7 +82,7 @@
     "Conditions": { "Gold Coins": 1 },
     "Items": {
       "Gold Coins": -1,
-      "TheCurse": 0
+      "@TheCurse": 0
     },
     "TargetName": "Imp Encounter4"
   },

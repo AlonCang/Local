@@ -61,8 +61,8 @@
   {
     "Name": "Move clock hands to 3:15",
     "Text": "You move the clock hands with your fingers.",
-    "Conditions": { "Clock scribble": 1 },
-    "Items": { "@ClockHandsMoved": 0 },
+    "Conditions": { "Clock scribble": 1, "~Move clock hands to 3:15": 0 },
+    "Items": { "@ClockHandsMoved": 0, "Move clock hands to 3:15": 0 },
     "TargetName": "Clock hands moved"
   }
 ]

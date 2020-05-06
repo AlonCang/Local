@@ -2,7 +2,12 @@
   {
     "Name": "Search the writing desk",
     "Text": "You approach the desk and begin searching.",
-    "Items": { "Clock scribble": 1, "@ClockScribble": 0 },
+    "Conditions": { "~Search the writing desk": 0 },
+    "Items": {
+      "Clock scribble": 1,
+      "@ClockScribble": 0,
+      "Search the writing desk": 0
+    },
     "TargetName": "Writing Desk"
   },
   {

@@ -1,3 +1,29 @@
+Wednesday 06/05/2020:
+----------------------------
+1. Darkest Dark:
+[Resolved] - "Make nitroglycerine" transition should no longer be available after being used.
+[Resolved] - "Search the writing desk" transition should no longer be available after being used.
+[Resolved] - "Little lockbox" transition should no longer be available after being used.
+[Resolved] - "Maybe the imps know something about the headless course" is unavailable for some reason. check conditions.
+[Resolved] - "Statue Room1" state does not show "Present roberts head" transition even when conditions are met. check conditions.
+[Resolved] - "Examine upside down cross" transition Should no longer be available after being used. Also it should print the correct text.
+[Resolved] - "Perhaps the imps know something about the headless course" Should no longer be available after being used.
+
+Yet to resolve.  Or where i got stuck:
+- Revisited rooms still give the initial scene. Causing scenes to occur an infinite amount of times.
+		- Need to find those and correct them individually.
+- During gargoyle fight: Its possible to know the names of the rooms even if you havent visited them yet.
+		- Can be resolved by adding "Door1, Door2" etc to the gargoyle fight and making special transitions for them.
+- Inventory: You can have negative items that get printed. if their value is lower than 0.
+		- Can be resolved by making sure that the inventory does not print ANYTHING with value lower than 1. 
+- Any endgame ends in a crash. Make a title screen that doesnt make the console screen jump away.
+		- This is of lesser importance.
+
+
+Teusday 05/05/2020:
+------------------------
+1. It was my anniversary with yaarit. Chose tofocus myself on that.
+
 Monday 04/05/2020:
 ------------------------
 1.  Darkest Dark: Bug log:
@@ -14,7 +40,7 @@ Monday 04/05/2020:
 - During gargoyle fight: Its possible to know the names of the rooms even if you havent visited them yet.
 - Inventory: You can have negative items that get printed. if their value is lower than 0.
 - Any endgame ends in a crash. Make a title screen that doesnt make the console screen jump away.
-- Revisited rooms still give the initial scene. Causing scenes to occur an infinite amount of times.
+
 
 
 Sunday 03/05/2020:
