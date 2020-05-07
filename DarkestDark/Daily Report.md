@@ -1,3 +1,7 @@
+Thursday 07/05/2020:
+--------------------
+1. Had a job opportunity today. Only got home at 22:00. No code today, had to make money loading and unloading cargo. Its a living. For now...
+
 Wednesday 06/05/2020:
 ----------------------------
 1. Darkest Dark:
