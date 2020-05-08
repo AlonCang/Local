@@ -1,3 +1,39 @@
+Friday 09/05/2020:
+------------------
+HOMEWORK:
+
+1. Started educating myself about UI.
+	- FUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUCK
+	- Well... i knew it was going to be a huge subject.
+	- Lucky for me i learned a lot of the basics for visual design in photography course at film school.
+	- But i was more of a script writer than a photographer.
+	- So a lot of new technical and very valuable info coming in in torrents.
+	- Im a bit overwhelmed.
+	- Right i was supposed to focus on infrastructure. Jesus... right!
+	- Holy bleeding hell... THAT DID NOT NARROW IT DOWN AT ALL!!!! AAHHH!!!
+	- Well... of course... Its just so much. Easy...Easy...
+
+2. WPF looks cool as hell.
+	- Should i learn XAML?
+	- I think i will have to learn XAML
+	- Omg grids.....
+	- Iv had enough of this for now.
+	- Next thing!
+	- Lel next thing is XAML.
+	- NEXT!
+
+3. Well... I downloaded DDLC and it was free from some website.
+	- Is it supposed to be free?
+	- I hope i didnt donwload a virus.
+	- Didnt install it yet.
+	- Paranoia kicks in.
+	- Ill wait until you help me verify my safety of this... thing i downloaded.
+	- The game trailer says it is free. But why is it not on some platform?
+	- Its just distributed through a url?
+	- https://ddlc.moe/
+	- Is this the real deal?  
+
+
 Thursday 07/05/2020:
 --------------------
 1. Had a job opportunity today. Only got home at 22:00. No code today, had to make money loading and unloading cargo. Its a living. For now...
@@ -72,7 +108,7 @@ Web UI:
 
 Teusday 05/05/2020:
 ------------------------
-1. It was my anniversary with yaarit. Chose tofocus myself on that.
+1. It was my anniversary with yaarit. Chose to focus myself on that.
 
 Monday 04/05/2020:
 ------------------------
