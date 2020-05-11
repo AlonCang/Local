@@ -109,7 +109,11 @@ namespace DarkestDark.Game
             var inventory = "";
             foreach (var item in Items)
             {
-                if (item.Value == 0)
+                if (item.Value ==  0)
+                {
+                    continue;
+                }
+                if (item.Value < 0)
                 {
                     continue;
                 }

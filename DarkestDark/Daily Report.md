@@ -1,3 +1,13 @@
+Monday 11/05/2020:
+------------------
+1. Darkest Dark
+	- Fixed the inventory issue where item at value < 0 are printed.
+	- For some reason the inventory is printed now even when not opened manually.
+	- I tried to do some debugging but i wanna die right now so i gave up rather quick.
+	- I hate being like this
+
+Saturday + Sunday == Depression
+
 Friday 09/05/2020:
 ------------------
 HOMEWORK:
