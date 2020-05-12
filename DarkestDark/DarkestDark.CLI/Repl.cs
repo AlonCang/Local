@@ -14,10 +14,11 @@ namespace DarkestDark.CLI
             overlayRunner.Items = stateRunner.Items;
             while (!stateRunner.IsGameOver)
             {
-                foreach (var item in stateRunner.Items)
-                {
-                    Console.WriteLine($"{item.Key}: {item.Value}");    
-                }
+                // Display all items for debug purposes.
+                // foreach (var item in stateRunner.Items)
+                // {
+                //     Console.WriteLine($"{item.Key}: {item.Value}");    
+                // }
                 var printed = "";
                 if (overlayRunner.CurrentState.Name == "Inventory")
                 {

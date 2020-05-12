@@ -109,14 +109,10 @@ namespace DarkestDark.Game
             var inventory = "";
             foreach (var item in Items)
             {
-                if (item.Value ==  0)
+                if (item.Value <=  0)
                 {
                     continue;
-                }
-                if (item.Value < 0)
-                {
-                    continue;
-                }
+                }                
                 var itemName = item.Key;
                 var itemText = Graph.States.GetValueOrDefault(itemName, defaultState).Text;
                 inventory += $" - {itemName}: {item.Value}| - {itemText} \n";
