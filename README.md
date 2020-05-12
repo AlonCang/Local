@@ -15,7 +15,7 @@ Crown:
 
 Chainsaw:
     - 1st seen name: Thing 2
-    -Actual name: Chainsaw
+    - Actual name: Chainsaw
 
 Antimatter:
     - 1st seen name: Thing 3

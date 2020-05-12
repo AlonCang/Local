@@ -1,3 +1,35 @@
+Teusday 12/05/2020:
+-------------------
+1. Reviewed masters fix.
+		- Indeed the reason for the inventory printing was the spillover from the testing we fooled around with on the mini.
+		- Was not surprised that the anser was simple. "Comment out the code that ran the test".
+		- Thank you for making my fix on staterunner nicer to read. I was sure that i wrote it in an ugly fashion.
+		- Also i bet there are other ways to write it. But this is good enough for now.
+
+2. Compiler:
+		- Made an excel chart representation of the data.
+		- Added Mini Data Rep.xlsx file.
+		- I understand that i was not supposed to make a direct replica of the current rep.
+		- But i couldn't think of a new format that improves on the one master made.
+		- I figured that ill start from having a replica and then start working from there.
+
+3. Testing program for mini:
+		- Wrote a pseudo code description of what i came up with.
+		- Added file: Testing Prototyping.md
+		- I think it should look something like this.
+		- BRAIN FART:
+			- Would it be frugal to write a program that:
+				- Has a GUI with buttons that run tests.
+				- Each button triggers its correlating function.
+				- Add an SQL port for performing manual tests on the data.
+				- This i think is standard in server management platforms. Yes?
+
+4. Learning UI:
+	- Watched half of an hour long crash course tutorial for WPF.
+	- I get it. Its rather simple.
+	- Its the tricks and wisdom that will require experience in order to implement.
+	- Im starting to gain an understanding of why you hate UI so much :)
+
 Monday 11/05/2020:
 ------------------
 1. Darkest Dark
