@@ -22,6 +22,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercisez02", "Exercisez02\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinForms Experiments", "WinForms Experiments\WinForms Experiments.csproj", "{C5234582-65FD-4B52-A6C2-491051724F25}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Testing Prototype", "Testing Prototype\Testing Prototype.csproj", "{0B1800A2-2265-44C6-BFD6-467CA9790F5F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -56,6 +58,10 @@ Global
 		{C5234582-65FD-4B52-A6C2-491051724F25}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5234582-65FD-4B52-A6C2-491051724F25}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5234582-65FD-4B52-A6C2-491051724F25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B1800A2-2265-44C6-BFD6-467CA9790F5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B1800A2-2265-44C6-BFD6-467CA9790F5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B1800A2-2265-44C6-BFD6-467CA9790F5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B1800A2-2265-44C6-BFD6-467CA9790F5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

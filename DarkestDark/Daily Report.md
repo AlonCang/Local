@@ -1,3 +1,14 @@
+Wednesday 13/05/2020:
+--------------------
+1. Darkestark mini data test:
+	- Added some broken code skeleton for the test prototype.
+	- I couldn't get it to work. But i also kept on reworking it because i wasn't sure how to do it.
+	- BAH! Not enough time to work this out.
+
+2. Lesson:
+
+
+
 Teusday 12/05/2020:
 -------------------
 1. Reviewed masters fix.
