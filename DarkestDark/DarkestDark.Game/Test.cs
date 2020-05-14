@@ -15,24 +15,18 @@ namespace DarkestDark.Game
             TestResults = new Dictionary<string, int>();
         }
 
-        public static List<string> LoadTestData(StateGraph graph)
-        {
-            // Collects the data relevant for the test.
-            // Maybe 2 lists are required. Not sure.
-            // I guess it could be incoporated seperately in each test.
-            // so i thought of making it a function in itself instead of repeating.
-            // Maybe this function is not required since i can access the data through the graph. IDK!
-        }
         public Dictionary<string, int> TestForTargetStates(StateGraph graph)
         {
             // Will apply the data collected by LoadTestData().
             // Then return a list of items that idnt pass the test.
+            return null;
         }
 
         public Dictionary<string, int> TestForTransitions(StateGraph graph)
         {
             // Will apply the data collected by LoadTestData().
             // Then return a list of items that idnt pass the test.
+            return null;
         }
 
         public static List<string> PrintTestResults(Dictionary<string, int> TestResults)
@@ -41,8 +35,30 @@ namespace DarkestDark.Game
             {
                 Console.WriteLine($"{item.Key}: {item.Value}");
             }
+            return null;
         }
+    }
 
 
+    public class TestRunner
+    {
+        public static void Main()
+        {
+            // Write the execution of the test code here ....
+            var stateGraph = StateGraph.LoadStateGraph(
+                @"..\..\..\..\DarkestDark.Data\Mini\States",
+                @"..\..\..\..\DarkestDark.Data\Mini\Transitions");
+
+            var test = new Test(stateGraph);
+
+            var testTargetStates = (StateGraph graph) => 
+            { 
+                // for each transition target, make sure it is a state.
+                foreach(var item in graph.Transitions)
+                {
+
+                }
+            }
+        }
     }
 }

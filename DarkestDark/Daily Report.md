@@ -1,3 +1,18 @@
+Thursday 14/05/2020:
+====================
+0. Uploading the stuff from yesterday.
+
+1. Finished watching the crash course on WPF.
+
+2. Did a few more lessons about test automation. Still going through basics.
+
+3. Question: Yesterday kinda ended in a question mark for me. What should i focus on now?
+	- My wish is to focus on programming so that the day in which i work as a programmer will come sooner.
+	- But realistically i should focus on testing automation so i could get a job.
+	- I would like to hear your honest advice.
+
+
+
 Wednesday 13/05/2020:
 --------------------
 1. Darkestark mini data test:
@@ -6,7 +21,9 @@ Wednesday 13/05/2020:
 	- BAH! Not enough time to work this out.
 
 2. Lesson:
-
+	- STOP DELETING CODE ATTEMPTS!
+	- MAKE A COMMIT FOR EACH BROKEN CODE THAT DIDNT WORK.
+	- TRY SOMETHING ELSE AND COMMIT IT AS WELL IF IT DOESNT WORK.
 
 
 Teusday 12/05/2020:
