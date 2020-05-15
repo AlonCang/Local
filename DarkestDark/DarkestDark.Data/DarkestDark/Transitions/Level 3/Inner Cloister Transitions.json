@@ -76,7 +76,7 @@
   {
     "Name": "I have been told that this place is cursed",
     "Text": "The devil himself was our pastor! My beloved and I shall be together forever! Even if we are slain by the likes of you we shall return time and again to repeat the cycle! Such was the price we paid for my dear roberts rejection... Have you ever been so betrayed?",
-    "Conditions": { "TheCurse": 0 },
+    "Conditions": { "@TheCurse": 0 },
     "Items": { "@NatureOfTheCurse": 0 },
     "TargetName": "Mistress conversation2"
   },

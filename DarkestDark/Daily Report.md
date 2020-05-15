@@ -1,3 +1,22 @@
+Friday 15/05/2020:
+==================
+1. DarkestDark:
+	- Opened a new git issue and solved it. Just some fixes in the data.
+	- Commented out the problematic code that was preventing compilation.
+
+2. Compiler:
+	- Started watching a master class about compilers.
+	- Mostly focused on "Parsers".
+	- Ah i see.... SQL is fucking broken ass bullshit.
+	- Why use SQL when you can write a language that serves specific project better?
+	- What better way to query data than to codify a slave that works in the data base and knows only of what i design it to do for me.
+	- Namely evaluating expressions.
+	- WIZARDRY ITENSIFIES!
+	- Am i in the right direction?
+
+3. About my question... WHAT SHOULD I FOCUS ON? Programming or Getting job in QA Automation? PLOX GIF WISDOM!
+	
+
 Thursday 14/05/2020:
 ====================
 0. Uploading the stuff from yesterday.

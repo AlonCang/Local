@@ -40,25 +40,25 @@ namespace DarkestDark.Game
     }
 
 
-    public class TestRunner
-    {
-        public static void Main()
-        {
-            // Write the execution of the test code here ....
-            var stateGraph = StateGraph.LoadStateGraph(
-                @"..\..\..\..\DarkestDark.Data\Mini\States",
-                @"..\..\..\..\DarkestDark.Data\Mini\Transitions");
+    //public class TestRunner
+    //{
+    //    public static void Main()
+    //    {
+    //        // Write the execution of the test code here ....
+    //        var stateGraph = StateGraph.LoadStateGraph(
+    //            @"..\..\..\..\DarkestDark.Data\Mini\States",
+    //            @"..\..\..\..\DarkestDark.Data\Mini\Transitions");
 
-            var test = new Test(stateGraph);
+    //        var test = new Test(stateGraph);
 
-            var testTargetStates = (StateGraph graph) => 
-            { 
-                // for each transition target, make sure it is a state.
-                foreach(var item in graph.Transitions)
-                {
+    //        var testTargetStates = (StateGraph graph) => 
+    //        { 
+    //            // for each transition target, make sure it is a state.
+    //            foreach(var item in graph.Transitions)
+    //            {
 
-                }
-            }
-        }
-    }
+    //            }
+    //        }
+    //    }
+    //}
 }
