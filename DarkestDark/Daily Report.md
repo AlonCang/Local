@@ -1,3 +1,15 @@
+Saturday 16/05/2020:
+====================
+1. So today i have made the descision that i shall now crunch testing automation.
+	- This will continue until i finish the course / find a job.
+	- I still want to keep on working on Darkest Dark though.
+	- I will start thinking about how i could write some tests for the game so i could practice and learn while im at it.
+
+2. Automation course
+	- We are now at variables.
+	- Now that i not as threatened, im actually taking a lot more in. I completely missed out on reference types when you taught me.
+	- I remember that they exist i just did not internalize that they are variables as well.
+
 Friday 15/05/2020:
 ==================
 1. DarkestDark:
