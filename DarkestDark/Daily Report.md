@@ -1,3 +1,7 @@
+Sunday 17/05/2020:
+==================
+1. I didnt study today. I have no excuses. Im ok i think. Ill ask my therapist about it tomorrow.
+
 Saturday 16/05/2020:
 ====================
 1. So today i have made the descision that i shall now crunch testing automation.
