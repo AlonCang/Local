@@ -1,3 +1,7 @@
+Monday - Teusday 18 - 19/05/2020:
+================================
+1. Days of heavy feels. But after much heals i believe tomorrow should be a new day.
+
 Sunday 17/05/2020:
 ==================
 1. I didnt study today. I have no excuses. Im ok i think. Ill ask my therapist about it tomorrow.
