@@ -1,3 +1,17 @@
+Wednesday 20/05/2020:
+=====================
+1. Automation course.
+	- Learned a lot today:
+		- String.Format() is very badass. A needed building block for console apps.
+		- Assert() seems to be a very useful tool for testing.
+		- The Test Explorer. Comfy and swift. Now i know why the tests i wrote looked so odd to you.
+		
+	- Question: Since reference type variables are also called "objects". Does object oriented programming focuses on reference type structure?
+	- Question: Is the String.Format() function a parser? 
+	- Question: What else is required other than a parser to make a compiler.
+	- Question: Is MsTest framework actually the industry standard for running tests on microsoft based languages?
+
+
 Monday - Teusday 18 - 19/05/2020:
 ================================
 1. Days of heavy feels. But after much heals i believe tomorrow should be a new day.
