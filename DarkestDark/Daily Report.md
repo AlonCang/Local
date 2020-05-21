@@ -1,3 +1,40 @@
+Thursay 21/05/2020:
+===================
+1. Went reading about the origins of OOP.
+	- Couldn't find the version of it that you mentioned.
+	- Seems to have always been a developing concept.
+	- You said that during the 70's they had it the best?
+	- I understand the importance of classes and inheritance being a thing.
+	- Plus garbage collection as well as encapsulation and such concepts.
+
+		- Question: What changed about the methodology since the 70's that you think should have stayed?
+
+			- My assumption: The wild nature of the sprint model makes it more difficult to polish out core related issues.
+							 This results in clunkey / buggy programs that one day become too much trouble for their worth.
+
+2. Automation course:
+	- Next to every code test in VS there is a tiny little icon. That icon represents the results of the test (positive / negative)
+	- Right click the code lines of a test and select "Run this test". The icon then will mark the result of the test.
+	- Clicking the icon will open up more info on the test results.
+
+	- Assertions are a testing playground.
+	- I should get better at learning existing tools and stop trying to invent stuff that has already been made very well.
+	- GIT GUD AT FINDING MORE WISDOM!
+
+	- [ExpectedException]:
+		- Is almost never used in functional test automation.
+		- It is however very common in unit testing, when you expect some method to throw an exception.
+		- This wont be used in this course but it is an important tool to have in general.
+
+3. Course homework:
+	- Write some tests to get a feel for testing.
+	- Will do this tomorrow.
+
+4. DarkestDark:
+	- Added a new issue to the Git with more ideas for the game.
+	- Just because iv shifted my focus does not mean im not involved ith the game.
+	- YEAH BOI!
+
 Wednesday 20/05/2020:
 =====================
 1. Automation course.
@@ -5,12 +42,62 @@ Wednesday 20/05/2020:
 		- String.Format() is very badass. A needed building block for console apps.
 		- Assert() seems to be a very useful tool for testing.
 		- The Test Explorer. Comfy and swift. Now i know why the tests i wrote looked so odd to you.
-		
+
 	- Question: Since reference type variables are also called "objects". Does object oriented programming focuses on reference type structure?
 	- Question: Is the String.Format() function a parser? 
 	- Question: What else is required other than a parser to make a compiler.
-	- Question: Is MsTest framework actually the industry standard for running tests on microsoft based languages?
+			- Compiler:
+				- Tokenization: 
+					- Scanning
+					- Evaluating
 
+				- Syntax analysis (Parsing):
+					- Transform a sequence of tokens into a parsed tree.
+					- This is defined by the formal grammar of the language. 
+				
+				- Semantic analysis:
+					-  Builds the symbol table
+					- Performs:
+						- Type checking
+						- Issue warnings
+						- requires a complete parse tree
+
+				- Code generation:
+					- The result of the previous phase is translated into code.
+
+		
+
+	- Question: Is MsTest framework actually the industry standard for running tests on microsoft based languages?
+		- Not the right question!
+		- All testing frameworks are simillar.
+		- Know one well and you can adapt.
+
+2. Lesson:
+	- Database:
+		- Is a matrix of cells?
+		- Memory is treated like a line with numbers marked on it.
+		- There are designated sections for things that always exist in every program.
+			- Stack (in programming): Last in 1st out.
+				- Very fast.
+				- Close to the CPU for speed bonus.
+				- Good for small pieces of data.
+				- Few pieces.
+
+			- Heap (in programming): "Available memory".
+				- Slower.
+				- Is only limited by memory size.
+				- Make sure to set it up correctly to avoid memory leaks / CPU death. 
+
+	- Definition overloading: When a single word could mean multiple things.
+		- Some words are more overloaded than others.
+		- Before jumping to conclusions make sure to cross reference definitions.
+		- OG object oriented methodology. Look it up.
+
+HOMEWORK:
+	- Think about how to protoype a compiler for lambda expressions.
+	- Think about chruch numerals
+	- Beta reductions automator.
+	- Etc 
 
 Monday - Teusday 18 - 19/05/2020:
 ================================
