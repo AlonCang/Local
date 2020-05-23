@@ -1,3 +1,55 @@
+Saturday 23/05/2020:
+====================
+1. Automation course:
+		- Homework:
+			- Wrote some tests as requested by the course.
+			- Test formatting. Yay. A new headache.
+
+		- Lessons:
+			- Played a bit with the different Assert methods
+			- Test initialization is good. Have a place to keep all the stuff and avoid duplication.
+			- Started learning baout test cleanup as well.
+
+2. General code:
+		- Watched a crash course about OOP methodology.
+		- Two methodologies were discussed:
+			- Coad & Yowdon
+				Object Oriented Analysis
+				Object Oriented Design
+				Object Oriented Modeling Technique
+				Object Oriented Software Engineering
+
+				Identification of classes
+				Investigate app domain & system environment
+
+				Identification of structures
+				Is a relationship
+
+				Definition of subject, attributes & methods
+
+			
+			- Booch
+				Micro improvement
+				Identify the classes
+				Identify the semantics of class & object
+				Identify the relationship of classes & objects
+				Start implementation
+
+				Macro improvement
+				Basic needs of software (conceptualization)
+				Analysis
+				Design
+				Development phase
+				Maintenance
+
+				Question: Are developers required to deal with such concepts when working daily?
+						  Or is such concepts the private domain of architects?
+
+
+Friday 22/05/2020:
+==================
+1. No study. Am needed rest.
+
 Thursay 21/05/2020:
 ===================
 1. Went reading about the origins of OOP.
