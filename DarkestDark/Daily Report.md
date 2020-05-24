@@ -1,3 +1,12 @@
+Sunbday 24/05/2020:
+===================
+1. Automation course:	
+		- Learned about class initialization and cleanup.
+		- Had a quiz in the course and got a perfect score! :D
+		- Like all quizes though, its easy when you know the answers.
+		- Thankfully i have been actually paying attention! And taking notes! :D 
+		- Next lesson its getting into maths.. With exercises.. Wish me luck. 
+
 Saturday 23/05/2020:
 ====================
 1. Automation course:
