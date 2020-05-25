@@ -1,3 +1,8 @@
+Monday 26/05/2020:
+==================
+1. Automation course:
+	- Intro to tetsing with numbers. So far only simple stuff.
+
 Sunbday 24/05/2020:
 ===================
 1. Automation course:	
