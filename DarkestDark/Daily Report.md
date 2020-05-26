@@ -1,3 +1,16 @@
+Teusday 26/05/2020:
+===================
+1. Automation course:
+	- Im getting more insight to why testing is considered a simple entry point to programming.
+	- It does require basic coding understanding and skills, but its possible to get by with just the basics.
+	- The whole testing interface is so much more noob friendly than just dealing with raw code.
+
+	- QUESTION: The modulus. What is it exactly? The course says that its used in order to keep the remainder when using division on ints.
+				I get the feeling that there is much more to it then that.
+
+	- QUESITON: About decimal data type as opposed to floats and doubles, in consideration of computation time.
+				CONTEXT: When programs run slow, is it because of poor data type choices? What other examples of things that make for slow code?
+
 Monday 26/05/2020:
 ==================
 1. Automation course:
