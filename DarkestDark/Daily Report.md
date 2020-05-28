@@ -1,3 +1,18 @@
+Thursday 28/05/2020:
+====================
+1. Automation course:
+	- QUESTION: assert method 3rd argument is called "Tolerance". want some info about it.
+
+	- Groked 3 lessons today + review of stuff from yesterday + from last week.
+	- Logical operators practice in test execution. Groovy.
+	- Reviewed some material for Darkest Dark. 
+		- Started planning out some ideas. u[load some code during the weekend.] 
+
+Wednesday 27/05/2020:
+=====================
+1. Lesson:
+	- 
+
 Teusday 26/05/2020:
 ===================
 1. Automation course:
@@ -35,7 +50,7 @@ Saturday 23/05/2020:
 		- Lessons:
 			- Played a bit with the different Assert methods
 			- Test initialization is good. Have a place to keep all the stuff and avoid duplication.
-			- Started learning baout test cleanup as well.
+			- Started learning about test cleanup as well.
 
 2. General code:
 		- Watched a crash course about OOP methodology.
