@@ -1,3 +1,23 @@
+Friday 29/05/2020:
+=================
+1. Automation course:
+	- Groked 10 lessons today.
+	- Did some code practices revolving around writing some tests that run int variables through a formula and printing the results
+	- Specifically checking if a year is a leap year.
+	- couldnt finish one of the exercises. The one about adding all the numbers in an array and returning the result.
+	- Dont know if its because the logic i wrote has an issue or if im thwarted by syntax. 
+
+	- Now the course is teaching me about classes and objects. This should be good.
+	- QUESTION: Did not understand "get / set" accessors part of class writing.
+
+2. Darkest Dark:
+	- I want to try and create a "create user" interface that will be accessible from the Main Menu.
+		- Just for start it should contain:
+			- User Name
+			- Number of playthroughs on that user
+		- QUESTION: Will this require me to create a json file that holds the instances of new users?
+					Or will that info be saved into an array or an IEnumerable?
+					
 Thursday 28/05/2020:
 ====================
 1. Automation course:
@@ -6,7 +26,7 @@ Thursday 28/05/2020:
 	- Groked 3 lessons today + review of stuff from yesterday + from last week.
 	- Logical operators practice in test execution. Groovy.
 	- Reviewed some material for Darkest Dark. 
-		- Started planning out some ideas. u[load some code during the weekend.] 
+		- Started planning out some ideas. i will upload some code during the weekend.] 
 
 Wednesday 27/05/2020:
 =====================
