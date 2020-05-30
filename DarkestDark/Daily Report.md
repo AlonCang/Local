@@ -1,3 +1,31 @@
+Saturday 30/05/2020:
+====================
+1. Automation course:
+	- 1st task that requires a few dozen code lines.
+		- Defining and instanciating a class with various fields, properties, methods etc.
+		- Its not hard to understand, Its just a lot of work. I mean... compared to hat iv been doing until now.
+		- I get the feeling that i get very tired after very little code. I hope i will be able to keep up when the tasks become more sizeable 
+		- I finished the task from the course. My brain has been used to its final extent. I only made 2 small mistakes in my entire 150
+		  code lines written for this task. I feel proud and accomplished. But also exhausted. 
+
+		- QUESTION: Is it standard practice to write tests for classes? Or for any code written? Is it part of the regular day to day work? 
+
+	- Only did 1 lesson today since it took me a few hours to get through the task.
+
+2. Darkest Dark:
+	- Started reviewing tutorials about how to write a "create user" feature.
+		- Stack overflow says:
+			- Need to add an external database to store the data input.
+			- The database will rely on a table containing the relevant fields.
+			- There are various suggestions about which database to set up. I havent a clue which to choose.
+			- Link database to the app.
+				- Import OLEdb library.
+				- Code buttons that add new profiles
+				- Create a connection string
+				- Write code that handles sorting the input into the database.
+
+	- QUESTION: Is there a point in trying to write this feature with my current knoledge or should i stuy more before attempting?
+
 Friday 29/05/2020:
 =================
 1. Automation course:
@@ -17,7 +45,6 @@ Friday 29/05/2020:
 			- Number of playthroughs on that user
 		- QUESTION: Will this require me to create a json file that holds the instances of new users?
 					Or will that info be saved into an array or an IEnumerable?
-					
 Thursday 28/05/2020:
 ====================
 1. Automation course:
