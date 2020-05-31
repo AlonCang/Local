@@ -1,3 +1,15 @@
+Sunday 31/05/2020:
+==================
+1. Automation course:
+	- Learned about the String class and about classes and constructors in general. Good to get  better feel for them.
+	- Boxes with rules in boxes with rules.
+
+	- QUESTION: Value / Reference types. Changing their values does / not change the stored value? When i change a value type value is a new memory block created ith the new value? And hen i do this with reference type it does change the stored value instead of making a new one?
+
+2. Darkest Dark:
+	- HOLY CRAP! I just remembered that i was supposed to be learning about how to write a compiler.
+	- Ill review my own notes.
+
 Saturday 30/05/2020:
 ====================
 1. Automation course:
@@ -176,6 +188,33 @@ Thursay 21/05/2020:
 	- Just because iv shifted my focus does not mean im not involved ith the game.
 	- YEAH BOI!
 
+	- Compiler code that i stole from an online lecture, this code is supposed to be the be all end all of Parsers:
+
+		Static Result<int> Natural(Input input)
+		{
+			Var next = input.NextChar();
+			If (!next.HasValue | | !char.IsDigit(next.Value))
+				Return Result.Empty<int>(input);
+
+		Input remainder;
+		Var val = 0;
+		Do
+		{
+			Val = 10 * val +
+				CharUnicodeInfo.GetDigitValue(next.Value);
+			Remainder = next.Remainder;
+			Next = remainder.NextChar();
+		}	
+		while (next.HasValue && char.IsDigit(next.Value))
+		Return Result.Value(val, remainder);
+		}
+
+	- QUESTION: I have no point of reference, is this parser the shit?
+	- Well the lecturer now said that this code is anal and not entirely necessary. But i would like your opinion on the code all the same.
+	- REQUEST: I would like to receive an in depth lesson from you about the matter. If you consider me ready of course. 
+	
+
+
 Wednesday 20/05/2020:
 =====================
 1. Automation course.
@@ -197,7 +236,7 @@ Wednesday 20/05/2020:
 					- This is defined by the formal grammar of the language. 
 				
 				- Semantic analysis:
-					-  Builds the symbol table
+					- Builds the symbol table
 					- Performs:
 						- Type checking
 						- Issue warnings
