@@ -1,3 +1,10 @@
+Monday 01/06/2020:
+==================
+1. Darkest Dark:
+	- Still learning about the parser for the compiler. This stuff is heavy. Every slide shown contains so much that i see for the 1st time and need to internalize and then understand just so that i could follow the next slide.
+	- This lecture is clearly aimed at veteran developers.
+	- I find it difficult to follow but im happy that i can. 
+
 Sunday 31/05/2020:
 ==================
 1. Automation course:
