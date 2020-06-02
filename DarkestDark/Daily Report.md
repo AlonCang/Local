@@ -1,3 +1,23 @@
+Teusday 02/05/2020:
+===================
+1. Automation course:
+	- Today I learned that i can make as many different constructors on the same class.
+	- Also learned how to use those. The possibilities are limitless.
+	- QUESTION: How frequently are massive single classes that have a great variation of constructors? What is your opinion on such
+			    Code practices?
+
+
+2. Darkest Dark:
+	- Still learning about the parser.
+	- Lecture dude says that a series of parsers is OP
+	- Suggests looking into how primitive data types are described and processed to gain insight into parsers.
+
+	- This stuff is reallt hard for me to follow.
+	- Im literally following this lecture 1 minute at a time on repeat just so i could keep on following.
+	- Maybe its a bit too much?
+	- Link to lecture:  https://www.youtube.com/watch?v=klHyc9HQnNQ
+	- Read some comments about the lecture. People telling the lecturer that his lambda is lacking.
+
 Monday 01/06/2020:
 ==================
 1. Darkest Dark:
