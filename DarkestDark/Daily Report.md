@@ -1,3 +1,97 @@
+Wednesday 03/05/2020:
+=====================
+1. Lesson:
+	- QUESTION: (Regarding classes with multiple constructors) How frequently are massive single classes that have a great variation of constructors? What is your opinion on such
+			    Code practices?
+	- ANSWER: Depends on the specifics or requirements as well as personal preference. 
+
+	- QUESTION: Value / Reference types. Changing their values does / not change the stored value? When i change a value type value is a new memory block created with the new value? And when i do this with a reference type, it does change the stored value instead of making a new one?
+	- ANSWER: 
+		- Stack and heap both deal only with RAM
+		- A refference type is a value type whos value is an address.
+		- * can be used to address a specific member in memory.
+		- => can do so as well.
+		- Not arranging these values correctly will result in slower programs.
+		- To learn how to do this right, wait until you get to a point where this issue ill rise, then you will learn it properly.
+		- This is almost never of early concern in any feature design.
+		- Learn more languages and these concepts will become more self evidence.
+		- C# is a usability oriented language.
+			- Its main use is for writing fast and efficiently.
+			- To acheive maximum memory structor efficiency do not use C#. 
+				- Thats because it goes through a virtual compiler before being received by the machine. 
+			- Learn about language speeds at:
+				https://benchmarksgame-team.pages.debian.net/benchmarksgame/fastest/csharp.html
+				- Some languages exceed others on different parameters.
+				- The same languages can also be poor selection for tackling a problem.
+
+	- QUESTION: Is it standard practice to write tests for classes? Or for any code written? Is it part of the regular day to day work? 
+
+	- ANSWER: Depends 100 percent on the quality control of the specific employer.
+			  You can do so at your own volition / discretion.
+			  Its good practice in general but there are no absolute rules about this.
+			  All in all it is a tool for debugging that can be used if seen as necessary by the developer.
+
+	- QUESTION: Did not understand "get / set" accessors part of class writing. btw what defines an accesor?
+
+	- ANSWER: An odd feature. 
+				- The "get" and "set" functions of a property will get called depending on:
+					- Is the value being read.
+					- Is the value being assigned.
+				- MAKE SURE TO FOLLOW LINE BY LINE WHEN USING GET & SET.
+				- Also shorthand to writing methods.
+				- Some consider it mroe aesthetic 
+				- Btw, dont use floats until you unserstand much mroe stuff.
+				- Data transformation and verification. This is a field in itself.
+				- Automatic property: public int Name { get; set; }
+					
+
+
+	- QUESTION: assert method 3rd argument is called "Tolerance". want some info about it.
+
+	- ANSWER: When attempting to assert the value of a number, you can allow for a tolerance ratio for the assertion. 
+				- Strings do not use assert(). Instead you can use "fuzzySearch" or other such methods.
+				- Learn about the "hamming distance". This is very commonly used in autocorrect programs as well as search engines. 
+
+	- I want to try and create a "create user" interface that will be accessible from the Main Menu.
+		- Just for start it should contain:
+			- User Name
+			- Number of playthroughs on that user
+		- QUESTION: Will this require me to create a json file that holds the instances of new users?
+					Or will that info be saved into an array or an IEnumerable?
+		
+		- ANSWER: For long term savings of values from every run of the program there must be a file that receives values from the program.
+					- You can use JsonConvert.SerializeObject() in orer to turn an object into json text.
+					- Serialization == Turning a data structure into a "line".
+					- Objects are never saved into the hard drive unless implicitly applied.
+					- File() can do this.
+					- Working directly with the hard disk is considered risky since this makes for vulnerable programs with high likelyhood   for fatal errors.
+					- Make note of getting better at this field.
+
+	- QUESTION: Is there a point in trying to write this feature with my current knowledge or should i stuy more before attempting?
+		- code and learn as you go.
+		- You cant just study or just write. 
+		- Do both!
+
+	- Question: Did i get too involved with the compiler? Was i supposed to just take what i need and leave? When does curiosity defeat the 
+				original requirement?
+
+	- ASNWER: Its complicated:
+				- A way to codify code lines so that they ill take less lines is called "Regex" (Regular Expressions).
+				- A popular way of locking down code that works and will now no longer be accessible or even readable by novice
+				  developers.
+				- Its recommended to avoid using Regex before some serious wizardry capacity is acheived.
+				- When dealing with Regex. Learn about it when required but dont go crazy over it if its took complex.
+				- Simple Regex can be good for learning. start from simple stuff and work your way up.
+
+2. HOMEWORK:
+	- I started too advanced in the compiler learning.
+	- Go watch a "Parser 101" tutorials.
+	- This field is considered one of the most important fields for automation focused developing.
+
+	WISDOM: While learning try to ballance learning about code and writing actual code. do this by alternating between the two frequently.
+			Get better at discerning at which point the alternation should occur.
+			For me specifically i should put more of an emphasys on actual code writing over theory learning.
+
 Teusday 02/05/2020:
 ===================
 1. Automation course:
