@@ -1,8 +1,42 @@
+Thursday 04/05/2020:
+====================
+1. Automation course:
+	- Did 8 lesson today.
+	- Including a code excersize and 2 quizes.
+	- Aced that motherufucker.
+	- Tomorrow i will take the "Midterm Exam".
+	- Looks like the course is done with "exposition" and from now on were going to move much faster.
+	 
+	- Looked at soe examples for questions im likely to have to answer during a QA Automation job interview.
+		- I was glad that about 50% of them were simple stuff for me.
+		- 25% were stuff im not sure about but i think i can do by simple learning.
+		- 25% were beyond my current capacity
+			- Examples (for stuff i ont know):
+				- Write a program to find the depth of a binary search tree, without using recursion.
+				- Find out the occurrence of a given word in a given array. The word may occur left to right, up to down and vice versa.
+				- You are given a large amount of log files, how would you find the top 10 visited links?
+				
+
+2. HOMEWORK:
+	- Watched a short lecture about how to write a markdown parser. 
+	- They spoke about "pipes & filters" also known as a "pipeline":
+		- A row of renderers that feed each other and eventually produce a finished expression. 
+		- Do this by making a seperate renderer that handles each requirement that you have.
+		- Then arrange them by a logical order that gives the requested result.
+	- This did not simplify ANYTHING!
+	- Trying another video
+	- Found a 1:40 hour long lesson called "Lets build a compiler". Ill and get through as much as i can today but im already spent.
+		- https://www.youtube.com/watch?v=wgHIkdUQbp0&list=PLRAdsfhKI4OWNOSfS7EUu5GRAVmze1t2y
+		- This seems to be an entire 50 hour course broken into sections about how to write a compiler from scratch.
+		- Ill try and seep whatever info that i need from it and leave the rest of it for when ill need to advance.
+		- Holy shit. This starts off with a blast of jargon. But dude said that he is just demostrating the finished product.
+		- And later he will do a step by step style teaching. Im done for tonight.
+
 Wednesday 03/05/2020:
 =====================
 1. Lesson:
-	- QUESTION: (Regarding classes with multiple constructors) How frequently are massive single classes that have a great variation of constructors? What is your opinion on such
-			    Code practices?
+	- QUESTION: (Regarding classes with multiple constructors) How frequent are massive single classes that have a great variation of constructors? What is your opinion on such Code practices?
+
 	- ANSWER: Depends on the specifics or requirements as well as personal preference. 
 
 	- QUESTION: Value / Reference types. Changing their values does / not change the stored value? When i change a value type value is a new memory block created with the new value? And when i do this with a reference type, it does change the stored value instead of making a new one?
@@ -17,12 +51,12 @@ Wednesday 03/05/2020:
 		- Learn more languages and these concepts will become more self evidence.
 		- C# is a usability oriented language.
 			- Its main use is for writing fast and efficiently.
-			- To acheive maximum memory structor efficiency do not use C#. 
+			- To acheive maximum memory structoral efficiency do not use C#. 
 				- Thats because it goes through a virtual compiler before being received by the machine. 
 			- Learn about language speeds at:
 				https://benchmarksgame-team.pages.debian.net/benchmarksgame/fastest/csharp.html
 				- Some languages exceed others on different parameters.
-				- The same languages can also be poor selection for tackling a problem.
+				- The same languages can also be poor selection for tackling a specific problem in a program.
 
 	- QUESTION: Is it standard practice to write tests for classes? Or for any code written? Is it part of the regular day to day work? 
 
@@ -39,8 +73,8 @@ Wednesday 03/05/2020:
 					- Is the value being assigned.
 				- MAKE SURE TO FOLLOW LINE BY LINE WHEN USING GET & SET.
 				- Also shorthand to writing methods.
-				- Some consider it mroe aesthetic 
-				- Btw, dont use floats until you unserstand much mroe stuff.
+				- Some consider it more aesthetic 
+				- Btw, dont use floats until you understand much more stuff.
 				- Data transformation and verification. This is a field in itself.
 				- Automatic property: public int Name { get; set; }
 					
