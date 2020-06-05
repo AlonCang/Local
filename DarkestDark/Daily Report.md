@@ -1,3 +1,7 @@
+Friday 06/06/2020:
+==================
+1. No study today. I escape from code by being mentol to younger brother who asked for great wisdom.
+
 Thursday 04/05/2020:
 ====================
 1. Automation course:
