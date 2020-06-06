@@ -1,4 +1,19 @@
-Friday 06/06/2020:
+Saturday 06/06/2020:
+====================
+1. Darkest Dark
+	- Compiler:
+		- So i followed a compiler writing tutorial.
+		- None of the code i wrote is my code.
+		- Im just doing my best to keep up and understand what im writing.
+		- FYI i am beyond certain that writing a compiler is way out of my skill level.
+		- Feel like im being power leveled.
+		- Still barely have an idea what is going on.... Somethign about tokenizations and characters and stuff.
+		
+		- QUESITON: WTF is a lexer? 
+
+		- There is more to this program but im freaking out so im done for now. 
+
+Friday 05/06/2020:
 ==================
 1. No study today. I escape from code by being mentol to younger brother who asked for great wisdom.
 
@@ -11,11 +26,11 @@ Thursday 04/05/2020:
 	- Tomorrow i will take the "Midterm Exam".
 	- Looks like the course is done with "exposition" and from now on were going to move much faster.
 	 
-	- Looked at soe examples for questions im likely to have to answer during a QA Automation job interview.
+	- Looked at some examples for questions im likely to have to answer during a QA Automation job interview.
 		- I was glad that about 50% of them were simple stuff for me.
 		- 25% were stuff im not sure about but i think i can do by simple learning.
 		- 25% were beyond my current capacity
-			- Examples (for stuff i ont know):
+			- Examples (for stuff i dont know):
 				- Write a program to find the depth of a binary search tree, without using recursion.
 				- Find out the occurrence of a given word in a given array. The word may occur left to right, up to down and vice versa.
 				- You are given a large amount of log files, how would you find the top 10 visited links?
