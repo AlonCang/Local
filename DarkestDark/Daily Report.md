@@ -1,3 +1,12 @@
+Sunday 07/06/2020:
+==================
+1. Darkest Dark:
+	- Compiler: 
+		- I added more code.
+		- This is getting ridiculus.
+		- And the dude who writes the code claims that this is considered a rudementary and poorly written compiler.
+		- Fuck this. I cant. Ill need you to walk me through this.
+
 Saturday 06/06/2020:
 ====================
 1. Darkest Dark

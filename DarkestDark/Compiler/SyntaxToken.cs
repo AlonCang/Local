@@ -15,7 +15,8 @@ namespace Compiler
         OpenParenToken,
         CloseParenToken,
         BadToken,
-        EndOfFileToken
+        EndOfFileToken,
+        NumberExpression
     }
     class SyntaxToken
     {
