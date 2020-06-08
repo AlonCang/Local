@@ -1,3 +1,12 @@
+Monday 08/06/2020:
+==================
+1. Darkest Dark:
+	- Compiler:
+		- Added more code.
+		- Im halfway through this video.
+		- Im stopping progress to review wtf i have been writing.
+		- 
+
 Sunday 07/06/2020:
 ==================
 1. Darkest Dark:

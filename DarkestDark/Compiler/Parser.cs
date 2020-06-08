@@ -38,5 +38,40 @@ namespace Compiler
         }
 
         private SyntaxToken Current => Peek(0);
+
+        private SyntaxToken NextToken()
+        {
+            var current = Current;
+            _position++;
+            return current;
+        }
+
+        private SyntaxToken Match(SyntaxKind kind)
+        {
+            if (Current.Kind == kind)
+                return NextToken();
+
+            return new SyntaxToken(kind, Current.Position, null, null);
+        }
+
+        public ExpressionSyntax Parse()
+        {
+            var left = ParsePrimaryExpression();
+
+            while (Current.Kind == SyntaxKind.PlusToken || Current.Kind == SyntaxKind.MinusToken)
+            {
+                var operatorToken = NextToken();
+                var right = ParsePrimaryExpression();
+                left = new BinaryExpressionSyntax(left, operatorToken, right);
+            }
+
+            return left;
+        }
+
+        private ExpressionSyntax ParsePrimaryExpression()
+        {
+            var numberToken = Match(SyntaxKind.NumberToken);
+            return new NumberExpressionSyntax(numberToken);
+        }
     }
 }

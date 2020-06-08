@@ -22,7 +22,7 @@ namespace Compiler
 
     sealed class BinaryExpressionSyntax : ExpressionSyntax
     {
-        public BinaryExpressionSyntax(ExpressionSyntax left, SyntaxNode opertorToken, ExpressionSyntax right)
+        public BinaryExpressionSyntax(ExpressionSyntax left, SyntaxToken opertorToken, ExpressionSyntax right)
         {
             Left = left;
             OperatorToken = opertorToken;

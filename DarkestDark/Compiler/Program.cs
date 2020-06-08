@@ -7,6 +7,7 @@ namespace Compiler
     {
         static void Main(string[] args)
         {
+            // Is this similar to a repl loop?
             while (true)
             {
                 Console.Write(">");
