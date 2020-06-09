@@ -1,3 +1,47 @@
+Teusday 09/06/2020:
+===================
+1. Darkest Dark:
+	- Start fidgeting around and try to make a parser.
+		- Figure out the tokens that will be required in order to represent the game data.
+		- The eventual product will:
+			- receive an input.
+			- Parse the input and recognize tokens.
+			- Create matching tokens.
+			- Hand them to a Jsoncoverter.
+			- Save the new data members.
+
+	- Tokens required:
+		- Letter token
+		- Number token
+		- Whitespace token
+		- EndOfFile token
+		- Bad token
+		- Quotation token
+		- Coma token
+		- Colon token
+		- OpenCurly token
+		- CloseCurly token
+		- OpenSquare token
+		- CloseSquare token
+		- At token
+		- Plus token
+		- Minus token
+
+	- Now i need to make a lexer.
+		- If i understand correctly a lexer takes input and returns tokens. Ill go review the code.
+			- Looks like ill 1st have to define a token class.
+			- I might make use if inheritance. But thats for later.
+			- Ill start by setting some things up for the parser.
+
+	- Ok i got stuck.
+		- Iv been reading the lexer code as well as the parser code over and over.
+		- There seems to be a lot going on and im not sure that im reading all of it correctly.
+		- Also there seem to be a lot of different ways for dealing with unusual inputs.
+		- While im sure that these are required for proper compiler writing, I dont think i need all of those just to start.
+		- Having a hard time sorting out the necessary code from the superflous stuff.
+		- Im done for the day but i like where this is going. Ill try and get some more work done tomorrow before our session
+		- But i do need to go to work for most of the day. So it will be tight.
+
 Monday 08/06/2020:
 ==================
 1. Darkest Dark:
@@ -5,7 +49,7 @@ Monday 08/06/2020:
 		- Added more code.
 		- Im halfway through this video.
 		- Im stopping progress to review wtf i have been writing.
-		- 
+		 
 
 Sunday 07/06/2020:
 ==================
