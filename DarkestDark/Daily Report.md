@@ -1,3 +1,63 @@
+Thursday 12/06/2020:
+====================
+1. No study today. Personal reasons.
+
+Wenesday 10/06/2020:
+====================
+1. Lesson:
+	- Build a parser that receives: Moshe @ Israel
+									Boris & Marisa @ Russia
+									Halil & Lara & Ford @ Egypt
+
+	And returns:
+				- Halil is in Egypt
+				- Boris is in Russia
+				- Lara is in Egypt
+				- Moshe is in Israel
+				- Marisa is in Russia
+				- Ford is in Egypt
+
+	Protocode:
+				{
+					Parser(string text)
+					{
+						foreach (Char in text)
+							// seperate the string into single characters and save them in an internal list
+							// How do i do the seperation part?
+							{
+								foreach(Char in list)
+								// Check database for a Match()
+								// I suppose give it a file path and tell it to read it.
+								// I believe that Match() is an existing function. Does it belong to a specific class?
+								// Can it only work with specific data types?
+									if (Match == true)
+									{
+										return the matching item
+									}
+									else
+									{
+										return "ERROR PROMPT"
+									}
+							}
+					}
+				}
+				CONCLUSION: Check sandbox prject for some gud stuff called Split().
+
+	QUESTIONS:
+			1. I find it hard to focus on more than 1 project. Is there a perspective change that could make project transition easier?
+				- Git Gud Noob
+				- Maybe make simple project log. To help coming back up to speed.
+				- "Good Code" -> Makes it easier to get back into a project. 
+				- "Good Code" == Whatever code is easier to get back into.
+
+			2. I am running away from writing code. I cope by building energy stacks during the day and then eventually sit myself down.
+				- Is there advice for turning this behavior into a more streamlined chill work on product?  
+
+			3. May i harass master while working on code as if we were sitting in the office and i just nag with small questions?
+
+			4. What is your opinion / stand on neurolink?
+
+
 Teusday 09/06/2020:
 ===================
 1. Darkest Dark:

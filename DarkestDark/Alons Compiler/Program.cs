@@ -2,6 +2,9 @@
 
 namespace Alons_Compiler
 {
+    // For now the program doesnt actually run a test. I just placed some basic code.
+    // Not sure hwo to set up the rest.
+
     class Program
     {
         static void Main(string[] args)

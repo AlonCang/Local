@@ -33,6 +33,7 @@ namespace Compiler
             var index = _position + offset;
             if (index >= _tokens.Length)
                 return _tokens[_tokens.Length - 1];
+            
 
             return _tokens[index];
         }
