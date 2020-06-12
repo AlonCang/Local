@@ -1,4 +1,16 @@
-Thursday 12/06/2020:
+Friday 12/06/2020:
+==================
+1. Darkest Dark:
+	- Compiler:
+		- Reviewed previous info + code.
+		- Attempting to write better code now.
+		- My attempts were unsuccessful.
+		- I somehow couldnt figure out how to apply the Split()
+		  In a way that gets me what i want.
+		- I am done for the day.
+		- Will try other things tomorrow.
+
+Thursday 11/06/2020:
 ====================
 1. No study today. Personal reasons.
 
@@ -54,8 +66,11 @@ Wenesday 10/06/2020:
 				- Is there advice for turning this behavior into a more streamlined chill work on product?  
 
 			3. May i harass master while working on code as if we were sitting in the office and i just nag with small questions?
+				- Yes. But masters availability may differ.
 
 			4. What is your opinion / stand on neurolink?
+				- I should eucate myself about it more before reaching any conclusion.
+				- But it seems that i will have to get one if i want to stay competitive.
 
 
 Teusday 09/06/2020:
