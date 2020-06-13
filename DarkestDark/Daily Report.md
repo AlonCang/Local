@@ -1,3 +1,6 @@
+Saturday 13/06/2020:
+1. No study today. Things got in the way.
+
 Friday 12/06/2020:
 ==================
 1. Darkest Dark:
