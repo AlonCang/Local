@@ -1,3 +1,15 @@
+Teusday 15/06/2020:
+===================
+1. Trying to get myself to do anything.
+	- My therapist said some shit today that fucked with my head.
+	- Need to study.
+	- I give up for tonight.
+	- Some days are just not my days.
+
+Monday 14/06/2020:
+==================
+1. Madness is an ilness. No study.
+
 Saturday 13/06/2020:
 1. No study today. Things got in the way.
 
