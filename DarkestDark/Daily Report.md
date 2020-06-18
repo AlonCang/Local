@@ -1,3 +1,60 @@
+Thursday: 18/06/2020:
+=====================
+1. Reviewing the code from the lesson.
+	- Data represenatation:
+		- Classes:
+			- InputLine:
+				- Has a list of strings called Names
+				- Has a string called location
+			- OutputLine:
+				- Has a string called Name
+				- Has a string called Location
+
+		- Functions:
+			- ReadInput:
+				- A static list of InputLines that receives a string
+				- Make an instance of an InputLine called result
+				- Splits the received string according to "end line" & "new line" separators.
+				- Saves the pieces of the string into an array of strings called lines.
+					- Loop:
+						- For each line in the array:
+							- Split the line by '@' and '&' and save the strings into an array called parts
+							- Collect the last word in the string and save it into a string called location
+							- Save all the contents of parts array (except for the last one) into an enum of strings called names
+							- Make an instance of an InputLine called item
+							- Assign the value of names to the Names field of item. By data transformation from enum to string
+							- Assign the value of location to the Location field of item
+							- Add item into result
+							- return result 
+								- QUESTION: Is it really neccesary to have 2 distinct instances? Isnt it possible to transform the data directly into the result instance? Why the extra instance called item?
+
+			- Massage: 
+				- A static list of OutputLines that receives a list of InputLines
+				- I think its supposed to turn these inputlines into strings
+				- Then save them into a list of OutputLine instances.
+				- Then return that list
+					- Thats now what i was supposed to do.
+					- I think i need to.. BAH!
+					- Couldnt figure out how to assign that value of an InputLine field onto a OutputLine field. 
+
+			- PrintOutput:
+				- Receives the list of OutputLines from the Massage function. 
+				- Formats the lines and saves them as strings
+				- Prints the strings
+
+	- HOMEWORK:
+		- Tried some stuff.
+		- Didnt call you because i had to leave for a family dinner.
+		- Will try gaain tomorrow.
+
+
+Wednesday 16/06/2020:
+===================
+1. HOMEORK:
+	- Finish up the functions in Sandbox
+
+	- WISDOM: Coding cannot be done while emotionally reved up. Chill or do not code.
+
 Teusday 15/06/2020:
 ===================
 1. Trying to get myself to do anything.
