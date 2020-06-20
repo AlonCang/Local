@@ -1,3 +1,13 @@
+Saturday 20/06/2020:
+=====================
+1. WISDOM: 
+	- When having trouble planning a function. Explain it to a human stpe by step and there you have it.
+	- PIPELINE: A code that transfers outputs to inputs without looping the "Main" function. 
+	- If you have a code that works, then make SURE its included in a commit. Then start a new branch where you
+	  can fuck around.
+
+
+
 Thursday: 18/06/2020:
 =====================
 1. Reviewing the code from the lesson.
