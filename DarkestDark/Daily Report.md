@@ -1,3 +1,18 @@
+Monday 22/06/2020:
+==================
+1. Reviewed masters code update.
+	- Iv tried to read it multiple times
+	- Each time i try again it becomes slightly clearer
+	- but i still dont know what im looking at
+	- I mean i can tell its different from the previous version
+	- But i dont understand what change was made in concept
+	- I can sort of see that the code behaves the same aspreviously, but is more precise.
+		- QUESTION: By idiomatic style do you mean that this form of the code is the more commonly expected style?
+		- QUESTION: Is the cref thingy you did considered as documentation? im not familiar with the format and im not sure what these words mean.
+			- How do i read this?
+			- What is yield? From what i read it can be used in place of a foreach statement, but only in situations that fit into how it works specifically. wtf?
+			- You changed the functions from lists into IEnumerables. Why?  
+
 Saturday 20/06/2020:
 =====================
 1. WISDOM: 
