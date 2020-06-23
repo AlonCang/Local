@@ -1,3 +1,20 @@
+Teusday 23/06/2020:
+===================
+1. Automation course:
+	- Did 4 lessons
+	- Also did a quiz about nested loops and conditionals.
+	- Kicked that quizes ass!
+	- I have leveled up in the power of loops!
+
+2. General education:
+	- Yersterday as part of trying to differentiate the code that mster wrote i ended up google fooing some git related stuff
+	- Also some vs related stuff
+	- Eventually i managed to do everything i wanted to do.
+
+3. Linux:
+	- Got a sudden bone to pick ith linux. Gonna do some lessons about that.
+	- So i did 3 lessons about the shell. Good to have some more understanding of this.
+
 Monday 22/06/2020:
 ==================
 1. Reviewed masters code update.
