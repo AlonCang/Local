@@ -1,3 +1,15 @@
+Watched: https://www.youtube.com/watch?v=P-2P3MSZrBM
+stopped currently at: 20:23
+Thoughts: So classical mathematics was built on shaky grounds? In the sense that it relied on being able to calculate all problems to a finite number? 
+		  However it did include anomalies such as pie? Hence it wasnt tight?
+		  The turn point was when turing suggested that we view math instead as computations? where the final result is not the main focus? but just until its good enough
+		  to ensure utility?
+
+		  Thats what i got from it so far.
+
+		  Also liked the part where he said that germany suffered intellectually from going fascist and getting rid of jews :P
+		  Also Nitsche got dunked on. LEL BE ONTO THE NIHILSTS!!! XD
+
 Teusday 23/06/2020:
 ===================
 1. Automation course:
@@ -28,6 +40,8 @@ Monday 22/06/2020:
 		- QUESTION: Is the cref thingy you did considered as documentation? im not familiar with the format and im not sure what these words mean.
 			- How do i read this?
 			- What is yield? From what i read it can be used in place of a foreach statement, but only in situations that fit into how it works specifically. wtf?
+				- Can only be use with IEnumerable.
+				- Will return 1 element from the IEnumerable at a time. Used with reference types
 			- You changed the functions from lists into IEnumerables. Why?  
 
 Saturday 20/06/2020:
