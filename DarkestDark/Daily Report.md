@@ -1,3 +1,21 @@
+Thursday 25/06/2020:
+====================
+1. Automation course:
+	- Learned about while / do while / switch loops and stuff.
+	- Had another small exam and a quiz.
+	- Im doing pretty well. Still not 100% but when i get time to think and get to try some things, go over the test a few times, i manage to solve things mostly by myself.
+
+2. Linux course:
+	- Manual navigation and all sorts of commands.
+	- Played around in my ubuntu.
+	- Linux is fun and cute.
+	- Im not scared... yet.
+
+Wedesnday 24/06/2020:
+=====================
+1. Visited sensei for a lesson.
+	- Gotta git gud at the basics and all problems will be easier to solve.
+
 Watched: https://www.youtube.com/watch?v=P-2P3MSZrBM
 stopped currently at: 20:23
 Thoughts: So classical mathematics was built on shaky grounds? In the sense that it relied on being able to calculate all problems to a finite number? 
