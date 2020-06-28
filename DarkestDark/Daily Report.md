@@ -1,3 +1,66 @@
+Sunday 28/06/2020:
+==================
+1. Automation course:
+	- did 5 more lessons + coding quiz.
+		- Got the code down perfectly.
+		- My test writing was off. I need more practice with that.
+
+2. DarkestDark:
+	- I want to write a function that: receives a string and then writes structured text to a json file.
+		- Print prompt: "Would you like to make a new State or a new Transition?"
+		- if (State)
+			- Prompt: "Please name the new state"
+				- Save user string input.
+			-Prompt: "Please enter state text"
+				- Save user string input.
+			- Prompt: "How many transitions?"
+				- Save user int input.
+			- foreach (transition in transitions)
+LABEL: TRANSITION- Prompt: "Please name transition"
+					- Save user string input.
+				- Prompt: "Please enter transition text"
+					- Save user string input.
+				- Prompt: "How many conditions?"
+					- Save user int input.
+				foreach (condition in conditions)
+					- Prompt: "Please name condition"
+						- Save user string input.
+					- Prompt: "Please enter condition amount"
+						- Save user int input.
+					- Prompt: "How many items does this transition contain?"
+						- Save user int input.
+					- foreach(item in transition)
+						- Prompt: "Please name item"
+							- Save user string input.
+						- Prompt: Is item an "inventory item" or a "journal entry"?  
+							- Prompt: "Please enter item quantity" // if (Journal entry) quantity == 0
+								- Save user int input.
+						- Prompt: "Please enter item description"
+								- Save user string input.
+				- Prompt: "Please name target state"
+					- Save user string input.
+		
+		- else (Transition)
+			- Prompt: "To which State would you like to add this transition?"
+				- Save user string input
+				- Search for State in data
+					- Save State path
+				- GoTo TRANSITION.
+
+		DATA GENERATION:
+			- All that shit needs to be now be generated in a way that fits the data structure.
+
+NEXT PHASE:
+1. Design some GUI for the game. No getting around it. Needs to happen.
+
+Before i start shredding code and putting all of this plan into action I would need to meditate on it and deepen my planning of specifics.
+Also write proto code that will gradually be turned into real code.
+I will start with making this code line by line. In places where im not sure about syntax i will write proto until helped by master. 
+
+Saturday 27/06/2020:
+====================
+1. No study. Had to take the eekend off due to surprise circumstances.
+
 Thursday 25/06/2020:
 ====================
 1. Automation course:
@@ -65,7 +128,7 @@ Monday 22/06/2020:
 Saturday 20/06/2020:
 =====================
 1. WISDOM: 
-	- When having trouble planning a function. Explain it to a human stpe by step and there you have it.
+	- When having trouble planning a function. Explain it to a human step by step and there you have it.
 	- PIPELINE: A code that transfers outputs to inputs without looping the "Main" function. 
 	- If you have a code that works, then make SURE its included in a commit. Then start a new branch where you
 	  can fuck around.
