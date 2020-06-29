@@ -7,78 +7,82 @@ using System.Threading.Tasks;
 
 namespace SandBox
 {
-    public class InputLine
-    {
-        public List<string> Names;
-        public string Location;
-    }
-    public class OutputLine
-    {
-        public string Name;
-        public string Location;
-        public bool IsDead;
-    }
-
     class Program
     {
         static void Main(string[] args)
         {
-            string s = @"Moshe @ Israel 
-                        Boris! & Marisa @ Russia
-                        Halil & Lara & Ford @ Egypt";
-            var inputLines = ReadInput(s);
-            var outputlines = Massage(inputLines);
-            PrintOutput(outputlines);
-        }
+            string stateChoice = "state";
+            string stateName;
+            string stateText;
+            string stateTransitions; // Will be turned into an int later via tryparse
+            string transitionChoice = "transition";
 
-        /// <summary>
-        /// Massage text <see cref="string"/> into <see cref="InputLine"/>s.
-        /// </summary>
-        /// <param name="inputText">Content of entire file(s) (incl. \n \r).</param>
-        /// <returns>An enumeration over <see cref="InputLine"/>s.</returns>
-        public static IEnumerable<InputLine> ReadInput(string inputText)
-        {
-            foreach (var line in inputText.Split(new[] { '\n', '\r' }, StringSplitOptions.RemoveEmptyEntries))
+            Console.WriteLine("Would you like to make a new State or a new Transition?");
+            string userChoice = Console.ReadLine();
+            if (userChoice == stateChoice)
             {
-                var parts = line.Split('@', '&');
-                yield return new InputLine
+                Console.WriteLine("Please name the new state");
+                stateName = Console.ReadLine();
+
+                Console.WriteLine("Please enter state text");
+                stateText = Console.ReadLine();
+
+                Console.WriteLine("How many transitions?");
+                string stateStringTransitions = Console.ReadLine();
+
+                foreach (var transition in stateTransitions)
                 {
-                    Names = parts.Take(parts.Length - 1).ToList(),
-                    Location = parts.Last()
-                };
-            }
-        }
-        /// <summary>
-        /// Massage <see cref="InputLine"/>s into <see cref="OutputLine"/>s.
-        /// </summary>
-        /// <param name="inputLines"></param>
-        /// <returns></returns>
-        private static IEnumerable<OutputLine> Massage(IEnumerable<InputLine> inputLines)
-        {
-            foreach (var line in inputLines)
-            {
-                foreach (var name in line.Names)
-                {
-                    yield return new OutputLine
+                    // LABEL: Transition
+                    Console.WriteLine("Please name transition");
+                    string TransitionName = Console.ReadLine();
+
+                    Console.WriteLine("Please enter transition text");
+                    string transitionText = Console.ReadLine();
+
+                    Console.WriteLine("How many conditions?");
+                    string transitionConditions = Console.ReadLine(); // Will be turned into an int later via tryparse
+
+                    foreach (var condition in transitionConditions)
                     {
-                        Name = name.Trim('!', ' ', '\t'),
-                        IsDead = name.Contains("!"),
-                        Location = line.Location.Trim()
-                    };
+                        Console.WriteLine("Please name condition");
+                        string conditionName = Console.ReadLine();
+
+                        Console.WriteLine("Please name condition number value");
+                        string conditionValue = Console.ReadLine();
+
+                    }
+                        
+                    Console.WriteLine("How many items does this transition contain?");
+                    string transitionItems = Console.ReadLine(); // Will be turned into an int later via tryparse
+
+                    foreach (var item in transitionItems)
+                    {
+                        Console.WriteLine("Please name item");
+                        string itemName = Console.ReadLine();
+
+                        Console.WriteLine("Is item an inventory item or a journal entry?");
+                        string itemType = Console.ReadLine();
+
+                        Console.WriteLine("Please enter item text");
+                        string itemDescription = Console.ReadLine();
+                    }
+
+                    Console.WriteLine("Please enter target state");
+                    string targetState = Console.ReadLine();
                 }
             }
+            else
+            {
+                Console.WriteLine("To which State would you like to add this transition?");
+                string originalState = Console.ReadLine();
+
+                // Search for the state in the data files
+                // Save state path
+                // goto Transition
+            }
+
+            // Generate Data: All that shit needs to be now be generated in a way that fits the data structure.
         }
 
-        /// <summary>
-        /// Display all <see cref="OutputLine"/>s.
-        /// </summary>
-        /// <param name="outputLines">An enumeration of <see cref="OutputLine"/>s.</param>
-        private static void PrintOutput(IEnumerable<OutputLine> outputLines)
-        {
-            foreach (var line in outputLines)
-            {
-                Console.WriteLine($"{line.Name} is {(line.IsDead ? "dead" : "")} in {line.Location}");
-            }
-        }
     }
 }

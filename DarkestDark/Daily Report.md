@@ -1,3 +1,12 @@
+Monday 29/06/2020:
+=================
+1. Darkest Dark:
+	- Wrote some rudimentary code.
+	- I know that this code is painfully simple and repetitive.
+	- But thats how my brain works so i started with that.
+	- With practice i hope ill be able to write more advanced rudimentary stuff.
+	
+
 Sunday 28/06/2020:
 ==================
 1. Automation course:
