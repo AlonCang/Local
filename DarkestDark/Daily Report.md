@@ -1,3 +1,32 @@
+Teusday 30/06/2020:
+===================
+1. Had some thougths about the hole design mentality. About not designing from UI and back. The comapny i orked for... All of their features were always made that way.
+   I mean from a UI perspective. And it created a fucking madhouse in the database. Endless amount of tables that transform values so they could allow for communication
+   between the different features, each with its individual data structure. The framework for that software was painfully clusterfucked and leaking from a million different pipes due to bottle necks, flooded logs, gaping errors, mismtached communications and desynched server activity.
+   Yeah... bad practices make for bad code. Good thing i got to see this shit and. Better even that you put this in context for me. Thank you sensei.
+
+2. Automation course:
+	- Learned about optional and named parameters today. Nifty stuff.
+	- Also the 'out' and 'ref' keywords. Functionality thickens. Desire to know more intensifies.
+	- Tuples. The mini objects for when creating an entire object is overkill.
+	- Did an exam: Write a tax calculator + tests.
+		- I failed the exam.
+		- I wrote a program that was too big and i couldnt get anything to work.
+		- I reviewed the answers for the test and indeed i did not design accurately enough to the FRD.
+		- The FRD was very vague and unhelpful but i guess thats intentional.
+		- Ill retake the test again tomorrow.
+
+3. DarkestDark:
+	- Its Game Editor time:
+		- I wrote the basic description for the editor methods.
+		- Im not certain about a number of things.
+		- QUESTIONS:
+			- Yesterday you said i will need all of the contents of DarkestDark.Game. Can i link to it?
+				or do i have to make duplicates in the seperated project?
+			- I added a field called "Node ID". I thought i might need this in order to insert states into a specific location on the tree.
+				Is this a good direction? Or do i need to instead provide a path to a spcific file + what line to insert the text data?
+			- General review: Is this code more like what it should be?  
+
 Monday 29/06/2020:
 =================
 1. Darkest Dark:
@@ -6,6 +35,11 @@ Monday 29/06/2020:
 	- But thats how my brain works so i started with that.
 	- With practice i hope ill be able to write more advanced rudimentary stuff.
 	
+
+	WISDOM: if you write something that behaves like a state graph, use a state graph to describe it. try to avoid code that depends on user input. 
+
+2. For tomorrow:
+	- Make a class, give that class methods, each method describes an action that you want to make in the program.
 
 Sunday 28/06/2020:
 ==================
