@@ -3,20 +3,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DarkestDark.Game;
 
 namespace SandBox
 {
     class GraphEditor
     {
-        EditorStateGraph editorGraph = new EditorStateGraph();
+        //StateGraph editorGraph;
         // Will i need to copy the whole stategraph code? Or can i connect to it by connecting project files?
-
-
         public static EditorStateGraph LoadStateGraph(string statesDirPath, string transitionsDirPath)
         {
             // Generates an empty stategraph by default.
             // OR
             // Generates a stategraph if given a path to a data bank. 
+            return null;
         }
         public static void CreateNewState()
         {
