@@ -9,14 +9,16 @@ namespace SandBox
 {
     class GraphEditor
     {
-        //StateGraph editorGraph;
-        // Will i need to copy the whole stategraph code? Or can i connect to it by connecting project files?
+        StateGraph editorGraph;
+        
         public static EditorStateGraph LoadStateGraph(string statesDirPath, string transitionsDirPath)
         {
             // Generates an empty stategraph by default.
             // OR
             // Generates a stategraph if given a path to a data bank. 
             return null;
+
+            // Wait.. Since now the editorgraph is just an instance of StateGraph... That means i dont need to write this method. Or do i?
         }
         public static void CreateNewState()
         {

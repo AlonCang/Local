@@ -1,3 +1,31 @@
+Sunday 05/07/2020:
+==================
+1. Master helped me git da pull.
+	- Im staring at the code and i dont know where to start. My brain refuses to turn on.
+	- I think i can make a test class where i can write tests for the editorGraph methods.
+		- Made one but got an error message saying that some shit is off and hence now the project might not compile.
+		- Indeed the auto generated testunit class i opened is full of errors.
+		- Fuck this shit. Im not removing the page (so i might learn about it later) but fuck this shit. I dont have the fucking fuck to give a fuck about auto generated shit fucking up the project.
+
+	- Gonna try and write some code. Ill figure the test later.
+
+	- Wait.... How the fuck did i get so distrcted that i ended up not finishing the compiler? I guess i will need it later? Or maybe if i had written a compiler already then 
+	  the current code would be easier to write? FUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUCK!!!!!!!!!!! 
+
+	- My brain is actively hostile. Im stopping before ill have another breakdown. Enough for today.  
+
+=====================================================
+Depression from Thursday - Saturday. Brain is fickle.
+=====================================================
+
+
+Wednesday:
+==========
+1. Study with master:
+	- I have graduated from initiate into lvl 1 programmer.
+	- Project has been reorganized by master. Rebase is true.
+	- Rapid prototyping is a go.
+
 Teusday 30/06/2020:
 ===================
 1. Had some thougths about the hole design mentality. About not designing from UI and back. The comapny i orked for... All of their features were always made that way.
