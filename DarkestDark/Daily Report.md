@@ -1,30 +1,25 @@
-Sunday 05/07/2020:
-==================
-1. Master helped me git da pull.
-	- Im staring at the code and i dont know where to start. My brain refuses to turn on.
-	- I think i can make a test class where i can write tests for the editorGraph methods.
-		- Made one but got an error message saying that some shit is off and hence now the project might not compile.
-		- Indeed the auto generated testunit class i opened is full of errors.
-		- Fuck this shit. Im not removing the page (so i might learn about it later) but fuck this shit. I dont have the fucking fuck to give a fuck about auto generated shit fucking up the project.
+01/08/2020:
+===========
+1. A month of healing has passed. Now im back.
 
-	- Gonna try and write some code. Ill figure the test later.
+2. I started fiddling around. Writing some code that i feel comfortable in.
 
-	- Wait.... How the fuck did i get so distrcted that i ended up not finishing the compiler? I guess i will need it later? Or maybe if i had written a compiler already then 
-	  the current code would be easier to write? FUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUUCK!!!!!!!!!!! 
+	- I started writing whatever and grdually improved on what i was making until i got stuck.
+	- I went to stack overflow and got some help.
+	- I managed to get over some simple problems.
 
-	- My brain is actively hostile. Im stopping before ill have another breakdown. Enough for today.  
+	What i was trying to make:
+		* A program that receives a list of strings = "[ ]", "[ ]", "[ ]", "[ ]", "[ ]","[ ]", "[ ]", "[ ]", "[ ]", "[ ]","[ ]", "[ ]", "[ ]", "[ ]", "[ ]","[ ]", "[ ]", "[ ]", "[ ]", "[ ]","[ ]", "[ ]", "[ ]", "[ ]", "[ ]",
 
-=====================================================
-Depression from Thursday - Saturday. Brain is fickle.
-=====================================================
+		* and prints a 5X5 grid as a string: "[ ]" "[ ]" "[ ]" "[ ]" "[ ]"
+								 		     "[ ]" "[ ]" "[ ]" "[ ]" "[ ]"
+								 		     "[ ]" "[ ]" "[ ]" "[ ]" "[ ]"
+										     "[ ]" "[ ]" "[ ]" "[ ]" "[ ]"
+										     "[ ]" "[ ]" "[ ]" "[ ]" "[ ]" 
 
 
-Wednesday:
-==========
-1. Study with master:
-	- I have graduated from initiate into lvl 1 programmer.
-	- Project has been reorganized by master. Rebase is true.
-	- Rapid prototyping is a go.
+	I couldnt get it to run at the end and iv spent my brain resources for the day.
+	Ill fiddle around more tomorrow. Ill also speak with you when i still have juice so i can advance beyond mroe annoying problems.
 
 Teusday 30/06/2020:
 ===================

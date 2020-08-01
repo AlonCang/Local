@@ -3,7 +3,7 @@
   <PropertyGroup />
   <ItemGroup>
     <Compile Update="EditorTestClass.cs">
-      <SubType>Component</SubType>
+      <SubType>Designer</SubType>
     </Compile>
   </ItemGroup>
 </Project>
