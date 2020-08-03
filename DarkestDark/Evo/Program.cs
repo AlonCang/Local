@@ -45,7 +45,8 @@ namespace Evo
         static void Main(string[] args)
         {
             World currentWorld = new World();
-            List<string> worldData = new List<string>(new string[] { "[ ]", "[ ]", "[ ]", "[ ]", "[ ]", "[ ]", "[ ]", "[ ]", "[ ]", "[ ]", });
+            List<string> worldData = new List<string>(new string[] { "[ ]", "[ ]", "[ ]", "[ ]", "[ ]", "[ ]", "[ ]", "[ ]", "[ ]", "[ ]",
+            "[ ]", "[ ]", "[ ]", "[ ]", "[ ]", "[ ]", "[ ]", "[ ]", "[ ]", "[ ]","[ ]", "[ ]", "[ ]", "[ ]", "[ ]",});
 
             currentWorld.LoadWorld(worldData);
             currentWorld.PrintWorld(currentWorld.world);
