@@ -1,3 +1,17 @@
+05/08/2020:
+===========
+1. Had to round up a lot of errands today.
+	- Did not get to code but i accomplished so many things off of my life checklist that im feeling really good.
+	- Im moving apartments in 7 days time an there is a lot of shit to take care of. Code is still on my mind. I play ith it in my head.
+	- But now im excited hen i think about sitting down to do it. YES! 
+
+03/08/2020:
+===========
+1. Parameterization. Work on the contents of the cell.
+get the elements dictionary to print its contents.
+
+if you cant, go back to what you know and do that.
+
 01/08/2020:
 ===========
 1. A month of healing has passed. Now im back.

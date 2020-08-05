@@ -4,55 +4,82 @@ using System.Drawing;
 
 namespace Evo
 {
-    class World
+    //class World
+    //{
+    //    public List<string> Spaces;
+    //    public List<string> Creatures;
+    //    public List<string> WorldData;
+
+    //    public World(List<string> data)
+    //    {
+    //        string line = "";
+    //        WorldData = new List<string>();
+    //        int sizeLimit = 0;
+    //        foreach (var space in data)
+    //        {
+    //            if (sizeLimit < 5)
+    //            {
+    //                line += space;
+    //                sizeLimit++;
+    //            }
+    //            else
+    //            {
+    //                WorldData.Add(line);
+    //                sizeLimit = 0;
+    //                line = "";
+    //            }
+    //        }
+    //    }
+
+    //    public void PrintWorld()
+    //    {
+    //        foreach (var line in WorldData)
+    //        {
+    //            Console.WriteLine($"{line} \n");
+    //        }
+    //    }
+    //}
+
+    class GridWorld
     {
-        public List<string> spaces;
-        public List<string> creatures;
-        public List<string> world;
-        public List<string> LoadWorld(List<string> spaces)
+        public const string EmptySpace = " ";
+
+        public int Width;
+        public int Height;
+        public string CellFormat;
+        public Dictionary<Point, string> Elements;
+
+        public GridWorld(int width, int height, string cell)
         {
-            string line = "";
-            List<string> world = new List<string>();
-            int sizeLimit = 0;
-            foreach (var space in spaces)
-            {
-                if (sizeLimit < 5)
-                {
-                line += space;
-                sizeLimit++;
-                }
-                else
-                {
-                    world.Add(line);
-                    sizeLimit = 0;
-                    line = "";
-                }
-            }
-            return world;
+            Height = height;
+            Width = width;
+            CellFormat = cell;
         }
 
-        public void PrintWorld(List<string> world)
+        public void PrintWorld()
         {
-            foreach (var line in world)
+            for (int i = 0; i < Height; i++)
             {
-                Console.WriteLine($"{line} \n");
+                for (int t = 0; t < Width; t++)
+                {
+                    Console.Write(string.Format(CellFormat, " "));
+                }
+                Console.WriteLine();
             }
         }
-
     }
+
     class Program
     {
         static void Main(string[] args)
         {
-            World currentWorld = new World();
-            List<string> worldData = new List<string>(new string[] { "[ ]", "[ ]", "[ ]", "[ ]", "[ ]", "[ ]", "[ ]", "[ ]", "[ ]", "[ ]",
-            "[ ]", "[ ]", "[ ]", "[ ]", "[ ]", "[ ]", "[ ]", "[ ]", "[ ]", "[ ]","[ ]", "[ ]", "[ ]", "[ ]", "[ ]",});
+            //World currentWorld = new World(new List<string> { "[ ]", "[ ]", "[ ]", "[ ]", "[ ]", "[ ]", "[ ]", "[ ]", "[ ]", "[ ]",
+            //"[ ]", "[ ]", "[ ]", "[ ]", "[ ]", "[ ]", "[ ]", "[ ]", "[ ]", "[ ]","[ ]", "[ ]", "[ ]", "[ ]", "[ ]",});
 
-            currentWorld.LoadWorld(worldData);
-            currentWorld.PrintWorld(currentWorld.world);
-            
-           
+            //currentWorld.PrintWorld();
 
+            var gw = new GridWorld(5, 5, "[{0}]");
+            gw.PrintWorld();
         }
     }
 }
