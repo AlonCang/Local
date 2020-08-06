@@ -1,3 +1,16 @@
+06/08/2020:
+===========
+1. Testing Automation Course:
+	- Reviewed the automation course test that i failed.
+	- After attempting to reread the assignment i gave up and went for the test answers.
+	- Like always, when you have the answers it looks so simple and clean.
+	- But at least i tried to figure it out, so when i got the real answers i understand why they are good and why they work.
+	- Fuckng tax calculator... What a bitch of a field :P
+	- Next section of the course is about arrays and lists. GOOD! I need to get these things down! TOMORROW! MAYBE! EVENTUALLY!!! HAHAHAHAHAHA!!!!!
+
+2. Evo thingy:
+	- 
+
 05/08/2020:
 ===========
 1. Had to round up a lot of errands today.
