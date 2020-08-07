@@ -1,3 +1,9 @@
+Friday 07/08/2020:
+==================
+1. Spent whole day with family. Achievements unlocked! 
+	- Due to possible mournful reasons i was indisposed until late night.
+	- Hopefully the morrow will bring good news and i could focus on code.
+
 06/08/2020:
 ===========
 1. Testing Automation Course:
