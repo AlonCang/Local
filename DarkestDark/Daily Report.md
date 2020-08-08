@@ -1,3 +1,18 @@
+Saturday 08/08/2020:
+====================
+1. Putting the house into boxes.
+
+2. Automation course:
+	- Almost done with 1/4 of the course.
+	- Currently drilling arrays/lists/collections
+		- Gonna have a few short quizes in this part of the course.
+		- It aint much but its honest work.
+
+3. Considering purchasing a Unity course on udemy.
+	- Its a huge undertaking so it ill take a long time.
+	- But i need to start at some point right?
+	- Or would it be too much of a distraction?
+
 Friday 07/08/2020:
 ==================
 1. Spent whole day with family. Achievements unlocked! 
