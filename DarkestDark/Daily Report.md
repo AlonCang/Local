@@ -1,3 +1,9 @@
+Monday 10/08/2020:
+==================
+1. Moving apartments.
+	- System going dark.
+	- If all goes well system will be back online tomorrow evening.
+
 Saturday 08/08/2020:
 ====================
 1. Putting the house into boxes.
