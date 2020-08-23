@@ -67,6 +67,13 @@ namespace Evo
                 Console.WriteLine();
             }
         }
+
+        public Dictionary<Point, string> AddElement(Point elePoint, string eleStr)
+        {
+            Elements.Add(elePoint, eleStr);
+
+            return Elements;
+        }
     }
 
     class Program

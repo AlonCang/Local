@@ -1,3 +1,34 @@
+Teusday 13/08/2020:
+===================
+1. Fucking finally.
+	- Thank you for many patience.
+	- Finally im back.
+	- This is by far the most broken/annoying/messed apartment move i have ever had.
+	- Been hounded by shananiganz and family every day all day until today.
+	- But now i is back!
+
+2. Evo:
+	- I added a new function that just adds elemets into the Elements dictionary,
+	- I did this in preparation to my next move:
+		- Adding some basic user interactions:
+			- Add Element Creature to GridWorld: Will be shown as a cell that contains ["o"], at designated position.
+			- Move creature: Will change the location of the creature on the grid.
+			- Kill creature: Will delete creature from grid.
+
+	- Im not sure how to go at this:
+		- Write a function that recives a complete grid string, 
+				then places the creature in the designated inex of the grid string, 
+					then return the updated grid string
+						then print it again (with the PrintWorld function)
+				 
+		or
+
+		- Edit the PrintWorld function so that it would also check the Elements dictionary for contents
+				then print them along the GridWorld.
+					Any changes to the contents of the grid will then have to be done by updating the Elements dictionary.
+
+	- Plox gif input to ideas. 
+
 Monday 10/08/2020:
 ==================
 1. Moving apartments.
