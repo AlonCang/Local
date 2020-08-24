@@ -1,3 +1,13 @@
+Monday 24/08/2020:
+==================
+1. Lol just noticed that im out of my mind.
+	I wrote the wrong date and day on the last report.
+	Life is hectic.
+
+2. No study today.
+	- Family fucked my shit up from 9:00 - 22:00
+	- Im fine. But this is beyond ridiculous.
+
 Teusday 13/08/2020:
 ===================
 1. Fucking finally.
