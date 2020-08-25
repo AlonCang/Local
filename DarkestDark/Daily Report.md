@@ -1,3 +1,10 @@
+Teusday 25/08/2020:
+===================
+1. No study today.
+	- Another hectic day.
+	- When it rains it pours.
+	- I wonder if it has anything to do with the seasons?
+
 Monday 24/08/2020:
 ==================
 1. Lol just noticed that im out of my mind.
