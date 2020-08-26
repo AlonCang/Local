@@ -78,6 +78,8 @@ namespace Evo
 
     class Program
     {
+        private static Point startingPoint;
+
         static void Main(string[] args)
         {
             //World currentWorld = new World(new List<string> { "[ ]", "[ ]", "[ ]", "[ ]", "[ ]", "[ ]", "[ ]", "[ ]", "[ ]", "[ ]",
@@ -87,6 +89,11 @@ namespace Evo
 
             var gw = new GridWorld(5, 5, "[{0}]");
             gw.PrintWorld();
+            startingPoint = new Point(0, 0);
+            gw.AddElement(startingPoint ,"[o]");
+
+            // I want to the PrintWorld function to check for Elements != null.
+            // Then print it along with the rest of the grid. 
         }
     }
 }

@@ -1,3 +1,32 @@
+Wednesday 26/08/2020:
+=====================
+1. Unity:
+	- OMG!!!!!
+	- Today i opened a Unity user and started with the 1st lesson.
+	- I am surprised at how intuitive it all feels now that i am calm and open to experience.
+	- I know things are going to get very complicate moving on, but i have full confidence that if i RTFM and apply proper Google Foo ill get by just fine.
+	- Iv got shivers dude. Im messing around with Unity and i feel confident and chill.
+	- This would not be possible without your teachings sensei. Arigato UwU
+
+2. Automation Course:
+	- I id another lesson.
+	- It as a drill about passing arrays to methods.
+	- Simple enough.
+
+3. Evo:
+	- I tried to understand this whole "Point" thingy and how to use it.
+	- I still havent got it down properly.
+
+4. Friends project:
+	- Some friends who have also started learning code have asked me to open a repo with them.
+	- So that we could try and help each other.
+	- I opened a new repo and added them as contributers or whatever.
+	- I synced the repo with my Local stuff, all done without a hitch. Feels good.
+	- Now we just need to figure out how to work on something when each of us is learning a different language.
+	- As well as how to communicate since they study web and front end while i think im mostly backend oriented.
+	- It is good to start fratenizing with code peers.
+	- Needless to say that this takes least priority in my studies.
+
 Teusday 25/08/2020:
 ===================
 1. No study today.
