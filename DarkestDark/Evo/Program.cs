@@ -46,14 +46,15 @@ namespace Evo
 
         public int Width;
         public int Height;
-        public string CellFormat;
+        public string EmptyCellFormat;
+        public string OccupiedCellFormat;
         public Dictionary<Point, string> Elements;
 
         public GridWorld(int width, int height, string cell)
         {
             Height = height;
             Width = width;
-            CellFormat = cell;
+            EmptyCellFormat = cell;
         }
 
         public void PrintWorld()
@@ -62,7 +63,7 @@ namespace Evo
             {
                 for (int t = 0; t < Width; t++)
                 {
-                    Console.Write(string.Format(CellFormat, " "));
+                    Console.Write(string.Format(EmptyCellFormat, " "));
                 }
                 Console.WriteLine();
             }

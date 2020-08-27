@@ -1,3 +1,15 @@
+Thursday 27/08/2020:
+====================
+1. Unity:
+	- So i took another lesson.
+	- Made some cubes and made them float/bash into each other.
+	- Boy oh boy. Compared to what iv been through until now this should be easy to do simple stuff with :)
+
+2. Automation Course:
+	- 2 lessons today. About the wonders of theArray class and its many methods.
+	- Got a logic quiz coming up.
+	- That shall wait till tomorrow. 
+
 Wednesday 26/08/2020:
 =====================
 1. Unity:
@@ -9,7 +21,7 @@ Wednesday 26/08/2020:
 	- This would not be possible without your teachings sensei. Arigato UwU
 
 2. Automation Course:
-	- I id another lesson.
+	- I did another lesson.
 	- It as a drill about passing arrays to methods.
 	- Simple enough.
 
