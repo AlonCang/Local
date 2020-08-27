@@ -8,7 +8,12 @@ Thursday 27/08/2020:
 2. Automation Course:
 	- 2 lessons today. About the wonders of theArray class and its many methods.
 	- Got a logic quiz coming up.
-	- That shall wait till tomorrow. 
+	- That shall wait till tomorrow.
+
+3. Evo:
+	- HOMEWORK:
+		- Change Elements to a string to point dictionary.
+		- Edit the code rest of the code so it ould compile.
 
 Wednesday 26/08/2020:
 =====================

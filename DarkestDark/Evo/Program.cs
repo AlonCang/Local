@@ -47,8 +47,7 @@ namespace Evo
         public int Width;
         public int Height;
         public string EmptyCellFormat;
-        public string OccupiedCellFormat;
-        public Dictionary<Point, string> Elements;
+        public Dictionary<Point, string> Elements = new Dictionary<Point, string>();
 
         public GridWorld(int width, int height, string cell)
         {
@@ -59,27 +58,29 @@ namespace Evo
 
         public void PrintWorld()
         {
-            for (int i = 0; i < Height; i++)
+            for (int y = 0; y < Height; y++)
             {
-                for (int t = 0; t < Width; t++)
+                for (int x = 0; x < Width; x++)
                 {
-                    Console.Write(string.Format(EmptyCellFormat, " "));
+                    Point bla = new Point(x, y);
+                    if (Elements.ContainsKey(bla))
+                    {
+                        Console.Write(string.Format(EmptyCellFormat, Elements[bla]));
+                    }
+                    else
+                    {
+                        Console.Write(string.Format(EmptyCellFormat, " "));
+                    }
                 }
                 Console.WriteLine();
             }
         }
 
-        public Dictionary<Point, string> AddElement(Point elePoint, string eleStr)
-        {
-            Elements.Add(elePoint, eleStr);
-
-            return Elements;
-        }
+        
     }
 
     class Program
     {
-        private static Point startingPoint;
 
         static void Main(string[] args)
         {
@@ -89,9 +90,9 @@ namespace Evo
             //currentWorld.PrintWorld();
 
             var gw = new GridWorld(5, 5, "[{0}]");
+            var startingPoint = new Point(1, 0);
+            gw.Elements.Add(startingPoint ,"o");
             gw.PrintWorld();
-            startingPoint = new Point(0, 0);
-            gw.AddElement(startingPoint ,"[o]");
 
             // I want to the PrintWorld function to check for Elements != null.
             // Then print it along with the rest of the grid. 
