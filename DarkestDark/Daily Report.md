@@ -1,3 +1,17 @@
+Sunday 30/08/2020:
+==================
+1. Unity:
+	- Learned how to apply code lines and key bindings to objects
+
+2. DM tool side project:
+	- Had a talk with stav.
+	- We started getting an idea to what we are going to do.
+
+Friday - Saturday:
+==================
+1. Meetings 
+2. General rest
+
 Thursday 27/08/2020:
 ====================
 1. Unity:
@@ -13,7 +27,7 @@ Thursday 27/08/2020:
 3. Evo:
 	- HOMEWORK:
 		- Change Elements to a string to point dictionary.
-		- Edit the code rest of the code so it ould compile.
+		- Edit the code rest of the code so it would compile.
 
 Wednesday 26/08/2020:
 =====================
