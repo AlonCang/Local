@@ -1,3 +1,14 @@
+Monday 07/09/2020:
+1. After a very eventful week. I am sort of back.
+	- I binged watched a bunch of Brackies youtube content about unity.
+	- And i have questions (Ill ask you directly but im writing them down so ill remember):
+		- Im having thoughts about my direction in career:
+			- On one hand I should be focusing on getting a job (doing the QA automation course) But i find it boring and a chore. Is it good / important practice?
+			- On the other i have Unity which will be an easy path into the industry as a unity grandpa. But im getting the sense that within a decade unity will no longer
+				be relevant anymore (Should i put all my eggs in that basket?).
+			- Then there is the project that we are building together. That is what i actually want to do. But its such a long term investment that its hard for me to excuse
+				Time and resources for it when i sit down to study. I ask for wisdom for i am lost at trying to measure the right amount. I cant get it right at all :(
+
 Sunday 30/08/2020:
 ==================
 1. Unity:
