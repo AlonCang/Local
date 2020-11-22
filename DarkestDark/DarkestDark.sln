@@ -26,7 +26,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Compiler", "Compiler\Compil
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alons Compiler", "Alons Compiler\Alons Compiler.csproj", "{23981841-0251-453E-8B51-B3C4818864CB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SandBox", "SandBox\SandBox.csproj", "{102BAC81-AA57-46B7-90DA-A5EB9BCE49BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SandBox", "SandBox\SandBox.csproj", "{102BAC81-AA57-46B7-90DA-A5EB9BCE49BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guilden.Common", "Guilden.Common\Guilden.Common.csproj", "{E67DDAE4-067D-4E05-A82E-3FE3DEE0AFF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guilden.Gen", "Guilden.Gen\Guilden.Gen.csproj", "{E33DDBB6-CB2E-4F09-B6A1-E7C844C0646C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Guilden.Client", "Guilden.Client\Guilden.Client.csproj", "{8F47AFEC-0F75-43D6-8370-2C4BB84AD044}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Guilden", "Guilden", "{026BB5E1-7856-466A-94D6-5FFE086D4434}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evo", "Evo\Evo.csproj", "{E60E92E2-54C9-4AA1-855B-DF5A133A3A42}"
 EndProject
@@ -76,6 +84,18 @@ Global
 		{102BAC81-AA57-46B7-90DA-A5EB9BCE49BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{102BAC81-AA57-46B7-90DA-A5EB9BCE49BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{102BAC81-AA57-46B7-90DA-A5EB9BCE49BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E67DDAE4-067D-4E05-A82E-3FE3DEE0AFF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E67DDAE4-067D-4E05-A82E-3FE3DEE0AFF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E67DDAE4-067D-4E05-A82E-3FE3DEE0AFF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E67DDAE4-067D-4E05-A82E-3FE3DEE0AFF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E33DDBB6-CB2E-4F09-B6A1-E7C844C0646C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E33DDBB6-CB2E-4F09-B6A1-E7C844C0646C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E33DDBB6-CB2E-4F09-B6A1-E7C844C0646C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E33DDBB6-CB2E-4F09-B6A1-E7C844C0646C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F47AFEC-0F75-43D6-8370-2C4BB84AD044}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F47AFEC-0F75-43D6-8370-2C4BB84AD044}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F47AFEC-0F75-43D6-8370-2C4BB84AD044}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F47AFEC-0F75-43D6-8370-2C4BB84AD044}.Release|Any CPU.Build.0 = Release|Any CPU
 		{E60E92E2-54C9-4AA1-855B-DF5A133A3A42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{E60E92E2-54C9-4AA1-855B-DF5A133A3A42}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E60E92E2-54C9-4AA1-855B-DF5A133A3A42}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -83,6 +103,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E67DDAE4-067D-4E05-A82E-3FE3DEE0AFF0} = {026BB5E1-7856-466A-94D6-5FFE086D4434}
+		{E33DDBB6-CB2E-4F09-B6A1-E7C844C0646C} = {026BB5E1-7856-466A-94D6-5FFE086D4434}
+		{8F47AFEC-0F75-43D6-8370-2C4BB84AD044} = {026BB5E1-7856-466A-94D6-5FFE086D4434}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C9E2CB42-AE91-4AC4-9C13-EED579FE4CC3}
