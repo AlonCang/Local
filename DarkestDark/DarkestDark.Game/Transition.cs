@@ -15,28 +15,6 @@ namespace DarkestDark.Game
         public Dictionary<string, int> Items;
         public string TargetName;
 
-        public bool Any(bool[] bools)
-        {
-            foreach (var b in bools)
-            {
-                if (b)
-                {
-                    return true;
-                }
-            }
-            return false;
-        }
-        public bool All(bool[] bools)
-        {
-            foreach (var b in bools)
-            {
-                if (!b)
-                {
-                    return false;
-                }
-            }
-            return true;
-        }
         public bool IsLegal(Dictionary<string, int> items)
         {
             if (Conditions != null)

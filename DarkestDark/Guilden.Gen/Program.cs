@@ -16,7 +16,6 @@ namespace Guilden.Gen
             {
                 Console.WriteLine($"Char - {kvp.Key}: {kvp.Value}");
             }
-
         }
 
         public static Dictionary<string, Stats> GenerateItems(int seed, int amount, int minValue, int maxValue)
