@@ -3,8 +3,11 @@ using System.Collections.Generic;
 using System.Globalization;
 using System.Linq;
 
-namespace Guilden.Common
+namespace Guilden.Common.Stuff
 {
+    /// <summary>
+    /// Disregard this plz
+    /// </summary>
     public class StringGenerator
     {
         private static readonly Random _Random = new Random(0);

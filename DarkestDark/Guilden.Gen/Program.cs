@@ -1,4 +1,5 @@
 ﻿using Guilden.Common;
+using Guilden.Common.Stuff;
 using System;
 using System.Collections.Generic;
 
@@ -6,15 +7,25 @@ namespace Guilden.Gen
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] args)            
         {
-            foreach (var kvp in GenerateItems(0, 30, -20, 40))
+            var assets = new AssetLibrary
+            {
+                Items = GenerateItems(0, 30, -20, 40),
+                Chars = GenerateAdventurers(0, 30, 20, 80),
+                Quests = GenerateQuests(0, 30, 0, 100, 100),
+            };
+            foreach (var kvp in assets.Items)
             {
                 Console.WriteLine($"Item - {kvp.Key}: {kvp.Value}");
             }
-            foreach (var kvp in GenerateAdventurers(0, 30, 20, 80))
+            foreach (var kvp in assets.Chars)
             {
                 Console.WriteLine($"Char - {kvp.Key}: {kvp.Value}");
+            }
+            foreach (var kvp in assets.Quests)
+            {
+                Console.WriteLine($"{kvp.Key}: {kvp.Value}");
             }
         }
 
@@ -46,6 +57,38 @@ namespace Guilden.Gen
             return result;
         }
 
+        public static Dictionary<string, Quest> GenerateQuests(int seed, int amount, int minValue, int maxValue, int gold)
+        {
+            var result = new Dictionary<string, Quest>();
+            var rng = new Random(seed);
+            for (int i = 0; i < amount; i++)
+            {
+                var name = $"Quest{i}";
+                Stats stats = genStats(minValue, maxValue, rng);
+                StatRange itemRange = new StatRange
+                {
+                    Base = genStats(minValue, maxValue, rng),
+                    Range = genStats(minValue, maxValue, rng),
+                };
+                StatRange charRange = new StatRange
+                {
+                    Base = genStats(minValue, maxValue, rng),
+                    Range = genStats(minValue, maxValue, rng),
+                };
+                Quest quest = genQuest(stats, itemRange, charRange, gold, rng);
+                result[name] = quest;
+            }
+            return result;
+        }
+
+
+        private static Quest genQuest(Stats stats, StatRange items, StatRange chars, int gold, Random rng) => new Quest
+        {
+            Stats = stats,
+            GoldReward = rng.Next(gold),
+            CharRewardRange = chars,
+            ItemRewardRange = items,
+        };
         private static Stats genStats(int minValue, int maxValue, Random rng) => new Stats
         {
             Life = rng.Next(minValue, maxValue),
