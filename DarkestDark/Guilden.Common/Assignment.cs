@@ -2,8 +2,8 @@
 
 namespace Guilden.Common
 {
-    public record Assignment
+    public class Assignment
     {
-        public Dictionary<string, HashSet<string>> QuestChars = new();
+        public Dictionary<string, HashSet<string>> QuestChars = new Dictionary<string, HashSet<string>>();
     }
 }

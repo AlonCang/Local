@@ -4,7 +4,7 @@ using System.Linq;
 
 namespace Guilden.Common
 {
-    public record Quest
+    public class Quest
     {
         public Stats Stats;
         public StatRange ItemRewardRange;

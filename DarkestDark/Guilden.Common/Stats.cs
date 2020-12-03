@@ -1,6 +1,6 @@
 ﻿namespace Guilden.Common
 {
-    public record Stats
+    public class Stats
     {
         public int Life;
         public int Damage;

@@ -2,7 +2,7 @@
 
 namespace Guilden.Common
 {
-    public record StatRange
+    public class StatRange
     {
         public Stats Base;
         public Stats Range;

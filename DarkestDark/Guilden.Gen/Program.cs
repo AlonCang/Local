@@ -1,5 +1,6 @@
 ﻿using Guilden.Common;
 using Guilden.Common.Stuff;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 
@@ -15,18 +16,7 @@ namespace Guilden.Gen
                 Chars = GenerateAdventurers(0, 30, 20, 80),
                 Quests = GenerateQuests(0, 30, 0, 100, 100),
             };
-            foreach (var kvp in assets.Items)
-            {
-                Console.WriteLine($"Item - {kvp.Key}: {kvp.Value}");
-            }
-            foreach (var kvp in assets.Chars)
-            {
-                Console.WriteLine($"Char - {kvp.Key}: {kvp.Value}");
-            }
-            foreach (var kvp in assets.Quests)
-            {
-                Console.WriteLine($"{kvp.Key}: {kvp.Value}");
-            }
+            Console.WriteLine(JsonConvert.SerializeObject(assets));
         }
 
         public static Dictionary<string, Stats> GenerateItems(int seed, int amount, int minValue, int maxValue)
