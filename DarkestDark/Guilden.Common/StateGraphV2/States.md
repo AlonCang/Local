@@ -60,10 +60,74 @@ digraph g {
 ```
 
 ### States
-[HW]
+* Main
+  * Description: Main game screen
+* Loading 
+  * Description: Loading screen
+* Heroes
+  * Description: Hero management screen
+* Items
+  * Description: Inventory screen
+* Simulation
+  * Description: Quest process screen
+* Summary
+  * Description: Results screen
 
 ### Transitions
-[HW]
+* Loaded
+  * Source: `Loading`
+  * Target: `Main`
+  * Event: `word`
+  * Action: `word`
+  * Description: Exit loading screen
+* Unloaded
+  * Source: `Main`
+  * Target: `Loading`
+  * Event: `word`
+  * Action: `word`
+  * Description: Enter loading screen
+* Navigate(Heroes)
+  * Source: `Main`
+  * Target: `Heroes`
+  * Event: `word`
+  * Action: `word`
+  * Description: Open hero management screen
+* Return(Heroes)
+  * Source: `Heroes`
+  * Target: `Main`
+  * Event: `word`
+  * Action: `word`
+  * Description: Return to main screen
+* Navigate(Items)
+  * Source: `Main`
+  * Target: `Items`
+  * Event: `word`
+  * Action: `word`
+  * Description: Open items management screen
+* Return(Items)
+  * Source: `Items`
+  * Target: `Main`
+  * Event: `word`
+  * Action: `word`
+  * Description: Close items management screen
+* Acknoledge
+  * Source: `Summary`
+  * Target: `Main`
+  * Event: `word`
+  * Action: `word`
+  * Description: Update data by results
+* Quest
+  * Source: `Main`
+  * Target: `Simulation`
+  * Event: `word`
+  * Action: `word`
+  * Description: Begin quest simulation
+* Quested
+  * Source: `Simulation`
+  * Target: `Summary`
+  * Event: `word`
+  * Action: `word`
+  * Description: Resolve quest simulation
 
 ### Views
 * Loading
@@ -86,4 +150,40 @@ digraph g {
 
 ## Menu Layer State
 
-[HW]
+```graphviz
+digraph g {
+    "Closed" -> "Opened(Main)" [label="Open"]
+    "Opened(Main)" -> "Closed" [label="Close"]
+    
+}
+```
+### States
+* Opened(Main)
+  * Description: Display menu
+* Closed
+  * Description: Hide menu
+
+### Transitions
+* Open
+  * Source: `Closed`
+  * Target: `Opened(Main)`
+  * Event: `word`
+  * Action: `word`
+  * Description: Open the menu
+* Close
+  * Source: `Opened(Main)`
+  * Target: `Closed`
+  * Event: `word`
+  * Action: `word`
+  * Description: Close the menu
+
+### Views
+* Loading
+  * Splash + Progress
+* Opened(Main)
+  * Main menu:
+    * Start New Game Button
+    * Resume Current Game Button
+    * Settings Button
+    * Exit Program Button
+
